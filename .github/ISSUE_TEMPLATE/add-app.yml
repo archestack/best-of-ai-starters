@@ -1,5 +1,5 @@
 name: Add a starter
-description: Suggest a starter for this list. A bot checks it and replies here.
+description: Suggest a starter for this list. We check it and reply here.
 title: "Add: "
 labels: [submission]
 body:
