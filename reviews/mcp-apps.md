@@ -89,4 +89,4 @@ TypeScript 7 project serving a stateless MCP endpoint at /mcp on port 3000 via E
 
 <sub>TypeScript, MCP TypeScript SDK (@modelcontextprotocol/server) · GitHub template · Docker · [Repo](https://github.com/nickytonline/mcp-typescript-template)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>

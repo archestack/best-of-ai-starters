@@ -212,4 +212,4 @@ A Next.js demo on the OpenAI Responses API with two chat views, one for the cust
 
 <sub>TypeScript, openai · Needs openai-api-key · [Repo](https://github.com/openai/openai-support-agent-demo)</sub>
 
-<sub>Written from each project README and checked facts; see [how entries are written](../README.md#-how-it-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
