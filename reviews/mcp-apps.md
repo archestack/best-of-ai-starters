@@ -52,7 +52,7 @@ Next.js App Router project where app/mcp/route.ts hosts a stateless MCP server t
 - **−** Only an echo tool; the README is a few lines
 - **−** No tests or Docker
 
-<sub>JavaScript, MCP TypeScript SDK v2, mcp-handler 2 · [Repo](https://github.com/vercel-labs/mcp-for-next.js) · [▶️ Demo](https://mcp-for-next-js.vercel.app) · [🌐 Site](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js)</sub>
+<sub>JavaScript, MCP TypeScript SDK v2, mcp-handler 2 · [Repo](https://github.com/vercel-labs/mcp-for-next.js) · [▶️ Demo ↗](https://mcp-for-next-js.vercel.app) · [🌐 Site ↗](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js)</sub>
 
 <a name="openai-apps-sdk-examples"></a>
 ### 36 [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) <sub>⭐ 2.4k · MIT · Apr 2026</sub>
@@ -70,7 +70,7 @@ pnpm workspace with React widget sources, a Vite build that emits hashed HTML/JS
 - **−** Chrome 142+ needs a flag change to render widgets locally
 - **−** Maintainers may not review all PRs
 
-<sub>TypeScript, OpenAI Apps SDK, MCP TypeScript SDK, MCP Python SDK · Needs ChatGPT developer mode, ngrok or a public host for testing · [Repo](https://github.com/openai/openai-apps-sdk-examples) · [📖 Docs](https://developers.openai.com/apps-sdk)</sub>
+<sub>TypeScript, OpenAI Apps SDK, MCP TypeScript SDK, MCP Python SDK · Needs ChatGPT developer mode, ngrok or a public host for testing · [Repo](https://github.com/openai/openai-apps-sdk-examples) · [📖 Docs ↗](https://developers.openai.com/apps-sdk)</sub>
 
 <a name="mcp-forge"></a>
 ### 34 [mcp-forge](https://github.com/achetronic/mcp-forge) <sub>⭐ 98 · Apache-2.0 · Jan 2026</sub>

@@ -36,7 +36,7 @@ The canonical Azure RAG sample: a Python (Quart) backend and React frontend answ
 - **−** Azure OpenAI only; no other provider path
 - **−** README itself says not production-ready without extra security work
 
-<sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/Azure-Samples/azure-search-openai-demo) · [📖 Docs](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
+<sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/Azure-Samples/azure-search-openai-demo) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
 
 <a name="llm-answer-engine"></a>
 ### 🥉 57 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>⭐ 5.0k · MIT · Apr 2026</sub>
@@ -71,7 +71,7 @@ Eight Dockerized Python pipelines on the Pathway framework: question-answering R
 - **−** Root README has no setup; each template README is required reading
 - **−** Index lives in memory; sizing for millions of pages is on you
 
-<sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · [Repo](https://github.com/pathwaycom/llm-app) · [▶️ Demo](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs](https://pathway.com/developers/templates/) · [🌐 Site](https://pathway.com/solutions/llm-app)</sub>
+<sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · [Repo](https://github.com/pathwaycom/llm-app) · [▶️ Demo ↗](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs ↗](https://pathway.com/developers/templates/) · [🌐 Site ↗](https://pathway.com/solutions/llm-app)</sub>
 
 <a name="rag-postgres-openai-python"></a>
 ### 51 [rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) <sub>⭐ 505 · MIT · Oct 2026</sub>
@@ -142,7 +142,7 @@ A Next.js 16 app on AI SDK v7 and Claude with complete Supabase SSR auth (signup
 - **−** Image generation needs your own GPU server (RTX 5090 32 GB recommended)
 - **−** One maintainer; large surface area to understand before customizing
 
-<sub>TypeScript, anthropic, ai-sdk, mistral, voyage · Needs supabase, anthropic-api-key, mistral-api-key, voyage-api-key, exa-api-key · [Repo](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR) · [▶️ Demo](https://www.supa-chat.dev)</sub>
+<sub>TypeScript, anthropic, ai-sdk, mistral, voyage · Needs supabase, anthropic-api-key, mistral-api-key, voyage-api-key, exa-api-key · [Repo](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR) · [▶️ Demo ↗](https://www.supa-chat.dev)</sub>
 
 <a name="azure-search-openai-javascript"></a>
 ### 40 [azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript) <sub>⭐ 322 · MIT · Sep 2026</sub>
@@ -193,7 +193,7 @@ A Next.js app where the AI SDK and GPT-4o turn a plain-English question into SQL
 - **−** No auth, tests or history
 - **−** Dataset CSV must be fetched manually from CB Insights
 
-<sub>TypeScript, openai, ai-sdk · Needs postgres, openai-api-key · [Repo](https://github.com/vercel-labs/natural-language-postgres) · [▶️ Demo](https://natural-language-postgres.vercel.app)</sub>
+<sub>TypeScript, openai, ai-sdk · Needs postgres, openai-api-key · [Repo](https://github.com/vercel-labs/natural-language-postgres) · [▶️ Demo ↗](https://natural-language-postgres.vercel.app)</sub>
 
 <a name="openai-support-agent-demo"></a>
 ### 8 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>⭐ 202 · MIT · Dec 2025</sub>

@@ -18,7 +18,7 @@ uv-managed Python voice assistant on LiveKit Agents using LiveKit Inference for 
 - **−** uv.lock is not tracked; commit it yourself
 - **−** No frontend; a separate client starter is required
 
-<sub>Python, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-python) · [📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub>
+<sub>Python, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-python) · [📖 Docs ↗](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="agent-starter-node"></a>
 ### 🥉 61 [agent-starter-node](https://github.com/livekit-examples/agent-starter-node) <sub>⭐ 114 · MIT · Oct 2026</sub>
@@ -36,7 +36,7 @@ pnpm TypeScript voice assistant on LiveKit Agents using LiveKit Inference for ST
 - **−** pnpm-lock.yaml is not tracked; commit it yourself
 - **−** No frontend; a separate client starter is required
 
-<sub>TypeScript, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-node) · [📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub>
+<sub>TypeScript, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-node) · [📖 Docs ↗](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="agent-starter-react"></a>
 ### 52 [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) <sub>⭐ 946 · MIT · Sep 2026</sub>
@@ -53,7 +53,7 @@ Next.js app on LiveKit Agents UI components and the LiveKit JS SDK: welcome and 
 - **−** Token route has no authentication; add one before production
 - **−** No tests or Docker
 
-<sub>TypeScript · Needs LiveKit Cloud or self-hosted LiveKit server, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react) · [📖 Docs](https://docs.livekit.io/agents)</sub>
+<sub>TypeScript · Needs LiveKit Cloud or self-hosted LiveKit server, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react) · [📖 Docs ↗](https://docs.livekit.io/agents)</sub>
 
 <a name="voice-ui-kit"></a>
 ### 48 [voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit) <sub>⭐ 419 · BSD-2-Clause · Oct 2026</sub>
@@ -70,7 +70,7 @@ pnpm workspace publishing @pipecat-ai/voice-ui-kit: React components (connect bu
 - **−** Requires a running Pipecat server exposing /api/offer or a Daily room
 - **−** No auth or persistence
 
-<sub>TypeScript · Needs Pipecat bot server, Daily account (optional transport) · [Repo](https://github.com/pipecat-ai/voice-ui-kit) · [📖 Docs](https://voiceuikit.pipecat.ai)</sub>
+<sub>TypeScript · Needs Pipecat bot server, Daily account (optional transport) · [Repo](https://github.com/pipecat-ai/voice-ui-kit) · [📖 Docs ↗](https://voiceuikit.pipecat.ai)</sub>
 
 <a name="pipecat-examples"></a>
 ### 43 [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>⭐ 394 · BSD-2-Clause · Sep 2026</sub>
@@ -87,7 +87,7 @@ Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx,
 - **−** Beginner examples live in the main Pipecat repo, not here
 - **−** Issues are tracked in the main Pipecat repo
 
-<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs](https://docs.pipecat.ai)</sub>
+<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs ↗](https://docs.pipecat.ai)</sub>
 
 <a name="agent-starter-swift"></a>
 ### 39 [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>⭐ 96 · MIT · Sep 2026</sub>
@@ -105,7 +105,7 @@ Xcode project on the LiveKit Swift SDK with voice, text, camera and screen-share
 - **−** No tests
 - **−** App Store archive warns about missing LiveKitWebRTC dSYMs
 
-<sub>Swift · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-swift) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+<sub>Swift · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-swift) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-flutter"></a>
 ### 38 [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) <sub>⭐ 93 · MIT · Sep 2026</sub>
@@ -123,7 +123,7 @@ Flutter project on the LiveKit Flutter SDK with voice, text and optional camera 
 - **−** Video input may need a physical device
 - **−** Client only; needs a separate LiveKit agent
 
-<sub>Dart · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-flutter) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+<sub>Dart · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-flutter) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-android"></a>
 ### 37 [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) <sub>⭐ 104 · MIT · Aug 2026</sub>
@@ -139,7 +139,7 @@ Android Studio project on the LiveKit Android SDK giving you a simple voice inte
 - **−** README does not document video, text input or avatar support
 - **−** No tests
 
-<sub>Kotlin · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-android) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+<sub>Kotlin · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-android) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-react-native"></a>
 ### 34 [agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native) <sub>⭐ 84 · MIT · Sep 2026</sub>
@@ -155,7 +155,7 @@ Expo project on the LiveKit React Native SDK and its Expo config plugin, run on 
 - **−** Development token server lets any client request any permissions
 - **−** No .env.example; configuration is edited in code
 
-<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react-native) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react-native) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="elevenlabs-examples"></a>
 ### 33 [examples](https://github.com/elevenlabs/examples) <sub>⭐ 628 · MIT · Oct 2026</sub>
@@ -172,7 +172,7 @@ Monorepo of small runnable ElevenLabs examples, each generated from a PROMPT.md 
 - **−** ElevenLabs only; needs an ElevenLabs API key
 - **−** Legacy examples/ folder is deprecated but still present
 
-<sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site](https://elevenlabs.io/)</sub>
+<sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs ↗](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site ↗](https://elevenlabs.io/)</sub>
 
 <a name="agent-starter-embed"></a>
 ### 33 [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) <sub>⭐ 85 · MIT · Sep 2026</sub>
@@ -189,7 +189,7 @@ Next.js project that builds an embed-popup.js script and an iframe page so a web
 - **−** Embed script must be rebuilt by hand after code changes
 - **−** No tests
 
-<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-embed) · [📖 Docs](https://docs.livekit.io/agents)</sub>
+<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-embed) · [📖 Docs ↗](https://docs.livekit.io/agents)</sub>
 
 <a name="openai-realtime-agents"></a>
 ### 30 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>⭐ 7.0k · MIT · Jan 2026</sub>

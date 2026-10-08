@@ -18,7 +18,7 @@ azd-compatible Bicep landing zone that provisions network-isolated infrastructur
 - **−** Azure and Foundry only; provisions many managed services
 - **−** README is a pointer; details are on the docs site
 
-<sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/Azure/agent-landing-zone) · [📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
+<sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/Azure/agent-landing-zone) · [📖 Docs ↗](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
 
 <a name="openai-chat-app-quickstart"></a>
 ### 46 [openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
@@ -36,7 +36,7 @@ Python Quart backend using the openai package with a plain HTML/JS frontend that
 - **−** Frontend is minimal HTML/JS, not a component framework
 - **−** Azure Container Registry has a fixed daily cost
 
-<sub>Bicep, Azure OpenAI (openai package) · Needs Azure subscription with Azure OpenAI access, azd CLI · GitHub template · [Repo](https://github.com/Azure-Samples/openai-chat-app-quickstart) · [📖 Docs](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub>
+<sub>Bicep, Azure OpenAI (openai package) · Needs Azure subscription with Azure OpenAI access, azd CLI · GitHub template · [Repo](https://github.com/Azure-Samples/openai-chat-app-quickstart) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub>
 
 <a name="azurechat"></a>
 ### 44 [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>

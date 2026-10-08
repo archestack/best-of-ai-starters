@@ -17,7 +17,7 @@ Next.js 16 template with the Plate editor, shadcn/ui and the Plate AI kit (insta
 - **−** README is short; features are documented on platejs.org
 - **−** No tests; requires bun
 
-<sub>Python, Vercel AI Gateway via AI SDK · Needs UploadThing token, Vercel AI Gateway key (user-supplied) · GitHub template · [Repo](https://github.com/udecode/plate-playground-template) · [📖 Docs](https://platejs.org/)</sub>
+<sub>Python, Vercel AI Gateway via AI SDK · Needs UploadThing token, Vercel AI Gateway key (user-supplied) · GitHub template · [Repo](https://github.com/udecode/plate-playground-template) · [📖 Docs ↗](https://platejs.org/)</sub>
 
 <a name="nuxt-ui-editor"></a>
 ### 38 [editor](https://github.com/nuxt-ui-templates/editor) <sub>⭐ 171 · MIT · Oct 2026</sub>
@@ -35,7 +35,7 @@ Nuxt template on the Nuxt UI Editor component and TipTap: headings, tables, slas
 - **−** Translate supports English, French, Spanish and German only
 - **−** No tests
 
-<sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [▶️ Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
+<sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [▶️ Demo ↗](https://editor-template.nuxt.dev/) · [📖 Docs ↗](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
 <a name="workflow-builder-template"></a>
 ### 36 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>

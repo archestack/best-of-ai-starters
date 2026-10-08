@@ -18,7 +18,7 @@ A deployable version of the Generative Agents paper: pixel-art characters on a P
 - **−** Auth was removed; re-adding Clerk is a git revert
 - **−** README pins Node 18; last commit 2026-08
 
-<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [▶️ Demo](https://www.convex.dev/ai-town)</sub>
+<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [▶️ Demo ↗](https://www.convex.dev/ai-town)</sub>
 
 <a name="google-adk-recipes"></a>
 ### 🥉 57 [adk-recipes](https://github.com/google/adk-recipes) <sub>⭐ 10k · Apache-2.0 · Oct 2026</sub>
@@ -36,7 +36,7 @@ A recipe collection for Google's Agent Development Kit: core/ holds single-patte
 - **−** README states recipes are demonstrations, not for production use
 - **−** Mixed languages and maturity across folders
 
-<sub>Python, google, google-adk · Needs google-adk, google-api-key-or-vertex-ai · [Repo](https://github.com/google/adk-recipes) · [📖 Docs](https://adk.dev)</sub>
+<sub>Python, google, google-adk · Needs google-adk, google-api-key-or-vertex-ai · [Repo](https://github.com/google/adk-recipes) · [📖 Docs ↗](https://adk.dev)</sub>
 
 <a name="eve-software-factory-template"></a>
 ### 54 [eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template) <sub>⭐ 1.2k · MIT · Sep 2026</sub>
@@ -54,7 +54,7 @@ An eve pipeline named Foreman: label an issue factory, @mention it, or delegate 
 - **−** No tests listed
 - **−** First task fails if the GitHub App cannot reach FACTORY_REPO; the error surfaces late
 
-<sub>TypeScript, eve, ai-sdk · Needs vercel, github-app-connector, linear-connector, vercel-blob · GitHub template · [Repo](https://github.com/vercel-labs/eve-software-factory-template) · [📖 Docs](https://ask-foreman.dev/docs)</sub>
+<sub>TypeScript, eve, ai-sdk · Needs vercel, github-app-connector, linear-connector, vercel-blob · GitHub template · [Repo](https://github.com/vercel-labs/eve-software-factory-template) · [📖 Docs ↗](https://ask-foreman.dev/docs)</sub>
 
 <a name="opentag"></a>
 ### 49 [OpenTag](https://github.com/CopilotKit/OpenTag) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
@@ -72,7 +72,7 @@ A deployable Slack and Teams agent in two services: a Node runtime (CopilotRunti
 - **−** OpenAI is the only documented model provider
 - **−** Setup has several Slack-specific failure modes the README spends pages on
 
-<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/CopilotKit/OpenTag) · [📖 Docs](https://docs.copilotkit.ai/channels)</sub>
+<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/CopilotKit/OpenTag) · [📖 Docs ↗](https://docs.copilotkit.ai/channels)</sub>
 
 <a name="marketing-team-eve-template"></a>
 ### 48 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>⭐ 447 · MIT · Aug 2026</sub>
@@ -90,7 +90,7 @@ An eve project where a lead agent briefs one of five specialists (product market
 - **−** No tests; pnpm validate covers lint and typecheck
 - **−** No .env.example
 
-<sub>TypeScript, eve, ai-gateway, ai-sdk · Needs vercel-connect, notion, resend, slack, typefully-api-key, vercel-blob, ai-gateway · GitHub template · [Repo](https://github.com/vercel-labs/marketing-team-eve-template) · [📖 Docs](https://vercel.com/kb/guide/marketing-team-eve)</sub>
+<sub>TypeScript, eve, ai-gateway, ai-sdk · Needs vercel-connect, notion, resend, slack, typefully-api-key, vercel-blob, ai-gateway · GitHub template · [Repo](https://github.com/vercel-labs/marketing-team-eve-template) · [📖 Docs ↗](https://vercel.com/kb/guide/marketing-team-eve)</sub>
 
 <a name="openai-cua-sample-app"></a>
 ### 47 [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) <sub>⭐ 1.9k · MIT · Sep 2026</sub>
@@ -159,7 +159,7 @@ A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: strea
 - **−** No auth, no tests
 - **−** State model is Durable Objects; not portable off Cloudflare
 
-<sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs](https://developers.cloudflare.com/agents/)</sub>
+<sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs ↗](https://developers.cloudflare.com/agents/)</sub>
 
 <a name="data-enrichment"></a>
 ### 43 [data-enrichment](https://github.com/langchain-ai/data-enrichment) <sub>⭐ 258 · MIT · Sep 2026</sub>
@@ -209,7 +209,7 @@ A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent projec
 - **−** A generator, not a repo you fork directly
 - **−** Last commit 2026-05
 
-<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/GoogleCloudPlatform/agent-starter-pack) · [📖 Docs](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
+<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/GoogleCloudPlatform/agent-starter-pack) · [📖 Docs ↗](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
 
 <a name="knowledge-agent-template"></a>
 ### 39 [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>

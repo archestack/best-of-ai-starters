@@ -36,7 +36,7 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 - **−** Pulling template updates after forking is a documented manual process
 - **−** No Docker files
 
-<sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [▶️ Demo](https://opensaas.sh) · [📖 Docs](https://docs.opensaas.sh)</sub>
+<sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [▶️ Demo ↗](https://opensaas.sh) · [📖 Docs ↗](https://docs.opensaas.sh)</sub>
 
 <a name="ai-fullstack-saas-boilerplate"></a>
 ### 41 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
@@ -54,7 +54,7 @@ A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over P
 - **−** Static SPA; README notes it is not SEO-friendly
 - **−** Demo on a free Render tier spins down; expect 50 second cold starts
 
-<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [▶️ Demo](https://fsb-client.onrender.com)</sub>
+<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [▶️ Demo ↗](https://fsb-client.onrender.com)</sub>
 
 <a name="lastsaas"></a>
 ### 31 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
@@ -72,7 +72,7 @@ A Go backend with a React frontend served from the same binary: multi-tenant acc
 - **−** One author; seed shows 173 stars
 - **−** Last commit 2026-03
 
-<sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site](https://metavert.io/lastsaas)</sub>
+<sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site ↗](https://metavert.io/lastsaas)</sub>
 
 <a name="next-ai-starter"></a>
 ### 18 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
