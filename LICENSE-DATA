@@ -1,0 +1,16 @@
+Data license
+
+The contents of the `data/` directory and the generated list (README.md and the
+site's app, category and comparison pages) are licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt this data for any purpose, including commercially, as
+long as you give appropriate credit: "Data from Archestack
+(https://github.com/archestack/best-of-selfhosted-ai), CC BY 4.0", indicate if
+changes were made, and do not imply endorsement.
+
+Code in this repository is licensed separately under the MIT License (see
+LICENSE). Third-party data sources and their licenses are listed in the
+"Sources" section of README.md.

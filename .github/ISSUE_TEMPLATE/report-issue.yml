@@ -1,0 +1,33 @@
+name: Wrong or outdated data
+description: An entry says something incorrect or stale.
+title: "Fix: "
+labels: [report]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project (name or repository URL)
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      options:
+        - summary or tagline
+        - strengths / weaknesses
+        - requirements (RAM, GPU, dependencies)
+        - links (demo, docs, website)
+        - license
+        - category
+        - deploy info (Docker, compose)
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: Correct value and where it is documented
+      description: A link to the README section or docs page that shows the correct value.
+    validations:
+      required: true
