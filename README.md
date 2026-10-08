@@ -10,7 +10,7 @@
 </p>
 
 > [!TIP]
-> 🤖 **Bots** find and fact-check every template &nbsp;·&nbsp; ✍️ Every entry says what is wired in **and** what you still have to build &nbsp;·&nbsp; ▶️ **Demo links** so you can see it running first
+> 🔎 **Every template fact-checked** on GitHub before it is listed &nbsp;·&nbsp; ✍️ Every entry says what is wired in **and** what you still have to build &nbsp;·&nbsp; ▶️ **Demo links** so you can see it running first
 
 <p align="center">Looking for finished AI apps you install and use? 👉 <a href="https://github.com/archestack/best-of-selfhosted-ai"><b>Best of Self-Hosted AI</b></a></p>
 
@@ -29,7 +29,7 @@
 | 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-node)</sub><br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs ↗](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#%EF%B8%8F-voice-and-realtime) | 114 |
 | 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)** <sub>[📝 review](reviews/cloud-reference.md#azure-agent-landing-zone)</sub><br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub><br><sub>[📖 Docs ↗](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub> | ☁️ [Cloud reference architectures](#%EF%B8%8F-cloud-reference-architectures) | 1.2k |
 
-<sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as the bots measure them. Expect the board to shuffle. 🔀</sub>
+<sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as we measure them. Expect the board to shuffle. 🔀</sub>
 
 ## ⚡ Pick by vibe
 
@@ -358,7 +358,7 @@ Native, cross-platform mobile and browser-extension starters with AI features bu
 
 ## 🏅 How we rank
 
-Every project gets a score out of 100 from the signals below. A signal the bots cannot measure yet is left out and its weight goes to the others, so nobody loses points for things we have not checked. 🥇 80+ · 🥈 65–79 · 🥉 55–64.
+Every project gets a score out of 100 from the signals below. A signal we cannot measure yet is left out and its weight goes to the others, so nobody loses points for things we have not checked. 🥇 80+ · 🥈 65–79 · 🥉 55–64.
 
 | Signal | Weight | What it looks at | Status |
 |---|--:|---|:-:|
@@ -376,7 +376,7 @@ Every project gets a score out of 100 from the signals below. A signal the bots 
 
 ## 🧠 How this works
 
-- 🔎 **Found by bots** from curated lists, app stores and template galleries, then fact-checked on GitHub: stars, last commit, license, Docker files.
+- 🔎 **Found** in curated lists, app stores and template galleries, then fact-checked on GitHub: stars, last commit, license, Docker files.
 - ✍️ **Written from the README**, never copied from other lists: what it does, what it needs, strengths and weaknesses as claims you can check. Specs say `unknown` rather than guess.
 - 🔄 **Kept fresh**: entries are rewritten when the README or the latest release changes; projects quiet for 12 months get marked stale, archived ones drop off.
 - 🚫 **No pay-to-rank.** Sponsors and affiliate links, if any, are labeled and never touch the order.
@@ -395,4 +395,4 @@ These lists, app stores and galleries (facts and links only, no text copied), pl
 
 Data (`data/`, this README, `reviews/`) is CC BY 4.0; see LICENSE-DATA. Code is MIT; see LICENSE. Project names and descriptions belong to their owners.
 
-<p align="center"><sub>Made with 🤖 + ☕ by <a href="https://github.com/archestack">Archestack</a> · see also <a href="https://github.com/archestack/best-of-selfhosted-ai">Best of Self-Hosted AI</a></sub></p>
+<p align="center"><sub>Made with ☕ by <a href="https://github.com/archestack">Archestack</a> · see also <a href="https://github.com/archestack/best-of-selfhosted-ai">Best of Self-Hosted AI</a></sub></p>
