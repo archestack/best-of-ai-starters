@@ -84,7 +84,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17825
+      stars: 17828
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -350,7 +350,7 @@ entries:
     audience: Developers building an assistant on OpenAI hosted tools
     confidence: 0.85
     facts:
-      stars: 875
+      stars: 876
       license: MIT
       last_commit: 2025-12-15
       last_release: null
@@ -587,7 +587,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58821
+      stars: 58820
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -640,7 +640,7 @@ entries:
     audience: Teams building a Perplexity-style search product
     confidence: 0.9
     facts:
-      stars: 9157
+      stars: 9156
       license: Apache-2.0
       last_commit: 2026-10-04
       last_release: 2026-09-16
@@ -688,7 +688,7 @@ entries:
     audience: Teams on Azure wanting the vendor-maintained RAG starting point
     confidence: 0.9
     facts:
-      stars: 7777
+      stars: 7776
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-07-18
@@ -696,7 +696,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 56
   - id: chat-langchain
     repo: langchain-ai/chat-langchain
     name: chat-langchain
@@ -1103,7 +1103,7 @@ entries:
     audience: Teams prototyping agent-assist for support staff
     confidence: 0.85
     facts:
-      stars: 202
+      stars: 203
       license: MIT
       last_commit: 2025-12-15
       last_release: null
@@ -1196,7 +1196,7 @@ entries:
     facts:
       stars: 10423
       license: Apache-2.0
-      last_commit: 2026-10-07
+      last_commit: 2026-10-08
       last_release: null
       has_docker: false
       has_compose: false
@@ -1867,7 +1867,7 @@ entries:
     audience: Teams with a LangGraph backend that need a chat UI
     confidence: 0.9
     facts:
-      stars: 3204
+      stars: 3206
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -1956,7 +1956,7 @@ entries:
     audience: Teams prototyping model-generated UI with isolation
     confidence: 0.85
     facts:
-      stars: 1604
+      stars: 1607
       license: MIT
       last_commit: 2026-06-10
       last_release: null
@@ -2132,7 +2132,7 @@ entries:
     audience: Teams that accept Wasp for a complete SaaS base
     confidence: 0.85
     facts:
-      stars: 16071
+      stars: 16072
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-07-27
@@ -2405,7 +2405,7 @@ entries:
     audience: Developers building a browser client on Gemini Live
     confidence: 0.75
     facts:
-      stars: 2560
+      stars: 2561
       license: Apache-2.0
       last_commit: 2025-10-14
       last_release: null
@@ -3136,7 +3136,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 58
+    score: 57
   - id: fragments
     repo: e2b-dev/fragments
     name: fragments
@@ -3226,7 +3226,7 @@ entries:
     audience: Teams building a hosted background coding agent on Vercel
     confidence: 0.8
     facts:
-      stars: 5844
+      stars: 5845
       license: MIT
       last_commit: 2026-06-04
       last_release: null
@@ -3589,7 +3589,7 @@ entries:
       stars: 1187
       license: MIT
       last_commit: 2026-10-08
-      last_release: 2026-10-06
+      last_release: 2026-10-08
       has_docker: false
       has_compose: false
       is_template: true

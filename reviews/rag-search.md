@@ -20,24 +20,6 @@ A Next.js answer engine: queries go to Tavily, SearXNG, Brave or Exa, the model 
 
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, searxng-or-search-api-key, supabase, model-api-key · Docker · [Repo](https://github.com/miurla/morphic)</sub>
 
-<a name="azure-search-openai-demo"></a>
-### 🥉 59 [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) <sub>⭐ 7.8k · MIT · Oct 2026</sub>
-
-**Azure RAG chat reference on AI Search and Azure OpenAI.**
-
-The canonical Azure RAG sample: a Python (Quart) backend and React frontend answering multi-turn questions over your documents with citations and a visible thought process, using Azure AI Search for retrieval and Azure OpenAI for generation. azd up provisions Container Apps, AI Search, Document Intelligence and Blob storage, with optional Cosmos DB chat history, Entra login with document ACLs, multimodal and speech. For teams already on Azure.
-
-- **+** Optional Entra login with per-document access control and Cosmos DB chat history
-- **+** Evaluation, safety evaluation, monitoring and productionizing guides in docs/
-- **+** Multimodal, speech and agentic retrieval are switchable features
-- **+** Commits within the last week; tests included
-- **−** Cannot run locally until azd up has provisioned Azure resources
-- **−** Provisions paid services by default (AI Search, Document Intelligence); run azd down
-- **−** Azure OpenAI only; no other provider path
-- **−** README itself says not production-ready without extra security work
-
-<sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/Azure-Samples/azure-search-openai-demo) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
-
 <a name="llm-answer-engine"></a>
 ### 🥉 57 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>⭐ 5.0k · MIT · Apr 2026</sub>
 
@@ -54,6 +36,24 @@ A Next.js app that takes a question, pulls results from Brave Search and Serper,
 - **−** Ollama mode skips follow-up questions; vectors are in-memory only
 
 <sub>TypeScript, groq, openai, ollama, portkey · Needs openai-api-key, groq-api-key, brave-search-api-key, serper-api-key · Docker · [Repo](https://github.com/developersdigest/llm-answer-engine)</sub>
+
+<a name="azure-search-openai-demo"></a>
+### 🥉 56 [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) <sub>⭐ 7.8k · MIT · Oct 2026</sub>
+
+**Azure RAG chat reference on AI Search and Azure OpenAI.**
+
+The canonical Azure RAG sample: a Python (Quart) backend and React frontend answering multi-turn questions over your documents with citations and a visible thought process, using Azure AI Search for retrieval and Azure OpenAI for generation. azd up provisions Container Apps, AI Search, Document Intelligence and Blob storage, with optional Cosmos DB chat history, Entra login with document ACLs, multimodal and speech. For teams already on Azure.
+
+- **+** Optional Entra login with per-document access control and Cosmos DB chat history
+- **+** Evaluation, safety evaluation, monitoring and productionizing guides in docs/
+- **+** Multimodal, speech and agentic retrieval are switchable features
+- **+** Commits within the last week; tests included
+- **−** Cannot run locally until azd up has provisioned Azure resources
+- **−** Provisions paid services by default (AI Search, Document Intelligence); run azd down
+- **−** Azure OpenAI only; no other provider path
+- **−** README itself says not production-ready without extra security work
+
+<sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/Azure-Samples/azure-search-openai-demo) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
 
 <a name="llm-app"></a>
 ### 51 [llm-app](https://github.com/pathwaycom/llm-app) <sub>⭐ 59k · MIT · Jul 2026</sub>
@@ -196,7 +196,7 @@ A Next.js app where the AI SDK and GPT-4o turn a plain-English question into SQL
 <sub>TypeScript, openai, ai-sdk · Needs postgres, openai-api-key · [Repo](https://github.com/vercel-labs/natural-language-postgres) · [▶️ Demo ↗](https://natural-language-postgres.vercel.app)</sub>
 
 <a name="openai-support-agent-demo"></a>
-### 8 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>⭐ 202 · MIT · Dec 2025</sub>
+### 8 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>⭐ 203 · MIT · Dec 2025</sub>
 
 **Support console where the model drafts and a human approves.**
 
