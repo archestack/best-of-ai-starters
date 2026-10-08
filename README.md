@@ -49,7 +49,7 @@ Clone it and you get a Next.js App Router chat app on the AI SDK with Auth.js lo
 
 ### [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>★ 17.8k · MIT · Oct 2026</sub>
 
-**Monorepo of Claude API starters: support agent, computer use, managed agents.**
+**Independent Claude API starter projects, one folder per pattern.**
 
 Independent Claude API starter projects in one repo, not one app: a customer support agent with a knowledge base, a financial data analyst with charts, computer-use and Playwright browser-use demos, a two-agent coding loop on the Agent SDK, and Managed Agents examples for Slack, Linear, Sentry, MCP and CopilotKit AG-UI. Mixed Next.js and Python, each folder with its own setup. For developers copying out one pattern.
 
@@ -130,7 +130,7 @@ An earlier cut of the Vercel chatbot template pinned to Google Gemini: Next.js A
 
 ### [openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) <sub>★ 884 · MIT · Mar 2026</sub>
 
-**Two minimal OpenAI ChatKit apps: self-hosted and managed workflow.**
+**Minimal self-hosted and managed OpenAI ChatKit reference apps.**
 
 Two reference apps for embedding OpenAI ChatKit: one self-hosted integration where you run the ChatKit backend yourself, and one managed integration that connects the widget to a hosted Agent Builder workflow. The root README is a two-line index, setup lives in each subfolder, and seed data lists Next.js plus Python. For teams committed to ChatKit who want the smallest working wiring.
 
@@ -160,7 +160,7 @@ A Next.js chat UI wired to the OpenAI Responses API with streaming, multi-turn s
 
 ### [openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples) <sub>★ 659 · MIT · Aug 2026</sub>
 
-**Four ChatKit demos with FastAPI backends: widgets, actions, attachments.**
+**ChatKit feature demos with FastAPI backends and React frontends.**
 
 Four ChatKit scenarios, each a FastAPI backend on the ChatKit Python SDK plus a React frontend: a virtual-cat caretaker, an airline support concierge, a newsroom assistant and a metro-map planner. Together they exercise server and client tools, widgets with actions, attachments, dictation, annotations, @-mentions and composer commands. For teams writing a custom ChatKit server who need a reference per feature.
 
@@ -273,7 +273,7 @@ A Next.js answer engine: queries go to Tavily, SearXNG, Brave or Exa, the model 
 
 ### [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) <sub>★ 7.8k · MIT · Oct 2026</sub>
 
-**Azure RAG chat reference: AI Search, Azure OpenAI, azd deploy.**
+**Azure RAG chat reference on AI Search and Azure OpenAI.**
 
 The canonical Azure RAG sample: a Python (Quart) backend and React frontend answering multi-turn questions over your documents with citations and a visible thought process, using Azure AI Search for retrieval and Azure OpenAI for generation. azd up provisions Container Apps, AI Search, Document Intelligence and Blob storage, with optional Cosmos DB chat history, Entra login with document ACLs, multimodal and speech. For teams already on Azure.
 
@@ -307,7 +307,7 @@ A documentation assistant for LangChain, LangGraph and LangSmith: a Python agent
 
 ### [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>★ 5.0k · MIT · Apr 2026</sub>
 
-**Perplexity-style Next.js engine: Brave search, scrape, embed, stream.**
+**Perplexity-style Next.js answer engine over Brave search results.**
 
 A Next.js app that takes a question, pulls results from Brave Search and Serper, scrapes the top pages with Cheerio, chunks and embeds them with OpenAI embeddings, and streams an answer from Groq (Mixtral by default) with sources, images and follow-ups. Optional Ollama, Upstash rate limiting, a semantic cache and a Portkey gateway are toggles in app/config.tsx; there is no auth or persistence. For developers learning the search-scrape-answer loop.
 
@@ -421,7 +421,7 @@ Nine Python kits, each with its own README: document text extraction, enterprise
 
 ### [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>★ 202 · MIT · Dec 2025</sub>
 
-**Two-view support console: AI drafts replies, human agent approves.**
+**Support console where the model drafts and a human approves.**
 
 A Next.js demo on the OpenAI Responses API with two chat views, one for the customer and one for the human agent. The model drafts replies from a file-search knowledge base, proposes tool calls like cancel_order for the agent to confirm and auto-runs non-sensitive ones like get_order_history; a /init_vs route creates the vector store and functions are placeholders. For teams prototyping agent-assist for support staff.
 
@@ -468,7 +468,7 @@ A deployable version of the Generative Agents paper: pixel-art characters on a P
 
 ### [adk-recipes](https://github.com/google/adk-recipes) <sub>★ 10.4k · Apache-2.0 · Oct 2026</sub>
 
-**Runnable ADK recipes: core patterns, deployable vertical agents, skill plugins.**
+**Runnable Agent Development Kit recipes, from single patterns to deployable agents.**
 
 A recipe collection for Google's Agent Development Kit: core/ holds single-pattern agents (OAuth flows, session memory, guardrails, RAG), contrib/ holds deployable vertical agents targeting Agent Engine, Cloud Run and Gemini Enterprise, and plugins/ holds skills packaged with SKILL.md and EVAL.yaml. Each recipe has its own README; ADK SDKs exist for Python, TypeScript, Go, Java and Kotlin. For teams standardizing on ADK and Google Cloud.
 
@@ -517,7 +517,7 @@ A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent projec
 
 ### [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) <sub>★ 1.9k · MIT · Sep 2026</sub>
 
-**Two computer-use agent loops: Playwright browser and PyAutoGUI desktop.**
+**Computer-use agent loops for Playwright browsers and PyAutoGUI desktops.**
 
 Two agent loops on the OpenAI Responses API where the model writes code against a persistent runtime: a TypeScript agent driving a browser through Playwright and a Python agent driving the real desktop through PyAutoGUI. A shared console on port 3000 runs scenarios against bundled lab apps and records screenshots and replay JSON. For developers building computer-use agents who want the loop, not a product.
 
@@ -550,7 +550,7 @@ A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: strea
 
 ### [OpenTag](https://github.com/CopilotKit/OpenTag) <sub>★ 1.2k · MIT · Oct 2026</sub>
 
-**Slack and Teams knowledge agent: LangGraph deep agent plus CopilotKit Channels.**
+**Slack and Teams knowledge agent on LangGraph and CopilotKit Channels.**
 
 A deployable Slack and Teams agent in two services: a Node runtime (CopilotRuntime with embedded Channels) and a Python LangGraph deep agent speaking AG-UI. It ships web research, optional GitHub, PostHog, Linear and Notion MCP tools, native Slack charts and a LangGraph interrupt that pauses before Linear or Notion writes, with Slack ingress through a CopilotKit Intelligence managed channel. For teams that want an on-call style bot in chat.
 
@@ -650,7 +650,7 @@ An eve project where a lead agent briefs one of five specialists (product market
 
 ### [new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project) <sub>★ 297 · MIT · Oct 2026</sub>
 
-**Empty Python LangGraph scaffold: one node, config, tests, Studio-ready.**
+**Blank Python LangGraph scaffold with config, tests and Studio support.**
 
 The blank-slate LangGraph template: src/agent/graph.py holds a one-node graph that returns a fixed string and its runtime context, with langgraph.json, a .env.example and unit plus integration test workflows already in place. Start it with langgraph dev and open it in Studio; there is no model, no tools and no UI. For Python developers who want the LangGraph Platform layout without an opinionated agent.
 
@@ -918,7 +918,7 @@ pnpm workspace publishing @pipecat-ai/voice-ui-kit: React components (connect bu
 
 ### [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>★ 394 · BSD-2-Clause · Sep 2026</sub>
 
-**Runnable Pipecat voice agent examples: phone bots, web clients, deployment.**
+**Runnable Pipecat voice agent examples for phone, web and deployment.**
 
 Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx, Plivo, Exotel and Daily SIP, a simple-chatbot with React, Swift, Kotlin and React Native clients, websocket and p2p WebRTC transports, Gemini Live, local smart-turn, OpenTelemetry tracing and deploy recipes for Pipecat Cloud, Fly.io, Modal and Cerebrium. For teams on Pipecat who want a working pattern to copy.
 
