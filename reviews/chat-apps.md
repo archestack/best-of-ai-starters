@@ -3,7 +3,7 @@
 Chat interfaces and single-feature text apps you fork as the base of a conversational product. Back to the [leaderboard](../README.md#-chat-apps).
 
 <a name="vercel-chatbot"></a>
-### 🥉 63 [chatbot](https://github.com/vercel/chatbot) <sub>⭐ 21k · Apache-2.0 · Jul 2026</sub>
+### 🥉 56 [chatbot](https://github.com/vercel/chatbot) <sub>⭐ 21k · Apache-2.0 · Jul 2026</sub>
 
 **Next.js chat template with Auth.js, Postgres history and AI Gateway models.**
 
@@ -20,7 +20,7 @@ Clone it and you get a Next.js App Router chat app on the AI SDK with Auth.js lo
 <sub>TypeScript, ai-gateway, ai-sdk, openai, mistral · Needs postgres, vercel-blob, ai-gateway-api-key · GitHub template · [Repo](https://github.com/vercel/chatbot) · [🧪 Demo](https://chatbot.ai-sdk.dev/demo) · [📖 Docs](https://chatbot.ai-sdk.dev/docs)</sub>
 
 <a name="langchain-nextjs-template"></a>
-### 🥉 58 [langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) <sub>⭐ 2.5k · MIT · Oct 2026</sub>
+### 54 [langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) <sub>⭐ 2.5k · MIT · Oct 2026</sub>
 
 **Next.js routes for LangChain.js chat, agents, structured output and RAG.**
 
@@ -38,7 +38,7 @@ Five Next.js API routes that each show one LangChain.js pattern: plain chat, Zod
 <sub>TypeScript, openai, langchain, langgraph, ai-sdk · Needs openai-api-key, supabase, tavily-api-key · GitHub template · [Repo](https://github.com/langchain-ai/langchain-nextjs-template) · [🧪 Demo](https://langchain-nextjs-template.vercel.app/)</sub>
 
 <a name="claude-quickstarts"></a>
-### 🥉 57 [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>⭐ 18k · MIT · Oct 2026</sub>
+### 53 [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>⭐ 18k · MIT · Oct 2026</sub>
 
 **Independent Claude API starter projects, one folder per pattern.**
 
@@ -56,7 +56,7 @@ Independent Claude API starter projects in one repo, not one app: a customer sup
 <sub>TypeScript, anthropic · Needs anthropic-api-key · [Repo](https://github.com/anthropics/claude-quickstarts) · [📖 Docs](https://docs.claude.com)</sub>
 
 <a name="zola"></a>
-### 51 [zola](https://github.com/ibelick/zola) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
+### 43 [zola](https://github.com/ibelick/zola) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
 
 **Multi-provider chat UI on Next.js with Ollama detection and BYOK.**
 
@@ -72,59 +72,8 @@ A Next.js chat interface on the AI SDK that talks to OpenAI, Mistral, Anthropic,
 
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs supabase, ollama, provider-api-keys · Docker · [Repo](https://github.com/ibelick/zola) · [🧪 Demo](https://zola.chat)</sub>
 
-<a name="gemini-chatbot"></a>
-### 48 [gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot) <sub>⭐ 1.4k · Apache-2.0 · May 2026</sub>
-
-**Next.js chatbot template defaulting to Gemini with NextAuth and Postgres.**
-
-An earlier cut of the Vercel chatbot template pinned to Google Gemini: Next.js App Router, AI SDK streaming with tool calls, NextAuth.js login, chat history in Vercel Postgres through Drizzle, and file storage on Vercel Blob. The default model is gemini-1.5-pro; the AI SDK lets you switch to OpenAI, Anthropic or Cohere. For teams on Google models who want the Vercel chat stack.
-
-- **+** Auth, Postgres history and Blob uploads already wired
-- **+** Two env vars to deploy: AUTH_SECRET and GOOGLE_GENERATIVE_AI_API_KEY
-- **+** Deployed demo at gemini.vercel.ai
-- **−** Default model gemini-1.5-pro is dated; update before shipping
-- **−** Tied to Vercel Postgres and Blob; self-hosting means swapping both
-- **−** No tests, no Docker
-- **−** vercel/chatbot is the maintained successor for most uses
-
-<sub>TypeScript, google, ai-sdk · Needs postgres, vercel-blob, google-api-key · GitHub template · [Repo](https://github.com/vercel-labs/gemini-chatbot) · [🧪 Demo](https://gemini.vercel.ai)</sub>
-
-<a name="twitterbio"></a>
-### 45 [twitterbio](https://github.com/Nutlope/twitterbio) <sub>⭐ 1.8k · MIT · Jun 2026</sub>
-
-**Single-form Next.js text generator streaming from Together AI.**
-
-A one-page Next.js app: a form builds a prompt, sends it to Together AI and streams the reply back, with two open models wired (Qwen 3.5 9B with thinking off, GPT OSS 20B with a reasoning indicator). Nothing else is included: no auth, no database, no tests. For developers who want the smallest prompt-to-text starter to grow from.
-
-- **+** One env var (TOGETHER_API_KEY) and it runs
-- **+** Shows streaming for both a direct model and a reasoning model
-- **+** Deployed live example at twitterbio.io
-- **−** No auth, database, rate limiting or tests
-- **−** Tied to Together AI; no provider layer
-- **−** Single feature; most of a product is still to build
-
-<sub>TypeScript, together · Needs together-api-key · [Repo](https://github.com/Nutlope/twitterbio) · [🧪 Demo](https://www.twitterbio.io/)</sub>
-
-<a name="ai-chat"></a>
-### 42 [ai-chat](https://github.com/pushpak1300/ai-chat) <sub>⭐ 383 · MIT · Jun 2026</sub>
-
-**Laravel 12 chat starter streaming replies through Prism to eight providers.**
-
-A Laravel 12 application with Inertia and Vue 3 that streams model replies over server-sent events through the Prism PHP SDK. Sanctum auth, user management, chat sharing and SQLite persistence are in place (MySQL or Postgres is a config change), and models are listed in an enum per provider: OpenAI, Anthropic, Gemini, Ollama, Groq, Mistral, DeepSeek, xAI. For Laravel teams who want a chat base in their own stack.
-
-- **+** Installs with laravel new --using=pushpak1300/ai-chat
-- **+** Auth, chat sharing and SSE streaming already wired
-- **+** Adding a provider or model is one enum case
-- **+** Tests included
-- **−** No tool calling, multimodal input or image generation yet; all on the roadmap
-- **−** README model list is dated (gpt-4o, claude-3-5); update the enum
-- **−** No Docker files
-- **−** PHP 8.3+ and Composer required
-
-<sub>PHP, prism, openai, anthropic, google · Needs php-8.3, composer, sqlite-or-mysql-or-postgres, provider-api-keys · GitHub template · [Repo](https://github.com/pushpak1300/ai-chat)</sub>
-
 <a name="nuxt-ui-chat"></a>
-### 42 [chat](https://github.com/nuxt-ui-templates/chat) <sub>⭐ 376 · MIT · Oct 2026</sub>
+### 41 [chat](https://github.com/nuxt-ui-templates/chat) <sub>⭐ 376 · MIT · Oct 2026</sub>
 
 **Nuxt UI chat template with GitHub login, SQLite history and AI Gateway.**
 
@@ -141,8 +90,59 @@ A Nuxt app on Nuxt UI and the AI SDK: streaming replies with reasoning, three mo
 
 <sub>Vue, ai-gateway, ai-sdk, anthropic, google · Needs ai-gateway-api-key, github-oauth-app, sqlite-or-turso · GitHub template · [Repo](https://github.com/nuxt-ui-templates/chat) · [🧪 Demo](https://chat-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
+<a name="gemini-chatbot"></a>
+### 40 [gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot) <sub>⭐ 1.4k · Apache-2.0 · May 2026</sub>
+
+**Next.js chatbot template defaulting to Gemini with NextAuth and Postgres.**
+
+An earlier cut of the Vercel chatbot template pinned to Google Gemini: Next.js App Router, AI SDK streaming with tool calls, NextAuth.js login, chat history in Vercel Postgres through Drizzle, and file storage on Vercel Blob. The default model is gemini-1.5-pro; the AI SDK lets you switch to OpenAI, Anthropic or Cohere. For teams on Google models who want the Vercel chat stack.
+
+- **+** Auth, Postgres history and Blob uploads already wired
+- **+** Two env vars to deploy: AUTH_SECRET and GOOGLE_GENERATIVE_AI_API_KEY
+- **+** Deployed demo at gemini.vercel.ai
+- **−** Default model gemini-1.5-pro is dated; update before shipping
+- **−** Tied to Vercel Postgres and Blob; self-hosting means swapping both
+- **−** No tests, no Docker
+- **−** vercel/chatbot is the maintained successor for most uses
+
+<sub>TypeScript, google, ai-sdk · Needs postgres, vercel-blob, google-api-key · GitHub template · [Repo](https://github.com/vercel-labs/gemini-chatbot) · [🧪 Demo](https://gemini.vercel.ai)</sub>
+
+<a name="twitterbio"></a>
+### 38 [twitterbio](https://github.com/Nutlope/twitterbio) <sub>⭐ 1.8k · MIT · Jun 2026</sub>
+
+**Single-form Next.js text generator streaming from Together AI.**
+
+A one-page Next.js app: a form builds a prompt, sends it to Together AI and streams the reply back, with two open models wired (Qwen 3.5 9B with thinking off, GPT OSS 20B with a reasoning indicator). Nothing else is included: no auth, no database, no tests. For developers who want the smallest prompt-to-text starter to grow from.
+
+- **+** One env var (TOGETHER_API_KEY) and it runs
+- **+** Shows streaming for both a direct model and a reasoning model
+- **+** Deployed live example at twitterbio.io
+- **−** No auth, database, rate limiting or tests
+- **−** Tied to Together AI; no provider layer
+- **−** Single feature; most of a product is still to build
+
+<sub>TypeScript, together · Needs together-api-key · [Repo](https://github.com/Nutlope/twitterbio) · [🧪 Demo](https://www.twitterbio.io/)</sub>
+
+<a name="ai-chat"></a>
+### 35 [ai-chat](https://github.com/pushpak1300/ai-chat) <sub>⭐ 383 · MIT · Jun 2026</sub>
+
+**Laravel 12 chat starter streaming replies through Prism to eight providers.**
+
+A Laravel 12 application with Inertia and Vue 3 that streams model replies over server-sent events through the Prism PHP SDK. Sanctum auth, user management, chat sharing and SQLite persistence are in place (MySQL or Postgres is a config change), and models are listed in an enum per provider: OpenAI, Anthropic, Gemini, Ollama, Groq, Mistral, DeepSeek, xAI. For Laravel teams who want a chat base in their own stack.
+
+- **+** Installs with laravel new --using=pushpak1300/ai-chat
+- **+** Auth, chat sharing and SSE streaming already wired
+- **+** Adding a provider or model is one enum case
+- **+** Tests included
+- **−** No tool calling, multimodal input or image generation yet; all on the roadmap
+- **−** README model list is dated (gpt-4o, claude-3-5); update the enum
+- **−** No Docker files
+- **−** PHP 8.3+ and Composer required
+
+<sub>PHP, prism, openai, anthropic, google · Needs php-8.3, composer, sqlite-or-mysql-or-postgres, provider-api-keys · GitHub template · [Repo](https://github.com/pushpak1300/ai-chat)</sub>
+
 <a name="openai-chatkit-advanced-samples"></a>
-### 37 [openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples) <sub>⭐ 659 · MIT · Aug 2026</sub>
+### 33 [openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples) <sub>⭐ 659 · MIT · Aug 2026</sub>
 
 **ChatKit feature demos with FastAPI backends and React frontends.**
 
@@ -158,7 +158,7 @@ Four ChatKit scenarios, each a FastAPI backend on the ChatKit Python SDK plus a 
 <sub>openai, chatkit · Needs openai-api-key, uv · [Repo](https://github.com/openai/openai-chatkit-advanced-samples)</sub>
 
 <a name="openai-chatkit-starter-app"></a>
-### 30 [openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) <sub>⭐ 884 · MIT · Mar 2026</sub>
+### 25 [openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) <sub>⭐ 884 · MIT · Mar 2026</sub>
 
 **Minimal self-hosted and managed OpenAI ChatKit reference apps.**
 
@@ -173,7 +173,7 @@ Two reference apps for embedding OpenAI ChatKit: one self-hosted integration whe
 <sub>Python, openai, chatkit · Needs openai-api-key · [Repo](https://github.com/openai/openai-chatkit-starter-app)</sub>
 
 <a name="openai-responses-starter-app"></a>
-### 27 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>⭐ 875 · MIT · Dec 2025</sub>
+### 23 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>⭐ 875 · MIT · Dec 2025</sub>
 
 **Next.js chat on the OpenAI Responses API with hosted tools.**
 
@@ -190,7 +190,7 @@ A Next.js chat UI wired to the OpenAI Responses API with streaming, multi-turn s
 <sub>TypeScript, openai · Needs openai-api-key, google-oauth-client · GitHub template · [Repo](https://github.com/openai/openai-responses-starter-app)</sub>
 
 <a name="langgraph-fullstack-python"></a>
-### 19 [langgraph-fullstack-python](https://github.com/langchain-ai/langgraph-fullstack-python) <sub>⭐ 157 · MIT · Mar 2026</sub>
+### 16 [langgraph-fullstack-python](https://github.com/langchain-ai/langgraph-fullstack-python) <sub>⭐ 157 · MIT · Mar 2026</sub>
 
 **LangGraph ReAct agent and FastHTML chat UI in one deployment.**
 

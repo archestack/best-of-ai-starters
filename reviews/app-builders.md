@@ -3,7 +3,7 @@
 Prompt-to-app builders and platforms that run coding agents in sandboxes. Back to the [leaderboard](../README.md#-app-builders-and-coding-agents).
 
 <a name="llamacoder"></a>
-### 53 [llamacoder](https://github.com/Nutlope/llamacoder) <sub>⭐ 7.1k · MIT · Sep 2026</sub>
+### 🥉 58 [llamacoder](https://github.com/Nutlope/llamacoder) <sub>⭐ 7.1k · MIT · Sep 2026</sub>
 
 **Open-source Claude Artifacts clone generating React apps with Llama.**
 
@@ -20,26 +20,8 @@ Next.js App Router app with Tailwind that sends a prompt to Llama 3.1 405B on To
 
 <sub>TypeScript, Together AI (Llama 3.1 405B) · Needs Together AI API key, PostgreSQL (Neon), S3 bucket for screenshots, Braintrust (optional) · [Repo](https://github.com/Nutlope/llamacoder) · [🧪 Demo](https://www.llamacoder.io)</sub>
 
-<a name="fragments"></a>
-### 49 [fragments](https://github.com/e2b-dev/fragments) <sub>⭐ 6.4k · Apache-2.0 · Sep 2026</sub>
-
-**Next.js prompt-to-app builder running generated code in E2B sandboxes.**
-
-Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams generated code and runs it in E2B sandboxes, with templates for a Python interpreter, Next.js, Vue, Streamlit and Gradio. Providers are configured in lib/models.ts (OpenAI, Anthropic, Google, Mistral, Groq, Fireworks, Together, Ollama); Supabase auth and Upstash KV rate limiting are optional. For teams building an artifacts-style product.
-
-- **+** Eight LLM providers plus a documented way to add your own
-- **+** Sandbox templates are E2B Dockerfiles registered in lib/templates.json
-- **+** Rate limiting via Upstash KV and auth via Supabase are optional add-ons
-- **+** Live instance at fragments.e2b.dev
-- **−** E2B API key and sandbox usage are mandatory costs
-- **−** Next.js 14; not on the current major
-- **−** No tests mentioned; no .env.example
-- **−** Users can paste their own API keys unless NEXT_PUBLIC_NO_API_KEY_INPUT is set
-
-<sub>TypeScript, OpenAI, Anthropic, Google AI, Mistral · Needs E2B API key, LLM provider API key, Supabase (optional auth), Upstash KV (optional) · [Repo](https://github.com/e2b-dev/fragments) · [🧪 Demo](https://fragments.e2b.dev)</sub>
-
 <a name="vibesdk"></a>
-### 48 [vibesdk](https://github.com/cloudflare/vibesdk) <sub>⭐ 5.4k · MIT · Sep 2026</sub>
+### 49 [vibesdk](https://github.com/cloudflare/vibesdk) <sub>⭐ 5.4k · MIT · Sep 2026</sub>
 
 **Self-hosted prompt-to-app platform on Cloudflare Workers and Durable Objects.**
 
@@ -56,8 +38,26 @@ Bun and Vite project that runs a coding agent (Cloudflare Think) in a Durable Ob
 
 <sub>TypeScript, Cloudflare AI Gateway (configured providers) · Needs Cloudflare account with Workers Paid plan, Cloudflare AI Gateway, D1, model provider API key, custom domain with wildcard DNS · [Repo](https://github.com/cloudflare/vibesdk) · [🧪 Demo](https://build.cloudflare.dev)</sub>
 
+<a name="fragments"></a>
+### 48 [fragments](https://github.com/e2b-dev/fragments) <sub>⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
+
+**Next.js prompt-to-app builder running generated code in E2B sandboxes.**
+
+Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams generated code and runs it in E2B sandboxes, with templates for a Python interpreter, Next.js, Vue, Streamlit and Gradio. Providers are configured in lib/models.ts (OpenAI, Anthropic, Google, Mistral, Groq, Fireworks, Together, Ollama); Supabase auth and Upstash KV rate limiting are optional. For teams building an artifacts-style product.
+
+- **+** Eight LLM providers plus a documented way to add your own
+- **+** Sandbox templates are E2B Dockerfiles registered in lib/templates.json
+- **+** Rate limiting via Upstash KV and auth via Supabase are optional add-ons
+- **+** Live instance at fragments.e2b.dev
+- **−** E2B API key and sandbox usage are mandatory costs
+- **−** Next.js 14; not on the current major
+- **−** No tests mentioned; no .env.example
+- **−** Users can paste their own API keys unless NEXT_PUBLIC_NO_API_KEY_INPUT is set
+
+<sub>TypeScript, OpenAI, Anthropic, Google AI, Mistral · Needs E2B API key, LLM provider API key, Supabase (optional auth), Upstash KV (optional) · [Repo](https://github.com/e2b-dev/fragments) · [🧪 Demo](https://fragments.e2b.dev)</sub>
+
 <a name="open-agents"></a>
-### 42 [open-agents](https://github.com/vercel-labs/open-agents) <sub>⭐ 5.8k · MIT · Jun 2026</sub>
+### 41 [open-agents](https://github.com/vercel-labs/open-agents) <sub>⭐ 5.8k · MIT · Jun 2026</sub>
 
 **Reference app for background coding agents on Vercel sandboxes.**
 
@@ -74,7 +74,7 @@ pnpm monorepo (web app, agent, sandbox and shared packages) where a Next.js app 
 <sub>TypeScript · Needs PostgreSQL (Neon), Vercel Sandbox, Vercel OAuth app, GitHub App, Redis (optional), ElevenLabs (optional) · [Repo](https://github.com/vercel-labs/open-agents) · [🧪 Demo](https://open-agents.dev/)</sub>
 
 <a name="coding-agent-template"></a>
-### 31 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
+### 29 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
 
 **Run Claude Code, Codex and other coding CLIs in Vercel Sandbox.**
 

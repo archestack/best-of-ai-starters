@@ -2,26 +2,8 @@
 
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#-cloud-reference-architectures).
 
-<a name="openai-chat-app-quickstart"></a>
-### 🥈 67 [openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
-
-**Minimal Quart chat app on Azure OpenAI with managed identity.**
-
-Python Quart backend using the openai package with a plain HTML/JS frontend that streams JSON Lines over a ReadableStream, plus Bicep for Azure OpenAI, Container Apps, Container Registry, Log Analytics and RBAC roles, deployed with azd up. Authenticates to Azure OpenAI with managed identity, so no API key; the local dev server runs on port 50505 after a first azd deploy. For teams starting a chat service on Azure.
-
-- **+** Managed identity auth; no OpenAI key in config
-- **+** Bicep provisions the full Container Apps stack
-- **+** Codespaces and Dev Container configs included
-- **+** IaC security scan GitHub Action included
-- **−** Local run depends on a prior Azure deployment for the endpoint
-- **−** No user auth; sibling repos add Entra ID
-- **−** Frontend is minimal HTML/JS, not a component framework
-- **−** Azure Container Registry has a fixed daily cost
-
-<sub>Bicep, Azure OpenAI (openai package) · Needs Azure subscription with Azure OpenAI access, azd CLI · GitHub template · Docker · [Repo](https://github.com/Azure-Samples/openai-chat-app-quickstart) · [📖 Docs](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub>
-
 <a name="azure-agent-landing-zone"></a>
-### 51 [agent-landing-zone](https://github.com/Azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
+### 🥉 60 [agent-landing-zone](https://github.com/Azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
 
 **Zero-trust Azure landing zone for agent apps on Microsoft Foundry.**
 
@@ -38,8 +20,26 @@ azd-compatible Bicep landing zone that provisions network-isolated infrastructur
 
 <sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/Azure/agent-landing-zone) · [📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
 
+<a name="openai-chat-app-quickstart"></a>
+### 46 [openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
+
+**Minimal Quart chat app on Azure OpenAI with managed identity.**
+
+Python Quart backend using the openai package with a plain HTML/JS frontend that streams JSON Lines over a ReadableStream, plus Bicep for Azure OpenAI, Container Apps, Container Registry, Log Analytics and RBAC roles, deployed with azd up. Authenticates to Azure OpenAI with managed identity, so no API key; the local dev server runs on port 50505 after a first azd deploy. For teams starting a chat service on Azure.
+
+- **+** Managed identity auth; no OpenAI key in config
+- **+** Bicep provisions the full Container Apps stack
+- **+** Codespaces and Dev Container configs included
+- **+** IaC security scan GitHub Action included
+- **−** Local run depends on a prior Azure deployment for the endpoint
+- **−** No user auth; sibling repos add Entra ID
+- **−** Frontend is minimal HTML/JS, not a component framework
+- **−** Azure Container Registry has a fixed daily cost
+
+<sub>Bicep, Azure OpenAI (openai package) · Needs Azure subscription with Azure OpenAI access, azd CLI · GitHub template · [Repo](https://github.com/Azure-Samples/openai-chat-app-quickstart) · [📖 Docs](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub>
+
 <a name="azurechat"></a>
-### 49 [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>
+### 44 [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>
 
 **Private enterprise chat on Azure OpenAI with document chat and personas.**
 

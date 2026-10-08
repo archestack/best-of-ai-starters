@@ -3,7 +3,7 @@
 Voice agents, realtime speech-to-speech apps and their web, phone and native clients. Back to the [leaderboard](../README.md#-voice-and-realtime).
 
 <a name="agent-starter-python"></a>
-### 🥇 80 [agent-starter-python](https://github.com/livekit-examples/agent-starter-python) <sub>⭐ 264 · MIT · Oct 2026</sub>
+### 🥉 61 [agent-starter-python](https://github.com/livekit-examples/agent-starter-python) <sub>⭐ 264 · MIT · Oct 2026</sub>
 
 **Python voice agent on LiveKit Agents with turn detection and simulations.**
 
@@ -21,7 +21,7 @@ uv-managed Python voice assistant on LiveKit Agents using LiveKit Inference for 
 <sub>Python, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-python) · [📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="agent-starter-node"></a>
-### 🥈 77 [agent-starter-node](https://github.com/livekit-examples/agent-starter-node) <sub>⭐ 114 · MIT · Oct 2026</sub>
+### 🥉 61 [agent-starter-node](https://github.com/livekit-examples/agent-starter-node) <sub>⭐ 114 · MIT · Oct 2026</sub>
 
 **Node.js voice agent on LiveKit Agents with turn detection and simulations.**
 
@@ -39,7 +39,7 @@ pnpm TypeScript voice assistant on LiveKit Agents using LiveKit Inference for ST
 <sub>TypeScript, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-node) · [📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="agent-starter-react"></a>
-### 🥉 55 [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) <sub>⭐ 946 · MIT · Sep 2026</sub>
+### 52 [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) <sub>⭐ 946 · MIT · Sep 2026</sub>
 
 **Next.js voice assistant frontend for LiveKit Agents.**
 
@@ -55,25 +55,8 @@ Next.js app on LiveKit Agents UI components and the LiveKit JS SDK: welcome and 
 
 <sub>TypeScript · Needs LiveKit Cloud or self-hosted LiveKit server, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react) · [📖 Docs](https://docs.livekit.io/agents)</sub>
 
-<a name="elevenlabs-examples"></a>
-### 44 [examples](https://github.com/elevenlabs/examples) <sub>⭐ 628 · MIT · Oct 2026</sub>
-
-**Prompt-generated ElevenLabs examples for speech, music and voice agents.**
-
-Monorepo of small runnable ElevenLabs examples, each generated from a PROMPT.md by the Cursor CLI onto shared Expo, Next.js, Python and TypeScript templates. Covers text-to-speech, Scribe v2 speech-to-text (including realtime with VAD), music, sound effects, voice isolation, dubbing and a Next.js voice agent on the React Agents SDK. For developers who want one starting point per ElevenLabs feature.
-
-- **+** One runnable example per ElevenLabs feature, each with its own README
-- **+** Next.js realtime voice agent and guardrail_triggered event demo included
-- **+** Shared Expo, Next.js, Python and TypeScript base templates
-- **−** Examples are LLM-generated from prompts; review the code before reuse
-- **−** Regenerating examples requires the Cursor CLI
-- **−** ElevenLabs only; needs an ElevenLabs API key
-- **−** Legacy examples/ folder is deprecated but still present
-
-<sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site](https://elevenlabs.io/)</sub>
-
 <a name="voice-ui-kit"></a>
-### 44 [voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit) <sub>⭐ 419 · BSD-2-Clause · Oct 2026</sub>
+### 48 [voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit) <sub>⭐ 419 · BSD-2-Clause · Oct 2026</sub>
 
 **React components and templates for Pipecat voice agent frontends.**
 
@@ -89,24 +72,25 @@ pnpm workspace publishing @pipecat-ai/voice-ui-kit: React components (connect bu
 
 <sub>TypeScript · Needs Pipecat bot server, Daily account (optional transport) · [Repo](https://github.com/pipecat-ai/voice-ui-kit) · [📖 Docs](https://voiceuikit.pipecat.ai)</sub>
 
-<a name="agent-starter-android"></a>
-### 42 [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) <sub>⭐ 104 · MIT · Aug 2026</sub>
+<a name="pipecat-examples"></a>
+### 43 [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>⭐ 394 · BSD-2-Clause · Sep 2026</sub>
 
-**Kotlin and Jetpack Compose voice assistant client for LiveKit Agents.**
+**Runnable Pipecat voice agent examples for phone, web and deployment.**
 
-Android Studio project on the LiveKit Android SDK giving you a simple voice interface to a LiveKit agent, scaffolded with lk app create. It connects to the public LiveKit homepage agent by default; to reach your own agent you set a development token server id in TokenExt.kt. Client only: the agent and a production token server are yours to build.
+Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx, Plivo, Exotel and Daily SIP, a simple-chatbot with React, Swift, Kotlin and React Native clients, websocket and p2p WebRTC transports, Gemini Live, local smart-turn, OpenTelemetry tracing and deploy recipes for Pipecat Cloud, Fly.io, Modal and Cerebrium. For teams on Pipecat who want a working pattern to copy.
 
-- **+** Kotlin and Jetpack Compose on the official LiveKit Android SDK
-- **+** Works immediately against the public LiveKit homepage agent
-- **+** Pairs with the Python and Node agent starters
-- **−** Token server id is hardcoded in TokenExt.kt; production token flow is yours
-- **−** README does not document video, text input or avatar support
-- **−** No tests
+- **+** Telephony examples for Twilio, Telnyx, Plivo, Exotel and Daily SIP
+- **+** simple-chatbot ships React, Swift, Kotlin and React Native clients
+- **+** Deployment and OpenTelemetry (Langfuse, LangSmith, Jaeger) examples
+- **−** Each example has its own setup; no single app to fork
+- **−** Needs API keys for STT, LLM and TTS services (OpenAI, Deepgram, Cartesia)
+- **−** Beginner examples live in the main Pipecat repo, not here
+- **−** Issues are tracked in the main Pipecat repo
 
-<sub>Kotlin · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-android) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs](https://docs.pipecat.ai)</sub>
 
 <a name="agent-starter-swift"></a>
-### 41 [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>⭐ 96 · MIT · Sep 2026</sub>
+### 39 [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>⭐ 96 · MIT · Sep 2026</sub>
 
 **SwiftUI voice agent client for iOS, macOS and visionOS on LiveKit.**
 
@@ -123,25 +107,8 @@ Xcode project on the LiveKit Swift SDK with voice, text, camera and screen-share
 
 <sub>Swift · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-swift) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
 
-<a name="pipecat-examples"></a>
-### 40 [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>⭐ 394 · BSD-2-Clause · Sep 2026</sub>
-
-**Runnable Pipecat voice agent examples for phone, web and deployment.**
-
-Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx, Plivo, Exotel and Daily SIP, a simple-chatbot with React, Swift, Kotlin and React Native clients, websocket and p2p WebRTC transports, Gemini Live, local smart-turn, OpenTelemetry tracing and deploy recipes for Pipecat Cloud, Fly.io, Modal and Cerebrium. For teams on Pipecat who want a working pattern to copy.
-
-- **+** Telephony examples for Twilio, Telnyx, Plivo, Exotel and Daily SIP
-- **+** simple-chatbot ships React, Swift, Kotlin and React Native clients
-- **+** Deployment and OpenTelemetry (Langfuse, LangSmith, Jaeger) examples
-- **−** Each example has its own setup; no single app to fork
-- **−** Needs API keys for STT, LLM and TTS services (OpenAI, Deepgram, Cartesia)
-- **−** Beginner examples live in the main Pipecat repo, not here
-- **−** Issues are tracked in the main Pipecat repo
-
-<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs](https://docs.pipecat.ai)</sub>
-
 <a name="agent-starter-flutter"></a>
-### 39 [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) <sub>⭐ 92 · MIT · Sep 2026</sub>
+### 38 [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) <sub>⭐ 93 · MIT · Sep 2026</sub>
 
 **Flutter voice agent client for iOS, Android, macOS and web.**
 
@@ -158,8 +125,57 @@ Flutter project on the LiveKit Flutter SDK with voice, text and optional camera 
 
 <sub>Dart · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-flutter) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
 
+<a name="agent-starter-android"></a>
+### 37 [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) <sub>⭐ 104 · MIT · Aug 2026</sub>
+
+**Kotlin and Jetpack Compose voice assistant client for LiveKit Agents.**
+
+Android Studio project on the LiveKit Android SDK giving you a simple voice interface to a LiveKit agent, scaffolded with lk app create. It connects to the public LiveKit homepage agent by default; to reach your own agent you set a development token server id in TokenExt.kt. Client only: the agent and a production token server are yours to build.
+
+- **+** Kotlin and Jetpack Compose on the official LiveKit Android SDK
+- **+** Works immediately against the public LiveKit homepage agent
+- **+** Pairs with the Python and Node agent starters
+- **−** Token server id is hardcoded in TokenExt.kt; production token flow is yours
+- **−** README does not document video, text input or avatar support
+- **−** No tests
+
+<sub>Kotlin · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-android) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+
+<a name="agent-starter-react-native"></a>
+### 34 [agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native) <sub>⭐ 84 · MIT · Sep 2026</sub>
+
+**Expo React Native voice assistant client for LiveKit Agents.**
+
+Expo project on the LiveKit React Native SDK and its Expo config plugin, run on Android and iOS with npx expo run, giving a simple voice interface to a LiveKit agent. It connects to the public LiveKit homepage agent by default; set tokenServerId in hooks/useConnection.tsx for your own agent, then switch to TokenSource.endpoint before shipping. Client only.
+
+- **+** Expo plugin handles the native LiveKit setup for iOS and Android
+- **+** Token source is one line to swap for a real endpoint
+- **+** Pairs with the Python and Node agent starters
+- **−** README documents voice only; no video or text input described
+- **−** Development token server lets any client request any permissions
+- **−** No .env.example; configuration is edited in code
+
+<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react-native) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
+
+<a name="elevenlabs-examples"></a>
+### 33 [examples](https://github.com/elevenlabs/examples) <sub>⭐ 628 · MIT · Oct 2026</sub>
+
+**Prompt-generated ElevenLabs examples for speech, music and voice agents.**
+
+Monorepo of small runnable ElevenLabs examples, each generated from a PROMPT.md by the Cursor CLI onto shared Expo, Next.js, Python and TypeScript templates. Covers text-to-speech, Scribe v2 speech-to-text (including realtime with VAD), music, sound effects, voice isolation, dubbing and a Next.js voice agent on the React Agents SDK. For developers who want one starting point per ElevenLabs feature.
+
+- **+** One runnable example per ElevenLabs feature, each with its own README
+- **+** Next.js realtime voice agent and guardrail_triggered event demo included
+- **+** Shared Expo, Next.js, Python and TypeScript base templates
+- **−** Examples are LLM-generated from prompts; review the code before reuse
+- **−** Regenerating examples requires the Cursor CLI
+- **−** ElevenLabs only; needs an ElevenLabs API key
+- **−** Legacy examples/ folder is deprecated but still present
+
+<sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site](https://elevenlabs.io/)</sub>
+
 <a name="agent-starter-embed"></a>
-### 38 [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) <sub>⭐ 85 · MIT · Sep 2026</sub>
+### 33 [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) <sub>⭐ 85 · MIT · Sep 2026</sub>
 
 **Deprecated Next.js embed widget for a LiveKit voice agent.**
 
@@ -175,24 +191,8 @@ Next.js project that builds an embed-popup.js script and an iframe page so a web
 
 <sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-embed) · [📖 Docs](https://docs.livekit.io/agents)</sub>
 
-<a name="agent-starter-react-native"></a>
-### 37 [agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native) <sub>⭐ 84 · MIT · Sep 2026</sub>
-
-**Expo React Native voice assistant client for LiveKit Agents.**
-
-Expo project on the LiveKit React Native SDK and its Expo config plugin, run on Android and iOS with npx expo run, giving a simple voice interface to a LiveKit agent. It connects to the public LiveKit homepage agent by default; set tokenServerId in hooks/useConnection.tsx for your own agent, then switch to TokenSource.endpoint before shipping. Client only.
-
-- **+** Expo plugin handles the native LiveKit setup for iOS and Android
-- **+** Token source is one line to swap for a real endpoint
-- **+** Pairs with the Python and Node agent starters
-- **−** README documents voice only; no video or text input described
-- **−** Development token server lets any client request any permissions
-- **−** No .env.example; configuration is edited in code
-
-<sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react-native) · [📖 Docs](https://docs.livekit.io/agents/overview/)</sub>
-
 <a name="openai-realtime-agents"></a>
-### 35 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>⭐ 7.0k · MIT · Jan 2026</sub>
+### 30 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>⭐ 7.0k · MIT · Jan 2026</sub>
 
 **Next.js demo of multi-agent voice flows on the OpenAI Realtime API.**
 
@@ -210,7 +210,7 @@ Next.js app that talks to the OpenAI Realtime API over WebRTC via the OpenAI Age
 <sub>TypeScript, OpenAI Realtime API, OpenAI Agents SDK (JS) · Needs OpenAI API key · [Repo](https://github.com/openai/openai-realtime-agents)</sub>
 
 <a name="live-api-web-console"></a>
-### 24 [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
+### 20 [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
 
 **React console for streaming audio and video to the Gemini Live API.**
 

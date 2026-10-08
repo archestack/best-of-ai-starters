@@ -2,26 +2,8 @@
 
 Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#-agent-ui-and-generative-ui).
 
-<a name="opengenerativeui"></a>
-### 🥈 69 [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) <sub>⭐ 1.6k · MIT · Jun 2026</sub>
-
-**CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets.**
-
-A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Agent with skills loaded from SKILL.md files, and an MCP server. The agent answers with HTML, SVG, Chart.js or Three.js widgets streamed through a generateSandboxedUi tool into sandboxed iframes with a Zod-validated bridge back to the host; Anthropic claude-fable-5 is the default and gpt-* names route to OpenAI. For teams prototyping model-generated UI with isolation.
-
-- **+** Generated UI runs in a sandboxed iframe with a validated bridge, not raw innerHTML
-- **+** Streaming preview morphs in place (Idiomorph) instead of flickering
-- **+** MCP server exposes the design system to Claude Desktop, Claude Code and Cursor
-- **+** Docker files and tests included; CLAUDE.md present
-- **−** README says weaker models produce broken layouts; expect frontier-model cost
-- **−** Three processes to run (app, agent, MCP) plus Python and Node toolchains
-- **−** Showcase, not a product base: no auth or persistence
-- **−** Last commit 2026-06
-
-<sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · Docker · [Repo](https://github.com/CopilotKit/OpenGenerativeUI)</sub>
-
 <a name="agent-chat-ui"></a>
-### 52 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>⭐ 3.2k · MIT · Oct 2026</sub>
+### 49 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>⭐ 3.2k · MIT · Oct 2026</sub>
 
 **Next.js chat frontend for any LangGraph server with interrupts and artifacts.**
 
@@ -39,7 +21,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 <sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [🧪 Demo](https://agentchat.vercel.app)</sub>
 
 <a name="agno-agent-ui"></a>
-### 51 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
+### 43 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
 
 **Next.js chat frontend for Agno AgentOS with tool calls and reasoning.**
 
@@ -55,8 +37,26 @@ A Next.js and shadcn/ui chat interface that connects to a running Agno AgentOS i
 
 <sub>TypeScript, agno · Needs agno-agentos · GitHub template · [Repo](https://github.com/agno-agi/agent-ui)</sub>
 
+<a name="opengenerativeui"></a>
+### 38 [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) <sub>⭐ 1.6k · MIT · Jun 2026</sub>
+
+**CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets.**
+
+A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Agent with skills loaded from SKILL.md files, and an MCP server. The agent answers with HTML, SVG, Chart.js or Three.js widgets streamed through a generateSandboxedUi tool into sandboxed iframes with a Zod-validated bridge back to the host; Anthropic claude-fable-5 is the default and gpt-* names route to OpenAI. For teams prototyping model-generated UI with isolation.
+
+- **+** Generated UI runs in a sandboxed iframe with a validated bridge, not raw innerHTML
+- **+** Streaming preview morphs in place (Idiomorph) instead of flickering
+- **+** MCP server exposes the design system to Claude Desktop, Claude Code and Cursor
+- **+** Docker files and tests included; CLAUDE.md present
+- **−** README says weaker models produce broken layouts; expect frontier-model cost
+- **−** Three processes to run (app, agent, MCP) plus Python and Node toolchains
+- **−** Showcase, not a product base: no auth or persistence
+- **−** Last commit 2026-06
+
+<sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · [Repo](https://github.com/CopilotKit/OpenGenerativeUI)</sub>
+
 <a name="stockbot-on-groq"></a>
-### 23 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
+### 17 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
 
 **Groq chatbot answering with TradingView widgets via AI SDK generative UI.**
 
@@ -73,7 +73,7 @@ A Next.js chatbot forked from the Vercel AI Chatbot template where Llama 3 70B o
 <sub>TypeScript, groq, ai-sdk · Needs groq-api-key · [Repo](https://github.com/bklieger-groq/stockbot-on-groq) · [🧪 Demo](https://groq-stockbot.vercel.app/)</sub>
 
 <a name="assistant-ui-stockbroker"></a>
-### 17 [assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker) <sub>⭐ 281 · MIT · Feb 2026</sub>
+### 14 [assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker) <sub>⭐ 281 · MIT · Feb 2026</sub>
 
 **assistant-ui frontend and LangGraph.js stockbroker agent with approval steps.**
 
@@ -90,7 +90,7 @@ A Turborepo with a Next.js 16 frontend on assistant-ui and a LangGraph.js backen
 <sub>TypeScript, openai, langgraph, assistant-ui · Needs openai-api-key, financial-datasets-api-key, tavily-api-key · [Repo](https://github.com/assistant-ui/assistant-ui-stockbroker)</sub>
 
 <a name="openai-structured-outputs-samples"></a>
-### 16 [openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples) <sub>⭐ 685 · MIT · Dec 2025</sub>
+### 13 [openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples) <sub>⭐ 685 · MIT · Dec 2025</sub>
 
 **Three Next.js samples driving UI from schema-constrained OpenAI outputs.**
 

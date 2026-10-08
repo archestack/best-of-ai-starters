@@ -3,7 +3,7 @@
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
 <a name="velobase-harness"></a>
-### 🥇 83 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
+### 🥇 80 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
 
 **Next.js AI SaaS base with credits, usage billing, workers and anti-abuse.**
 
@@ -21,7 +21,7 @@ A Next.js 15 and tRPC application with Prisma on Postgres and BullMQ on Redis th
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, docker, stripe, model-api-keys · GitHub template · Docker · [Repo](https://github.com/velobase/velobase-harness)</sub>
 
 <a name="open-saas"></a>
-### 54 [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
+### 🥉 55 [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
 
 **Wasp SaaS template with auth, three payment providers, OpenAI demo app.**
 
@@ -38,26 +38,8 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 
 <sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [🧪 Demo](https://opensaas.sh) · [📖 Docs](https://docs.opensaas.sh)</sub>
 
-<a name="lastsaas"></a>
-### 48 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
-
-**Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
-
-A Go backend with a React frontend served from the same binary: multi-tenant accounts with owner, admin and user roles, JWT with refresh rotation, OAuth, magic links and TOTP, Stripe subscriptions, per-seat pricing, trials and credit bundles, white-label branding, scoped API keys, 19 signed outgoing webhooks, analytics and health monitoring on MongoDB. The AI part is a stdio MCP server exposing 32 read-only admin tools. For founders who want a Go SaaS base an agent can query.
-
-- **+** Credit buckets, entitlement middleware and billing enforcement are implemented
-- **+** Outgoing webhooks with HMAC signing and delivery tracking; scoped API keys
-- **+** MCP server gives Claude read-only access to ARR, logs, health and users
-- **+** CI with coverage reporting; 14 MB Alpine image; Fly.io deploy
-- **−** No model calls in the product itself; AI access is the MCP admin server
-- **−** MongoDB, not Postgres; migrations and queries are Mongo-specific
-- **−** One author; seed shows 173 stars
-- **−** Last commit 2026-03
-
-<sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site](https://metavert.io/lastsaas)</sub>
-
 <a name="ai-fullstack-saas-boilerplate"></a>
-### 46 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
+### 41 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
 
 **Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
 
@@ -74,8 +56,26 @@ A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over P
 
 <sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [🧪 Demo](https://fsb-client.onrender.com)</sub>
 
+<a name="lastsaas"></a>
+### 31 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
+
+**Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
+
+A Go backend with a React frontend served from the same binary: multi-tenant accounts with owner, admin and user roles, JWT with refresh rotation, OAuth, magic links and TOTP, Stripe subscriptions, per-seat pricing, trials and credit bundles, white-label branding, scoped API keys, 19 signed outgoing webhooks, analytics and health monitoring on MongoDB. The AI part is a stdio MCP server exposing 32 read-only admin tools. For founders who want a Go SaaS base an agent can query.
+
+- **+** Credit buckets, entitlement middleware and billing enforcement are implemented
+- **+** Outgoing webhooks with HMAC signing and delivery tracking; scoped API keys
+- **+** MCP server gives Claude read-only access to ARR, logs, health and users
+- **+** CI with coverage reporting; 14 MB Alpine image; Fly.io deploy
+- **−** No model calls in the product itself; AI access is the MCP admin server
+- **−** MongoDB, not Postgres; migrations and queries are Mongo-specific
+- **−** One author; seed shows 173 stars
+- **−** Last commit 2026-03
+
+<sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site](https://metavert.io/lastsaas)</sub>
+
 <a name="next-ai-starter"></a>
-### 19 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
+### 18 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
 
 **Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
 
