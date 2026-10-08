@@ -17,7 +17,7 @@ Clone it and you get a Next.js App Router chat app on the AI SDK with Auth.js lo
 - **−** Off Vercel you must set AI_GATEWAY_API_KEY and replace Blob storage
 - **−** No Docker or compose files
 
-<sub>TypeScript, ai-gateway, ai-sdk, openai, mistral · Needs postgres, vercel-blob, ai-gateway-api-key · GitHub template · [Repo](https://github.com/vercel/chatbot) · [🧪 Demo](https://chatbot.ai-sdk.dev/demo) · [📖 Docs](https://chatbot.ai-sdk.dev/docs)</sub>
+<sub>TypeScript, ai-gateway, ai-sdk, openai, mistral · Needs postgres, vercel-blob, ai-gateway-api-key · GitHub template · [Repo](https://github.com/vercel/chatbot) · [▶️ Demo](https://chatbot.ai-sdk.dev/demo) · [📖 Docs](https://chatbot.ai-sdk.dev/docs)</sub>
 
 <a name="langchain-nextjs-template"></a>
 ### 54 [langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) <sub>⭐ 2.5k · MIT · Oct 2026</sub>
@@ -35,7 +35,7 @@ Five Next.js API routes that each show one LangChain.js pattern: plain chat, Zod
 - **−** Re-ingesting the same text duplicates vectors; no dedupe
 - **−** Agent and search examples need a Tavily key
 
-<sub>TypeScript, openai, langchain, langgraph, ai-sdk · Needs openai-api-key, supabase, tavily-api-key · GitHub template · [Repo](https://github.com/langchain-ai/langchain-nextjs-template) · [🧪 Demo](https://langchain-nextjs-template.vercel.app/)</sub>
+<sub>TypeScript, openai, langchain, langgraph, ai-sdk · Needs openai-api-key, supabase, tavily-api-key · GitHub template · [Repo](https://github.com/langchain-ai/langchain-nextjs-template) · [▶️ Demo](https://langchain-nextjs-template.vercel.app/)</sub>
 
 <a name="claude-quickstarts"></a>
 ### 53 [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>⭐ 18k · MIT · Oct 2026</sub>
@@ -70,7 +70,7 @@ A Next.js chat interface on the AI SDK that talks to OpenAI, Mistral, Anthropic,
 - **−** No tests listed
 - **−** Last commit 2025-12; check activity before forking
 
-<sub>TypeScript, ai-sdk, openai, anthropic, google · Needs supabase, ollama, provider-api-keys · Docker · [Repo](https://github.com/ibelick/zola) · [🧪 Demo](https://zola.chat)</sub>
+<sub>TypeScript, ai-sdk, openai, anthropic, google · Needs supabase, ollama, provider-api-keys · Docker · [Repo](https://github.com/ibelick/zola) · [▶️ Demo](https://zola.chat)</sub>
 
 <a name="nuxt-ui-chat"></a>
 ### 41 [chat](https://github.com/nuxt-ui-templates/chat) <sub>⭐ 376 · MIT · Oct 2026</sub>
@@ -88,7 +88,7 @@ A Nuxt app on Nuxt UI and the AI SDK: streaming replies with reasoning, three mo
 - **−** No tests listed
 - **−** Production database path assumes Turso
 
-<sub>Vue, ai-gateway, ai-sdk, anthropic, google · Needs ai-gateway-api-key, github-oauth-app, sqlite-or-turso · GitHub template · [Repo](https://github.com/nuxt-ui-templates/chat) · [🧪 Demo](https://chat-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
+<sub>Vue, ai-gateway, ai-sdk, anthropic, google · Needs ai-gateway-api-key, github-oauth-app, sqlite-or-turso · GitHub template · [Repo](https://github.com/nuxt-ui-templates/chat) · [▶️ Demo](https://chat-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
 <a name="gemini-chatbot"></a>
 ### 40 [gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot) <sub>⭐ 1.4k · Apache-2.0 · May 2026</sub>
@@ -105,7 +105,7 @@ An earlier cut of the Vercel chatbot template pinned to Google Gemini: Next.js A
 - **−** No tests, no Docker
 - **−** vercel/chatbot is the maintained successor for most uses
 
-<sub>TypeScript, google, ai-sdk · Needs postgres, vercel-blob, google-api-key · GitHub template · [Repo](https://github.com/vercel-labs/gemini-chatbot) · [🧪 Demo](https://gemini.vercel.ai)</sub>
+<sub>TypeScript, google, ai-sdk · Needs postgres, vercel-blob, google-api-key · GitHub template · [Repo](https://github.com/vercel-labs/gemini-chatbot) · [▶️ Demo](https://gemini.vercel.ai)</sub>
 
 <a name="twitterbio"></a>
 ### 38 [twitterbio](https://github.com/Nutlope/twitterbio) <sub>⭐ 1.8k · MIT · Jun 2026</sub>
@@ -121,7 +121,7 @@ A one-page Next.js app: a form builds a prompt, sends it to Together AI and stre
 - **−** Tied to Together AI; no provider layer
 - **−** Single feature; most of a product is still to build
 
-<sub>TypeScript, together · Needs together-api-key · [Repo](https://github.com/Nutlope/twitterbio) · [🧪 Demo](https://www.twitterbio.io/)</sub>
+<sub>TypeScript, together · Needs together-api-key · [Repo](https://github.com/Nutlope/twitterbio) · [▶️ Demo](https://www.twitterbio.io/)</sub>
 
 <a name="ai-chat"></a>
 ### 35 [ai-chat](https://github.com/pushpak1300/ai-chat) <sub>⭐ 383 · MIT · Jun 2026</sub>

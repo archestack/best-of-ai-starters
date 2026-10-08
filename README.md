@@ -10,24 +10,24 @@
 </p>
 
 > [!TIP]
-> 🤖 **Bots** find and fact-check every template &nbsp;·&nbsp; ✍️ Every entry says what is wired in **and** what you still have to build &nbsp;·&nbsp; 🧪 **Demo links** so you can see it running first
+> 🤖 **Bots** find and fact-check every template &nbsp;·&nbsp; ✍️ Every entry says what is wired in **and** what you still have to build &nbsp;·&nbsp; ▶️ **Demo links** so you can see it running first
 
 <p align="center">Looking for finished AI apps you install and use? 👉 <a href="https://github.com/archestack/best-of-selfhosted-ai"><b>Best of Self-Hosted AI</b></a></p>
 
 ## 🔥 Top 10 right now
 
-| # | Project | Category | ⭐ | 🔗 |
-|:-:|---|---|--:|---|
-| 🥇 88 | **[morphic](https://github.com/miurla/morphic)**<br><sub>Answer engine on Next.js with generative UI and pluggable search</sub> | 📚 [RAG and search](#-rag-and-search) | 9.2k | [📝](reviews/rag-search.md#morphic) |
-| 🥇 80 | **[velobase-harness](https://github.com/velobase/velobase-harness)**<br><sub>Next.js AI SaaS base with credits, usage billing, workers and anti-abuse</sub> | 💳 [SaaS boilerplates with AI](#-saas-boilerplates-with-ai) | 607 | [📝](reviews/saas-with-ai.md#velobase-harness) |
-| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)**<br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 4.5k | [📝](reviews/api-backends.md#agent-service-toolkit) [🧪](https://agent-service-toolkit.streamlit.app/ "Live demo") |
-| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)**<br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 2.7k | [📝](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template) |
-| 🥈 76 | **[mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template)**<br><sub>Express and Effect template for a stateless remote MCP server</sub> | 🔌 [MCP servers and chat-host apps](#-mcp-servers-and-chat-host-apps) | 58 | [📝](reviews/mcp-apps.md#mcp-typescript-template) |
-| 🥈 74 | **[ai-town](https://github.com/a16z-infra/ai-town)**<br><sub>Generative-agents town simulation on Convex with Ollama by default</sub> | 🧩 [Agent backends](#-agent-backends) | 11k | [📝](reviews/agents.md#ai-town) [🧪](https://www.convex.dev/ai-town "Live demo") |
-| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)**<br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 118 | [📝](reviews/api-backends.md#generative-ai-project-template) |
-| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)**<br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 264 | [📝](reviews/voice-realtime.md#agent-starter-python) [📖](https://docs.livekit.io/agents/start/voice-ai/ "Docs") |
-| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)**<br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 114 | [📝](reviews/voice-realtime.md#agent-starter-node) [📖](https://docs.livekit.io/agents/start/voice-ai/ "Docs") |
-| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)**<br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub> | ☁️ [Cloud reference architectures](#-cloud-reference-architectures) | 1.2k | [📝](reviews/cloud-reference.md#azure-agent-landing-zone) [📖](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/ "Docs") |
+| # | Project | Category | ⭐ |
+|:-:|---|---|--:|
+| 🥇 88 | **[morphic](https://github.com/miurla/morphic)** <sub>[📝 review](reviews/rag-search.md#morphic)</sub><br><sub>Answer engine on Next.js with generative UI and pluggable search</sub> | 📚 [RAG and search](#-rag-and-search) | 9.2k |
+| 🥇 80 | **[velobase-harness](https://github.com/velobase/velobase-harness)** <sub>[📝 review](reviews/saas-with-ai.md#velobase-harness)</sub><br><sub>Next.js AI SaaS base with credits, usage billing, workers and anti-abuse</sub> | 💳 [SaaS boilerplates with AI](#-saas-boilerplates-with-ai) | 607 |
+| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)** <sub>[📝 review](reviews/api-backends.md#agent-service-toolkit)</sub><br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub><br><sub>[▶️ Demo](https://agent-service-toolkit.streamlit.app/)</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 4.5k |
+| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)** <sub>[📝 review](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template)</sub><br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 2.7k |
+| 🥈 76 | **[mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template)** <sub>[📝 review](reviews/mcp-apps.md#mcp-typescript-template)</sub><br><sub>Express and Effect template for a stateless remote MCP server</sub> | 🔌 [MCP servers and chat-host apps](#-mcp-servers-and-chat-host-apps) | 58 |
+| 🥈 74 | **[ai-town](https://github.com/a16z-infra/ai-town)** <sub>[📝 review](reviews/agents.md#ai-town)</sub><br><sub>Generative-agents town simulation on Convex with Ollama by default</sub><br><sub>[▶️ Demo](https://www.convex.dev/ai-town)</sub> | 🧩 [Agent backends](#-agent-backends) | 11k |
+| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)** <sub>[📝 review](reviews/api-backends.md#generative-ai-project-template)</sub><br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 118 |
+| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-python)</sub><br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 264 |
+| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-node)</sub><br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 114 |
+| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)** <sub>[📝 review](reviews/cloud-reference.md#azure-agent-landing-zone)</sub><br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub><br><sub>[📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub> | ☁️ [Cloud reference architectures](#-cloud-reference-architectures) | 1.2k |
 
 <sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as the bots measure them. Expect the board to shuffle. 🔀</sub>
 
@@ -61,26 +61,26 @@
 - ⚙️ [AI API backends](#-ai-api-backends) · 6
 - 📱 [Mobile and browser extensions](#-mobile-and-browser-extensions) · 2
 
-<sub>Legend: 🥇 80+ · 🥈 65–79 · 🥉 55–64 · number = score out of 100 ([how we rank](#-how-we-rank)) · ⭐ GitHub stars · 📝 review (strengths, weaknesses, specs) · 🧪 live demo · 📖 docs · 🌐 website · 🧱 GitHub template · 🐳 Docker included</sub>
+<sub>Legend: 🥇 80+ · 🥈 65–79 · 🥉 55–64 · number = score out of 100 ([how we rank](#-how-we-rank)) · ⭐ GitHub stars · 📝 review (strengths, weaknesses, specs) · ▶️ live demo · 📖 docs · 🌐 website · 🧱 GitHub template · 🐳 Docker included</sub>
 
 ## 💬 Chat apps
 
 Chat interfaces and single-feature text apps you fork as the base of a conversational product. <sub>12 projects · [📝 all reviews](reviews/chat-apps.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥉 56 | **[chatbot](https://github.com/vercel/chatbot)**<br><sub>Next.js chat template with Auth.js, Postgres history and AI Gateway models</sub> | 21k | Apache-2.0 | 🧱 TypeScript | [📝](reviews/chat-apps.md#vercel-chatbot) [🧪](https://chatbot.ai-sdk.dev/demo "Live demo") [📖](https://chatbot.ai-sdk.dev/docs "Docs") |
-| 54 | **[langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template)**<br><sub>Next.js routes for LangChain.js chat, agents, structured output and RAG</sub> | 2.5k | MIT | 🧱 TypeScript | [📝](reviews/chat-apps.md#langchain-nextjs-template) [🧪](https://langchain-nextjs-template.vercel.app/ "Live demo") |
-| 53 | **[claude-quickstarts](https://github.com/anthropics/claude-quickstarts)**<br><sub>Independent Claude API starter projects, one folder per pattern</sub> | 18k | MIT | TypeScript | [📝](reviews/chat-apps.md#claude-quickstarts) [📖](https://docs.claude.com "Docs") |
-| 43 | **[zola](https://github.com/ibelick/zola)**<br><sub>Multi-provider chat UI on Next.js with Ollama detection and BYOK</sub> | 1.5k | Apache-2.0 | 🐳 TypeScript | [📝](reviews/chat-apps.md#zola) [🧪](https://zola.chat "Live demo") |
-| 41 | **[chat](https://github.com/nuxt-ui-templates/chat)**<br><sub>Nuxt UI chat template with GitHub login, SQLite history and AI Gateway</sub> | 376 | MIT | 🧱 Vue | [📝](reviews/chat-apps.md#nuxt-ui-chat) [🧪](https://chat-template.nuxt.dev/ "Live demo") [📖](https://ui.nuxt.com/docs/getting-started/installation/nuxt "Docs") |
-| 40 | **[gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot)**<br><sub>Next.js chatbot template defaulting to Gemini with NextAuth and Postgres</sub> | 1.4k | Apache-2.0 | 🧱 TypeScript | [📝](reviews/chat-apps.md#gemini-chatbot) [🧪](https://gemini.vercel.ai "Live demo") |
-| 38 | **[twitterbio](https://github.com/Nutlope/twitterbio)**<br><sub>Single-form Next.js text generator streaming from Together AI</sub> | 1.8k | MIT | TypeScript | [📝](reviews/chat-apps.md#twitterbio) [🧪](https://www.twitterbio.io/ "Live demo") |
-| 35 | **[ai-chat](https://github.com/pushpak1300/ai-chat)**<br><sub>Laravel 12 chat starter streaming replies through Prism to eight providers</sub> | 383 | MIT | 🧱 PHP | [📝](reviews/chat-apps.md#ai-chat) |
-| 33 | **[openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples)**<br><sub>ChatKit feature demos with FastAPI backends and React frontends</sub> | 659 | MIT | – | [📝](reviews/chat-apps.md#openai-chatkit-advanced-samples) |
-| 25 | **[openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app)**<br><sub>Minimal self-hosted and managed OpenAI ChatKit reference apps</sub> | 884 | MIT | Python | [📝](reviews/chat-apps.md#openai-chatkit-starter-app) |
-| 23 | **[openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app)**<br><sub>Next.js chat on the OpenAI Responses API with hosted tools</sub> | 875 | MIT | 🧱 TypeScript | [📝](reviews/chat-apps.md#openai-responses-starter-app) |
-| 16 | **[langgraph-fullstack-python](https://github.com/langchain-ai/langgraph-fullstack-python)**<br><sub>LangGraph ReAct agent and FastHTML chat UI in one deployment</sub> | 157 | MIT | Python | [📝](reviews/chat-apps.md#langgraph-fullstack-python) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥉 56 | **[chatbot](https://github.com/vercel/chatbot)** <sub>[📝 review](reviews/chat-apps.md#vercel-chatbot)</sub><br><sub>Next.js chat template with Auth.js, Postgres history and AI Gateway models</sub><br><sub>[▶️ Demo](https://chatbot.ai-sdk.dev/demo) · [📖 Docs](https://chatbot.ai-sdk.dev/docs)</sub> | 21k | Apache-2.0 | 🧱 TypeScript |
+| 54 | **[langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template)** <sub>[📝 review](reviews/chat-apps.md#langchain-nextjs-template)</sub><br><sub>Next.js routes for LangChain.js chat, agents, structured output and RAG</sub><br><sub>[▶️ Demo](https://langchain-nextjs-template.vercel.app/)</sub> | 2.5k | MIT | 🧱 TypeScript |
+| 53 | **[claude-quickstarts](https://github.com/anthropics/claude-quickstarts)** <sub>[📝 review](reviews/chat-apps.md#claude-quickstarts)</sub><br><sub>Independent Claude API starter projects, one folder per pattern</sub><br><sub>[📖 Docs](https://docs.claude.com)</sub> | 18k | MIT | TypeScript |
+| 43 | **[zola](https://github.com/ibelick/zola)** <sub>[📝 review](reviews/chat-apps.md#zola)</sub><br><sub>Multi-provider chat UI on Next.js with Ollama detection and BYOK</sub><br><sub>[▶️ Demo](https://zola.chat)</sub> | 1.5k | Apache-2.0 | 🐳 TypeScript |
+| 41 | **[chat](https://github.com/nuxt-ui-templates/chat)** <sub>[📝 review](reviews/chat-apps.md#nuxt-ui-chat)</sub><br><sub>Nuxt UI chat template with GitHub login, SQLite history and AI Gateway</sub><br><sub>[▶️ Demo](https://chat-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub> | 376 | MIT | 🧱 Vue |
+| 40 | **[gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot)** <sub>[📝 review](reviews/chat-apps.md#gemini-chatbot)</sub><br><sub>Next.js chatbot template defaulting to Gemini with NextAuth and Postgres</sub><br><sub>[▶️ Demo](https://gemini.vercel.ai)</sub> | 1.4k | Apache-2.0 | 🧱 TypeScript |
+| 38 | **[twitterbio](https://github.com/Nutlope/twitterbio)** <sub>[📝 review](reviews/chat-apps.md#twitterbio)</sub><br><sub>Single-form Next.js text generator streaming from Together AI</sub><br><sub>[▶️ Demo](https://www.twitterbio.io/)</sub> | 1.8k | MIT | TypeScript |
+| 35 | **[ai-chat](https://github.com/pushpak1300/ai-chat)** <sub>[📝 review](reviews/chat-apps.md#ai-chat)</sub><br><sub>Laravel 12 chat starter streaming replies through Prism to eight providers</sub> | 383 | MIT | 🧱 PHP |
+| 33 | **[openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples)** <sub>[📝 review](reviews/chat-apps.md#openai-chatkit-advanced-samples)</sub><br><sub>ChatKit feature demos with FastAPI backends and React frontends</sub> | 659 | MIT | – |
+| 25 | **[openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app)** <sub>[📝 review](reviews/chat-apps.md#openai-chatkit-starter-app)</sub><br><sub>Minimal self-hosted and managed OpenAI ChatKit reference apps</sub> | 884 | MIT | Python |
+| 23 | **[openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app)** <sub>[📝 review](reviews/chat-apps.md#openai-responses-starter-app)</sub><br><sub>Next.js chat on the OpenAI Responses API with hosted tools</sub> | 875 | MIT | 🧱 TypeScript |
+| 16 | **[langgraph-fullstack-python](https://github.com/langchain-ai/langgraph-fullstack-python)** <sub>[📝 review](reviews/chat-apps.md#langgraph-fullstack-python)</sub><br><sub>LangGraph ReAct agent and FastHTML chat UI in one deployment</sub> | 157 | MIT | Python |
 
 <details><summary>💡 How to choose</summary>
 
@@ -96,20 +96,20 @@ Chat interfaces and single-feature text apps you fork as the base of a conversat
 
 Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. <sub>12 projects · [📝 all reviews](reviews/rag-search.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥇 88 | **[morphic](https://github.com/miurla/morphic)**<br><sub>Answer engine on Next.js with generative UI and pluggable search</sub> | 9.2k | Apache-2.0 | 🐳 TypeScript | [📝](reviews/rag-search.md#morphic) |
-| 🥉 59 | **[azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo)**<br><sub>Azure RAG chat reference on AI Search and Azure OpenAI</sub> | 7.8k | MIT | Python | [📝](reviews/rag-search.md#azure-search-openai-demo) [📖](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template "Docs") |
-| 🥉 57 | **[llm-answer-engine](https://github.com/developersdigest/llm-answer-engine)**<br><sub>Perplexity-style Next.js answer engine over Brave search results</sub> | 5.0k | MIT | 🐳 TypeScript | [📝](reviews/rag-search.md#llm-answer-engine) |
-| 51 | **[llm-app](https://github.com/pathwaycom/llm-app)**<br><sub>Pathway RAG pipeline templates that re-index live data sources</sub> | 59k | MIT | Jupyter Notebook | [📝](reviews/rag-search.md#llm-app) [🧪](https://pathway.com/solutions/rag-pipelines#try-it-out "Live demo") [📖](https://pathway.com/developers/templates/ "Docs") [🌐](https://pathway.com/solutions/llm-app "Website") |
-| 51 | **[rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python)**<br><sub>RAG over Postgres table rows with hybrid search and SQL filters</sub> | 505 | MIT | 🧱 Python | [📝](reviews/rag-search.md#rag-postgres-openai-python) |
-| 49 | **[chat-langchain](https://github.com/langchain-ai/chat-langchain)**<br><sub>LangChain docs assistant as a Managed Deep Agent with Next.js UI</sub> | 6.5k | MIT | TypeScript | [📝](reviews/rag-search.md#chat-langchain) |
-| 42 | **[ai-starter-kit](https://github.com/sambanova/ai-starter-kit)**<br><sub>SambaNova Python kits for document RAG, search assistant, function calling</sub> | 250 | Apache-2.0 | 🐳 Jupyter Notebook | [📝](reviews/rag-search.md#ai-starter-kit) |
-| 41 | **[SupabaseAuthWithSSR](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR)**<br><sub>Claude chat on Next.js 16 with Supabase auth, pgvector RAG, cost dashboards</sub> | 397 | MIT | TypeScript | [📝](reviews/rag-search.md#supabaseauthwithssr) [🧪](https://www.supa-chat.dev "Live demo") |
-| 40 | **[azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript)**<br><sub>TypeScript RAG on Azure AI Search with separate indexer and search services</sub> | 322 | MIT | 🧱 TypeScript | [📝](reviews/rag-search.md#azure-search-openai-javascript) |
-| 32 | **[nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search)**<br><sub>Build-time embeddings of your MDX docs into Supabase pgvector</sub> | 1.7k | Apache-2.0 | TypeScript | [📝](reviews/rag-search.md#nextjs-openai-doc-search) |
-| 23 | **[natural-language-postgres](https://github.com/vercel-labs/natural-language-postgres)**<br><sub>Next.js text-to-SQL over Postgres with auto-picked charts</sub> | 326 | Apache-2.0 | TypeScript | [📝](reviews/rag-search.md#natural-language-postgres) [🧪](https://natural-language-postgres.vercel.app "Live demo") |
-| 8 | **[openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo)**<br><sub>Support console where the model drafts and a human approves</sub> | 202 | MIT | TypeScript | [📝](reviews/rag-search.md#openai-support-agent-demo) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥇 88 | **[morphic](https://github.com/miurla/morphic)** <sub>[📝 review](reviews/rag-search.md#morphic)</sub><br><sub>Answer engine on Next.js with generative UI and pluggable search</sub> | 9.2k | Apache-2.0 | 🐳 TypeScript |
+| 🥉 59 | **[azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo)** <sub>[📝 review](reviews/rag-search.md#azure-search-openai-demo)</sub><br><sub>Azure RAG chat reference on AI Search and Azure OpenAI</sub><br><sub>[📖 Docs](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub> | 7.8k | MIT | Python |
+| 🥉 57 | **[llm-answer-engine](https://github.com/developersdigest/llm-answer-engine)** <sub>[📝 review](reviews/rag-search.md#llm-answer-engine)</sub><br><sub>Perplexity-style Next.js answer engine over Brave search results</sub> | 5.0k | MIT | 🐳 TypeScript |
+| 51 | **[llm-app](https://github.com/pathwaycom/llm-app)** <sub>[📝 review](reviews/rag-search.md#llm-app)</sub><br><sub>Pathway RAG pipeline templates that re-index live data sources</sub><br><sub>[▶️ Demo](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs](https://pathway.com/developers/templates/) · [🌐 Site](https://pathway.com/solutions/llm-app)</sub> | 59k | MIT | Jupyter Notebook |
+| 51 | **[rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python)** <sub>[📝 review](reviews/rag-search.md#rag-postgres-openai-python)</sub><br><sub>RAG over Postgres table rows with hybrid search and SQL filters</sub> | 505 | MIT | 🧱 Python |
+| 49 | **[chat-langchain](https://github.com/langchain-ai/chat-langchain)** <sub>[📝 review](reviews/rag-search.md#chat-langchain)</sub><br><sub>LangChain docs assistant as a Managed Deep Agent with Next.js UI</sub> | 6.5k | MIT | TypeScript |
+| 42 | **[ai-starter-kit](https://github.com/sambanova/ai-starter-kit)** <sub>[📝 review](reviews/rag-search.md#ai-starter-kit)</sub><br><sub>SambaNova Python kits for document RAG, search assistant, function calling</sub> | 250 | Apache-2.0 | 🐳 Jupyter Notebook |
+| 41 | **[SupabaseAuthWithSSR](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR)** <sub>[📝 review](reviews/rag-search.md#supabaseauthwithssr)</sub><br><sub>Claude chat on Next.js 16 with Supabase auth, pgvector RAG, cost dashboards</sub><br><sub>[▶️ Demo](https://www.supa-chat.dev)</sub> | 397 | MIT | TypeScript |
+| 40 | **[azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript)** <sub>[📝 review](reviews/rag-search.md#azure-search-openai-javascript)</sub><br><sub>TypeScript RAG on Azure AI Search with separate indexer and search services</sub> | 322 | MIT | 🧱 TypeScript |
+| 32 | **[nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search)** <sub>[📝 review](reviews/rag-search.md#nextjs-openai-doc-search)</sub><br><sub>Build-time embeddings of your MDX docs into Supabase pgvector</sub> | 1.7k | Apache-2.0 | TypeScript |
+| 23 | **[natural-language-postgres](https://github.com/vercel-labs/natural-language-postgres)** <sub>[📝 review](reviews/rag-search.md#natural-language-postgres)</sub><br><sub>Next.js text-to-SQL over Postgres with auto-picked charts</sub><br><sub>[▶️ Demo](https://natural-language-postgres.vercel.app)</sub> | 326 | Apache-2.0 | TypeScript |
+| 8 | **[openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo)** <sub>[📝 review](reviews/rag-search.md#openai-support-agent-demo)</sub><br><sub>Support console where the model drafts and a human approves</sub> | 202 | MIT | TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -125,24 +125,24 @@ Retrieval over your own documents or data, answer engines, and natural-language-
 
 Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. <sub>16 projects · [📝 all reviews](reviews/agents.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥈 74 | **[ai-town](https://github.com/a16z-infra/ai-town)**<br><sub>Generative-agents town simulation on Convex with Ollama by default</sub> | 11k | MIT | 🐳 TypeScript | [📝](reviews/agents.md#ai-town) [🧪](https://www.convex.dev/ai-town "Live demo") |
-| 🥉 57 | **[adk-recipes](https://github.com/google/adk-recipes)**<br><sub>Runnable Agent Development Kit recipes, from single patterns to deployable agents</sub> | 10k | Apache-2.0 | Python | [📝](reviews/agents.md#google-adk-recipes) [📖](https://adk.dev "Docs") |
-| 54 | **[eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template)**<br><sub>eve pipeline that turns GitHub or Linear issues into reviewed draft PRs</sub> | 1.2k | MIT | 🧱 TypeScript | [📝](reviews/agents.md#eve-software-factory-template) [📖](https://ask-foreman.dev/docs "Docs") |
-| 49 | **[OpenTag](https://github.com/CopilotKit/OpenTag)**<br><sub>Slack and Teams knowledge agent on LangGraph and CopilotKit Channels</sub> | 1.2k | MIT | Python | [📝](reviews/agents.md#opentag) [📖](https://docs.copilotkit.ai/channels "Docs") |
-| 48 | **[marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template)**<br><sub>eve lead agent delegating to five marketing specialists with approval gates</sub> | 447 | MIT | 🧱 TypeScript | [📝](reviews/agents.md#marketing-team-eve-template) [📖](https://vercel.com/kb/guide/marketing-team-eve "Docs") |
-| 47 | **[openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app)**<br><sub>Computer-use agent loops for Playwright browsers and PyAutoGUI desktops</sub> | 1.9k | MIT | TypeScript | [📝](reviews/agents.md#openai-cua-sample-app) |
-| 46 | **[react-agent](https://github.com/langchain-ai/react-agent)**<br><sub>Minimal Python LangGraph ReAct agent with Tavily, ready for Studio</sub> | 852 | MIT | 🧱 Python | [📝](reviews/agents.md#react-agent) |
-| 46 | **[personal-agent-template](https://github.com/vercel-labs/personal-agent-template)**<br><sub>eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory</sub> | 474 | MIT | 🧱 TypeScript | [📝](reviews/agents.md#personal-agent-template) |
-| 45 | **[agents-starter](https://github.com/cloudflare/agents-starter)**<br><sub>Cloudflare Agents SDK chat starter with Durable Object state and scheduling</sub> | 1.3k | MIT | TypeScript | [📝](reviews/agents.md#cloudflare-agents-starter) [📖](https://developers.cloudflare.com/agents/ "Docs") |
-| 43 | **[data-enrichment](https://github.com/langchain-ai/data-enrichment)**<br><sub>LangGraph agent that researches the web to fill your JSON schema</sub> | 258 | MIT | 🧱 Jupyter Notebook | [📝](reviews/agents.md#data-enrichment) |
-| 41 | **[react-agent-js](https://github.com/langchain-ai/react-agent-js)**<br><sub>TypeScript createAgent starter with example tools and middleware hooks</sub> | 117 | MIT | 🧱 TypeScript | [📝](reviews/agents.md#react-agent-js) |
-| 39 | **[agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)**<br><sub>Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only</sub> | 6.6k | Apache-2.0 | Python | [📝](reviews/agents.md#agent-starter-pack) [📖](https://googlecloudplatform.github.io/agent-starter-pack/ "Docs") |
-| 39 | **[knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template)**<br><sub>Nuxt knowledge agent that greps a synced snapshot repo instead of embedding</sub> | 1.1k | MIT | TypeScript | [📝](reviews/agents.md#knowledge-agent-template) |
-| 39 | **[new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project)**<br><sub>Empty TypeScript LangGraph.js scaffold with message history and tests</sub> | 75 | MIT | 🧱 TypeScript | [📝](reviews/agents.md#new-langgraphjs-project) |
-| 34 | **[new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project)**<br><sub>Blank Python LangGraph scaffold with config, tests and Studio support</sub> | 297 | MIT | Python | [📝](reviews/agents.md#new-langgraph-project) |
-| 26 | **[openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo)**<br><sub>Airline support multi-agent demo with visible handoffs and guardrails</sub> | 6.6k | MIT | Python | [📝](reviews/agents.md#openai-cs-agents-demo) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥈 74 | **[ai-town](https://github.com/a16z-infra/ai-town)** <sub>[📝 review](reviews/agents.md#ai-town)</sub><br><sub>Generative-agents town simulation on Convex with Ollama by default</sub><br><sub>[▶️ Demo](https://www.convex.dev/ai-town)</sub> | 11k | MIT | 🐳 TypeScript |
+| 🥉 57 | **[adk-recipes](https://github.com/google/adk-recipes)** <sub>[📝 review](reviews/agents.md#google-adk-recipes)</sub><br><sub>Runnable Agent Development Kit recipes, from single patterns to deployable agents</sub><br><sub>[📖 Docs](https://adk.dev)</sub> | 10k | Apache-2.0 | Python |
+| 54 | **[eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template)** <sub>[📝 review](reviews/agents.md#eve-software-factory-template)</sub><br><sub>eve pipeline that turns GitHub or Linear issues into reviewed draft PRs</sub><br><sub>[📖 Docs](https://ask-foreman.dev/docs)</sub> | 1.2k | MIT | 🧱 TypeScript |
+| 49 | **[OpenTag](https://github.com/CopilotKit/OpenTag)** <sub>[📝 review](reviews/agents.md#opentag)</sub><br><sub>Slack and Teams knowledge agent on LangGraph and CopilotKit Channels</sub><br><sub>[📖 Docs](https://docs.copilotkit.ai/channels)</sub> | 1.2k | MIT | Python |
+| 48 | **[marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template)** <sub>[📝 review](reviews/agents.md#marketing-team-eve-template)</sub><br><sub>eve lead agent delegating to five marketing specialists with approval gates</sub><br><sub>[📖 Docs](https://vercel.com/kb/guide/marketing-team-eve)</sub> | 447 | MIT | 🧱 TypeScript |
+| 47 | **[openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app)** <sub>[📝 review](reviews/agents.md#openai-cua-sample-app)</sub><br><sub>Computer-use agent loops for Playwright browsers and PyAutoGUI desktops</sub> | 1.9k | MIT | TypeScript |
+| 46 | **[react-agent](https://github.com/langchain-ai/react-agent)** <sub>[📝 review](reviews/agents.md#react-agent)</sub><br><sub>Minimal Python LangGraph ReAct agent with Tavily, ready for Studio</sub> | 852 | MIT | 🧱 Python |
+| 46 | **[personal-agent-template](https://github.com/vercel-labs/personal-agent-template)** <sub>[📝 review](reviews/agents.md#personal-agent-template)</sub><br><sub>eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory</sub> | 474 | MIT | 🧱 TypeScript |
+| 45 | **[agents-starter](https://github.com/cloudflare/agents-starter)** <sub>[📝 review](reviews/agents.md#cloudflare-agents-starter)</sub><br><sub>Cloudflare Agents SDK chat starter with Durable Object state and scheduling</sub><br><sub>[📖 Docs](https://developers.cloudflare.com/agents/)</sub> | 1.3k | MIT | TypeScript |
+| 43 | **[data-enrichment](https://github.com/langchain-ai/data-enrichment)** <sub>[📝 review](reviews/agents.md#data-enrichment)</sub><br><sub>LangGraph agent that researches the web to fill your JSON schema</sub> | 258 | MIT | 🧱 Jupyter Notebook |
+| 41 | **[react-agent-js](https://github.com/langchain-ai/react-agent-js)** <sub>[📝 review](reviews/agents.md#react-agent-js)</sub><br><sub>TypeScript createAgent starter with example tools and middleware hooks</sub> | 117 | MIT | 🧱 TypeScript |
+| 39 | **[agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)** <sub>[📝 review](reviews/agents.md#agent-starter-pack)</sub><br><sub>Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only</sub><br><sub>[📖 Docs](https://googlecloudplatform.github.io/agent-starter-pack/)</sub> | 6.6k | Apache-2.0 | Python |
+| 39 | **[knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template)** <sub>[📝 review](reviews/agents.md#knowledge-agent-template)</sub><br><sub>Nuxt knowledge agent that greps a synced snapshot repo instead of embedding</sub> | 1.1k | MIT | TypeScript |
+| 39 | **[new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project)** <sub>[📝 review](reviews/agents.md#new-langgraphjs-project)</sub><br><sub>Empty TypeScript LangGraph.js scaffold with message history and tests</sub> | 75 | MIT | 🧱 TypeScript |
+| 34 | **[new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project)** <sub>[📝 review](reviews/agents.md#new-langgraph-project)</sub><br><sub>Blank Python LangGraph scaffold with config, tests and Studio support</sub> | 297 | MIT | Python |
+| 26 | **[openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo)** <sub>[📝 review](reviews/agents.md#openai-cs-agents-demo)</sub><br><sub>Airline support multi-agent demo with visible handoffs and guardrails</sub> | 6.6k | MIT | Python |
 
 <details><summary>💡 How to choose</summary>
 
@@ -158,14 +158,14 @@ Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Age
 
 Frontends that render agent steps, tool calls, approvals or model-generated components. <sub>6 projects · [📝 all reviews](reviews/agent-ui.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 49 | **[agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui)**<br><sub>Next.js chat frontend for any LangGraph server with interrupts and artifacts</sub> | 3.2k | MIT | TypeScript | [📝](reviews/agent-ui.md#agent-chat-ui) [🧪](https://agentchat.vercel.app "Live demo") |
-| 43 | **[agent-ui](https://github.com/agno-agi/agent-ui)**<br><sub>Next.js chat frontend for Agno AgentOS with tool calls and reasoning</sub> | 1.9k | MIT | 🧱 TypeScript | [📝](reviews/agent-ui.md#agno-agent-ui) |
-| 38 | **[OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI)**<br><sub>CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets</sub> | 1.6k | MIT | TypeScript | [📝](reviews/agent-ui.md#opengenerativeui) |
-| 17 | **[stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq)**<br><sub>Groq chatbot answering with TradingView widgets via AI SDK generative UI</sub> | 1.5k | Apache-2.0 | TypeScript | [📝](reviews/agent-ui.md#stockbot-on-groq) [🧪](https://groq-stockbot.vercel.app/ "Live demo") |
-| 14 | **[assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker)**<br><sub>assistant-ui frontend and LangGraph.js stockbroker agent with approval steps</sub> | 281 | MIT | TypeScript | [📝](reviews/agent-ui.md#assistant-ui-stockbroker) |
-| 13 | **[openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples)**<br><sub>Three Next.js samples driving UI from schema-constrained OpenAI outputs</sub> | 685 | MIT | TypeScript | [📝](reviews/agent-ui.md#openai-structured-outputs-samples) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 49 | **[agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui)** <sub>[📝 review](reviews/agent-ui.md#agent-chat-ui)</sub><br><sub>Next.js chat frontend for any LangGraph server with interrupts and artifacts</sub><br><sub>[▶️ Demo](https://agentchat.vercel.app)</sub> | 3.2k | MIT | TypeScript |
+| 43 | **[agent-ui](https://github.com/agno-agi/agent-ui)** <sub>[📝 review](reviews/agent-ui.md#agno-agent-ui)</sub><br><sub>Next.js chat frontend for Agno AgentOS with tool calls and reasoning</sub> | 1.9k | MIT | 🧱 TypeScript |
+| 38 | **[OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI)** <sub>[📝 review](reviews/agent-ui.md#opengenerativeui)</sub><br><sub>CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets</sub> | 1.6k | MIT | TypeScript |
+| 17 | **[stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq)** <sub>[📝 review](reviews/agent-ui.md#stockbot-on-groq)</sub><br><sub>Groq chatbot answering with TradingView widgets via AI SDK generative UI</sub><br><sub>[▶️ Demo](https://groq-stockbot.vercel.app/)</sub> | 1.5k | Apache-2.0 | TypeScript |
+| 14 | **[assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker)** <sub>[📝 review](reviews/agent-ui.md#assistant-ui-stockbroker)</sub><br><sub>assistant-ui frontend and LangGraph.js stockbroker agent with approval steps</sub> | 281 | MIT | TypeScript |
+| 13 | **[openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples)** <sub>[📝 review](reviews/agent-ui.md#openai-structured-outputs-samples)</sub><br><sub>Three Next.js samples driving UI from schema-constrained OpenAI outputs</sub> | 685 | MIT | TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -181,21 +181,21 @@ Frontends that render agent steps, tool calls, approvals or model-generated comp
 
 Voice agents, realtime speech-to-speech apps and their web, phone and native clients. <sub>13 projects · [📝 all reviews](reviews/voice-realtime.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)**<br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub> | 264 | MIT | 🧱 🐳 Python | [📝](reviews/voice-realtime.md#agent-starter-python) [📖](https://docs.livekit.io/agents/start/voice-ai/ "Docs") |
-| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)**<br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub> | 114 | MIT | 🧱 🐳 TypeScript | [📝](reviews/voice-realtime.md#agent-starter-node) [📖](https://docs.livekit.io/agents/start/voice-ai/ "Docs") |
-| 52 | **[agent-starter-react](https://github.com/livekit-examples/agent-starter-react)**<br><sub>Next.js voice assistant frontend for LiveKit Agents</sub> | 946 | MIT | 🧱 TypeScript | [📝](reviews/voice-realtime.md#agent-starter-react) [📖](https://docs.livekit.io/agents "Docs") |
-| 48 | **[voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit)**<br><sub>React components and templates for Pipecat voice agent frontends</sub> | 419 | BSD-2-Clause | TypeScript | [📝](reviews/voice-realtime.md#voice-ui-kit) [📖](https://voiceuikit.pipecat.ai "Docs") |
-| 43 | **[pipecat-examples](https://github.com/pipecat-ai/pipecat-examples)**<br><sub>Runnable Pipecat voice agent examples for phone, web and deployment</sub> | 394 | BSD-2-Clause | Python | [📝](reviews/voice-realtime.md#pipecat-examples) [📖](https://docs.pipecat.ai "Docs") |
-| 39 | **[agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift)**<br><sub>SwiftUI voice agent client for iOS, macOS and visionOS on LiveKit</sub> | 96 | MIT | 🧱 Swift | [📝](reviews/voice-realtime.md#agent-starter-swift) [📖](https://docs.livekit.io/agents/overview/ "Docs") |
-| 38 | **[agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter)**<br><sub>Flutter voice agent client for iOS, Android, macOS and web</sub> | 93 | MIT | 🧱 Dart | [📝](reviews/voice-realtime.md#agent-starter-flutter) [📖](https://docs.livekit.io/agents/overview/ "Docs") |
-| 37 | **[agent-starter-android](https://github.com/livekit-examples/agent-starter-android)**<br><sub>Kotlin and Jetpack Compose voice assistant client for LiveKit Agents</sub> | 104 | MIT | 🧱 Kotlin | [📝](reviews/voice-realtime.md#agent-starter-android) [📖](https://docs.livekit.io/agents/overview/ "Docs") |
-| 34 | **[agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native)**<br><sub>Expo React Native voice assistant client for LiveKit Agents</sub> | 84 | MIT | 🧱 TypeScript | [📝](reviews/voice-realtime.md#agent-starter-react-native) [📖](https://docs.livekit.io/agents/overview/ "Docs") |
-| 33 | **[examples](https://github.com/elevenlabs/examples)**<br><sub>Prompt-generated ElevenLabs examples for speech, music and voice agents</sub> | 628 | MIT | TypeScript | [📝](reviews/voice-realtime.md#elevenlabs-examples) [📖](https://elevenlabs.io/docs/api-reference/getting-started "Docs") [🌐](https://elevenlabs.io/ "Website") |
-| 33 | **[agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed)**<br><sub>Deprecated Next.js embed widget for a LiveKit voice agent</sub> | 85 | MIT | 🧱 TypeScript | [📝](reviews/voice-realtime.md#agent-starter-embed) [📖](https://docs.livekit.io/agents "Docs") |
-| 30 | **[openai-realtime-agents](https://github.com/openai/openai-realtime-agents)**<br><sub>Next.js demo of multi-agent voice flows on the OpenAI Realtime API</sub> | 7.0k | MIT | TypeScript | [📝](reviews/voice-realtime.md#openai-realtime-agents) |
-| 20 | **[live-api-web-console](https://github.com/google-gemini/live-api-web-console)**<br><sub>React console for streaming audio and video to the Gemini Live API</sub> | 2.6k | Apache-2.0 | TypeScript | [📝](reviews/voice-realtime.md#live-api-web-console) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-python)</sub><br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 264 | MIT | 🧱 🐳 Python |
+| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-node)</sub><br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 114 | MIT | 🧱 🐳 TypeScript |
+| 52 | **[agent-starter-react](https://github.com/livekit-examples/agent-starter-react)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-react)</sub><br><sub>Next.js voice assistant frontend for LiveKit Agents</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents)</sub> | 946 | MIT | 🧱 TypeScript |
+| 48 | **[voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit)** <sub>[📝 review](reviews/voice-realtime.md#voice-ui-kit)</sub><br><sub>React components and templates for Pipecat voice agent frontends</sub><br><sub>[📖 Docs](https://voiceuikit.pipecat.ai)</sub> | 419 | BSD-2-Clause | TypeScript |
+| 43 | **[pipecat-examples](https://github.com/pipecat-ai/pipecat-examples)** <sub>[📝 review](reviews/voice-realtime.md#pipecat-examples)</sub><br><sub>Runnable Pipecat voice agent examples for phone, web and deployment</sub><br><sub>[📖 Docs](https://docs.pipecat.ai)</sub> | 394 | BSD-2-Clause | Python |
+| 39 | **[agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-swift)</sub><br><sub>SwiftUI voice agent client for iOS, macOS and visionOS on LiveKit</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/overview/)</sub> | 96 | MIT | 🧱 Swift |
+| 38 | **[agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-flutter)</sub><br><sub>Flutter voice agent client for iOS, Android, macOS and web</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/overview/)</sub> | 93 | MIT | 🧱 Dart |
+| 37 | **[agent-starter-android](https://github.com/livekit-examples/agent-starter-android)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-android)</sub><br><sub>Kotlin and Jetpack Compose voice assistant client for LiveKit Agents</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/overview/)</sub> | 104 | MIT | 🧱 Kotlin |
+| 34 | **[agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-react-native)</sub><br><sub>Expo React Native voice assistant client for LiveKit Agents</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/overview/)</sub> | 84 | MIT | 🧱 TypeScript |
+| 33 | **[examples](https://github.com/elevenlabs/examples)** <sub>[📝 review](reviews/voice-realtime.md#elevenlabs-examples)</sub><br><sub>Prompt-generated ElevenLabs examples for speech, music and voice agents</sub><br><sub>[📖 Docs](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site](https://elevenlabs.io/)</sub> | 628 | MIT | TypeScript |
+| 33 | **[agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-embed)</sub><br><sub>Deprecated Next.js embed widget for a LiveKit voice agent</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents)</sub> | 85 | MIT | 🧱 TypeScript |
+| 30 | **[openai-realtime-agents](https://github.com/openai/openai-realtime-agents)** <sub>[📝 review](reviews/voice-realtime.md#openai-realtime-agents)</sub><br><sub>Next.js demo of multi-agent voice flows on the OpenAI Realtime API</sub> | 7.0k | MIT | TypeScript |
+| 20 | **[live-api-web-console](https://github.com/google-gemini/live-api-web-console)** <sub>[📝 review](reviews/voice-realtime.md#live-api-web-console)</sub><br><sub>React console for streaming audio and video to the Gemini Live API</sub> | 2.6k | Apache-2.0 | TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -211,13 +211,13 @@ Voice agents, realtime speech-to-speech apps and their web, phone and native cli
 
 Templates for building MCP servers and apps that run inside chat hosts such as ChatGPT. <sub>5 projects · [📝 all reviews](reviews/mcp-apps.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥈 76 | **[mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template)**<br><sub>Express and Effect template for a stateless remote MCP server</sub> | 58 | MIT | 🧱 🐳 TypeScript | [📝](reviews/mcp-apps.md#mcp-typescript-template) |
-| 51 | **[template-mcp-server](https://github.com/redhat-data-and-ai/template-mcp-server)**<br><sub>Python FastMCP server template with OAuth, OpenShift manifests and CI</sub> | 66 | Apache-2.0 | 🧱 Python | [📝](reviews/mcp-apps.md#template-mcp-server) |
-| 42 | **[mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js)**<br><sub>Stateless MCP server route for a Next.js App Router app</sub> | 373 | MIT | JavaScript | [📝](reviews/mcp-apps.md#mcp-for-next-js) [🧪](https://mcp-for-next-js.vercel.app "Live demo") [🌐](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js "Website") |
-| 36 | **[openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples)**<br><sub>Example MCP servers and widgets for ChatGPT apps on the Apps SDK</sub> | 2.4k | MIT | TypeScript | [📝](reviews/mcp-apps.md#openai-apps-sdk-examples) [📖](https://developers.openai.com/apps-sdk "Docs") |
-| 34 | **[mcp-forge](https://github.com/achetronic/mcp-forge)**<br><sub>Go MCP server template with OAuth discovery and JWT validation</sub> | 98 | Apache-2.0 | 🧱 🐳 Go | [📝](reviews/mcp-apps.md#mcp-forge) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥈 76 | **[mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template)** <sub>[📝 review](reviews/mcp-apps.md#mcp-typescript-template)</sub><br><sub>Express and Effect template for a stateless remote MCP server</sub> | 58 | MIT | 🧱 🐳 TypeScript |
+| 51 | **[template-mcp-server](https://github.com/redhat-data-and-ai/template-mcp-server)** <sub>[📝 review](reviews/mcp-apps.md#template-mcp-server)</sub><br><sub>Python FastMCP server template with OAuth, OpenShift manifests and CI</sub> | 66 | Apache-2.0 | 🧱 Python |
+| 42 | **[mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js)** <sub>[📝 review](reviews/mcp-apps.md#mcp-for-next-js)</sub><br><sub>Stateless MCP server route for a Next.js App Router app</sub><br><sub>[▶️ Demo](https://mcp-for-next-js.vercel.app) · [🌐 Site](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js)</sub> | 373 | MIT | JavaScript |
+| 36 | **[openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples)** <sub>[📝 review](reviews/mcp-apps.md#openai-apps-sdk-examples)</sub><br><sub>Example MCP servers and widgets for ChatGPT apps on the Apps SDK</sub><br><sub>[📖 Docs](https://developers.openai.com/apps-sdk)</sub> | 2.4k | MIT | TypeScript |
+| 34 | **[mcp-forge](https://github.com/achetronic/mcp-forge)** <sub>[📝 review](reviews/mcp-apps.md#mcp-forge)</sub><br><sub>Go MCP server template with OAuth discovery and JWT validation</sub> | 98 | Apache-2.0 | 🧱 🐳 Go |
 
 <details><summary>💡 How to choose</summary>
 
@@ -233,13 +233,13 @@ Templates for building MCP servers and apps that run inside chat hosts such as C
 
 Product boilerplates with auth, billing and data that already include AI features or agent access. <sub>5 projects · [📝 all reviews](reviews/saas-with-ai.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥇 80 | **[velobase-harness](https://github.com/velobase/velobase-harness)**<br><sub>Next.js AI SaaS base with credits, usage billing, workers and anti-abuse</sub> | 607 | MIT | 🧱 🐳 TypeScript | [📝](reviews/saas-with-ai.md#velobase-harness) |
-| 🥉 55 | **[open-saas](https://github.com/wasp-lang/open-saas)**<br><sub>Wasp SaaS template with auth, three payment providers, OpenAI demo app</sub> | 16k | MIT | MDX | [📝](reviews/saas-with-ai.md#open-saas) [🧪](https://opensaas.sh "Live demo") [📖](https://docs.opensaas.sh "Docs") |
-| 41 | **[AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate)**<br><sub>Fastify, tRPC and React SaaS base with Better Auth and SSE chat</sub> | 1.4k | MIT | TypeScript | [📝](reviews/saas-with-ai.md#ai-fullstack-saas-boilerplate) [🧪](https://fsb-client.onrender.com "Live demo") |
-| 31 | **[lastsaas](https://github.com/jonradoff/lastsaas)**<br><sub>Go multi-tenant SaaS kit with Stripe billing and an MCP admin server</sub> | 173 | MIT | 🐳 Go | [📝](reviews/saas-with-ai.md#lastsaas) [🌐](https://metavert.io/lastsaas "Website") |
-| 18 | **[next-ai-starter](https://github.com/kleneway/next-ai-starter)**<br><sub>Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists</sub> | 511 | MIT | 🧱 TypeScript | [📝](reviews/saas-with-ai.md#next-ai-starter) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥇 80 | **[velobase-harness](https://github.com/velobase/velobase-harness)** <sub>[📝 review](reviews/saas-with-ai.md#velobase-harness)</sub><br><sub>Next.js AI SaaS base with credits, usage billing, workers and anti-abuse</sub> | 607 | MIT | 🧱 🐳 TypeScript |
+| 🥉 55 | **[open-saas](https://github.com/wasp-lang/open-saas)** <sub>[📝 review](reviews/saas-with-ai.md#open-saas)</sub><br><sub>Wasp SaaS template with auth, three payment providers, OpenAI demo app</sub><br><sub>[▶️ Demo](https://opensaas.sh) · [📖 Docs](https://docs.opensaas.sh)</sub> | 16k | MIT | MDX |
+| 41 | **[AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate)** <sub>[📝 review](reviews/saas-with-ai.md#ai-fullstack-saas-boilerplate)</sub><br><sub>Fastify, tRPC and React SaaS base with Better Auth and SSE chat</sub><br><sub>[▶️ Demo](https://fsb-client.onrender.com)</sub> | 1.4k | MIT | TypeScript |
+| 31 | **[lastsaas](https://github.com/jonradoff/lastsaas)** <sub>[📝 review](reviews/saas-with-ai.md#lastsaas)</sub><br><sub>Go multi-tenant SaaS kit with Stripe billing and an MCP admin server</sub><br><sub>[🌐 Site](https://metavert.io/lastsaas)</sub> | 173 | MIT | 🐳 Go |
+| 18 | **[next-ai-starter](https://github.com/kleneway/next-ai-starter)** <sub>[📝 review](reviews/saas-with-ai.md#next-ai-starter)</sub><br><sub>Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists</sub> | 511 | MIT | 🧱 TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -255,13 +255,13 @@ Product boilerplates with auth, billing and data that already include AI feature
 
 Prompt-to-app builders and platforms that run coding agents in sandboxes. <sub>5 projects · [📝 all reviews](reviews/app-builders.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥉 58 | **[llamacoder](https://github.com/Nutlope/llamacoder)**<br><sub>Open-source Claude Artifacts clone generating React apps with Llama</sub> | 7.1k | MIT | TypeScript | [📝](reviews/app-builders.md#llamacoder) [🧪](https://www.llamacoder.io "Live demo") |
-| 49 | **[vibesdk](https://github.com/cloudflare/vibesdk)**<br><sub>Self-hosted prompt-to-app platform on Cloudflare Workers and Durable Objects</sub> | 5.4k | MIT | TypeScript | [📝](reviews/app-builders.md#vibesdk) [🧪](https://build.cloudflare.dev "Live demo") |
-| 48 | **[fragments](https://github.com/e2b-dev/fragments)**<br><sub>Next.js prompt-to-app builder running generated code in E2B sandboxes</sub> | 6.4k | Apache-2.0 | TypeScript | [📝](reviews/app-builders.md#fragments) [🧪](https://fragments.e2b.dev "Live demo") |
-| 41 | **[open-agents](https://github.com/vercel-labs/open-agents)**<br><sub>Reference app for background coding agents on Vercel sandboxes</sub> | 5.8k | MIT | TypeScript | [📝](reviews/app-builders.md#open-agents) [🧪](https://open-agents.dev/ "Live demo") |
-| 29 | **[coding-agent-template](https://github.com/vercel-labs/coding-agent-template)**<br><sub>Run Claude Code, Codex and other coding CLIs in Vercel Sandbox</sub> | 1.8k | Apache-2.0 | 🧱 TypeScript | [📝](reviews/app-builders.md#coding-agent-template) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥉 58 | **[llamacoder](https://github.com/Nutlope/llamacoder)** <sub>[📝 review](reviews/app-builders.md#llamacoder)</sub><br><sub>Open-source Claude Artifacts clone generating React apps with Llama</sub><br><sub>[▶️ Demo](https://www.llamacoder.io)</sub> | 7.1k | MIT | TypeScript |
+| 49 | **[vibesdk](https://github.com/cloudflare/vibesdk)** <sub>[📝 review](reviews/app-builders.md#vibesdk)</sub><br><sub>Self-hosted prompt-to-app platform on Cloudflare Workers and Durable Objects</sub><br><sub>[▶️ Demo](https://build.cloudflare.dev)</sub> | 5.4k | MIT | TypeScript |
+| 48 | **[fragments](https://github.com/e2b-dev/fragments)** <sub>[📝 review](reviews/app-builders.md#fragments)</sub><br><sub>Next.js prompt-to-app builder running generated code in E2B sandboxes</sub><br><sub>[▶️ Demo](https://fragments.e2b.dev)</sub> | 6.4k | Apache-2.0 | TypeScript |
+| 41 | **[open-agents](https://github.com/vercel-labs/open-agents)** <sub>[📝 review](reviews/app-builders.md#open-agents)</sub><br><sub>Reference app for background coding agents on Vercel sandboxes</sub><br><sub>[▶️ Demo](https://open-agents.dev/)</sub> | 5.8k | MIT | TypeScript |
+| 29 | **[coding-agent-template](https://github.com/vercel-labs/coding-agent-template)** <sub>[📝 review](reviews/app-builders.md#coding-agent-template)</sub><br><sub>Run Claude Code, Codex and other coding CLIs in Vercel Sandbox</sub> | 1.8k | Apache-2.0 | 🧱 TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -277,12 +277,12 @@ Prompt-to-app builders and platforms that run coding agents in sandboxes. <sub>5
 
 Rich-text editors with AI commands and node-based canvases for chaining model calls. <sub>4 projects · [📝 all reviews](reviews/editors-workflows.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 52 | **[plate-playground-template](https://github.com/udecode/plate-playground-template)**<br><sub>Next.js rich-text editor template on Plate with AI commands</sub> | 241 | MIT | 🧱 Python | [📝](reviews/editors-workflows.md#plate-playground-template) [📖](https://platejs.org/ "Docs") |
-| 38 | **[editor](https://github.com/nuxt-ui-templates/editor)**<br><sub>Notion-style Nuxt editor with AI completions and optional collaboration</sub> | 171 | MIT | 🧱 TypeScript | [📝](reviews/editors-workflows.md#nuxt-ui-editor) [🧪](https://editor-template.nuxt.dev/ "Live demo") [📖](https://ui.nuxt.com/docs/getting-started/installation/nuxt "Docs") |
-| 36 | **[workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template)**<br><sub>Visual AI workflow builder on Workflow DevKit with real integrations</sub> | 1.2k | Apache-2.0 | 🧱 TypeScript | [📝](reviews/editors-workflows.md#workflow-builder-template) |
-| 28 | **[tersa](https://github.com/vercel-labs/tersa)**<br><sub>Node canvas for chaining text, image and video models via AI Gateway</sub> | 1.0k | MIT | TypeScript | [📝](reviews/editors-workflows.md#tersa) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 52 | **[plate-playground-template](https://github.com/udecode/plate-playground-template)** <sub>[📝 review](reviews/editors-workflows.md#plate-playground-template)</sub><br><sub>Next.js rich-text editor template on Plate with AI commands</sub><br><sub>[📖 Docs](https://platejs.org/)</sub> | 241 | MIT | 🧱 Python |
+| 38 | **[editor](https://github.com/nuxt-ui-templates/editor)** <sub>[📝 review](reviews/editors-workflows.md#nuxt-ui-editor)</sub><br><sub>Notion-style Nuxt editor with AI completions and optional collaboration</sub><br><sub>[▶️ Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub> | 171 | MIT | 🧱 TypeScript |
+| 36 | **[workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template)** <sub>[📝 review](reviews/editors-workflows.md#workflow-builder-template)</sub><br><sub>Visual AI workflow builder on Workflow DevKit with real integrations</sub> | 1.2k | Apache-2.0 | 🧱 TypeScript |
+| 28 | **[tersa](https://github.com/vercel-labs/tersa)** <sub>[📝 review](reviews/editors-workflows.md#tersa)</sub><br><sub>Node canvas for chaining text, image and video models via AI Gateway</sub> | 1.0k | MIT | TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -298,11 +298,11 @@ Rich-text editors with AI commands and node-based canvases for chaining model ca
 
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. <sub>3 projects · [📝 all reviews](reviews/cloud-reference.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)**<br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub> | 1.2k | MIT | 🧱 Python | [📝](reviews/cloud-reference.md#azure-agent-landing-zone) [📖](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/ "Docs") |
-| 46 | **[openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart)**<br><sub>Minimal Quart chat app on Azure OpenAI with managed identity</sub> | 254 | MIT | 🧱 Bicep | [📝](reviews/cloud-reference.md#openai-chat-app-quickstart) [📖](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces "Docs") |
-| 44 | **[azurechat](https://github.com/microsoft/azurechat)**<br><sub>Private enterprise chat on Azure OpenAI with document chat and personas</sub> | 1.4k | MIT | TypeScript | [📝](reviews/cloud-reference.md#azurechat) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)** <sub>[📝 review](reviews/cloud-reference.md#azure-agent-landing-zone)</sub><br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub><br><sub>[📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub> | 1.2k | MIT | 🧱 Python |
+| 46 | **[openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart)** <sub>[📝 review](reviews/cloud-reference.md#openai-chat-app-quickstart)</sub><br><sub>Minimal Quart chat app on Azure OpenAI with managed identity</sub><br><sub>[📖 Docs](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub> | 254 | MIT | 🧱 Bicep |
+| 44 | **[azurechat](https://github.com/microsoft/azurechat)** <sub>[📝 review](reviews/cloud-reference.md#azurechat)</sub><br><sub>Private enterprise chat on Azure OpenAI with document chat and personas</sub> | 1.4k | MIT | TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -318,14 +318,14 @@ Vendor reference apps and infrastructure-as-code for running AI apps on Azure or
 
 Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. <sub>6 projects · [📝 all reviews](reviews/api-backends.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)**<br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub> | 4.5k | MIT | 🧱 Python | [📝](reviews/api-backends.md#agent-service-toolkit) [🧪](https://agent-service-toolkit.streamlit.app/ "Live demo") |
-| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)**<br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | 2.7k | MIT | 🐳 Python | [📝](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template) |
-| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)**<br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | 118 | MIT | 🧱 🐳 Python | [📝](reviews/api-backends.md#generative-ai-project-template) |
-| 🥉 59 | **[full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template)**<br><sub>Project generator for FastAPI and Next.js apps with agents and RAG</sub> | 1.9k | MIT | Python | [📝](reviews/api-backends.md#full-stack-ai-agent-template) [📖](https://vstorm-co.github.io/full-stack-ai-agent-template/ "Docs") |
-| 30 | **[nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate)**<br><sub>Express TypeScript CRUD API template with an LLM module generator</sub> | 163 | MIT | 🧱 TypeScript | [📝](reviews/api-backends.md#nodejs-api-boilerplate) |
-| 26 | **[genai-api](https://github.com/louisbrulenaudet/genai-api)**<br><sub>Hono API on Cloudflare Workers proxying Gemini with bearer auth</sub> | 111 | Apache-2.0 | 🧱 TypeScript | [📝](reviews/api-backends.md#genai-api) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)** <sub>[📝 review](reviews/api-backends.md#agent-service-toolkit)</sub><br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub><br><sub>[▶️ Demo](https://agent-service-toolkit.streamlit.app/)</sub> | 4.5k | MIT | 🧱 Python |
+| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)** <sub>[📝 review](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template)</sub><br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | 2.7k | MIT | 🐳 Python |
+| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)** <sub>[📝 review](reviews/api-backends.md#generative-ai-project-template)</sub><br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | 118 | MIT | 🧱 🐳 Python |
+| 🥉 59 | **[full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template)** <sub>[📝 review](reviews/api-backends.md#full-stack-ai-agent-template)</sub><br><sub>Project generator for FastAPI and Next.js apps with agents and RAG</sub><br><sub>[📖 Docs](https://vstorm-co.github.io/full-stack-ai-agent-template/)</sub> | 1.9k | MIT | Python |
+| 30 | **[nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate)** <sub>[📝 review](reviews/api-backends.md#nodejs-api-boilerplate)</sub><br><sub>Express TypeScript CRUD API template with an LLM module generator</sub> | 163 | MIT | 🧱 TypeScript |
+| 26 | **[genai-api](https://github.com/louisbrulenaudet/genai-api)** <sub>[📝 review](reviews/api-backends.md#genai-api)</sub><br><sub>Hono API on Cloudflare Workers proxying Gemini with bearer auth</sub> | 111 | Apache-2.0 | 🧱 TypeScript |
 
 <details><summary>💡 How to choose</summary>
 
@@ -341,10 +341,10 @@ Backend service templates (FastAPI, Express, Hono) that expose models or agents 
 
 Native, cross-platform mobile and browser-extension starters with AI features built in. <sub>2 projects · [📝 all reviews](reviews/mobile-extensions.md)</sub>
 
-| # | Project | ⭐ | 📄 | 🧰 | 🔗 |
-|:-:|---|--:|---|---|---|
-| 51 | **[react-native-ai](https://github.com/dabit3/react-native-ai)**<br><sub>Expo chat and image app with an Express proxy for multiple LLMs</sub> | 1.3k | MIT | 🧱 TypeScript | [📝](reviews/mobile-extensions.md#react-native-ai) |
-| 37 | **[extro](https://github.com/turbostarter/extro)**<br><sub>WXT and React browser extension starter with Supabase auth and AI</sub> | 413 | MIT | 🧱 TypeScript | [📝](reviews/mobile-extensions.md#extro) |
+| # | Project | ⭐ | 📄 | 🧰 |
+|:-:|---|--:|---|---|
+| 51 | **[react-native-ai](https://github.com/dabit3/react-native-ai)** <sub>[📝 review](reviews/mobile-extensions.md#react-native-ai)</sub><br><sub>Expo chat and image app with an Express proxy for multiple LLMs</sub> | 1.3k | MIT | 🧱 TypeScript |
+| 37 | **[extro](https://github.com/turbostarter/extro)** <sub>[📝 review](reviews/mobile-extensions.md#extro)</sub><br><sub>WXT and React browser extension starter with Supabase auth and AI</sub> | 413 | MIT | 🧱 TypeScript |
 
 <details><summary>💡 How to choose</summary>
 

@@ -35,7 +35,7 @@ Nuxt template on the Nuxt UI Editor component and TipTap: headings, tables, slas
 - **−** Translate supports English, French, Spanish and German only
 - **−** No tests
 
-<sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [🧪 Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
+<sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [▶️ Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
 <a name="workflow-builder-template"></a>
 ### 36 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>

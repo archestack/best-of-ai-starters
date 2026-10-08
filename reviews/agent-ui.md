@@ -18,7 +18,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 - **−** LangGraph SDK only; no AG-UI or AI SDK stream support
 - **−** No persistence of its own; threads live in the LangGraph server
 
-<sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [🧪 Demo](https://agentchat.vercel.app)</sub>
+<sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [▶️ Demo](https://agentchat.vercel.app)</sub>
 
 <a name="agno-agent-ui"></a>
 ### 43 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
@@ -70,7 +70,7 @@ A Next.js chatbot forked from the Vercel AI Chatbot template where Llama 3 70B o
 - **−** No auth, history or tests
 - **−** Last commit 2025-12
 
-<sub>TypeScript, groq, ai-sdk · Needs groq-api-key · [Repo](https://github.com/bklieger-groq/stockbot-on-groq) · [🧪 Demo](https://groq-stockbot.vercel.app/)</sub>
+<sub>TypeScript, groq, ai-sdk · Needs groq-api-key · [Repo](https://github.com/bklieger-groq/stockbot-on-groq) · [▶️ Demo](https://groq-stockbot.vercel.app/)</sub>
 
 <a name="assistant-ui-stockbroker"></a>
 ### 14 [assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker) <sub>⭐ 281 · MIT · Feb 2026</sub>

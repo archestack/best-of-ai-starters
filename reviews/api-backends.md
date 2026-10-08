@@ -18,7 +18,7 @@ Python service where LangGraph v1 agents (interrupt, Command, Store) are served 
 - **−** Content moderation needs a Groq API key
 - **−** Tests only run outside Docker
 
-<sub>Python, LangChain providers: OpenAI, Anthropic, Google, Ollama, VertexAI, vLLM/SGLang, AG-UI protocol · Needs LLM API key (OpenAI, Anthropic, Google, Groq, Ollama or others), PostgreSQL (compose), LangSmith (optional), ChromaDB (RAG agent) · GitHub template · [Repo](https://github.com/JoshuaC215/agent-service-toolkit) · [🧪 Demo](https://agent-service-toolkit.streamlit.app/)</sub>
+<sub>Python, LangChain providers: OpenAI, Anthropic, Google, Ollama, VertexAI, vLLM/SGLang, AG-UI protocol · Needs LLM API key (OpenAI, Anthropic, Google, Groq, Ollama or others), PostgreSQL (compose), LangSmith (optional), ChromaDB (RAG agent) · GitHub template · [Repo](https://github.com/JoshuaC215/agent-service-toolkit) · [▶️ Demo](https://agent-service-toolkit.streamlit.app/)</sub>
 
 <a name="fastapi-langgraph-agent-production-ready-template"></a>
 ### 🥈 77 [fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) <sub>⭐ 2.7k · MIT · Sep 2026</sub>

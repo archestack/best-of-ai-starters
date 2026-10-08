@@ -18,7 +18,7 @@ A deployable version of the Generative Agents paper: pixel-art characters on a P
 - **−** Auth was removed; re-adding Clerk is a git revert
 - **−** README pins Node 18; last commit 2026-08
 
-<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [🧪 Demo](https://www.convex.dev/ai-town)</sub>
+<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [▶️ Demo](https://www.convex.dev/ai-town)</sub>
 
 <a name="google-adk-recipes"></a>
 ### 🥉 57 [adk-recipes](https://github.com/google/adk-recipes) <sub>⭐ 10k · Apache-2.0 · Oct 2026</sub>
