@@ -3,7 +3,7 @@
 Native, cross-platform mobile and browser-extension starters with AI features built in. Back to the [leaderboard](../README.md#-mobile-and-browser-extensions).
 
 <a name="react-native-ai"></a>
-### 🥇 [react-native-ai](https://github.com/dabit3/react-native-ai) <sub>⭐ 1.3k · MIT · Jul 2026</sub>
+### 🥉 64 [react-native-ai](https://github.com/dabit3/react-native-ai) <sub>⭐ 1.3k · MIT · Jul 2026</sub>
 
 **Expo chat and image app with an Express proxy for multiple LLMs.**
 
@@ -21,7 +21,7 @@ Scaffolded with npx rn-ai: an Expo React Native app with streaming chat and imag
 <sub>TypeScript, OpenAI, Anthropic, Google Gemini, Z.ai · Needs OpenAI, Anthropic, Gemini, Z.ai or Moonshot API keys, GEMINI_API_KEY for images · GitHub template · [Repo](https://github.com/dabit3/react-native-ai)</sub>
 
 <a name="extro"></a>
-### 🥈 [extro](https://github.com/turbostarter/extro) <sub>⭐ 413 · MIT · Aug 2026</sub>
+### 36 [extro](https://github.com/turbostarter/extro) <sub>⭐ 413 · MIT · Aug 2026</sub>
 
 **WXT and React browser extension starter with Supabase auth and AI.**
 

@@ -3,7 +3,7 @@
 Rich-text editors with AI commands and node-based canvases for chaining model calls. Back to the [leaderboard](../README.md#-ai-editors-and-workflow-canvases).
 
 <a name="workflow-builder-template"></a>
-### 🥇 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>
+### 46 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>
 
 **Visual AI workflow builder on Workflow DevKit with real integrations.**
 
@@ -20,25 +20,8 @@ Next.js 16 app with a React Flow canvas, Monaco editor, Better Auth, Drizzle on 
 
 <sub>TypeScript, Vercel AI Gateway (OpenAI GPT-5) · Needs PostgreSQL, Vercel AI Gateway API key, integration API keys (Resend, Linear, Slack, Stripe and others) · GitHub template · [Repo](https://github.com/vercel-labs/workflow-builder-template)</sub>
 
-<a name="tersa"></a>
-### 🥈 [tersa](https://github.com/vercel-labs/tersa) <sub>⭐ 1.0k · MIT · Feb 2026</sub>
-
-**Node canvas for chaining text, image and video models via AI Gateway.**
-
-Next.js 15 app with a ReactFlow canvas where you connect text, image and video nodes and run them through the Vercel AI SDK Gateway (25+ providers), with streaming output, reasoning display, cost indicators and TipTap for rich text. Canvas state persists in browser local storage; media goes to Vercel Blob. For developers who want a visual model playground to fork; no auth, database or server-side workflow storage.
-
-- **+** One AI Gateway key reaches text, image and video models from 25+ providers
-- **+** Relative cost indicators and reasoning output per model
-- **+** ReactFlow, TipTap, shadcn/ui and Kibo UI already composed
-- **−** Workflows live only in browser local storage
-- **−** No auth or multi-user support
-- **−** Vercel Blob required for media; Vercel-centric
-- **−** Last commit 2026-02; no tests
-
-<sub>TypeScript, Vercel AI SDK Gateway · Needs Vercel AI Gateway credentials, Vercel Blob · [Repo](https://github.com/vercel-labs/tersa)</sub>
-
 <a name="plate-playground-template"></a>
-### 🥉 [plate-playground-template](https://github.com/udecode/plate-playground-template) <sub>⭐ 240 · MIT · Oct 2026</sub>
+### 45 [plate-playground-template](https://github.com/udecode/plate-playground-template) <sub>⭐ 240 · MIT · Oct 2026</sub>
 
 **Next.js rich-text editor template on Plate with AI commands.**
 
@@ -55,7 +38,7 @@ Next.js 16 template with the Plate editor, shadcn/ui and the Plate AI kit (insta
 <sub>Python, Vercel AI Gateway via AI SDK · Needs UploadThing token, Vercel AI Gateway key (user-supplied) · GitHub template · [Repo](https://github.com/udecode/plate-playground-template) · [📖 Docs](https://platejs.org/)</sub>
 
 <a name="nuxt-ui-editor"></a>
-### 4 [editor](https://github.com/nuxt-ui-templates/editor) <sub>⭐ 171 · MIT · Oct 2026</sub>
+### 36 [editor](https://github.com/nuxt-ui-templates/editor) <sub>⭐ 171 · MIT · Oct 2026</sub>
 
 **Notion-style Nuxt editor with AI completions and optional collaboration.**
 
@@ -71,5 +54,22 @@ Nuxt template on the Nuxt UI Editor component and TipTap: headings, tables, slas
 - **−** No tests
 
 <sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [🧪 Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
+
+<a name="tersa"></a>
+### 32 [tersa](https://github.com/vercel-labs/tersa) <sub>⭐ 1.0k · MIT · Feb 2026</sub>
+
+**Node canvas for chaining text, image and video models via AI Gateway.**
+
+Next.js 15 app with a ReactFlow canvas where you connect text, image and video nodes and run them through the Vercel AI SDK Gateway (25+ providers), with streaming output, reasoning display, cost indicators and TipTap for rich text. Canvas state persists in browser local storage; media goes to Vercel Blob. For developers who want a visual model playground to fork; no auth, database or server-side workflow storage.
+
+- **+** One AI Gateway key reaches text, image and video models from 25+ providers
+- **+** Relative cost indicators and reasoning output per model
+- **+** ReactFlow, TipTap, shadcn/ui and Kibo UI already composed
+- **−** Workflows live only in browser local storage
+- **−** No auth or multi-user support
+- **−** Vercel Blob required for media; Vercel-centric
+- **−** Last commit 2026-02; no tests
+
+<sub>TypeScript, Vercel AI SDK Gateway · Needs Vercel AI Gateway credentials, Vercel Blob · [Repo](https://github.com/vercel-labs/tersa)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
