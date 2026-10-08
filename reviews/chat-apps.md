@@ -173,7 +173,7 @@ Two reference apps for embedding OpenAI ChatKit: one self-hosted integration whe
 <sub>Python, openai, chatkit · Needs openai-api-key · [Repo](https://github.com/openai/openai-chatkit-starter-app)</sub>
 
 <a name="openai-responses-starter-app"></a>
-### 23 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>⭐ 875 · MIT · Dec 2025</sub>
+### 23 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>⭐ 876 · MIT · Dec 2025</sub>
 
 **Next.js chat on the OpenAI Responses API with hosted tools.**
 

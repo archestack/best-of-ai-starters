@@ -3,7 +3,7 @@
 Prompt-to-app builders and platforms that run coding agents in sandboxes. Back to the [leaderboard](../README.md#%EF%B8%8F-app-builders-and-coding-agents).
 
 <a name="llamacoder"></a>
-### 🥉 58 [llamacoder](https://github.com/Nutlope/llamacoder) <sub>⭐ 7.1k · MIT · Sep 2026</sub>
+### 🥉 57 [llamacoder](https://github.com/Nutlope/llamacoder) <sub>⭐ 7.1k · MIT · Sep 2026</sub>
 
 **Open-source Claude Artifacts clone generating React apps with Llama.**
 
