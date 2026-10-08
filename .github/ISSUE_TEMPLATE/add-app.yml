@@ -1,0 +1,63 @@
+name: Add a starter
+description: Suggest a starter for this list. A bot checks it and replies here.
+title: "Add: "
+labels: [submission]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository URL
+      placeholder: https://github.com/owner/name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - chat-apps
+        - rag-search
+        - agents
+        - agent-ui
+        - voice-realtime
+        - mcp-apps
+        - saas-with-ai
+        - app-builders
+        - editors-workflows
+        - cloud-reference
+        - api-backends
+        - mobile-extensions
+        - not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you get when you clone it?
+      description: Concrete capability, not a slogan. The entry is written from the README anyway; this helps the reviewer.
+    validations:
+      required: true
+  - type: input
+    id: demo
+    attributes:
+      label: Live demo URL (optional)
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Your relation to the project
+      options:
+        - maintainer
+        - contributor
+        - user
+        - none
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It is meant to be cloned or forked as the base of a new app (not a finished app or a library).
+          required: true
+        - label: It has an open-source license file.
+          required: true
