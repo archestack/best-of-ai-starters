@@ -20,14 +20,14 @@
 |:-:|---|---|--:|
 | 🥇 88 | **[morphic](https://github.com/miurla/morphic)** <sub>[📝 review](reviews/rag-search.md#morphic)</sub><br><sub>Answer engine on Next.js with generative UI and pluggable search</sub> | 📚 [RAG and search](#-rag-and-search) | 9.2k |
 | 🥇 80 | **[velobase-harness](https://github.com/velobase/velobase-harness)** <sub>[📝 review](reviews/saas-with-ai.md#velobase-harness)</sub><br><sub>Next.js AI SaaS base with credits, usage billing, workers and anti-abuse</sub> | 💳 [SaaS boilerplates with AI](#-saas-boilerplates-with-ai) | 607 |
-| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)** <sub>[📝 review](reviews/api-backends.md#agent-service-toolkit)</sub><br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub><br><sub>[▶️ Demo](https://agent-service-toolkit.streamlit.app/)</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 4.5k |
-| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)** <sub>[📝 review](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template)</sub><br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 2.7k |
+| 🥈 77 | **[agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)** <sub>[📝 review](reviews/api-backends.md#agent-service-toolkit)</sub><br><sub>LangGraph agents served by FastAPI with a Streamlit chat client</sub><br><sub>[▶️ Demo](https://agent-service-toolkit.streamlit.app/)</sub> | ⚙️ [AI API backends](#%EF%B8%8F-ai-api-backends) | 4.5k |
+| 🥈 77 | **[fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)** <sub>[📝 review](reviews/api-backends.md#fastapi-langgraph-agent-production-ready-template)</sub><br><sub>FastAPI service for a LangGraph agent with auth, memory and tracing</sub> | ⚙️ [AI API backends](#%EF%B8%8F-ai-api-backends) | 2.7k |
 | 🥈 76 | **[mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template)** <sub>[📝 review](reviews/mcp-apps.md#mcp-typescript-template)</sub><br><sub>Express and Effect template for a stateless remote MCP server</sub> | 🔌 [MCP servers and chat-host apps](#-mcp-servers-and-chat-host-apps) | 58 |
 | 🥈 74 | **[ai-town](https://github.com/a16z-infra/ai-town)** <sub>[📝 review](reviews/agents.md#ai-town)</sub><br><sub>Generative-agents town simulation on Convex with Ollama by default</sub><br><sub>[▶️ Demo](https://www.convex.dev/ai-town)</sub> | 🧩 [Agent backends](#-agent-backends) | 11k |
-| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)** <sub>[📝 review](reviews/api-backends.md#generative-ai-project-template)</sub><br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | ⚙️ [AI API backends](#-ai-api-backends) | 118 |
-| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-python)</sub><br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 264 |
-| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-node)</sub><br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#-voice-and-realtime) | 114 |
-| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)** <sub>[📝 review](reviews/cloud-reference.md#azure-agent-landing-zone)</sub><br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub><br><sub>[📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub> | ☁️ [Cloud reference architectures](#-cloud-reference-architectures) | 1.2k |
+| 🥈 67 | **[generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template)** <sub>[📝 review](reviews/api-backends.md#generative-ai-project-template)</sub><br><sub>uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals</sub> | ⚙️ [AI API backends](#%EF%B8%8F-ai-api-backends) | 118 |
+| 🥉 61 | **[agent-starter-python](https://github.com/livekit-examples/agent-starter-python)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-python)</sub><br><sub>Python voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#%EF%B8%8F-voice-and-realtime) | 264 |
+| 🥉 61 | **[agent-starter-node](https://github.com/livekit-examples/agent-starter-node)** <sub>[📝 review](reviews/voice-realtime.md#agent-starter-node)</sub><br><sub>Node.js voice agent on LiveKit Agents with turn detection and simulations</sub><br><sub>[📖 Docs](https://docs.livekit.io/agents/start/voice-ai/)</sub> | 🎙️ [Voice and realtime](#%EF%B8%8F-voice-and-realtime) | 114 |
+| 🥉 60 | **[agent-landing-zone](https://github.com/Azure/agent-landing-zone)** <sub>[📝 review](reviews/cloud-reference.md#azure-agent-landing-zone)</sub><br><sub>Zero-trust Azure landing zone for agent apps on Microsoft Foundry</sub><br><sub>[📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub> | ☁️ [Cloud reference architectures](#%EF%B8%8F-cloud-reference-architectures) | 1.2k |
 
 <sub>Ordered by score ([how we rank](#-how-we-rank)): adoption, freshness, how easy it is to run, and a few more signals as the bots measure them. Expect the board to shuffle. 🔀</sub>
 
@@ -36,14 +36,14 @@
 - 💬 *Ship a chat app this weekend* → [Chat apps](#-chat-apps)
 - 📚 *RAG over my data, with citations* → [RAG and search](#-rag-and-search)
 - 🧩 *An agent backend I can extend* → [Agent backends](#-agent-backends)
-- 🖥️ *A UI that shows what the agent is doing* → [Agent UI and generative UI](#-agent-ui-and-generative-ui)
-- 🎙️ *A voice agent that talks back* → [Voice and realtime](#-voice-and-realtime)
+- 🖥️ *A UI that shows what the agent is doing* → [Agent UI and generative UI](#%EF%B8%8F-agent-ui-and-generative-ui)
+- 🎙️ *A voice agent that talks back* → [Voice and realtime](#%EF%B8%8F-voice-and-realtime)
 - 🔌 *Build an MCP server* → [MCP servers and chat-host apps](#-mcp-servers-and-chat-host-apps)
 - 💳 *SaaS with auth, billing and AI built in* → [SaaS boilerplates with AI](#-saas-boilerplates-with-ai)
-- 🏗️ *A base for my own app builder or coding agent* → [App builders and coding agents](#-app-builders-and-coding-agents)
-- ✏️ *An AI editor or workflow canvas* → [AI editors and workflow canvases](#-ai-editors-and-workflow-canvases)
-- ☁️ *A reference architecture for my cloud* → [Cloud reference architectures](#-cloud-reference-architectures)
-- ⚙️ *Just the API backend* → [AI API backends](#-ai-api-backends)
+- 🏗️ *A base for my own app builder or coding agent* → [App builders and coding agents](#%EF%B8%8F-app-builders-and-coding-agents)
+- ✏️ *An AI editor or workflow canvas* → [AI editors and workflow canvases](#%EF%B8%8F-ai-editors-and-workflow-canvases)
+- ☁️ *A reference architecture for my cloud* → [Cloud reference architectures](#%EF%B8%8F-cloud-reference-architectures)
+- ⚙️ *Just the API backend* → [AI API backends](#%EF%B8%8F-ai-api-backends)
 - 📱 *Mobile app or browser extension* → [Mobile and browser extensions](#-mobile-and-browser-extensions)
 
 ## 🗂️ All categories
@@ -51,14 +51,14 @@
 - 💬 [Chat apps](#-chat-apps) · 12
 - 📚 [RAG and search](#-rag-and-search) · 12
 - 🧩 [Agent backends](#-agent-backends) · 16
-- 🖥️ [Agent UI and generative UI](#-agent-ui-and-generative-ui) · 6
-- 🎙️ [Voice and realtime](#-voice-and-realtime) · 13
+- 🖥️ [Agent UI and generative UI](#%EF%B8%8F-agent-ui-and-generative-ui) · 6
+- 🎙️ [Voice and realtime](#%EF%B8%8F-voice-and-realtime) · 13
 - 🔌 [MCP servers and chat-host apps](#-mcp-servers-and-chat-host-apps) · 5
 - 💳 [SaaS boilerplates with AI](#-saas-boilerplates-with-ai) · 5
-- 🏗️ [App builders and coding agents](#-app-builders-and-coding-agents) · 5
-- ✏️ [AI editors and workflow canvases](#-ai-editors-and-workflow-canvases) · 4
-- ☁️ [Cloud reference architectures](#-cloud-reference-architectures) · 3
-- ⚙️ [AI API backends](#-ai-api-backends) · 6
+- 🏗️ [App builders and coding agents](#%EF%B8%8F-app-builders-and-coding-agents) · 5
+- ✏️ [AI editors and workflow canvases](#%EF%B8%8F-ai-editors-and-workflow-canvases) · 4
+- ☁️ [Cloud reference architectures](#%EF%B8%8F-cloud-reference-architectures) · 3
+- ⚙️ [AI API backends](#%EF%B8%8F-ai-api-backends) · 6
 - 📱 [Mobile and browser extensions](#-mobile-and-browser-extensions) · 2
 
 <sub>Legend: 🥇 80+ · 🥈 65–79 · 🥉 55–64 · number = score out of 100 ([how we rank](#-how-we-rank)) · ⭐ GitHub stars · 📝 review (strengths, weaknesses, specs) · ▶️ live demo · 📖 docs · 🌐 website · 🧱 GitHub template · 🐳 Docker included</sub>

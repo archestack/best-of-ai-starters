@@ -1,6 +1,6 @@
 # ⚙️ AI API backends — reviews
 
-Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#-ai-api-backends).
+Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-api-backends).
 
 <a name="agent-service-toolkit"></a>
 ### 🥈 77 [agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit) <sub>⭐ 4.5k · MIT · Oct 2026</sub>

@@ -1,6 +1,6 @@
 # ☁️ Cloud reference architectures — reviews
 
-Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#-cloud-reference-architectures).
+Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#%EF%B8%8F-cloud-reference-architectures).
 
 <a name="azure-agent-landing-zone"></a>
 ### 🥉 60 [agent-landing-zone](https://github.com/Azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>

@@ -1,6 +1,6 @@
 # 🖥️ Agent UI and generative UI — reviews
 
-Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#-agent-ui-and-generative-ui).
+Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#%EF%B8%8F-agent-ui-and-generative-ui).
 
 <a name="agent-chat-ui"></a>
 ### 49 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>⭐ 3.2k · MIT · Oct 2026</sub>

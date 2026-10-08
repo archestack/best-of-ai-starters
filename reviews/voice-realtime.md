@@ -1,6 +1,6 @@
 # 🎙️ Voice and realtime — reviews
 
-Voice agents, realtime speech-to-speech apps and their web, phone and native clients. Back to the [leaderboard](../README.md#-voice-and-realtime).
+Voice agents, realtime speech-to-speech apps and their web, phone and native clients. Back to the [leaderboard](../README.md#%EF%B8%8F-voice-and-realtime).
 
 <a name="agent-starter-python"></a>
 ### 🥉 61 [agent-starter-python](https://github.com/livekit-examples/agent-starter-python) <sub>⭐ 264 · MIT · Oct 2026</sub>

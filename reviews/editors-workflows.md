@@ -1,6 +1,6 @@
 # ✏️ AI editors and workflow canvases — reviews
 
-Rich-text editors with AI commands and node-based canvases for chaining model calls. Back to the [leaderboard](../README.md#-ai-editors-and-workflow-canvases).
+Rich-text editors with AI commands and node-based canvases for chaining model calls. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-editors-and-workflow-canvases).
 
 <a name="plate-playground-template"></a>
 ### 52 [plate-playground-template](https://github.com/udecode/plate-playground-template) <sub>⭐ 241 · MIT · Oct 2026</sub>
