@@ -3,7 +3,7 @@
 Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#-ai-api-backends).
 
 <a name="agent-service-toolkit"></a>
-### 🥇 91 [agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit) <sub>⭐ 4.5k · MIT · Oct 2026</sub>
+### 🥇 88 [agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit) <sub>⭐ 4.5k · MIT · Oct 2026</sub>
 
 **LangGraph agents served by FastAPI with a Streamlit chat client.**
 
@@ -39,7 +39,7 @@ FastAPI backend with a stateful LangGraph agent (Postgres checkpointing, tool ca
 <sub>Python, OpenAI via langchain_openai.ChatOpenAI (any OpenAI-compatible base URL) · Needs PostgreSQL with pgvector, OpenAI API key, Valkey/Redis (optional), Langfuse (optional) · Docker · [Repo](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)</sub>
 
 <a name="full-stack-ai-agent-template"></a>
-### 🥈 71 [full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) <sub>⭐ 1.9k · MIT · Oct 2026</sub>
+### 🥈 73 [full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) <sub>⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Project generator for FastAPI and Next.js apps with agents and RAG.**
 
@@ -57,7 +57,7 @@ CLI (pip install fastapi-fullstack) scaffolding a FastAPI backend and Next.js fr
 <sub>Python, Pydantic AI, Pydantic Deep Agents, LangChain, LangGraph · Needs PostgreSQL, Redis (optional), Milvus, Qdrant, pgvector or ChromaDB (RAG), Stripe (billing), LLM provider API key · Docker · [Repo](https://github.com/vstorm-co/full-stack-ai-agent-template) · [📖 Docs](https://vstorm-co.github.io/full-stack-ai-agent-template/)</sub>
 
 <a name="generative-ai-project-template"></a>
-### 🥈 69 [generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template) <sub>⭐ 118 · MIT · Sep 2026</sub>
+### 🥈 68 [generative-ai-project-template](https://github.com/AmineDjeghri/generative-ai-project-template) <sub>⭐ 118 · MIT · Sep 2026</sub>
 
 **uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals.**
 
@@ -75,7 +75,7 @@ Python 3.12 uv workspace with a FastAPI backend (port 8000) and NiceGUI frontend
 <sub>Python, LiteLLM (any provider), Ollama · Needs Ollama (local models) or an LLM provider key via LiteLLM · GitHub template · Docker · [Repo](https://github.com/AmineDjeghri/generative-ai-project-template)</sub>
 
 <a name="nodejs-api-boilerplate"></a>
-### 39 [nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate) <sub>⭐ 163 · MIT · Apr 2026</sub>
+### 35 [nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate) <sub>⭐ 163 · MIT · Apr 2026</sub>
 
 **Express TypeScript CRUD API template with an LLM module generator.**
 
@@ -93,7 +93,7 @@ Express and TypeScript REST API with vertical-slice modules, Zod validation, Inv
 <sub>TypeScript, OpenAI, Anthropic, DeepSeek, OpenRouter · Needs PostgreSQL or SQLite, Redis, AWS S3 (uploads), LLM API key for codegen · GitHub template · [Repo](https://github.com/vyancharuk/nodejs-api-boilerplate)</sub>
 
 <a name="genai-api"></a>
-### 27 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>⭐ 111 · Apache-2.0 · Apr 2026</sub>
+### 28 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>⭐ 111 · Apache-2.0 · Apr 2026</sub>
 
 **Hono API on Cloudflare Workers proxying Gemini with bearer auth.**
 

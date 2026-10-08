@@ -2,8 +2,25 @@
 
 Rich-text editors with AI commands and node-based canvases for chaining model calls. Back to the [leaderboard](../README.md#-ai-editors-and-workflow-canvases).
 
+<a name="plate-playground-template"></a>
+### 44 [plate-playground-template](https://github.com/udecode/plate-playground-template) <sub>⭐ 240 · MIT · Oct 2026</sub>
+
+**Next.js rich-text editor template on Plate with AI commands.**
+
+Next.js 16 template with the Plate editor, shadcn/ui and the Plate AI kit (installable via npx shadcn add @plate/editor-ai), plus an MCP component config. Uploads go through UploadThing with a development-only check in src/lib/uploadthing.ts; AI calls use an AI Gateway key the user enters in editor settings, routed through example API routes. For teams wanting a Notion-style editor with AI inside a React app.
+
+- **+** Plate AI editor installable with one shadcn command
+- **+** UploadThing file uploads already wired
+- **+** AI routes use the caller's key, so no shared server credential by default
+- **−** Upload auth is a development stub; replace before production
+- **−** Per-user AI usage limits are left to you
+- **−** README is short; features are documented on platejs.org
+- **−** No tests; requires bun
+
+<sub>Python, Vercel AI Gateway via AI SDK · Needs UploadThing token, Vercel AI Gateway key (user-supplied) · GitHub template · [Repo](https://github.com/udecode/plate-playground-template) · [📖 Docs](https://platejs.org/)</sub>
+
 <a name="workflow-builder-template"></a>
-### 46 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>
+### 40 [workflow-builder-template](https://github.com/vercel-labs/workflow-builder-template) <sub>⭐ 1.2k · Apache-2.0 · Jan 2026</sub>
 
 **Visual AI workflow builder on Workflow DevKit with real integrations.**
 
@@ -20,25 +37,8 @@ Next.js 16 app with a React Flow canvas, Monaco editor, Better Auth, Drizzle on 
 
 <sub>TypeScript, Vercel AI Gateway (OpenAI GPT-5) · Needs PostgreSQL, Vercel AI Gateway API key, integration API keys (Resend, Linear, Slack, Stripe and others) · GitHub template · [Repo](https://github.com/vercel-labs/workflow-builder-template)</sub>
 
-<a name="plate-playground-template"></a>
-### 45 [plate-playground-template](https://github.com/udecode/plate-playground-template) <sub>⭐ 240 · MIT · Oct 2026</sub>
-
-**Next.js rich-text editor template on Plate with AI commands.**
-
-Next.js 16 template with the Plate editor, shadcn/ui and the Plate AI kit (installable via npx shadcn add @plate/editor-ai), plus an MCP component config. Uploads go through UploadThing with a development-only check in src/lib/uploadthing.ts; AI calls use an AI Gateway key the user enters in editor settings, routed through example API routes. For teams wanting a Notion-style editor with AI inside a React app.
-
-- **+** Plate AI editor installable with one shadcn command
-- **+** UploadThing file uploads already wired
-- **+** AI routes use the caller's key, so no shared server credential by default
-- **−** Upload auth is a development stub; replace before production
-- **−** Per-user AI usage limits are left to you
-- **−** README is short; features are documented on platejs.org
-- **−** No tests; requires bun
-
-<sub>Python, Vercel AI Gateway via AI SDK · Needs UploadThing token, Vercel AI Gateway key (user-supplied) · GitHub template · [Repo](https://github.com/udecode/plate-playground-template) · [📖 Docs](https://platejs.org/)</sub>
-
 <a name="nuxt-ui-editor"></a>
-### 36 [editor](https://github.com/nuxt-ui-templates/editor) <sub>⭐ 171 · MIT · Oct 2026</sub>
+### 39 [editor](https://github.com/nuxt-ui-templates/editor) <sub>⭐ 171 · MIT · Oct 2026</sub>
 
 **Notion-style Nuxt editor with AI completions and optional collaboration.**
 
@@ -56,7 +56,7 @@ Nuxt template on the Nuxt UI Editor component and TipTap: headings, tables, slas
 <sub>TypeScript, Vercel AI Gateway via AI SDK useCompletion · Needs Vercel AI Gateway key (optional), Blob storage: Vercel Blob, R2 or S3 (optional), PartyKit (optional) · GitHub template · [Repo](https://github.com/nuxt-ui-templates/editor) · [🧪 Demo](https://editor-template.nuxt.dev/) · [📖 Docs](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
 <a name="tersa"></a>
-### 32 [tersa](https://github.com/vercel-labs/tersa) <sub>⭐ 1.0k · MIT · Feb 2026</sub>
+### 30 [tersa](https://github.com/vercel-labs/tersa) <sub>⭐ 1.0k · MIT · Feb 2026</sub>
 
 **Node canvas for chaining text, image and video models via AI Gateway.**
 

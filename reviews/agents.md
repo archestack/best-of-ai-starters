@@ -3,7 +3,7 @@
 Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. Back to the [leaderboard](../README.md#-agent-backends).
 
 <a name="ai-town"></a>
-### 🥇 82 [ai-town](https://github.com/a16z-infra/ai-town) <sub>⭐ 11k · MIT · Aug 2026</sub>
+### 🥇 81 [ai-town](https://github.com/a16z-infra/ai-town) <sub>⭐ 11k · MIT · Aug 2026</sub>
 
 **Generative-agents town simulation on Convex with Ollama by default.**
 
@@ -56,6 +56,22 @@ An eve pipeline named Foreman: label an issue factory, @mention it, or delegate 
 
 <sub>TypeScript, eve, ai-sdk · Needs vercel, github-app-connector, linear-connector, vercel-blob · GitHub template · [Repo](https://github.com/vercel-labs/eve-software-factory-template) · [📖 Docs](https://ask-foreman.dev/docs)</sub>
 
+<a name="react-agent"></a>
+### 48 [react-agent](https://github.com/langchain-ai/react-agent) <sub>⭐ 852 · MIT · Oct 2026</sub>
+
+**Minimal Python LangGraph ReAct agent with Tavily, ready for Studio.**
+
+A single-graph Python template: a ReAct loop in src/react_agent/graph.py that reasons, calls Tavily search, observes and repeats, with the model set by a provider/model-name string (default claude-sonnet-4-5-20250929, OpenAI as the alternative). Prompts, tools and runtime context are each one file; it opens in LangGraph Studio and deploys to LangGraph Platform. For Python developers who want the smallest LangGraph agent to extend.
+
+- **+** Three files to change: tools.py, prompts.py, graph.py
+- **+** Model switch is a provider/model string in runtime context
+- **+** Unit tests in CI; Studio hot reload and time travel work out of the box
+- **−** Only one tool (Tavily) and no UI; the chat surface is Studio
+- **−** No persistence configuration beyond what LangGraph Platform provides
+- **−** README still mentions Claude 3 Sonnet in one place; check defaults
+
+<sub>Python, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key, tavily-api-key, langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/react-agent)</sub>
+
 <a name="openai-cua-sample-app"></a>
 ### 47 [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) <sub>⭐ 1.9k · MIT · Sep 2026</sub>
 
@@ -73,21 +89,40 @@ Two agent loops on the OpenAI Responses API where the model writes code against 
 
 <sub>TypeScript, openai · Needs openai-api-key, playwright-chromium, uv · [Repo](https://github.com/openai/openai-cua-sample-app)</sub>
 
-<a name="react-agent"></a>
-### 47 [react-agent](https://github.com/langchain-ai/react-agent) <sub>⭐ 852 · MIT · Oct 2026</sub>
+<a name="personal-agent-template"></a>
+### 46 [personal-agent-template](https://github.com/vercel-labs/personal-agent-template) <sub>⭐ 474 · MIT · Sep 2026</sub>
 
-**Minimal Python LangGraph ReAct agent with Tavily, ready for Studio.**
+**eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory.**
 
-A single-graph Python template: a ReAct loop in src/react_agent/graph.py that reasons, calls Tavily search, observes and repeats, with the model set by a provider/model-name string (default claude-sonnet-4-5-20250929, OpenAI as the alternative). Prompts, tools and runtime context are each one file; it opens in LangGraph Studio and deploys to LangGraph Platform. For Python developers who want the smallest LangGraph agent to extend.
+A Nuxt app plus an eve agent runtime: Better Auth email login, web chat with threads that eve persists, Slack DMs and mentions linked to the same user, GitHub tools with durable approval on writes, Linear via Vercel Connect MCP, and a bounded per-user memory document in Vercel Blob. Postgres via Drizzle holds users and links; on Vercel it deploys as two services. For developers building a single-user or small-team assistant on eve.
 
-- **+** Three files to change: tools.py, prompts.py, graph.py
-- **+** Model switch is a provider/model string in runtime context
-- **+** Unit tests in CI; Studio hot reload and time travel work out of the box
-- **−** Only one tool (Tavily) and no UI; the chat surface is Studio
-- **−** No persistence configuration beyond what LangGraph Platform provides
-- **−** README still mentions Claude 3 Sonnet in one place; check defaults
+- **+** Memory is per authenticated principal, recalled before every turn and after compaction
+- **+** Slack identity links to the web profile so context follows the user
+- **+** Write actions on GitHub gate on durable approvals
+- **+** CI workflow, CLAUDE.md and AGENTS.md present
+- **−** Needs Vercel Connect for Slack and Linear; self-hosting those integrations is on you
+- **−** No model provider named in the README; configured through eve
+- **−** No tests listed; CI covers typecheck and build
+- **−** Requires Node 24+
 
-<sub>Python, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key, tavily-api-key, langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/react-agent)</sub>
+<sub>TypeScript, eve, ai-sdk · Needs postgres, vercel-blob, vercel-connect · GitHub template · [Repo](https://github.com/vercel-labs/personal-agent-template)</sub>
+
+<a name="agent-starter-pack"></a>
+### 45 [agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) <sub>⭐ 6.6k · Apache-2.0 · May 2026</sub>
+
+**Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only.**
+
+A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent project from six templates (ADK ReAct, ADK with A2A, agentic RAG on Vertex AI Search, LangGraph, ADK Java, ADK Live) with Terraform, Cloud Build or GitHub Actions pipelines, evaluation and observability, deploying to Cloud Run or Agent Engine. The README declares maintenance mode and points new work to agents-cli. For teams that need the generated infra and accept the migration.
+
+- **+** Generated project includes Terraform, CI/CD for all environments and an eval harness
+- **+** enhance command retrofits deployment infra onto an existing agent
+- **+** Documentation site plus a GEMINI.md context file
+- **−** Maintenance mode: critical fixes only, no new templates; README points to agents-cli
+- **−** Google Cloud only; needs gcloud SDK, Terraform and Make
+- **−** A generator, not a repo you fork directly
+- **−** Last commit 2026-05
+
+<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/GoogleCloudPlatform/agent-starter-pack) · [📖 Docs](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
 
 <a name="cloudflare-agents-starter"></a>
 ### 45 [agents-starter](https://github.com/cloudflare/agents-starter) <sub>⭐ 1.3k · MIT · Jul 2026</sub>
@@ -107,61 +142,8 @@ A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: strea
 
 <sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs](https://developers.cloudflare.com/agents/)</sub>
 
-<a name="personal-agent-template"></a>
-### 45 [personal-agent-template](https://github.com/vercel-labs/personal-agent-template) <sub>⭐ 474 · MIT · Sep 2026</sub>
-
-**eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory.**
-
-A Nuxt app plus an eve agent runtime: Better Auth email login, web chat with threads that eve persists, Slack DMs and mentions linked to the same user, GitHub tools with durable approval on writes, Linear via Vercel Connect MCP, and a bounded per-user memory document in Vercel Blob. Postgres via Drizzle holds users and links; on Vercel it deploys as two services. For developers building a single-user or small-team assistant on eve.
-
-- **+** Memory is per authenticated principal, recalled before every turn and after compaction
-- **+** Slack identity links to the web profile so context follows the user
-- **+** Write actions on GitHub gate on durable approvals
-- **+** CI workflow, CLAUDE.md and AGENTS.md present
-- **−** Needs Vercel Connect for Slack and Linear; self-hosting those integrations is on you
-- **−** No model provider named in the README; configured through eve
-- **−** No tests listed; CI covers typecheck and build
-- **−** Requires Node 24+
-
-<sub>TypeScript, eve, ai-sdk · Needs postgres, vercel-blob, vercel-connect · GitHub template · [Repo](https://github.com/vercel-labs/personal-agent-template)</sub>
-
-<a name="agent-starter-pack"></a>
-### 44 [agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) <sub>⭐ 6.6k · Apache-2.0 · May 2026</sub>
-
-**Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only.**
-
-A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent project from six templates (ADK ReAct, ADK with A2A, agentic RAG on Vertex AI Search, LangGraph, ADK Java, ADK Live) with Terraform, Cloud Build or GitHub Actions pipelines, evaluation and observability, deploying to Cloud Run or Agent Engine. The README declares maintenance mode and points new work to agents-cli. For teams that need the generated infra and accept the migration.
-
-- **+** Generated project includes Terraform, CI/CD for all environments and an eval harness
-- **+** enhance command retrofits deployment infra onto an existing agent
-- **+** Documentation site plus a GEMINI.md context file
-- **−** Maintenance mode: critical fixes only, no new templates; README points to agents-cli
-- **−** Google Cloud only; needs gcloud SDK, Terraform and Make
-- **−** A generator, not a repo you fork directly
-- **−** Last commit 2026-05
-
-<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/GoogleCloudPlatform/agent-starter-pack) · [📖 Docs](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
-
-<a name="opentag"></a>
-### 44 [OpenTag](https://github.com/CopilotKit/OpenTag) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
-
-**Slack and Teams knowledge agent on LangGraph and CopilotKit Channels.**
-
-A deployable Slack and Teams agent in two services: a Node runtime (CopilotRuntime with embedded Channels) and a Python LangGraph deep agent speaking AG-UI. It ships web research, optional GitHub, PostHog, Linear and Notion MCP tools, native Slack charts and a LangGraph interrupt that pauses before Linear or Notion writes, with Slack ingress through a CopilotKit Intelligence managed channel. For teams that want an on-call style bot in chat.
-
-- **+** Approval gate before writes is a resumable LangGraph interrupt, not a prompt rule
-- **+** Railway config and an AWS ECS Fargate deployment are both in the repo
-- **+** AGENT_URL accepts any AG-UI agent; the runtime does not care about the framework
-- **+** Published container images; tests and AGENTS.md included
-- **−** Slack and Teams delivery depends on hosted CopilotKit Intelligence unless you build a runner
-- **−** Two languages and two processes: Node 22 plus Python 3.12 with uv
-- **−** OpenAI is the only documented model provider
-- **−** Setup has several Slack-specific failure modes the README spends pages on
-
-<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/CopilotKit/OpenTag) · [📖 Docs](https://docs.copilotkit.ai/channels)</sub>
-
 <a name="marketing-team-eve-template"></a>
-### 44 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>⭐ 447 · MIT · Aug 2026</sub>
+### 45 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>⭐ 447 · MIT · Aug 2026</sub>
 
 **eve lead agent delegating to five marketing specialists with approval gates.**
 
@@ -178,8 +160,26 @@ An eve project where a lead agent briefs one of five specialists (product market
 
 <sub>TypeScript, eve, ai-gateway, ai-sdk · Needs vercel-connect, notion, resend, slack, typefully-api-key, vercel-blob, ai-gateway · GitHub template · [Repo](https://github.com/vercel-labs/marketing-team-eve-template) · [📖 Docs](https://vercel.com/kb/guide/marketing-team-eve)</sub>
 
+<a name="opentag"></a>
+### 43 [OpenTag](https://github.com/CopilotKit/OpenTag) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
+
+**Slack and Teams knowledge agent on LangGraph and CopilotKit Channels.**
+
+A deployable Slack and Teams agent in two services: a Node runtime (CopilotRuntime with embedded Channels) and a Python LangGraph deep agent speaking AG-UI. It ships web research, optional GitHub, PostHog, Linear and Notion MCP tools, native Slack charts and a LangGraph interrupt that pauses before Linear or Notion writes, with Slack ingress through a CopilotKit Intelligence managed channel. For teams that want an on-call style bot in chat.
+
+- **+** Approval gate before writes is a resumable LangGraph interrupt, not a prompt rule
+- **+** Railway config and an AWS ECS Fargate deployment are both in the repo
+- **+** AGENT_URL accepts any AG-UI agent; the runtime does not care about the framework
+- **+** Published container images; tests and AGENTS.md included
+- **−** Slack and Teams delivery depends on hosted CopilotKit Intelligence unless you build a runner
+- **−** Two languages and two processes: Node 22 plus Python 3.12 with uv
+- **−** OpenAI is the only documented model provider
+- **−** Setup has several Slack-specific failure modes the README spends pages on
+
+<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/CopilotKit/OpenTag) · [📖 Docs](https://docs.copilotkit.ai/channels)</sub>
+
 <a name="knowledge-agent-template"></a>
-### 40 [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>
+### 41 [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>
 
 **Nuxt knowledge agent that greps a synced snapshot repo instead of embedding.**
 
@@ -197,7 +197,7 @@ A Nuxt monorepo where the agent answers by running grep, find and cat inside a p
 <sub>TypeScript, ai-gateway, ai-sdk · Needs vercel-sandbox, vercel-workflow, ai-gateway-api-key, github-app · [Repo](https://github.com/vercel-labs/knowledge-agent-template)</sub>
 
 <a name="data-enrichment"></a>
-### 40 [data-enrichment](https://github.com/langchain-ai/data-enrichment) <sub>⭐ 258 · MIT · Sep 2026</sub>
+### 41 [data-enrichment](https://github.com/langchain-ai/data-enrichment) <sub>⭐ 258 · MIT · Sep 2026</sub>
 
 **LangGraph agent that researches the web to fill your JSON schema.**
 
@@ -214,7 +214,7 @@ A Python LangGraph graph that takes a research topic and a JSON extraction_schem
 <sub>Jupyter Notebook, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key, tavily-api-key, langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/data-enrichment)</sub>
 
 <a name="react-agent-js"></a>
-### 38 [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>⭐ 117 · MIT · Oct 2026</sub>
+### 39 [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>⭐ 117 · MIT · Oct 2026</sub>
 
 **TypeScript createAgent starter with example tools and middleware hooks.**
 
@@ -230,7 +230,7 @@ Four TypeScript files: agent.ts builds a LangChain createAgent, tools.ts defines
 <sub>TypeScript, langchain, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key · GitHub template · [Repo](https://github.com/langchain-ai/react-agent-js)</sub>
 
 <a name="new-langgraphjs-project"></a>
-### 36 [new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project) <sub>⭐ 75 · MIT · Oct 2026</sub>
+### 37 [new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project) <sub>⭐ 75 · MIT · Oct 2026</sub>
 
 **Empty TypeScript LangGraph.js scaffold with message history and tests.**
 
@@ -246,7 +246,7 @@ The TypeScript counterpart of the blank LangGraph template: src/agent/graph.ts k
 <sub>TypeScript, langgraph · Needs langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/new-langgraphjs-project)</sub>
 
 <a name="new-langgraph-project"></a>
-### 33 [new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project) <sub>⭐ 297 · MIT · Oct 2026</sub>
+### 34 [new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project) <sub>⭐ 297 · MIT · Oct 2026</sub>
 
 **Blank Python LangGraph scaffold with config, tests and Studio support.**
 

@@ -21,7 +21,7 @@ Eight Dockerized Python pipelines on the Pathway framework: question-answering R
 <sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · Docker · [Repo](https://github.com/pathwaycom/llm-app) · [🧪 Demo](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs](https://pathway.com/developers/templates/) · [🌐 Site](https://pathway.com/solutions/llm-app)</sub>
 
 <a name="morphic"></a>
-### 🥈 79 [morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 80 [morphic](https://github.com/miurla/morphic) <sub>⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **Answer engine on Next.js with generative UI and pluggable search.**
 
@@ -39,7 +39,7 @@ A Next.js answer engine: queries go to Tavily, SearXNG, Brave or Exa, the model 
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, searxng-or-search-api-key, supabase, model-api-key · Docker · [Repo](https://github.com/miurla/morphic)</sub>
 
 <a name="llm-answer-engine"></a>
-### 🥈 65 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>⭐ 5.0k · MIT · Apr 2026</sub>
+### 🥈 67 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>⭐ 5.0k · MIT · Apr 2026</sub>
 
 **Perplexity-style Next.js answer engine over Brave search results.**
 
@@ -56,7 +56,7 @@ A Next.js app that takes a question, pulls results from Brave Search and Serper,
 <sub>TypeScript, groq, openai, ollama, portkey · Needs openai-api-key, groq-api-key, brave-search-api-key, serper-api-key · Docker · [Repo](https://github.com/developersdigest/llm-answer-engine)</sub>
 
 <a name="ai-starter-kit"></a>
-### 🥉 57 [ai-starter-kit](https://github.com/sambanova/ai-starter-kit) <sub>⭐ 250 · Apache-2.0 · Oct 2026</sub>
+### 🥉 59 [ai-starter-kit](https://github.com/sambanova/ai-starter-kit) <sub>⭐ 250 · Apache-2.0 · Oct 2026</sub>
 
 **SambaNova Python kits for document RAG, search assistant, function calling.**
 
@@ -73,7 +73,7 @@ Nine Python kits, each with its own README: document text extraction, enterprise
 <sub>Jupyter Notebook, sambanova, langchain · Needs sambanova-api-key, tesseract, poppler · Docker · [Repo](https://github.com/sambanova/ai-starter-kit)</sub>
 
 <a name="azure-search-openai-demo"></a>
-### 50 [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) <sub>⭐ 7.8k · MIT · Oct 2026</sub>
+### 51 [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo) <sub>⭐ 7.8k · MIT · Oct 2026</sub>
 
 **Azure RAG chat reference on AI Search and Azure OpenAI.**
 
@@ -90,26 +90,8 @@ The canonical Azure RAG sample: a Python (Quart) backend and React frontend answ
 
 <sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/Azure-Samples/azure-search-openai-demo) · [📖 Docs](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
 
-<a name="rag-postgres-openai-python"></a>
-### 49 [rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) <sub>⭐ 505 · MIT · Oct 2026</sub>
-
-**RAG over Postgres table rows with hybrid search and SQL filters.**
-
-A FastAPI backend and React frontend that answer chat questions about rows in a PostgreSQL table. Retrieval is hybrid (pgvector similarity plus full-text search fused with RRF), an OpenAI function call turns phrases like cheaper than 30 dollars into WHERE clauses, and it runs against Azure OpenAI, OpenAI.com or Ollama; azd deploys it to Container Apps with managed identity. For teams whose knowledge is structured rows, not documents.
-
-- **+** Hybrid vector plus full-text search with RRF is implemented in SQL, not a vendor service
-- **+** Provider switch by env var: Azure OpenAI, OpenAI.com or Ollama
-- **+** Evaluation, safety evaluation and load-testing docs included
-- **+** Tests included; dev container and Codespaces configs
-- **−** Deploy path is Azure-only (azd, Container Apps, Flexible Server)
-- **−** Local run expects Postgres 14+ with pgvector installed yourself
-- **−** Sample schema is one products table; multi-table questions need new code
-- **−** No auth in the app itself
-
-<sub>Python, azure-openai, openai, ollama · Needs postgres-pgvector, azure-openai-or-openai-or-ollama, azd · GitHub template · [Repo](https://github.com/Azure-Samples/rag-postgres-openai-python)</sub>
-
 <a name="chat-langchain"></a>
-### 47 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>⭐ 6.5k · MIT · Sep 2026</sub>
+### 49 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>⭐ 6.5k · MIT · Sep 2026</sub>
 
 **LangChain docs assistant as a Managed Deep Agent with Next.js UI.**
 
@@ -126,8 +108,26 @@ A documentation assistant for LangChain, LangGraph and LangSmith: a Python agent
 
 <sub>TypeScript, anthropic, langchain, langgraph · Needs anthropic-api-key, pylon-api-key, managed-deep-agents, supabase · [Repo](https://github.com/langchain-ai/chat-langchain)</sub>
 
+<a name="rag-postgres-openai-python"></a>
+### 48 [rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) <sub>⭐ 505 · MIT · Oct 2026</sub>
+
+**RAG over Postgres table rows with hybrid search and SQL filters.**
+
+A FastAPI backend and React frontend that answer chat questions about rows in a PostgreSQL table. Retrieval is hybrid (pgvector similarity plus full-text search fused with RRF), an OpenAI function call turns phrases like cheaper than 30 dollars into WHERE clauses, and it runs against Azure OpenAI, OpenAI.com or Ollama; azd deploys it to Container Apps with managed identity. For teams whose knowledge is structured rows, not documents.
+
+- **+** Hybrid vector plus full-text search with RRF is implemented in SQL, not a vendor service
+- **+** Provider switch by env var: Azure OpenAI, OpenAI.com or Ollama
+- **+** Evaluation, safety evaluation and load-testing docs included
+- **+** Tests included; dev container and Codespaces configs
+- **−** Deploy path is Azure-only (azd, Container Apps, Flexible Server)
+- **−** Local run expects Postgres 14+ with pgvector installed yourself
+- **−** Sample schema is one products table; multi-table questions need new code
+- **−** No auth in the app itself
+
+<sub>Python, azure-openai, openai, ollama · Needs postgres-pgvector, azure-openai-or-openai-or-ollama, azd · GitHub template · [Repo](https://github.com/Azure-Samples/rag-postgres-openai-python)</sub>
+
 <a name="azure-search-openai-javascript"></a>
-### 41 [azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript) <sub>⭐ 322 · MIT · Sep 2026</sub>
+### 43 [azure-search-openai-javascript](https://github.com/Azure-Samples/azure-search-openai-javascript) <sub>⭐ 322 · MIT · Sep 2026</sub>
 
 **TypeScript RAG on Azure AI Search with separate indexer and search services.**
 
@@ -142,6 +142,23 @@ The Node.js counterpart of the Azure RAG sample: a search API, an indexer servic
 - **−** Less active than the Python sample (seed stars 322 vs 7776)
 
 <sub>TypeScript, azure-openai, langchain · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-blob-storage · GitHub template · [Repo](https://github.com/Azure-Samples/azure-search-openai-javascript)</sub>
+
+<a name="nextjs-openai-doc-search"></a>
+### 38 [nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search) <sub>⭐ 1.7k · Apache-2.0 · May 2026</sub>
+
+**Build-time embeddings of your MDX docs into Supabase pgvector.**
+
+A Next.js starter that chunks the .mdx files in pages/ at build time, embeds each section with OpenAI and stores vectors in Supabase pgvector, skipping files whose checksum has not changed. At runtime an Edge function embeds the question, runs a similarity search and streams a completion with the matched sections in the prompt; the schema ships as a Supabase migration. For teams adding chat search to a Next.js docs site.
+
+- **+** Checksum table avoids re-embedding unchanged files on every build
+- **+** pgvector schema is a checked-in Supabase migration
+- **+** One secret (OPENAI_KEY) when deployed with the Vercel Supabase integration
+- **−** Uses the legacy OpenAI text completion endpoint; expect to port it
+- **−** Only .mdx in pages/ is indexed; other sources need code
+- **−** No auth, no conversation history, no tests
+- **−** Design dates from 2023; last commit 2026-05
+
+<sub>TypeScript, openai · Needs supabase, postgres-pgvector, openai-api-key, docker-for-local-supabase · [Repo](https://github.com/supabase-community/nextjs-openai-doc-search)</sub>
 
 <a name="supabaseauthwithssr"></a>
 ### 37 [SupabaseAuthWithSSR](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR) <sub>⭐ 397 · MIT · Oct 2026</sub>
@@ -161,23 +178,6 @@ A Next.js 16 app on AI SDK v7 and Claude with complete Supabase SSR auth (signup
 
 <sub>TypeScript, anthropic, ai-sdk, mistral, voyage · Needs supabase, anthropic-api-key, mistral-api-key, voyage-api-key, exa-api-key · [Repo](https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR) · [🧪 Demo](https://www.supa-chat.dev)</sub>
 
-<a name="nextjs-openai-doc-search"></a>
-### 36 [nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search) <sub>⭐ 1.7k · Apache-2.0 · May 2026</sub>
-
-**Build-time embeddings of your MDX docs into Supabase pgvector.**
-
-A Next.js starter that chunks the .mdx files in pages/ at build time, embeds each section with OpenAI and stores vectors in Supabase pgvector, skipping files whose checksum has not changed. At runtime an Edge function embeds the question, runs a similarity search and streams a completion with the matched sections in the prompt; the schema ships as a Supabase migration. For teams adding chat search to a Next.js docs site.
-
-- **+** Checksum table avoids re-embedding unchanged files on every build
-- **+** pgvector schema is a checked-in Supabase migration
-- **+** One secret (OPENAI_KEY) when deployed with the Vercel Supabase integration
-- **−** Uses the legacy OpenAI text completion endpoint; expect to port it
-- **−** Only .mdx in pages/ is indexed; other sources need code
-- **−** No auth, no conversation history, no tests
-- **−** Design dates from 2023; last commit 2026-05
-
-<sub>TypeScript, openai · Needs supabase, postgres-pgvector, openai-api-key, docker-for-local-supabase · [Repo](https://github.com/supabase-community/nextjs-openai-doc-search)</sub>
-
 <a name="natural-language-postgres"></a>
 ### 27 [natural-language-postgres](https://github.com/vercel-labs/natural-language-postgres) <sub>⭐ 326 · Apache-2.0 · Apr 2026</sub>
 
@@ -196,7 +196,7 @@ A Next.js app where the AI SDK and GPT-4o turn a plain-English question into SQL
 <sub>TypeScript, openai, ai-sdk · Needs postgres, openai-api-key · [Repo](https://github.com/vercel-labs/natural-language-postgres) · [🧪 Demo](https://natural-language-postgres.vercel.app)</sub>
 
 <a name="openai-support-agent-demo"></a>
-### 7 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>⭐ 202 · MIT · Dec 2025</sub>
+### 9 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>⭐ 202 · MIT · Dec 2025</sub>
 
 **Support console where the model drafts and a human approves.**
 

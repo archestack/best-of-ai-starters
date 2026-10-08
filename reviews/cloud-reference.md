@@ -3,7 +3,7 @@
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#-cloud-reference-architectures).
 
 <a name="openai-chat-app-quickstart"></a>
-### 🥉 64 [openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
+### 🥈 67 [openai-chat-app-quickstart](https://github.com/Azure-Samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
 
 **Minimal Quart chat app on Azure OpenAI with managed identity.**
 
@@ -20,26 +20,8 @@ Python Quart backend using the openai package with a plain HTML/JS frontend that
 
 <sub>Bicep, Azure OpenAI (openai package) · Needs Azure subscription with Azure OpenAI access, azd CLI · GitHub template · Docker · [Repo](https://github.com/Azure-Samples/openai-chat-app-quickstart) · [📖 Docs](https://learn.microsoft.com/azure/developer/ai/get-started-securing-your-ai-app?tabs=github-codespaces)</sub>
 
-<a name="azurechat"></a>
-### 🥉 55 [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>
-
-**Private enterprise chat on Azure OpenAI with document chat and personas.**
-
-Microsoft solution accelerator: a Next.js chat app deployed into your own Azure subscription with azd up or a Deploy to Azure button, protected by an identity provider (Entra ID setup scripted), with chat over uploaded files, personas, extensions and managed-identity RBAC instead of keys. Supports private endpoints and ESLZ-compliant deployment. For organizations wanting a ChatGPT-like tenant on Azure OpenAI.
-
-- **+** Managed identity removes almost all keys and secrets
-- **+** Chat over files, personas and extensions documented in docs/
-- **+** Private endpoints and ESLZ-compliant deployment supported
-- **+** azd template plus GitHub Actions deploy path
-- **−** Azure only; provisions several paid services
-- **−** Identity provider setup is mandatory before first use
-- **−** Contributions require a Microsoft CLA
-- **−** README defers most detail to docs/; no tests mentioned
-
-<sub>TypeScript, Azure OpenAI · Needs Azure subscription, Azure OpenAI, Entra ID or another identity provider · [Repo](https://github.com/microsoft/azurechat)</sub>
-
 <a name="azure-agent-landing-zone"></a>
-### 50 [agent-landing-zone](https://github.com/Azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
+### 51 [agent-landing-zone](https://github.com/Azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
 
 **Zero-trust Azure landing zone for agent apps on Microsoft Foundry.**
 
@@ -55,5 +37,23 @@ azd-compatible Bicep landing zone that provisions network-isolated infrastructur
 - **−** README is a pointer; details are on the docs site
 
 <sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/Azure/agent-landing-zone) · [📖 Docs](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
+
+<a name="azurechat"></a>
+### 49 [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>
+
+**Private enterprise chat on Azure OpenAI with document chat and personas.**
+
+Microsoft solution accelerator: a Next.js chat app deployed into your own Azure subscription with azd up or a Deploy to Azure button, protected by an identity provider (Entra ID setup scripted), with chat over uploaded files, personas, extensions and managed-identity RBAC instead of keys. Supports private endpoints and ESLZ-compliant deployment. For organizations wanting a ChatGPT-like tenant on Azure OpenAI.
+
+- **+** Managed identity removes almost all keys and secrets
+- **+** Chat over files, personas and extensions documented in docs/
+- **+** Private endpoints and ESLZ-compliant deployment supported
+- **+** azd template plus GitHub Actions deploy path
+- **−** Azure only; provisions several paid services
+- **−** Identity provider setup is mandatory before first use
+- **−** Contributions require a Microsoft CLA
+- **−** README defers most detail to docs/; no tests mentioned
+
+<sub>TypeScript, Azure OpenAI · Needs Azure subscription, Azure OpenAI, Entra ID or another identity provider · [Repo](https://github.com/microsoft/azurechat)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>

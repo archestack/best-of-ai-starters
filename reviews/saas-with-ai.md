@@ -3,7 +3,7 @@
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
 <a name="velobase-harness"></a>
-### 🥇 84 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
+### 🥇 83 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
 
 **Next.js AI SaaS base with credits, usage billing, workers and anti-abuse.**
 
@@ -21,7 +21,7 @@ A Next.js 15 and tRPC application with Prisma on Postgres and BullMQ on Redis th
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, docker, stripe, model-api-keys · GitHub template · Docker · [Repo](https://github.com/velobase/velobase-harness)</sub>
 
 <a name="open-saas"></a>
-### 🥉 55 [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
+### 54 [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
 
 **Wasp SaaS template with auth, three payment providers, OpenAI demo app.**
 
@@ -38,26 +38,8 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 
 <sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [🧪 Demo](https://opensaas.sh) · [📖 Docs](https://docs.opensaas.sh)</sub>
 
-<a name="ai-fullstack-saas-boilerplate"></a>
-### 48 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
-
-**Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
-
-A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over Postgres, Better Auth with user impersonation, and a Vite React 19 client with React Router that ships as static files. The AI feature is an OpenAI chat streamed over server-sent events, an external-API example and a debounced search hook round it out, and Playwright tests run against the live app. For teams who want type-safe APIs without Next.js.
-
-- **+** End-to-end types through tRPC; the client is static files you can host on S3
-- **+** Better Auth with admin impersonation already wired
-- **+** Playwright e2e tests and a seed script included
-- **+** Hosted demo on Render
-- **−** No billing, no usage metering; AI is a single SSE chat
-- **−** OpenAI only
-- **−** Static SPA; README notes it is not SEO-friendly
-- **−** Demo on a free Render tier spins down; expect 50 second cold starts
-
-<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [🧪 Demo](https://fsb-client.onrender.com)</sub>
-
 <a name="lastsaas"></a>
-### 46 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
+### 48 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
 
 **Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
 
@@ -74,8 +56,26 @@ A Go backend with a React frontend served from the same binary: multi-tenant acc
 
 <sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site](https://metavert.io/lastsaas)</sub>
 
+<a name="ai-fullstack-saas-boilerplate"></a>
+### 46 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
+
+**Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
+
+A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over Postgres, Better Auth with user impersonation, and a Vite React 19 client with React Router that ships as static files. The AI feature is an OpenAI chat streamed over server-sent events, an external-API example and a debounced search hook round it out, and Playwright tests run against the live app. For teams who want type-safe APIs without Next.js.
+
+- **+** End-to-end types through tRPC; the client is static files you can host on S3
+- **+** Better Auth with admin impersonation already wired
+- **+** Playwright e2e tests and a seed script included
+- **+** Hosted demo on Render
+- **−** No billing, no usage metering; AI is a single SSE chat
+- **−** OpenAI only
+- **−** Static SPA; README notes it is not SEO-friendly
+- **−** Demo on a free Render tier spins down; expect 50 second cold starts
+
+<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [🧪 Demo](https://fsb-client.onrender.com)</sub>
+
 <a name="next-ai-starter"></a>
-### 17 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
+### 19 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
 
 **Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
 

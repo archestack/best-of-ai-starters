@@ -3,7 +3,7 @@
 Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#-agent-ui-and-generative-ui).
 
 <a name="opengenerativeui"></a>
-### 🥈 68 [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) <sub>⭐ 1.6k · MIT · Jun 2026</sub>
+### 🥈 69 [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) <sub>⭐ 1.6k · MIT · Jun 2026</sub>
 
 **CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets.**
 
@@ -21,7 +21,7 @@ A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Ag
 <sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · Docker · [Repo](https://github.com/CopilotKit/OpenGenerativeUI)</sub>
 
 <a name="agent-chat-ui"></a>
-### 🥉 55 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>⭐ 3.2k · MIT · Oct 2026</sub>
+### 52 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>⭐ 3.2k · MIT · Oct 2026</sub>
 
 **Next.js chat frontend for any LangGraph server with interrupts and artifacts.**
 
@@ -39,7 +39,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 <sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [🧪 Demo](https://agentchat.vercel.app)</sub>
 
 <a name="agno-agent-ui"></a>
-### 52 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
+### 51 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
 
 **Next.js chat frontend for Agno AgentOS with tool calls and reasoning.**
 
@@ -56,7 +56,7 @@ A Next.js and shadcn/ui chat interface that connects to a running Agno AgentOS i
 <sub>TypeScript, agno · Needs agno-agentos · GitHub template · [Repo](https://github.com/agno-agi/agent-ui)</sub>
 
 <a name="stockbot-on-groq"></a>
-### 19 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
+### 23 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
 
 **Groq chatbot answering with TradingView widgets via AI SDK generative UI.**
 
@@ -73,7 +73,7 @@ A Next.js chatbot forked from the Vercel AI Chatbot template where Llama 3 70B o
 <sub>TypeScript, groq, ai-sdk · Needs groq-api-key · [Repo](https://github.com/bklieger-groq/stockbot-on-groq) · [🧪 Demo](https://groq-stockbot.vercel.app/)</sub>
 
 <a name="assistant-ui-stockbroker"></a>
-### 13 [assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker) <sub>⭐ 281 · MIT · Feb 2026</sub>
+### 17 [assistant-ui-stockbroker](https://github.com/assistant-ui/assistant-ui-stockbroker) <sub>⭐ 281 · MIT · Feb 2026</sub>
 
 **assistant-ui frontend and LangGraph.js stockbroker agent with approval steps.**
 
@@ -90,7 +90,7 @@ A Turborepo with a Next.js 16 frontend on assistant-ui and a LangGraph.js backen
 <sub>TypeScript, openai, langgraph, assistant-ui · Needs openai-api-key, financial-datasets-api-key, tavily-api-key · [Repo](https://github.com/assistant-ui/assistant-ui-stockbroker)</sub>
 
 <a name="openai-structured-outputs-samples"></a>
-### 12 [openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples) <sub>⭐ 685 · MIT · Dec 2025</sub>
+### 16 [openai-structured-outputs-samples](https://github.com/openai/openai-structured-outputs-samples) <sub>⭐ 685 · MIT · Dec 2025</sub>
 
 **Three Next.js samples driving UI from schema-constrained OpenAI outputs.**
 
