@@ -43,7 +43,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 25
+    score: 22
   - id: chat-with-your-data-solution-accelerator
     repo: azure-samples/chat-with-your-data-solution-accelerator
     name: chat-with-your-data-solution-accelerator
@@ -95,7 +95,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 46
+    score: 44
   - id: fullstack-solution-template-for-agentcore
     repo: awslabs/fullstack-solution-template-for-agentcore
     name: fullstack-solution-template-for-agentcore
@@ -143,7 +143,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 46
+    score: 44
   - id: openai-realtime-solar-system
     repo: openai/openai-realtime-solar-system
     name: openai-realtime-solar-system
@@ -187,7 +187,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 25
+    score: 23
   - id: azure-ai-travel-agents
     repo: azure-samples/azure-ai-travel-agents
     name: azure-ai-travel-agents
@@ -236,7 +236,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 47
+    score: 45
   - id: get-started-with-ai-agents
     repo: azure-samples/get-started-with-ai-agents
     name: get-started-with-ai-agents
@@ -287,7 +287,7 @@ entries:
       has_compose: true
       is_template: false
       language: Bicep
-    score: 34
+    score: 33
   - id: claude-managed-agents
     repo: cloudflare/claude-managed-agents
     name: claude-managed-agents
@@ -336,7 +336,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 27
+    score: 26
   - id: openai-realtime-meeting-assistant
     repo: openai/openai-realtime-meeting-assistant
     name: openai-realtime-meeting-assistant
@@ -382,7 +382,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 26
+    score: 25
   - id: openai-chat-vision-quickstart
     repo: azure-samples/openai-chat-vision-quickstart
     name: openai-chat-vision-quickstart
@@ -429,7 +429,7 @@ entries:
       has_compose: true
       is_template: false
       language: Jupyter Notebook
-    score: 30
+    score: 29
   - id: serverless-rag-demo
     repo: aws-samples/serverless-rag-demo
     name: serverless-rag-demo
@@ -482,7 +482,2693 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 33
+  - id: superpowers
+    repo: obra/superpowers
+    name: superpowers
+    status: listed
+    tagline: Skill library that enforces a plan-then-TDD workflow in coding agents
+    summary: Superpowers is a set of composable skills plus a session-start bootstrap that makes a coding agent brainstorm a spec, write a task-level plan, and then execute it with red/green TDD and review between tasks. Execution can use a fresh subagent per task or run inline in one session. It installs as a plugin or extension for Claude Code, Codex, Cursor, Gemini CLI, Copilot CLI, OpenCode and several other harnesses.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Installs as a native plugin on about 15 agent harnesses
+      - Skills trigger automatically through a session-start bootstrap
+      - Includes a diagnosing-superpowers skill that reads session transcripts for debugging
+      - MIT licensed; skill behavior tests use a separate eval harness
+    weaknesses:
+      - Must be installed separately for each harness you use
+      - Contributions of new skills are generally not accepted
+      - Brainstorming visual companion sends version telemetry unless disabled by env var
+      - Enforced workflow adds planning and review overhead to small tasks
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://primeradiant.com/superpowers/
+      docs: null
+    audience: Developers using coding agents who want a enforced plan, TDD and review workflow
+    confidence: 0.8
+    facts:
+      stars: 296869
+      license: MIT
+      last_commit: 2026-09-25
+      last_release: 2026-09-25
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Shell
+    score: 89
+  - id: skills
+    repo: mattpocock/skills
+    name: skills
+    status: listed
+    tagline: Agent skills for planning, TDD, debugging and code review
+    summary: A collection of Markdown skill files for coding agents, split into engineering and productivity groups. It covers grilling sessions that build a project glossary and ADRs, spec and ticket generation, red-green-refactor TDD, a bug diagnosis loop, and diff review. Installs as a plugin for Claude Code, Codex and GitHub Copilot, via gemini skills install for Gemini CLI, or as editable files through npx skills.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Small, composable skills that can be edited; README says they work with any model
+      - Plugin install for Claude Code, Codex and Copilot, with automatic updates
+      - Setup skill configures issue tracker (GitHub, GitLab, local files), triage labels and doc locations
+      - Separates user-invoked orchestration skills from model-invoked discipline skills
+    weaknesses:
+      - Manual updates for Gemini CLI and npx installs
+      - Installing both plugin and npx copies gives every skill twice
+      - Must run /setup-matt-pocock-skills once per repo before the engineering skills
+      - Architecture skill is a survey only and will not untangle an old codebase
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Issue tracker (GitHub, GitLab or local files)
+      model_support:
+        - Any model (per README)
+      web_port: null
+    links:
+      demo: null
+      website: https://skills.sh/mattpocock/skills
+      docs: null
+    audience: Engineers using Claude Code, Codex, Copilot or Gemini CLI on real codebases
+    confidence: 0.9
+    facts:
+      stars: 282491
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-04
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Shell
+    score: 94
+  - id: ecc
+    repo: affaan-m/ecc
+    name: ecc
+    status: listed
+    tagline: Skills, agents, hooks and rules that add a workflow to coding agents
+    summary: ECC installs a set of 68 agents, 293 skills, 94 legacy command shims, hooks, rules, memory and continuous-learning tooling into coding agents, aiming to enforce a plan, test, implement, review, verify loop. It ships as a Claude Code plugin (`ecc@ecc`) and the `ecc-universal` npm package, with guided setup for Claude Code, Codex and Kimi Code. It also bundles AgentShield, which scans prompts, hooks, MCP config, permissions and secrets.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Guided installer with dry-run for Claude Code, Codex and Kimi Code
+      - Bundles AgentShield scanner for hooks, MCP config, permissions and secrets
+      - "Large catalog: 68 agents, 293 skills, plus selectable rule packs by language"
+      - MIT license; release 2026-10-01 and commit 2026-10-02 are recent
+    weaknesses:
+      - Full support is Claude Code only; other harnesses are capability-limited adapters
+      - Stacking install methods duplicates skills and hooks; reset steps are needed
+      - Claude plugins cannot ship rules, so those are copied manually
+      - ECC Pro GitHub App for private repos is paid, from $19/seat/month
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js 18+
+        - Git
+        - Claude Code 2.1+ (for plugin setup)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://ecc.tools
+      docs: null
+    audience: Developers using Claude Code or Codex who want preset workflows
+    confidence: 0.8
+    facts:
+      stars: 275903
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-01
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: JavaScript
+    score: 92
+  - id: claw-code
+    repo: ultraworkers/claw-code
+    name: claw-code
+    status: listed
+    tagline: Rust CLI coding agent harness, built from source
+    summary: Claw Code is a Rust implementation of the `claw` CLI agent harness, with the workspace in `rust/` and commands such as `claw prompt`, an interactive session, and `claw doctor` as a health check. It authenticates with API keys (Anthropic, OpenAI, others), and the docs cover local OpenAI-compatible providers such as Ollama, llama.cpp and vLLM. The README describes the repo as an agent-managed exhibit and points users who want to run work to LazyCodex or Gajae-Code.
+    categories:
+      - coding-agents
+    strengths:
+      - Rust workspace builds to a single `claw` binary with a `doctor` check
+      - "Supports local OpenAI-compatible backends: Ollama, llama.cpp, vLLM"
+      - MIT license; PowerShell-first Windows install docs alongside Linux and macOS
+      - Mock parity harness and workspace test suite via `cargo test --workspace`
+    weaknesses:
+      - Build from source only; `cargo install claw-code` installs a deprecated stub
+      - README says it is not the serious production project
+      - Claude subscription login unsupported; API key required
+      - No ACP/Zed daemon yet; `claw acp serve` only returns status
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Rust toolchain (cargo)
+        - API key (Anthropic, OpenAI or compatible provider)
+      model_support:
+        - Anthropic API
+        - OpenAI API
+        - OpenAI-compatible local servers (Ollama, llama.cpp, vLLM)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/ultraworkers/claw-code/blob/main/USAGE.md
+    audience: Rust-comfortable developers inspecting or building a CLI coding agent harness
+    confidence: 0.8
+    facts:
+      stars: 194972
+      license: MIT
+      last_commit: 2026-08-16
+      last_release: null
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Rust
+    score: 67
+  - id: ponytail
+    repo: dietrichgebert/ponytail
+    name: ponytail
+    status: listed
+    tagline: Prompt skill that makes coding agents write less, safer code
+    summary: Ponytail is a single prompt (SKILL.md, plus a compact AGENTS.md) that loads into coding agents such as Claude Code and Codex. It makes the agent reuse existing code, the standard library or native platform features before writing new code, while keeping validation, security and accessibility. It adds slash commands for diff review, repo audit and a ledger of deferred shortcuts.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Works as one prompt file; AGENTS.md can be copied into any agent's rules
+      - Includes /ponytail-review and /ponytail-audit with ranked findings
+      - Benchmark method and per-task results are published in the repo
+      - No config file required; optional env var sets default level
+    weaknesses:
+      - "Benchmark figures are self-reported: one agent (Claude Code), 39 tasks, 5 runs each"
+      - Slash commands need a skill-capable host; rule-file adapters get no commands
+      - Behavior depends on the underlying model following the prompt; no enforcement
+      - README includes a waitlist banner for an unspecified upcoming product
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Developers using AI coding agents who want smaller, tested diffs
+    confidence: 0.8
+    facts:
+      stars: 159536
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 89
+  - id: agency-agents
+    repo: msitarzewski/agency-agents
+    name: agency-agents
+    status: listed
+    tagline: Markdown agent persona files for Claude Code, Cursor, Codex and other coding tools
+    summary: A repository of role-specific agent definitions written as Markdown files and grouped into divisions such as engineering and design. Each file describes the agent's identity, workflow, code examples and success metrics. Shell scripts (convert.sh, install.sh) generate and install the files for Claude Code, Cursor, Copilot, Gemini CLI, OpenCode, Aider, Windsurf, Codex and others. A separate desktop app for macOS, Linux and Windows does the same install with a GUI.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Installs into 14+ tools via one script, with --division and --agent filters
+      - Roster spans dozens of engineering roles, from SRE and RAG pipelines to Solidity
+      - Plain Markdown files, easy to read, copy and adapt without running anything
+      - Separate desktop app handles install and updates without a clone
+    weaknesses:
+      - Prompt files only; no runtime, orchestration or agent execution included
+      - OpenCode registers only about 119 agents, so full installs get silently truncated
+      - No tagged release; versioning relies on commit history
+      - Effectiveness claims like 'battle-tested' are not backed by benchmarks in the README
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://agencyagents.app
+      docs: null
+    audience: Developers who want ready-made agent roles in Claude Code, Cursor or Codex
+    confidence: 0.8
+    facts:
+      stars: 158505
+      license: MIT
+      last_commit: 2026-10-07
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Shell
+    score: 73
+  - id: cc-switch
+    repo: farion1231/cc-switch
+    name: cc-switch
+    status: listed
+    tagline: Desktop app for switching API providers across AI coding CLIs
+    summary: CC Switch is a Tauri 2 desktop app for Windows, macOS and Linux that switches API providers for tools such as Claude Code, Codex, Gemini CLI, OpenCode and OpenClaw. It also manages MCP servers, Skills and Prompts from one UI, so JSON, TOML and YAML config files no longer need hand-editing. The README excerpt is truncated, so the feature list and settings are only partly visible.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - One-click provider switching across ten listed tools, including Claude Code, Codex and Gemini CLI
+      - Manages MCP servers, Skills and Prompts in a single place
+      - Native desktop app for Windows, macOS and Linux, built with Tauri 2 (Rust)
+      - MIT license; user manual and translated READMEs (zh, ja, de) are available
+    weaknesses:
+      - Desktop app only; no Docker image or server deployment
+      - README opens with a long list of sponsored API relay services
+      - Does not run models itself; you still need provider accounts or API keys
+      - Per-tool config formats and limits are unknown from the truncated README
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support:
+        - Claude Code
+        - Claude Desktop
+        - Codex
+        - Gemini CLI
+        - Grok Build
+        - OpenCode
+        - OpenClaw
+        - Hermes Agent
+        - Pi
+        - MiniMax Code
+      web_port: null
+    links:
+      demo: null
+      website: https://ccswitch.io
+      docs: null
+    audience: Developers who use several AI coding CLIs and switch API providers often
+    confidence: 0.8
+    facts:
+      stars: 141895
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 73
+  - id: spec-kit
+    repo: github/spec-kit
+    name: spec-kit
+    status: listed
+    tagline: CLI and agent skills for spec-driven development, bug fixing and idea assessment
+    summary: Spec Kit is a Python CLI (`specify`) that installs templates and slash-command skills into a project so a coding agent follows a fixed process. It ships spec-driven development in core (constitution, specify, plan, tasks, implement, converge). Bug fixing and idea assessment are opt-in extensions that write reports under `.specify/`.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Works with multiple coding agents via an integration key, e.g. `--integration copilot`
+      - Process outputs are Markdown artifacts stored in the repo under `.specify/`
+      - Bug-fix flow separates assess, fix and test, ending in a verified, partial or failed verdict
+      - Extensions, presets, workflows and bundles let you customize or replace processes
+    weaknesses:
+      - Needs Python 3.11+ and uv installed
+      - Skills run in the agent's chat, not the terminal; syntax varies by agent
+      - Bug fixing and assessment require a separate `specify extension add` step
+      - Provides no model or agent itself; a supported coding agent is required
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.11+
+        - uv
+        - a supported AI coding agent
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.github.io/spec-kit/
+    audience: Developers who want structured, repeatable workflows from their coding agent
+    confidence: 0.9
+    facts:
+      stars: 140599
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 71
+  - id: gstack
+    repo: garrytan/gstack
+    name: gstack
+    status: listed
+    tagline: Slash-command skill pack that turns Claude Code into a role-based engineering team
+    summary: gstack is a set of Markdown skills and helper tools, installed with a setup script, that give Claude Code slash commands for product review, planning, code review, browser QA, security audits and shipping PRs. It also installs for Codex CLI, OpenCode, Cursor, Kiro and other agents, with Claude Code the only host rated full and the rest experimental or instruction-only. Setup builds a bundled browser binary and needs Bun.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Covers plan, review, QA, security audit and ship steps as slash commands
+      - Installs for about 8 agent hosts via `./setup --host`
+      - Team mode adds gstack to a repo so teammates get it automatically
+      - MIT license; skills are plain Markdown and can be forked
+    weaknesses:
+      - Only Claude Code is certified; other hosts are experimental, with advisory-only safety skills
+      - Requires Bun 1.4.2+ (setup refuses older than 1.3.3) and a Chromium download
+      - /cso needs a specific Bun build and native C toolchain, else reports not assessed
+      - Outside reviews and design tools need Codex CLI or an OpenAI API key
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+        - Git
+        - Bun
+        - Node.js (Windows only)
+        - Codex CLI (outside reviews)
+        - OpenAI API key (design binary)
+      model_support:
+        - Claude (Opus 5.5)
+        - OpenAI Codex (GPT-6 Astra, GPT-6.1 Sol)
+        - gpt-5.5
+        - gpt-image-2
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Claude Code users wanting structured review, QA and release workflows
+    confidence: 0.8
+    facts:
+      stars: 135725
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 83
+  - id: ui-ux-pro-max-skill
+    repo: nextlevelbuilder/ui-ux-pro-max-skill
+    name: ui-ux-pro-max-skill
+    status: listed
+    tagline: Design-system skill for AI coding assistants, with searchable UI styles
+    summary: A skill that gives AI coding assistants a local design dataset and a Python search script. Given a product description, it matches 192 product types against 79 UI styles (50 active), 192 palettes, 74 font pairings and 34 landing patterns using BM25 ranking, then outputs a design system with pattern, colors, typography and anti-patterns. Installs via the ui-ux-pro-max-cli npm package or as a Claude Code plugin.
+    categories:
+      - skills-plugins
+      - design-to-code
+    strengths:
+      - Installs into 20+ assistants via one CLI, including Claude Code, Cursor, Codex CLI and Copilot
+      - Search script uses only the Python standard library and makes no network calls
+      - Covers 22 stacks, including React, Next.js, SwiftUI, Flutter and Jetpack Compose
+      - MIT licensed, with styles catalog and rules stored as plain CSV and JSON data
+    weaknesses:
+      - Brand identity, logo, and image-asset generation are premium-only
+      - Output quality depends on the host assistant following the skill's instructions
+      - Only 50 of 79 styles appear in normal recommendations
+      - Needs Python 3 and Node/npm on the machine for the CLI and search script
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3
+        - npm (ui-ux-pro-max-cli)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://uupm.cc
+      docs: null
+    audience: Developers using AI coding assistants who want consistent UI design output
+    confidence: 0.85
+    facts:
+      stars: 134211
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-08-13
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 88
+  - id: codex
+    repo: openai/codex
+    name: codex
+    status: listed
+    tagline: OpenAI's terminal coding agent that runs locally
+    summary: Codex CLI is a coding agent from OpenAI that runs in the terminal on your machine. It installs through a shell script, npm, Homebrew, or prebuilt release binaries for macOS and Linux, and it signs in with a ChatGPT plan or an API key. The same project also covers IDE extensions and a desktop app.
+    categories:
+      - coding-agents
+    strengths:
+      - Prebuilt binaries for macOS and Linux on x86_64 and arm64
+      - "Multiple install paths: script, npm, Homebrew, or release archive"
+      - Sign-in with an existing ChatGPT Plus, Pro, Business, Edu, or Enterprise plan
+      - Apache-2.0 license, written in Rust
+    weaknesses:
+      - README documents only OpenAI sign-in or API key; other model providers are not mentioned
+      - API key use requires extra setup beyond the quickstart
+      - RAM and disk requirements are unknown
+      - Install scripts fetch from OpenAI-hosted release URLs by default
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - ChatGPT account or OpenAI API key
+      model_support:
+        - OpenAI models
+      web_port: null
+    links:
+      demo: null
+      website: https://chatgpt.com/codex
+      docs: https://developers.openai.com/codex
+    audience: Developers who want a terminal coding agent tied to OpenAI
+    confidence: 0.8
+    facts:
+      stars: 128386
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 70
+  - id: graphify
+    repo: graphify-labs/graphify
+    name: graphify
+    status: listed
+    tagline: Turns a codebase and docs into a queryable knowledge graph
+    summary: Graphify installs as a skill in AI coding assistants such as Claude Code, Cursor, Codex and Gemini CLI. Running /graphify on a project builds a graph from code, docs, PDFs, images and video, and writes graph.html, GRAPH_REPORT.md and graph.json. Code is parsed locally with tree-sitter, and the CLI can query the graph, trace paths between nodes, or explain a concept.
+    categories:
+      - coding-agents
+      - dev-mcp
+    strengths:
+      - Code parsing uses tree-sitter locally with no LLM calls
+      - Each edge is tagged EXTRACTED or INFERRED
+      - Installs into 20+ assistants via a single graphify install command
+      - Graph is plain graph.json plus an HTML viewer, no vector store
+    weaknesses:
+      - Docs, PDFs, images and video need an LLM backend for the semantic pass
+      - Many features (PDF, video, MCP, Neo4j) require separate pip extras
+      - Graph is built on demand; always-on updating is in the hosted product
+      - Benchmark sample sizes are small (n=6 to n=300), results are self-reported
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.10+
+        - uv or pipx
+      model_support:
+        - Anthropic Claude
+        - OpenAI and compatible APIs
+        - Google Gemini
+        - AWS Bedrock
+        - Azure OpenAI
+        - Ollama
+      web_port: null
+    links:
+      demo: null
+      website: https://graphify.com
+      docs: https://docs.graphify.com
+    audience: Developers using AI coding assistants on large or unfamiliar codebases
+    confidence: 0.82
+    facts:
+      stars: 125007
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 69
+  - id: supabase
+    repo: supabase/supabase
+    name: supabase
+    status: listed
+    tagline: Postgres backend with auth, storage, realtime and edge functions
+    summary: Supabase bundles a Postgres database with generated REST and GraphQL APIs, JWT-based auth, S3-backed file storage, realtime change feeds over websockets, and edge functions. It also includes a vector and embeddings toolkit for AI workloads. It runs as a hosted platform, can be self-hosted, or run locally, and has official clients for JavaScript, Flutter, Swift and Python.
+    categories:
+      - backends
+      - saas-with-ai
+    strengths:
+      - Built on Postgres, PostgREST, GoTrue and Realtime, so the data layer is plain SQL
+      - Official clients for JavaScript/TypeScript, Flutter, Swift and Python
+      - Hosted, self-hosted and local development options
+      - Apache-2.0 license; vector and embeddings toolkit included
+    weaknesses:
+      - Many separate services to run when self-hosting; README gives no resource requirements
+      - Go, Java, Rust, Ruby and C# clients are community-maintained, some partial
+      - Repo has no Docker or compose files; self-hosting is documented elsewhere
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - PostgreSQL
+        - S3-compatible storage
+        - Envoy
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://supabase.com
+      docs: https://supabase.com/docs
+    audience: Developers needing a Postgres backend with auth, storage and vectors
+    confidence: 0.85
+    facts:
+      stars: 111281
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-08-07
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 73
+  - id: caveman
+    repo: juliusbrussee/caveman
+    name: caveman
+    status: listed
+    tagline: Proxy and skill that cut token use in coding agents
+    summary: Caveman has two parts. A local proxy compresses what coding agents read (logs, CSV, YAML, JSON, test output, web pages), and a skill makes the agent reply in terse, answer-first text while code, paths and numbers stay verbatim. It works with Claude Code, Codex, Gemini CLI, Aider and 30+ other agents, and ships SDK middleware for the Vercel AI SDK, LangChain, OpenAI and Anthropic.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Proxy cut whole-session input tokens 33.2% in its own 54-run Claude Code benchmark
+      - Skill-only install via `npx skills add`, no proxy needed
+      - "README lists losing cases: HTML got 9.9% worse, and the per-request billing caveat"
+      - TypeScript and Python middleware wraps existing LLM SDK calls
+    weaknesses:
+      - No HTML compressor yet; the benchmark HTML session used more tokens
+      - CLI sends usage telemetry by default; opt out with `caveman telemetry off`
+      - Proxy needs Node.js 22.13+
+      - Skill rules add about 1,160 tokens; cost impact with caching not measured
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js 22.13+
+        - Python 3.11+ (middleware only)
+      model_support:
+        - Claude Code
+        - Codex
+        - Gemini CLI
+        - Aider
+        - Cursor
+        - Windsurf
+        - Cline
+        - Copilot
+        - OpenCode
+      web_port: null
+    links:
+      demo: null
+      website: https://caveman.so
+      docs: https://docs.caveman.so
+    audience: Heavy Claude Code or Codex users trying to cut token spend
+    confidence: 0.8
+    facts:
+      stars: 110761
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Go
+    score: 73
+  - id: gemini-cli
+    repo: google-gemini/gemini-cli
+    name: gemini-cli
+    status: listed
+    tagline: Terminal coding agent that runs Gemini models with file, shell and MCP tools
+    summary: Gemini CLI is a TypeScript terminal agent, installed from npm, Homebrew, MacPorts or conda, that sends prompts to Gemini models and can edit files, run shell commands, fetch web pages and ground answers with Google Search. It supports MCP servers, GEMINI.md context files, conversation checkpointing, a headless mode with JSON and stream-JSON output, and a GitHub Action for PR review and issue triage.
+    categories:
+      - coding-agents
+    strengths:
+      - "Free tier with Google login: 60 requests/min, 1,000 requests/day"
+      - 1M token context window with Gemini 3 models
+      - Headless mode emits plain text, JSON or newline-delimited stream-JSON
+      - Auth via Google login, Gemini API key or Vertex AI
+    weaknesses:
+      - Only talks to Gemini models; no other providers listed in the README
+      - Needs a Google account, API key or Vertex AI credentials; no local models
+      - Preview and nightly channels may contain regressions
+      - Free-tier quotas and terms are governed by Google, not the project
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js
+        - Gemini API, Google account login or Vertex AI
+      model_support:
+        - Gemini 3
+        - Gemini 2.5 Flash
+      web_port: null
+    links:
+      demo: null
+      website: https://geminicli.com
+      docs: https://geminicli.com/docs/
+    audience: Developers who want a Gemini-backed coding agent in the terminal or CI
+    confidence: 0.9
+    facts:
+      stars: 107260
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-06
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 67
+  - id: agent-skills
+    repo: addyosmani/agent-skills
+    name: agent-skills
+    status: listed
+    tagline: Markdown engineering skills and slash commands for AI coding agents
+    summary: A pack of 25 SKILL.md workflows covering spec, planning, build, test, review and ship, plus 9 slash commands and 4 reviewer personas. Each skill has steps, verification gates and a table of excuses agents use to skip steps. It installs through the skills CLI (`npx skills add addyosmani/agent-skills`) or native plugin routes for Claude Code, Codex, Gemini CLI and others.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Installs into 70+ agents via one `npx skills add` command
+      - Native plugin installs for Claude Code, Codex, Gemini CLI, Antigravity and Command Code
+      - Plain Markdown, so it works with any agent that reads instruction files
+      - Every skill ends with evidence requirements such as passing tests or build output
+    weaknesses:
+      - "Single-skill npx install omits the shared references/ directory (issue #361)"
+      - "Antigravity CLI: wrapper commands from legacy TOMLs are not discoverable in affected releases"
+      - Testing reference examples target JavaScript/TypeScript only
+      - Claude Code marketplace install clones over SSH, which fails without GitHub keys
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md
+    audience: Developers who want repeatable, gated workflows from AI coding agents
+    confidence: 0.8
+    facts:
+      stars: 103913
+      license: MIT
+      last_commit: 2026-10-03
+      last_release: 2026-10-03
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 86
+  - id: claude-mem
+    repo: thedotmack/claude-mem
+    name: claude-mem
+    status: listed
+    tagline: Persistent session memory plugin for Claude Code and other coding agents
+    summary: Claude-Mem captures tool-usage observations through Claude Code lifecycle hooks, summarizes them, and stores them in a local SQLite database with Chroma for hybrid semantic and keyword search. Past context is injected into new sessions, and agents can query it through three MCP tools (search, timeline, get_observations) that filter an index before fetching full details. It also installs for OpenCode, T3 Code, Antigravity CLI, OMP, Pi, DeepSeek Harness and OpenClaw.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Local SQLite plus Chroma storage; worker exposes an HTTP API and web viewer
+      - Three-step MCP search (index, timeline, details) claims ~10x token savings
+      - One-command installer covers Claude Code, OpenCode, T3 Code, Pi, OpenClaw and others
+      - Privacy tags exclude marked content from storage; Apache-2.0 license
+    weaknesses:
+      - Default installer prompts for claude-mem account sign-in; opt-out needs a flag or env var
+      - Free trial of hosted observer; afterwards memory uses your Anthropic plan unless you subscribe
+      - Needs Node 20+, Bun and uv, auto-installed if missing
+      - npm install -g claude-mem gives the SDK only, not the plugin hooks
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js >=20
+        - Bun
+        - uv
+        - SQLite
+        - Chroma
+      model_support:
+        - Anthropic plan
+        - OpenRouter
+        - Gemini
+        - claude-mem observer
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://docs.claude-mem.ai/
+    audience: Claude Code users who want context carried across sessions
+    confidence: 0.85
+    facts:
+      stars: 98954
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 75
+  - id: taste-skill
+    repo: leonxlnx/taste-skill
+    name: taste-skill
+    status: listed
+    tagline: SKILL.md files that steer coding agents toward better frontend design
+    summary: "Taste Skill is a set of portable SKILL.md instruction files that tell coding agents such as Codex, Cursor and Claude Code how to handle layout, typography, spacing and motion. It includes variants for redesigning existing projects, plus image-generation skills for web, mobile and brand-kit reference boards. The default skill (v2, experimental) exposes three 1-10 dials: DESIGN_VARIANCE, MOTION_INTENSITY and VISUAL_DENSITY."
+    categories:
+      - skills-plugins
+      - design-to-code
+    strengths:
+      - "Installs with one command: npx skills add, per skill or all at once"
+      - Framework-agnostic rules aimed at design intent, not one framework API
+      - Three tunable dials in the default skill control variance, motion and density
+      - Original v1 stays installable as design-taste-frontend-v1
+    weaknesses:
+      - Default skill is v2 and marked experimental, not yet a stable 2.0.0
+      - No release published; versioning lives in CHANGELOG.md
+      - Image-generation skills need a separate image generator such as ChatGPT Images
+      - README gives no benchmarks or measured before/after results
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - npx skills CLI
+        - Codex, Cursor or Claude Code
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://tasteskill.dev
+      docs: null
+    audience: Developers using AI coding agents who want less generic-looking frontends
+    confidence: 0.85
+    facts:
+      stars: 94082
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 67
+  - id: orca
+    repo: stablyai/orca
+    name: orca
+    status: listed
+    tagline: Desktop app that runs CLI coding agents in parallel git worktrees
+    summary: Orca is a cross-platform desktop app (macOS, Windows, Linux) that runs several CLI coding agents side by side, each in its own isolated git worktree. It bundles terminals with splits, an editor, an embedded Chromium browser, GitHub and Linear task views, and diff annotation. A mobile companion app and an `orca` CLI let you monitor and script agent workflows.
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Works with any agent that runs in a terminal, including Claude Code, Codex, OpenCode, Pi
+      - Each agent gets its own git worktree; fan one prompt across several and compare
+      - Agents can run on a remote machine over SSH with port forwarding
+      - MIT license; desktop builds for macOS, Windows, Linux plus Homebrew and AUR packages
+    weaknesses:
+      - No Docker or self-hosted server install; it is a desktop app
+      - Mobile pairing relay lives in a separate pnpm workspace under cloud/
+      - Collects anonymous usage telemetry; opt-out is documented but not the default
+      - Ships daily and the README says its feature list lags behind
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - git
+        - CLI coding agent of your choice
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://onorca.dev
+      docs: https://www.onorca.dev/docs/cli/overview
+    audience: Developers running several CLI coding agents in parallel on one repo
+    confidence: 0.85
+    facts:
+      stars: 88539
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 74
+  - id: understand-anything
+    repo: egonex-ai/understand-anything
+    name: understand-anything
+    status: listed
+    tagline: Plugin that builds an explorable knowledge graph of a codebase
+    summary: Runs as a skill/plugin inside AI coding tools such as Claude Code, Codex, Cursor, Copilot CLI and Gemini CLI. A multi-agent pipeline combines Tree-sitter parsing with LLM summaries to build a graph of files, functions, classes and dependencies, saved to .ua/knowledge-graph.json. A web dashboard offers search, guided tours, layer views and diff impact analysis, and a separate command handles Karpathy-pattern LLM wikis.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Tree-sitter extracts imports and definitions deterministically, so structural edges are reproducible
+      - Graph is plain JSON; committed graphs can be viewed via npx with no LLM or API key
+      - Incremental re-analysis of changed files, plus optional post-commit auto-update hook
+      - Installs on 17 listed platforms, including Claude Code, Cursor, Codex and Kiro
+    weaknesses:
+      - Initial /understand run on large projects can consume a significant number of tokens
+      - Needs a host AI coding tool and an LLM provider to generate the graph
+      - Codex invokes skills with $ rather than /, so command syntax differs per platform
+      - Localized output limited to en, zh, zh-TW, ja, ko, ru and vi
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js >= 18 (standalone viewer)
+        - LLM via host AI coding tool
+        - git-lfs (optional, graphs over 10 MB)
+      model_support:
+        - Host-tool models
+        - Local models via Ollama
+      web_port: 5173
+    links:
+      demo: https://understand-anything.com/demo/
+      website: https://understand-anything.com
+      docs: null
+    audience: Engineers onboarding to large codebases using AI coding assistants
+    confidence: 0.8
+    facts:
+      stars: 85759
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-07-10
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 72
+  - id: rtk
+    repo: rtk-ai/rtk
+    name: rtk
+    status: listed
+    tagline: CLI proxy that compresses shell command output before your coding agent reads it
+    summary: RTK is a single Rust binary that rewrites shell commands such as git status, cargo test and docker ps so the agent receives filtered, grouped or truncated output. It installs hooks or plugins for Claude Code, Gemini CLI, Codex, Cursor, Windsurf and other agents, and tracks savings with `rtk gain`. The README claims up to 90% less bash output and under 10ms overhead.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Single Rust binary with 100+ supported commands and under 10ms overhead
+      - "`rtk init` sets up hooks for about 15 agents, including Claude Code and Cursor"
+      - "`rtk gain` and `rtk discover` report savings and missed opportunities"
+      - Installs via Homebrew, winget, cargo or prebuilt binaries for macOS, Linux and Windows
+    weaknesses:
+      - Hook only covers Bash calls; built-in Read, Grep and Glob tools bypass it
+      - Token counts are estimated as bytes/4, so absolute numbers are approximate
+      - Crates.io has an unrelated 'rtk' package, so `cargo install rtk` installs the wrong one
+      - Direct execution on Windows no longer supports cmd builtins without `rtk run -c`
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - ripgrep (some filters, Windows)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://www.rtk-ai.app
+      docs: https://www.rtk-ai.app/guide/troubleshooting
+    audience: Developers using AI coding agents who want smaller shell output in context
+    confidence: 0.85
+    facts:
+      stars: 82772
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-02
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 73
+  - id: archify
+    repo: tt-a1i/archify
+    name: archify
+    status: listed
+    tagline: Agent skill that turns descriptions or repos into interactive HTML diagrams
+    summary: "Archify is an agent skill, installed with `npx skills add tt-a1i/archify -g`, that works with Cursor, Claude Code, Codex CLI and OpenCode. Given a description or a repository, the agent generates a typed JSON source and renders a self-contained interactive HTML diagram. It supports five diagram types: architecture, workflow, sequence, data flow and lifecycle."
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Output is one standalone HTML file; viewing needs no Archify install
+      - Five diagram types, plus Before/After architecture comparison via CLI
+      - Typed JSON source is kept, so chat follow-ups edit the diagram
+      - Update check can be disabled with ARCHIFY_UPDATE_CHECK_DISABLED=1
+    weaknesses:
+      - Needs a supported coding agent; no standalone generator
+      - Diagram quality depends on the agent and the model behind it
+      - Optional update check makes a network request unless disabled
+      - README gives no hardware or model requirements
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js (npx)
+        - AI coding agent (Cursor, Claude Code, Codex CLI or OpenCode)
+      model_support: []
+      web_port: null
+    links:
+      demo: https://archify.si/gallery.html
+      website: https://archify.si
+      docs: https://archify.si/guide.html
+    audience: Developers who use coding agents and want shareable architecture diagrams
+    confidence: 0.85
+    facts:
+      stars: 81141
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-09-28
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 83
+  - id: impeccable
+    repo: pbakaus/impeccable
+    name: impeccable
+    status: listed
+    tagline: Design skill and linter for AI coding agents' frontend output
+    summary: Impeccable installs a single `/impeccable` skill with 24 commands (audit, critique, polish, harden, animate and others) into AI coding tools such as Claude Code, Cursor, Codex and Gemini CLI. It also ships 59 deterministic detector rules for common AI-generated UI tells, which run in a CLI, browser extension and edit hooks without an LLM or API key. `/impeccable init` writes a PRODUCT.md with durable product context for later commands.
+    categories:
+      - skills-plugins
+      - design-to-code
+    strengths:
+      - 59 deterministic detector rules run without an LLM or API key
+      - "Installs into many harnesses: Claude Code, Cursor, Codex, Gemini CLI, Copilot, Grok Build"
+      - Edit hooks flag design issues as the agent writes UI files
+      - Skill and hooks need no Node runtime; launcher fetches a self-contained binary
+    weaknesses:
+      - Hooks can download and cache the engine binary on first edit, even if the session denies it
+      - Hook support varies by tool; Hermes has none, Grok Build surfaces findings only on Stop
+      - Codex and Grok Build require manual trust approval for project hooks
+      - Cursor and Gemini CLI skills need beta or preview settings enabled
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - AI coding tool (Claude Code, Cursor, Codex, Gemini CLI, etc.)
+      model_support: []
+      web_port: null
+    links:
+      demo: https://impeccable.style/cases/neo-mirai
+      website: https://impeccable.style
+      docs: https://impeccable.style/docs/hooks
+    audience: Developers using AI coding agents who want better frontend design output
+    confidence: 0.85
+    facts:
+      stars: 78974
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 86
+  - id: ruflo
+    repo: ruvnet/ruflo
+    name: ruflo
+    status: listed
+    tagline: Agent harness that adds swarms, memory and MCP tools to Claude Code and Codex
+    summary: Ruflo wraps Claude Code and Codex with 100+ specialized agents, swarm coordination, vector-backed memory, hooks and an MCP server. It installs either as Claude Code plugins (35 listed, plus a console and mods) or via `npx ruflo init`, which writes `.claude/`, `CLAUDE.md` and helper files into the project. Cross-machine agent federation and a Claude-controlled console with read/write/manage/full permission levels are also described.
+    categories:
+      - coding-agents
+      - dev-mcp
+    strengths:
+      - "Two install paths: zero-file Claude Code plugins or full CLI init with hooks and daemon"
+      - Ships an MCP server usable from Codex or any stdio MCP client
+      - Console lets you inspect runs, tokens and cost; Claude control defaults to read + ask
+      - MIT license with active releases (last release 2026-10-09)
+    weaknesses:
+      - Plugin path gives only slash commands and a few skills; hooks need the CLI install
+      - Mods and console hooks are Claude Code specific; other clients get MCP tools only
+      - Mods are not sandboxed and run with your account's permissions
+      - Large surface (314 MCP tools, 35 plugins) and no Docker setup; RAM and GPU needs unknown
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Claude Code 2.1.287 or later (for plugins)
+        - Node.js/npm (npx)
+      model_support:
+        - Claude Code
+        - Codex
+        - Ollama (via ruflo-ruvllm plugin)
+      web_port: null
+    links:
+      demo: null
+      website: https://ruvnet.github.io/ruflo
+      docs: https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md
+    audience: Claude Code or Codex users wanting multi-agent swarms and persistent memory
+    confidence: 0.7
+    facts:
+      stars: 74196
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 74
+  - id: codegraph
+    repo: colbymchenry/codegraph
+    name: codegraph
+    status: listed
+    tagline: Local code knowledge graph served to coding agents over MCP
+    summary: CodeGraph indexes a project into a local graph of symbols, call edges and dependencies under `.codegraph/`, then exposes it to coding agents through an MCP server. Agents can fetch relevant source, call paths and change impact in one call instead of grepping and reading files. `codegraph install` wires it into Claude Code, Cursor, Codex CLI, opencode, Gemini CLI, Kiro, GitHub Copilot and others, and auto-sync keeps the index current.
+    categories:
+      - dev-mcp
+      - coding-agents
+    strengths:
+      - Runs locally; no Node.js needed, ships as a bundled installer or npm package
+      - One `codegraph install` configures MCP for nine named agents and IDEs
+      - Covers 30+ languages, including TypeScript, Python, Go, Rust, Java, C#, Swift
+      - Watches files and updates the graph automatically; no manual re-index
+    weaknesses:
+      - README admits about 80% more retrieval context stays resident in long sessions
+      - Published benchmarks are the author's, on 7 repos with one question each
+      - No Docker or compose setup; install is via curl/PowerShell script or npm
+      - Hosted CodeGraph platform is a waitlist product, separate from this repo
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://getcodegraph.com
+      docs: https://colbymchenry.github.io/codegraph/
+    audience: Developers using AI coding agents on mid-to-large codebases
+    confidence: 0.85
+    facts:
+      stars: 73600
+      license: MIT
+      last_commit: 2026-10-07
+      last_release: 2026-10-03
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: C
+    score: 80
+  - id: openspec
+    repo: fission-ai/openspec
+    name: openspec
+    status: listed
+    tagline: Spec-driven workflow CLI that guides AI coding assistants through plan, apply and archive
+    summary: OpenSpec is a Node.js CLI that adds an `openspec/` folder to a repo and installs slash commands (such as /opsx:propose, /opsx:apply, /opsx:archive) into 30+ AI coding tools. Each change gets a folder with proposal.md, specs, design.md and tasks.md in plain Markdown, which the human reviews before code is written. A beta Stores feature keeps specs and changes in a separate shared repo for cross-repo work.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Specs and changes are plain Markdown in the repo, versioned with git
+      - Works with 30+ AI coding tools through generated slash commands
+      - Install via npm or Homebrew; no server or database needed
+      - Designed for existing codebases, with an adoption guide for brownfield projects
+    weaknesses:
+      - Needs Node.js 20.19.0 or higher
+      - Stores (cross-repo shared planning) are still in beta
+      - Collects anonymous usage telemetry by default; opt-out via config or env var
+      - Command syntax differs per tool, e.g. /opsx-propose, @opsx-propose, $openspec-propose
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js 20.19.0+
+        - an AI coding assistant
+      model_support:
+        - Codex 5.5 and Opus 4.7 recommended; works with 30+ AI coding tools
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/Fission-AI/OpenSpec/blob/main/docs/README.md
+    audience: Developers who want written specs agreed with their AI coding agent
+    confidence: 0.85
+    facts:
+      stars: 71476
+      license: MIT
+      last_commit: 2026-10-06
+      last_release: 2026-10-06
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 78
+  - id: cline
+    repo: cline/cline
+    name: cline
+    status: listed
+    tagline: Coding agent for VS Code, JetBrains, terminal and desktop
+    summary: Cline is a coding agent that reads a project, edits files across it, and runs shell commands while watching the output. It ships as a VS Code extension, JetBrains plugin, CLI with headless mode, macOS/Windows desktop app, and a Node.js SDK. Edits and commands need approval by default, with Plan and Act modes, checkpoints, and optional auto-approve.
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Same agent engine across VS Code, JetBrains, CLI, desktop app and SDK
+      - Works with Anthropic, OpenAI, Gemini, Bedrock, Vertex, OpenRouter, Ollama and LM Studio
+      - Headless CLI accepts piped input and emits JSON for CI/CD scripts
+      - Supports MCP servers, SDK plugins, cron-scheduled agents and multi-agent teams
+    weaknesses:
+      - JetBrains plugin source is not open-sourced
+      - VS Code extension code is still migrating to the new layout
+      - Hosted model providers need your own API keys; local models via Ollama or LM Studio
+      - Diff review and checkpoints are described only for VS Code and JetBrains
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Node.js
+        - VS Code or JetBrains IDE (for extensions)
+        - LLM provider API key or local model server
+      model_support:
+        - Anthropic
+        - OpenAI
+        - Google Gemini
+        - OpenRouter
+        - Vercel AI Gateway
+        - AWS Bedrock
+        - Azure
+        - GCP Vertex
+        - Cerebras
+        - Groq
+        - Ollama
+        - LM Studio
+        - OpenAI-compatible APIs
+      web_port: null
+    links:
+      demo: null
+      website: https://cline.bot
+      docs: https://docs.cline.bot
+    audience: Developers wanting an approval-gated coding agent in their IDE, terminal or CI
+    confidence: 0.85
+    facts:
+      stars: 70075
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 65
+  - id: oh-my-openagent
+    repo: code-yeongyu/oh-my-openagent
+    name: oh-my-openagent
+    status: listed
+    tagline: Terminal coding agent that runs parallel sub-agents and keeps git-based memory
+    summary: OmO ships a single `omo` command, a native binary built on senpi, the project's fork of pi. It takes a prompt and plans, runs and checks the work. Adding `ultrawork` or `mass ulw` makes it fan the job out to many agents, each on a model chosen for that step. Memory is stored as markdown files in a git repository, and `/login` supports Claude, ChatGPT, Kimi and GLM subscriptions.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Native binary installs via curl script, bun or npm; no Docker needed
+      - Logs in with Claude, ChatGPT, Kimi and GLM subscriptions
+      - Memory is plain markdown in a git repo, so it can be inspected
+      - "`omo setup` migrates keys, MCP servers and skills from the OpenCode edition"
+    weaknesses:
+      - License is SUL-1.0, not a standard OSI license; check terms before commercial use
+      - Install is a curl-pipe-to-bash script
+      - Computer use is documented as experimental
+      - Hardware needs and supported model list are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support:
+        - Claude
+        - ChatGPT
+        - Kimi
+        - GLM
+      web_port: null
+    links:
+      demo: null
+      website: https://omo.dev
+      docs: https://omo.dev/docs
+    audience: Developers who want a terminal agent that orchestrates many models
+    confidence: 0.8
+    facts:
+      stars: 69918
+      license: NOASSERTION
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 69
+  - id: openinterpreter
+    repo: openinterpreter/openinterpreter
+    name: openinterpreter
+    status: listed
+    tagline: Terminal coding agent, a Codex fork tuned for low-cost models
+    summary: Open Interpreter is a Rust fork of OpenAI's Codex that runs as a terminal coding agent. It can emulate other agent harnesses (claude-code, kimi-code, qwen-code, swe-agent and others) via /harness, so cheaper models are driven the way their providers recommend. It also runs as an ACP agent for editors and accepts the Codex exec protocol.
+    categories:
+      - coding-agents
+    strengths:
+      - "Switchable harness emulation: native, claude-code, kimi-code, qwen-code, swe-agent, minimal and more"
+      - Runs under native sandboxing on macOS, Linux and Windows
+      - Works as an ACP agent via `interpreter acp`; Codex SDK users can swap the binary
+      - Reads shared AGENTS.md and .agents/skills; supports MCP, hooks and permissions
+    weaknesses:
+      - Rewrite of the original Python project, which is now only a community fork
+      - "Built-in computer use relies on external tools: agent-browser and trycua"
+      - README gives no RAM, GPU or supported-model minimums
+      - Install is a curl or PowerShell pipe-to-shell script; no Docker image
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - agent-browser
+        - trycua
+      model_support:
+        - OpenAI-compatible Chat Completions providers
+        - Kimi K3
+        - DeepSeek
+        - Z.AI GLM
+      web_port: null
+    links:
+      demo: null
+      website: https://www.openinterpreter.com
+      docs: https://www.openinterpreter.com/docs/terminal
+    audience: Developers wanting a terminal coding agent on cheaper non-OpenAI models
+    confidence: 0.85
+    facts:
+      stars: 68533
+      license: Apache-2.0
+      last_commit: 2026-10-07
+      last_release: 2026-10-07
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 66
+  - id: claude-code-best-practice
+    repo: shanraisshan/claude-code-best-practice
+    name: claude-code-best-practice
+    status: listed
+    tagline: Reference repo of Claude Code configs, guides, and workflow examples
+    summary: A documentation-first repository that catalogs Claude Code features (subagents, commands, skills, hooks, MCP servers, settings, memory, plugins) with written guidance and working examples under `.claude/`. It includes a Command → Agent → Skill orchestration demo run with `/weather-orchestrator`, plus a comparison table of community development workflows such as Superpowers, Spec Kit and gstack.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Each feature links to both a written guide and a working implementation in the repo
+      - "Runnable orchestration example: Command → Agent → Skill via `/weather-orchestrator`"
+      - Compares community workflows with agent, command and skill counts per project
+      - MIT license; plain markdown and config files, no services to run
+    weaknesses:
+      - Covers Claude Code only; other coding agents are not the focus
+      - Not installable software; it is reference material to read and copy from
+      - Many listed features are marked beta and may change
+      - Workflow table figures such as star counts are snapshots that go stale
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+      model_support:
+        - Claude
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://code.claude.com/docs
+    audience: Engineers learning Claude Code configuration and agentic workflows
+    confidence: 0.8
+    facts:
+      stars: 67305
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: HTML
+    score: 70
+  - id: warp
+    repo: warpdotdev/warp
+    name: warp
+    status: listed
+    tagline: Terminal-based development environment with a built-in coding agent
+    summary: Warp is a Rust client that started as a terminal and now includes a built-in coding agent. It can also run third-party CLI agents such as Claude Code, Codex and Gemini CLI. The client source is public, and the repository is itself maintained partly by automated agents (Warp Factories).
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Runs its own agent or external CLI agents (Claude Code, Codex, Gemini CLI)
+      - Client source is public; build with ./script/bootstrap and ./script/run
+      - UI framework crates (warpui_core, warpui) are MIT-licensed
+      - Written in Rust; contribution flow and AGENTS.md engineering guide documented
+    weaknesses:
+      - Most code is AGPL-3.0, which constrains proprietary forks
+      - README does not state supported models, RAM or GPU requirements
+      - Factories automation is early access with a demo booking flow
+      - README covers only the client; server-side components are not described
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support:
+        - GPT models
+        - Claude Code
+        - Codex
+        - Gemini CLI
+      web_port: null
+    links:
+      demo: https://build.warp.dev
+      website: https://www.warp.dev
+      docs: https://docs.warp.dev
+    audience: Developers who want an agent-capable terminal and may contribute to it
+    confidence: 0.7
+    facts:
+      stars: 65398
+      license: AGPL-3.0
+      last_commit: 2026-10-09
+      last_release: 2026-06-03
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 58
+  - id: context7
+    repo: upstash/context7
+    name: context7
+    status: listed
+    tagline: Fetches current, version-specific library docs into coding agent prompts
+    summary: Context7 looks up documentation and code examples for a named library and version, then returns them to the coding agent as context. It runs as an MCP server with two tools (resolve-library-id, query-docs) or as a ctx7 CLI plus skill. Setup is one command, npx ctx7 setup, which handles OAuth and API key generation. The hosted service at mcp.context7.com does the retrieval.
+    categories:
+      - dev-mcp
+      - coding-agents
+    strengths:
+      - "Two modes: MCP server, or ctx7 CLI with an installed skill"
+      - Library IDs like /vercel/next.js skip matching; version can be named in the prompt
+      - npx ctx7 setup configures Cursor, Claude Code or opencode
+      - Also ships a TypeScript SDK and Vercel AI SDK tools
+    weaknesses:
+      - API backend, parsing and crawling engines are private; repo has only the MCP server
+      - Relies on the hosted service at mcp.context7.com; local run is a separate guide
+      - Free API key recommended for higher rate limits; exact limits unknown
+      - Docs are community-contributed; accuracy and security are not guaranteed
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js 18+
+        - Context7 hosted API
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://context7.com
+      docs: https://context7.com/docs/clients/cli
+    audience: Developers using AI coding agents who need current library docs
+    confidence: 0.85
+    facts:
+      stars: 62835
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 57
+  - id: i-have-adhd
+    repo: ayghri/i-have-adhd
+    name: i-have-adhd
+    status: listed
+    tagline: Skill that makes coding assistants answer with the next action first
+    summary: "A skill/plugin for coding assistants that rewrites response style around ten rules: lead with the next action, number multi-step tasks, cap lists at 5 items, and drop preambles, recaps and closers. It installs through Claude's plugin commands and is tuned by editing skills/i-have-adhd/SKILL.md in a fork. The README's before/after example turns a long auth-flow explanation into three numbered steps."
+    categories:
+      - skills-plugins
+    strengths:
+      - Ten explicit rules, documented in a single editable SKILL.md
+      - Fork-and-swap workflow documented with Claude plugin commands
+      - Before/after example shows the exact change in output style
+      - MIT license; README translated into nine other languages
+    weaknesses:
+      - Install and tuning steps are documented only for Claude plugin commands
+      - No tagged releases
+      - Changes response style only; no measured effect on answer quality is given
+      - Hard rules like the 5-item list cap may cut detail you need
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Coding-assistant users who want terse, action-first replies
+    confidence: 0.8
+    facts:
+      stars: 56103
+      license: MIT
+      last_commit: 2026-10-06
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 68
+  - id: chrome-devtools-mcp
+    repo: chromedevtools/chrome-devtools-mcp
+    name: chrome-devtools-mcp
+    status: listed
+    tagline: MCP server that lets coding agents drive and debug a live Chrome
+    summary: chrome-devtools-mcp is an MCP server that gives coding agents such as Claude, Cursor and Copilot control of a live Chrome browser. It records performance traces through Chrome DevTools, inspects network requests and console messages with source-mapped stack traces, and automates page actions via puppeteer. A CLI is included for use without MCP, and a --slim mode exposes a smaller tool set.
+    categories:
+      - dev-mcp
+    strengths:
+      - Records DevTools performance traces and extracts insights from them
+      - Puppeteer-based automation waits for action results automatically
+      - Slim mode limits the exposed tools to basic browser tasks
+      - Also ships a CLI for use without an MCP client
+    weaknesses:
+      - Usage statistics are sent to Google by default; opt out with --no-usage-statistics
+      - Performance tools may send trace URLs to the Google CrUX API
+      - Officially supports only Chrome and Chrome for Testing
+      - Exposes all browser content to the connected MCP client
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js LTS
+        - npm
+        - Google Chrome (current stable)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/chromedevtools/chrome-devtools-mcp/blob/main/docs/tool-reference.md
+    audience: Developers who want their coding agent to debug and test pages in Chrome
+    confidence: 0.9
+    facts:
+      stars: 53182
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: 2026-09-23
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 64
+  - id: cli-anything
+    repo: hkuds/cli-anything
+    name: cli-anything
+    status: listed
+    tagline: Generates command-line wrappers so AI agents can drive desktop and backend software
+    summary: CLI-Anything runs a 7-phase generator inside a coding agent such as Claude Code, Cursor or Codex. It produces a Python (Click) CLI harness with JSON output and a SKILL.md for a target application or codebase. A companion package, cli-anything-hub, installs community-built CLIs from a registry, covering GIMP, Blender, LibreOffice, QGIS, n8n and others.
+    categories:
+      - dev-mcp
+      - skills-plugins
+    strengths:
+      - Ready-made registry of community CLIs installable with `cli-hub install <name>`
+      - Generated CLIs emit structured JSON and ship a SKILL.md for agent discovery
+      - "Works with several agent hosts: Claude Code, Codex, Cursor, OpenClaw, Pi, OpenCode"
+      - Apache-2.0 license; README reports 2,461 passing tests
+    weaknesses:
+      - Many CLIs only wrap an upstream app, which must be installed separately
+      - Generating a new CLI requires a supported AI coding agent, so output quality varies
+      - Harness quality is per-CLI and community-contributed; test depth differs between harnesses
+      - Windows use with Claude Code needs Git for Windows or WSL for bash and cygpath
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3.10+
+        - A supported AI coding agent (for generating new CLIs)
+        - Upstream apps the chosen CLI wraps (e.g. GIMP, Blender, LibreOffice)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://hkuds.github.io/CLI-Anything/
+      docs: https://arxiv.org/abs/2606.03854
+    audience: Engineers giving coding agents scripted control of GUI and desktop apps
+    confidence: 0.8
+    facts:
+      stars: 51791
+      license: Apache-2.0
+      last_commit: 2026-09-22
+      last_release: 2026-06-25
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 43
+  - id: aider
+    repo: aider-ai/aider
+    name: aider
+    status: listed
+    tagline: Terminal pair-programming tool that edits your git repo with LLMs
+    summary: Aider runs in the terminal and edits files in an existing codebase through chat with a cloud or local LLM. It builds a map of the repository to give the model context, commits each change to git with a generated message, and can run linters and tests after edits and try to fix failures. It also accepts images, web pages and voice input, and can be triggered by comments in an editor.
+    categories:
+      - coding-agents
+    strengths:
+      - Auto-commits every change to git, so diffs and undo use ordinary git tools
+      - Connects to almost any LLM, including local models
+      - Runs linters and tests after edits and attempts to fix reported failures
+      - Repo map gives the model context across larger codebases
+    weaknesses:
+      - Terminal-first; no standalone GUI, IDE use relies on comment watching
+      - Last tagged release is 2025-08-09, older than recent commits
+      - Needs an LLM API key or a separately hosted local model
+      - Installed via pip and aider-install; no Docker setup in the repo
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LLM provider API key or local model server
+      model_support:
+        - Claude 3.7 Sonnet
+        - DeepSeek R1 and V3
+        - OpenAI o1, o3-mini, GPT-4o
+        - local models
+      web_port: null
+    links:
+      demo: null
+      website: https://aider.chat/
+      docs: https://aider.chat/docs/install.html
+    audience: Developers who want LLM edits inside a git repo from the terminal
+    confidence: 0.85
+    facts:
+      stars: 49434
+      license: Apache-2.0
+      last_commit: 2026-05-22
+      last_release: 2025-08-09
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 42
+  - id: jeecgboot
+    repo: jeecgboot/jeecgboot
+    name: jeecgboot
+    status: listed
+    tagline: Java low-code platform with code generator and built-in AI app builder
+    summary: JeecgBoot is a Spring Boot 4 and Vue3 platform for building enterprise systems such as OA, ERP and CRM. It pairs an online form builder and code generator with an AI module (model management, knowledge base with RAG, flow orchestration, MCP plugins, chat assistant) built on langchain4j. It runs as a monolith or as Spring Cloud Alibaba microservices.
+    categories:
+      - app-builders
+      - saas-with-ai
+    strengths:
+      - Code generator emits front end, back end, table SQL and menu permissions
+      - Switches between monolith and Spring Cloud Alibaba microservices (Nacos, Gateway, Sentinel)
+      - Row, column and form-field level data permissions plus multi-tenant SaaS support
+      - Supports MySQL, PostgreSQL, Oracle, SQL Server, MariaDB, Dameng, Kingbase and TiDB
+    weaknesses:
+      - Only MySQL scripts ship by default; other databases need manual conversion
+      - README and docs are primarily in Chinese, with English and Japanese variants linked
+      - "Large stack: needs Redis and a database, and microservice mode adds Nacos and more"
+      - AI features are one module in a broad platform, not a standalone AI app server
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - MySQL 5.7+
+        - Redis
+        - Nacos (microservice mode)
+        - MinIO or Aliyun OSS (optional)
+      model_support:
+        - ChatGPT
+        - DeepSeek
+        - Qwen
+        - Zhipu
+        - MiniMax
+        - Ollama (local models)
+      web_port: null
+    links:
+      demo: https://boot3.jeecg.com
+      website: http://www.jeecg.com
+      docs: https://help.jeecg.com
+    audience: Java teams building enterprise admin systems with optional AI features
+    confidence: 0.8
+    facts:
+      stars: 48124
+      license: Apache-2.0
+      last_commit: 2026-09-22
+      last_release: 2026-08-27
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: Java
+    score: 63
+  - id: diagram-design
+    repo: cathrynlavery/diagram-design
+    name: diagram-design
+    status: listed
+    tagline: Agent skill that generates editorial HTML/SVG diagrams in your site's style
+    summary: Diagram Design is an Agent Skill, installable as a plugin for Claude Code, Codex, GitHub Copilot, Factory Droid and Pi, that generates diagrams as self-contained HTML and SVG with no build step or JavaScript. It covers more than 40 diagram types, each in minimal light, minimal dark and full-editorial variants, and can match your brand by reading your website. It can also redraw draw.io, Mermaid or Excalidraw sources.
+    categories:
+      - skills-plugins
+      - design-to-code
+    strengths:
+      - Output is static HTML and SVG, openable in a browser with no build step
+      - Over 40 diagram types, each with light, dark and full-editorial variants
+      - Installs through marketplaces for Claude Code, Codex, Copilot, Droid and Pi
+      - Imports Mermaid and Excalidraw sources, with export and doctor commands
+    weaknesses:
+      - Needs an Agent Skills-compatible host; no standalone app or CLI generator
+      - Attribute-only comparisons are not drawn; the README says to use tables
+      - Standalone `npx skills` install does not auto-update and omits the command surfaces
+      - OpenCode has no marketplace package; updates mean replacing the copied directory
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: https://cathrynlavery.github.io/diagram-design/
+      website: https://diagramdesign.dev
+      docs: null
+    audience: Developers and writers who want branded diagrams from an AI coding agent
+    confidence: 0.8
+    facts:
+      stars: 47755
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: HTML
+    score: 64
+  - id: agentic-awesome-skills
+    repo: sickn33/agentic-awesome-skills
+    name: agentic-awesome-skills
+    status: listed
+    tagline: Library of 2,671+ SKILL.md playbooks for coding agents, with a local MCP selector
+    summary: A repository of installable SKILL.md instruction files for coding agents, plus AAS Core, a local MCP and `aas` CLI that lets Codex or Claude search the catalog, record chosen skills in aas-stack.json, and preview a plan. A separate npm installer copies selected skills into host directories for Cursor, Gemini CLI, Kiro, OpenCode and others. Core does not rank or recommend skills, and apply and recovery are experimental.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - 2,671+ skills, searchable via skills_index.json and a hosted catalog
+      - Installer targets Claude Code, Cursor, Codex, Gemini CLI, Kiro, OpenCode and Copilot
+      - Installer supports --dry-run and filters by skill ID, category, tags and risk
+      - MIT license; Core stack validate and plan preview are read-only
+    weaknesses:
+      - Core apply and recovery are experimental; supported preview stops at plan review
+      - Core setup guides cover only Codex and Claude; other hosts use direct install
+      - Too many installed skills can overload Antigravity's context
+      - Validation checks structure only, not whether a skill fits or is safe
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js/npm
+      model_support: []
+      web_port: null
+    links:
+      demo: https://aaskills.tech/workbench
+      website: https://aaskills.tech/
+      docs: https://github.com/sickn33/agentic-awesome-skills/blob/v19.2.0/docs/users/aas-core.md
+    audience: Developers using Claude Code, Codex or Cursor who want reusable skill playbooks
+    confidence: 0.8
+    facts:
+      stars: 47390
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 75
+  - id: codebase-memory-mcp
+    repo: deusdata/codebase-memory-mcp
+    name: codebase-memory-mcp
+    status: listed
+    tagline: MCP server that indexes codebases into a queryable knowledge graph
+    summary: A native C executable that parses repositories with tree-sitter (162 languages) into a persistent graph of functions, classes, call chains, HTTP routes and cross-service links, and exposes it through 17 MCP tools. It adds semantic search with bundled embeddings, Cypher-like queries, dead code detection, git diff impact mapping and a built-in 3D graph UI. Processing is local, and `install` configures detected coding-agent clients.
+    categories:
+      - dev-mcp
+      - coding-agents
+    strengths:
+      - Runs locally with no API key, hosted service or language runtime
+      - Bundled embeddings enable semantic search without Ollama or Docker
+      - Covers 162 languages; Hybrid LSP type resolution for 10 of them
+      - Releases are VirusTotal-scanned and SLSA 3 attested
+    weaknesses:
+      - Updates require re-running the install script; `update` only prints the command
+      - Defender may flag release binaries as a false positive, per the README
+      - All active processes must share the exact same build and cache root
+      - Watcher covers only git projects opened in MCP sessions, by default
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support:
+        - nomic-embed-code (bundled, int8, 768d)
+      web_port: 9749
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/DeusData/codebase-memory-mcp/blob/main/docs/CONFIGURATION.md
+    audience: Developers giving coding agents structural code search over local repos
+    confidence: 0.85
+    facts:
+      stars: 46230
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-09-15
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: C
+    score: 62
+  - id: open-code-review
+    repo: alibaba/open-code-review
+    name: open-code-review
+    status: listed
+    tagline: CLI that reviews Git diffs with an LLM agent and line-level comments
+    summary: Open Code Review is a Go CLI (`ocr`) that reads a Git diff, groups related files into bundles, and runs each bundle through a tool-using LLM agent that produces structured review comments. File selection, rule matching, comment positioning and reflection are done by deterministic code rather than prompts. `ocr scan` reviews whole files when there is no diff, and delegation mode lets an existing coding agent do the review with its own model.
+    categories:
+      - code-review
+      - coding-agents
+    strengths:
+      - Deterministic file selection and bundling; each bundle runs as an isolated sub-agent
+      - Reviews workspace changes, branch ranges, single commits, or full files via `ocr scan`
+      - Sessions can be resumed and browsed in a viewer; JSON output for automation
+      - Plugins for Claude Code, Codex, Cursor, Kimi Code, OpenCode; CI docs for GitHub, GitLab, Gerrit
+    weaknesses:
+      - Requires Git >= 2.41 and a configured LLM endpoint, unless delegation mode is used
+      - Recall is lower than general-purpose agents by the README's own benchmark
+      - Benchmark figures are published by the project itself, not independently verified
+      - No Docker or Compose files detected
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Git >= 2.41
+        - LLM provider API
+      model_support:
+        - configurable LLM providers
+        - custom providers
+      web_port: null
+    links:
+      demo: null
+      website: https://open-codereview.ai
+      docs: https://open-codereview.ai/docs
+    audience: Teams adding LLM code review to local workflows or CI pipelines
+    confidence: 0.9
+    facts:
+      stars: 45111
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: 2026-10-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 73
+  - id: herdr
+    repo: herdrdev/herdr
+    name: herdr
+    status: listed
+    tagline: Terminal multiplexer that keeps coding agents running and shows which are blocked
+    summary: herdr is a Rust terminal multiplexer for running several coding agents such as Claude Code, Codex, Cursor and opencode. A background server keeps panes alive when the client detaches or SSH drops, and each pane is marked working, blocked or idle. Agents can also drive it through a CLI and socket API, and saved SSH machines appear in the same window.
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Panes keep running in a background server after detach or SSH disconnect
+      - Per-pane working, blocked or idle status across local and saved SSH machines
+      - Agents can spawn panes and prompt each other via CLI and socket API
+      - Single Rust binary; installs via curl script, Homebrew, mise or PowerShell
+    weaknesses:
+      - After a server or machine restart, processes are lost; only layout and supported agent sessions resume
+      - Resume works only for supported agents; the README does not list which
+      - Windows support is described as beta in the docs link
+      - Install is a curl-pipe-to-shell script by default
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://herdr.dev
+      docs: https://herdr.dev/docs/
+    audience: Developers running several coding agents locally or over SSH
+    confidence: 0.8
+    facts:
+      stars: 43104
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: 2026-09-29
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 66
+  - id: claude-howto
+    repo: luongnv89/claude-howto
+    name: claude-howto
+    status: listed
+    tagline: Tutorials and copy-paste templates for Claude Code features
+    summary: A Markdown guide with 10 modules covering Claude Code slash commands, memory, skills, subagents, MCP, hooks, plugins, checkpoints, advanced features and the CLI. Each module ships templates to copy into .claude/ or ~/.claude/, plus Mermaid diagrams. The README estimates 11-13 hours for the full path and includes quiz commands, /self-assessment and /lesson-quiz.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Templates copy directly into .claude/commands, .claude/agents and ~/.claude/skills
+      - Ordered learning path with per-module time estimates
+      - MIT licensed; README says it is synced with Claude Code releases
+      - Covers hooks, MCP, subagents and plugins in one place
+    weaknesses:
+      - Documentation and templates only; no runnable application or service
+      - Tied to Claude Code; templates are not portable to other coding agents
+      - Docker support and a hosted demo are not provided
+      - README leans on promotional claims such as 10x productivity, unsupported by evidence
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+        - Node.js (npx for MCP server examples)
+      model_support:
+        - Claude
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Developers learning Claude Code who want ready-made configs
+    confidence: 0.8
+    facts:
+      stars: 41779
+      license: MIT
+      last_commit: 2026-09-30
+      last_release: 2026-06-02
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 67
+  - id: codewhale
+    repo: codewhale-hq/codewhale
+    name: codewhale
+    status: listed
+    tagline: Terminal coding agent that works with hosted or local models
+    summary: Codewhale is a Rust coding agent that reads a project, edits files, runs commands, and checks its own work from the terminal. It supports over 40 provider routes, any OpenAI-compatible endpoint, and local models via Ollama, vLLM, or SGLang. The same local engine backs the TUI, headless exec, a local web client, PR review, and an HTTP runtime API.
+    categories:
+      - coding-agents
+    strengths:
+      - Over 40 built-in provider routes plus any OpenAI-compatible endpoint and local runtimes
+      - Plan, Work and Operate modes with approval postures, /undo and /restore
+      - Headless `codewhale exec` and local HTTP runtime API fit scripts and CI
+      - Supports MCP servers, skills, plugins, hooks and Claude Code plugins
+    weaknesses:
+      - Usage telemetry is on by default and must be disabled in config
+      - Linux bubblewrap sandbox is opt-in; Seatbelt is the macOS sandbox
+      - Native desktop app is still in development; VS Code extension is community-maintained
+      - Account-based key sync adds an optional dependency on a hosted Codewhale service
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps:
+        - Ollama, vLLM or SGLang for local models
+        - hosted provider API key
+      model_support:
+        - Anthropic
+        - DeepSeek
+        - Google
+        - Mistral
+        - Moonshot
+        - OpenAI
+        - OpenRouter
+        - xAI
+        - OpenAI-compatible endpoints
+        - Ollama
+        - vLLM
+        - SGLang
+      web_port: null
+    links:
+      demo: null
+      website: https://codewhale.net
+      docs: https://github.com/codewhale-hq/codewhale/blob/main/docs/README.md
+    audience: Developers wanting a model-agnostic terminal coding agent
+    confidence: 0.85
+    facts:
+      stars: 41074
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Rust
+    score: 66
+  - id: agents
+    repo: wshobson/agents
+    name: agents
+    status: listed
+    tagline: Plugin, agent and skill collection for Claude Code, Codex CLI, Cursor and others
+    summary: A catalog of 94 plugins (92 local, 2 external) holding 202 agents, 184 skills and 105 commands, written once as Markdown in the Claude Code plugin format. Native marketplaces serve Claude Code, Codex CLI and Cursor, while adapters generate artifacts for OpenCode, Antigravity CLI, GitHub Copilot and Pi. Individual skills can be installed alone with `gh skill` or `npx skills`.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - One Markdown source adapted to seven coding tools
+      - Skills install individually via gh skill or npx skills
+      - "Broad coverage: Python, JavaScript, testing, security, infrastructure"
+      - MIT license; plugin-eval runs static skill checks without model calls
+    weaknesses:
+      - OpenCode, Antigravity, Copilot and Pi need a clone, uv and Python 3.12+
+      - Features differ by harness; Codex agents and commands use a separate generated path
+      - Pi agents need a subagent extension
+      - plugin-eval LLM judge and Monte Carlo layers are experimental, not validated against human labels
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot or Pi
+        - uv and Python 3.12+ (clone installs)
+        - GitHub CLI 2.90+ or Node.js/npm (skills-only installers)
+      model_support:
+        - opus
+        - sonnet
+        - haiku
+        - fable
+        - inherit (aliases mapped per harness)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/wshobson/agents/blob/main/docs/usage.md
+    audience: Developers using AI coding CLIs who want ready-made agents and skills
+    confidence: 0.9
+    facts:
+      stars: 40304
+      license: MIT
+      last_commit: 2026-10-04
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 70
+  - id: oh-my-claudecode
+    repo: yeachan-heo/oh-my-claudecode
+    name: oh-my-claudecode
+    status: listed
+    tagline: Multi-agent orchestration plugin for Claude Code with staged team pipelines
+    summary: oh-my-claudecode adds skills, slash commands and an `omc` CLI to Claude Code. It runs in-session workflows such as /autopilot, /ralph, /deep-interview and a staged /team pipeline (plan, PRD, exec, verify, fix). The CLI can also start tmux panes running Codex, Gemini, Antigravity, Grok, Cursor or Claude workers.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Installs as a Claude Code marketplace plugin or via npm (`oh-my-claude-sisyphus`)
+      - "`omc team` spawns tmux workers for Codex, Gemini, Antigravity, Grok, Cursor and Claude"
+      - Autopilot stage profiles are configurable in `.claude/omc.jsonc`
+      - MIT license; exports TypeScript helpers such as `createOmcSession()`
+    weaknesses:
+      - Slash-command workflows need an active Claude Code session; not usable in CI
+      - Named autopilot profiles require Linux with `flock`
+      - Native team mode needs an experimental Claude Code env flag
+      - npm install prints a deprecated `prebuild-install` warning
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+        - tmux
+        - Node.js/npm
+        - codex/gemini/agy/grok/cursor-agent CLIs (optional)
+      model_support:
+        - Claude
+        - Codex
+        - Gemini
+        - Antigravity
+        - Grok
+        - Cursor
+      web_port: null
+    links:
+      demo: null
+      website: https://yeachan-heo.github.io/oh-my-claudecode-website
+      docs: https://yeachan-heo.github.io/oh-my-claudecode-website/docs/
+    audience: Claude Code users who want multi-agent workflows without custom setup
+    confidence: 0.85
+    facts:
+      stars: 39743
+      license: MIT
+      last_commit: 2026-10-06
+      last_release: 2026-10-06
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 66
+  - id: ant-design-pro
+    repo: ant-design/ant-design-pro
+    name: ant-design-pro
+    status: listed
+    tagline: React admin dashboard template built on Ant Design 6 and Umi Max
+    summary: Ant Design Pro is a React 19 and TypeScript boilerplate for enterprise back-office apps, built on Umi Max 4 and antd 6. It ships ready-made pages for dashboards, forms, lists, profiles, account settings, login and error screens, plus i18n, mock data and unit and e2e tests. A built-in AI chatbot page uses Ant Design X, and an `npm run simple` script strips the template down to a minimal version.
+    categories:
+      - saas-with-ai
+    strengths:
+      - Includes dashboard, form, list, profile, account and result page templates
+      - Built-in i18n, mock development setup, and unit and e2e tests
+      - Ships Claude Code skills for upgrading the template and querying antd APIs
+      - TypeScript with Tailwind CSS v4 and antd-style theming
+    weaknesses:
+      - AI support is a single chatbot page; no model backend is described
+      - "`npm run simple` permanently deletes files and cannot be undone"
+      - Tied to the Umi Max and antd stack; no other frameworks
+      - No Docker or compose setup mentioned in the README
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: https://preview.pro.ant.design
+      website: null
+      docs: https://github.com/ant-design/ant-design-pro/blob/master/docs/cheatsheet.en-US.md
+    audience: React teams building enterprise admin UIs on Ant Design
+    confidence: 0.8
+    facts:
+      stars: 38840
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-08-17
+      has_docker: false
+      has_compose: false
+      is_template: true
+      language: TypeScript
+    score: 69
+  - id: dokploy
+    repo: dokploy/dokploy
+    name: dokploy
+    status: listed
+    tagline: Self-hosted PaaS for deploying apps and databases on your own servers
+    summary: Dokploy deploys applications (Node.js, PHP, Python, Go, Ruby and others) and Docker Compose stacks to a VPS, with Traefik handling routing and load balancing. It also creates MySQL, PostgreSQL, MongoDB, MariaDB, libsql and Redis databases, with scheduled backups to external storage. Multi-node scaling uses Docker Swarm, and remote servers can be managed from one instance. It has no AI-specific features; it is a general hosting layer.
+    categories:
+      - deploy
+    strengths:
+      - Installs on a VPS with a single curl script
+      - Built-in database provisioning and automated backups to external storage
+      - Multi-node via Docker Swarm and remote server management
+      - CLI and API, plus notifications via Slack, Discord, Telegram and Email
+    weaknesses:
+      - Not AI-specific; no model serving or LLM features
+      - License is not identified by GitHub (NOASSERTION); check the license file
+      - Requires Docker; Swarm clustering adds operational overhead
+      - Minimum RAM and web port are not stated in the README
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Docker
+        - Docker Swarm
+        - Traefik
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://dokploy.com
+      docs: https://docs.dokploy.com
+    audience: Self-hosters wanting a Heroku/Vercel-style deploy tool on their own VPS
+    confidence: 0.85
+    facts:
+      stars: 37725
+      license: NOASSERTION
+      last_commit: 2026-10-05
+      last_release: 2026-09-29
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 85
+  - id: claude-plugins-official
+    repo: anthropics/claude-plugins-official
+    name: claude-plugins-official
+    status: listed
+    tagline: Anthropic's curated plugin marketplace for Claude Code
+    summary: A Git repository that acts as the official plugin marketplace for Claude Code. Plugins install with `/plugin install {plugin-name}@claude-plugins-official` or through `/plugin > Discover`. The repo holds Anthropic-maintained plugins in `/plugins` and partner or community plugins in `/external_plugins`, each bundling any of MCP server config, slash commands, agents and skills.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Installs directly from inside Claude Code with one slash command
+      - Documents a standard plugin layout with an example plugin as reference
+      - Plugin names are immutable slugs, with a renames map for migrations
+      - Supports skill-bundle entries for repos that ship SKILL.md files without a manifest
+    weaknesses:
+      - Only useful with Claude Code; not a standalone tool
+      - Anthropic does not control or verify third-party plugin contents, which can change
+      - No single license; each plugin carries its own LICENSE file
+      - No tagged releases; plugins are pinned only by marketplace entry
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://code.claude.com/docs/en/plugins
+    audience: Claude Code users and plugin authors looking for or publishing plugins
+    confidence: 0.85
+    facts:
+      stars: 37586
+      license: Apache-2.0
+      last_commit: 2026-10-09
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 54
+  - id: ai-website-cloner-template
+    repo: jcodesmore/ai-website-cloner-template
+    name: ai-website-cloner-template
+    status: listed
+    tagline: Next.js template with an agent skill that rebuilds a website from its URL
+    summary: A Next.js 16 template (React 19, Tailwind CSS v4, shadcn/ui) that bundles a portable `clone-website` agent skill. Given a URL, the agent maps routes, inspects desktop and mobile pages, extracts assets and fonts, builds editable components, then compares source and local pages and runs `npm run check`. It works with Claude Code, Codex CLI, Cursor and OpenCode.
+    categories:
+      - app-builders
+      - coding-agents
+    strengths:
+      - Same skill is read by Claude Code, Codex CLI, Cursor and OpenCode
+      - Output is a typed Next.js codebase with extracted assets, not a screenshot
+      - Writes route mappings, comparison screenshots and a list of remaining gaps
+      - MIT license; Docker Compose files for app and dev mode (port 3001)
+    weaknesses:
+      - Needs a separate AI coding agent with browser access; no standalone mode
+      - README recommends Claude Code with Opus 5.5; other agents are only listed as supported
+      - Requires Node.js 24+
+      - Output is Next.js only; no other target framework is mentioned
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js 24+
+        - AI coding agent with browser access
+      model_support:
+        - Claude Code (Opus 5.5 recommended)
+        - Codex CLI
+        - Cursor
+        - OpenCode
+      web_port: 3001
+    links:
+      demo: https://youtu.be/O669pVZ_qr0
+      website: null
+      docs: null
+    audience: Developers rebuilding a site they own as a Next.js app with a coding agent
+    confidence: 0.85
+    facts:
+      stars: 36353
+      license: MIT
+      last_commit: 2026-10-05
+      last_release: 2026-10-05
+      has_docker: true
+      has_compose: true
+      is_template: true
+      language: TypeScript
+    score: 77
+  - id: continue
+    repo: continuedev/continue
+    name: continue
+    status: listed
+    tagline: Coding agent as a CLI, VS Code extension and JetBrains plugin
+    summary: Continue is a coding agent distributed as an npm CLI, a VS Code extension (Marketplace and OpenVSX) and a JetBrains plugin. The repository is read-only and no longer actively maintained; the final 2.0.0 release removed anonymous telemetry and authentication. The README does not list supported models or providers and points to docs.continue.dev for configuration.
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Ships as CLI, VS Code extension and JetBrains plugin from one codebase
+      - Final 2.0.0 release removed anonymous telemetry and authentication
+      - Apache-2.0 license; extension available on OpenVSX as well as Marketplace
+      - Source for each extension lives in its own directory (vscode, cli, intellij)
+    weaknesses:
+      - Repository is read-only and no longer actively maintained
+      - README recommends the CLI over the JetBrains plugin
+      - README does not list supported models or providers; docs needed
+      - No Docker or compose setup
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://docs.continue.dev
+    audience: Developers wanting a forkable open-source coding agent for VS Code or terminal
+    confidence: 0.8
+    facts:
+      stars: 36160
+      license: Apache-2.0
+      last_commit: 2026-07-21
+      last_release: 2026-06-19
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 51
+  - id: deepseek-reasonix
+    repo: esengine/deepseek-reasonix
+    name: deepseek-reasonix
+    status: listed
+    tagline: Coding agent for terminal, desktop, browser and VS Code, written in Go
+    summary: Reasonix is a local coding agent that reads a project folder, edits files and runs commands and tests, asking for approval at a permission level you choose. DeepSeek is a built-in preset and any OpenAI-compatible endpoint is a config entry in reasonix.toml. The same engine backs the Studio desktop app, a terminal UI, a browser UI via `reasonix web`, and editors through ACP.
+    categories:
+      - coding-agents
+      - editors
+    strengths:
+      - Models are config entries in reasonix.toml; any OpenAI-compatible endpoint works
+      - Static single binary built with CGO_ENABLED=0, cross-compiled to six targets
+      - Per-turn rewind of files changed by its edit tools, independent of git
+      - Same engine behind desktop, CLI, browser and ACP editor clients
+    weaknesses:
+      - Rewind does not cover changes made by shell commands
+      - "Two release lines: 2.x is still changing quickly, 1.x is maintenance only"
+      - VS Code extension needs the separately installed 1.x CLI
+      - Prompts and file contents go to whichever model provider you configure
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Model provider API key
+        - Go 1.25+ (build from source)
+        - Node 24+ and pnpm 10 (Studio build)
+      model_support:
+        - DeepSeek (preset)
+        - OpenAI-compatible endpoints
+        - MCP servers
+      web_port: null
+    links:
+      demo: null
+      website: https://esengine.github.io/DeepSeek-Reasonix/
+      docs: https://github.com/esengine/DeepSeek-Reasonix/blob/studio/docs/GUIDE.md
+    audience: Developers wanting a self-run coding agent with their own model provider
+    confidence: 0.85
+    facts:
+      stars: 35747
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 69
+  - id: hackathon-starter
+    repo: sahat/hackathon-starter
+    name: hackathon-starter
+    status: listed
+    tagline: Node.js and Express boilerplate with auth, API examples and AI samples
+    summary: "Hackathon Starter is an Express and MongoDB web app template with local, passkey and OAuth 2.0 sign-in, account management, 2FA, a contact form and file upload. It ships examples for third-party APIs such as Stripe, Twilio and Google Maps, plus AI samples: a ReAct agent with tool calling and MongoDB session persistence, and RAG with embedding caching. Views are server-rendered Pug with Bootstrap 5.3 and Sass."
+    categories:
+      - saas-with-ai
+      - app-builders
+    strengths:
+      - Local, passkey and eight OAuth 2.0 providers already wired up
+      - "Account flows included: email verification, password reset, 2FA, account deletion"
+      - "Many API integration examples: Stripe, Twilio, Google Drive, Maps, Steam"
+      - Live demo and a production checklist (PROD_CHECKLIST.md)
+    weaknesses:
+      - Requires MongoDB; no other database option is documented
+      - No Dockerfile or compose file detected
+      - AI examples are a small part of a general web boilerplate
+      - Most integrations need separate API keys and OAuth app setup
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - MongoDB
+        - Node.js LTS 24
+        - SMTP provider
+      model_support:
+        - LangChain
+        - Groq
+        - Hugging Face
+        - GPT-OSS
+        - Qwen3.6
+      web_port: 8080
+    links:
+      demo: https://hackathon-starter-1.ydftech.com
+      website: null
+      docs: null
+    audience: Developers starting a Node.js web app with auth and API integrations
+    confidence: 0.8
+    facts:
+      stars: 35251
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-02-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 52
+  - id: oh-my-pi
+    repo: can1357/oh-my-pi
+    name: oh-my-pi
+    status: listed
+    tagline: Terminal coding agent with built-in LSP, debugger, subagents and hash-anchored edits
+    summary: A fork of Pi that runs as a terminal coding agent with a Rust core, shipping 31 built-in tools and support for 60+ model providers. It wires in LSP operations and a DAP debugger, runs persistent Python and Bun cells, and fans work out to subagents in isolated worktrees. Edits use content-hash anchors instead of string replacement, and grep, glob and many shell utilities run in-process.
+    categories:
+      - coding-agents
+      - dev-mcp
+    strengths:
+      - Drives LSP (14 ops) and DAP debuggers (28 ops) from the agent
+      - Hashline edits reject patches against stale files before writing
+      - Runs on macOS, Linux and Windows natively, no WSL needed
+      - Reads Cursor, Cline, Codex and Copilot rule files in native format
+    weaknesses:
+      - Requires bun 1.3.14 or newer for the recommended install
+      - Memory, GitHub, image and TTS tools are off by default
+      - Pull request vouch policy is a trial and may return
+      - Benchmark claims come from the author's own blog post
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - bun >= 1.3.14
+      model_support:
+        - 60+ providers
+      web_port: null
+    links:
+      demo: null
+      website: https://omp.sh
+      docs: https://omp.sh/docs/tools
+    audience: Developers wanting a terminal coding agent with IDE-level tooling
+    confidence: 0.8
+    facts:
+      stars: 34786
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 64
+  - id: book-to-skill
+    repo: virgiliojr94/book-to-skill
+    name: book-to-skill
+    status: listed
+    tagline: Converts books and document folders into on-demand skills for coding agents
+    summary: A Python extractor turns PDF, EPUB, DOCX, Markdown, HTML, RTF or MOBI files into clean text, and the host agent follows SKILL.md to generate a skill. The output is a core SKILL.md, per-chapter files, a glossary, patterns and a cheatsheet, written to ~/.agents/skills/<slug>/. Works with hosts that read the Agent Skills format, including Claude Code, Copilot CLI, Amp, Hermes Agent, OpenCode and OpenClaw.
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - Chapter files load on demand; SKILL.md is about 4,000 tokens
+      - Reads PDF, EPUB, DOCX, HTML, RTF, MOBI, Markdown and plain text
+      - One skill folder is discovered by several agent hosts
+      - Reports 24x-51x fewer tokens than putting the book in context
+    weaknesses:
+      - Scanned PDFs need OCR first (e.g. ocrmypdf); extraction stops otherwise
+      - MOBI/AZW input requires Calibre's ebook-convert, installed separately
+      - Skill generation is done by the host agent's model, so quality varies
+      - Sharing skills made from copyrighted books may infringe the rights holder
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Python 3
+        - pdftotext (poppler)
+        - docling
+        - ebooklib
+        - beautifulsoup4
+        - Calibre ebook-convert
+        - ocrmypdf
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/virgiliojr94/book-to-skill/blob/main/docs/usage.md
+    audience: Developers who want technical books or docs queryable from their coding agent
+    confidence: 0.8
+    facts:
+      stars: 34316
+      license: MIT
+      last_commit: 2026-10-05
+      last_release: 2026-08-10
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 73
+  - id: codex-plugin-cc
+    repo: openai/codex-plugin-cc
+    name: codex-plugin-cc
+    status: listed
+    tagline: Claude Code plugin that runs Codex reviews and delegates tasks
+    summary: A Claude Code plugin that adds slash commands for running Codex code reviews and handing tasks to Codex without leaving Claude Code. It wraps the local Codex CLI and app server, so it reuses your existing Codex login, config.toml and base URL settings. Background jobs can be tracked and cancelled, and sessions can be resumed in Codex.
+    categories:
+      - coding-agents
+      - skills-plugins
+    strengths:
+      - Reuses local Codex CLI auth and config.toml; no separate runtime
+      - Read-only /codex:review and steerable /codex:adversarial-review with --base <ref>
+      - Background jobs via /codex:status, /codex:result and /codex:cancel
+      - Sessions can be continued in Codex with codex resume <session-id>
+    weaknesses:
+      - Requires Claude Code plus a ChatGPT subscription or OpenAI API key
+      - Usage counts against Codex limits; optional review gate can drain them quickly
+      - Multi-file reviews and rescue tasks can run long
+      - /codex:transfer needs a Codex version that supports session import
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Claude Code
+        - Codex CLI (@openai/codex)
+        - Node.js 18.18+
+        - ChatGPT account or OpenAI API key
+      model_support:
+        - OpenAI Codex models (e.g. gpt-5.4-mini, gpt-5.3-codex-spark)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://developers.openai.com/codex/app-server
+    audience: Claude Code users who want Codex reviews and task delegation
+    confidence: 0.9
+    facts:
+      stars: 34019
+      license: Apache-2.0
+      last_commit: 2026-07-08
+      last_release: 2026-07-08
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: JavaScript
+    score: 43
+  - id: github-mcp-server
+    repo: github/github-mcp-server
+    name: github-mcp-server
+    status: listed
+    tagline: MCP server exposing GitHub repos, issues, PRs and Actions to AI tools
+    summary: Official GitHub MCP server, written in Go, that lets MCP hosts read code, manage issues and pull requests, inspect Actions runs and review security alerts. It runs either as a GitHub-hosted remote endpoint (api.githubcopilot.com/mcp/) or locally over stdio via the ghcr.io Docker image or a binary built with go build. Authentication is OAuth or a personal access token.
+    categories:
+      - dev-mcp
+      - mcp-apps
+    strengths:
+      - Hosted remote endpoint needs no local install; local Docker image and Go build also available
+      - Supports OAuth login or PAT; PAT takes precedence when set
+      - Works with GitHub Enterprise Cloud (ghe.com) and Enterprise Server via GITHUB_HOST
+      - Install guides for VS Code, Claude, Cursor, Windsurf, Zed, Codex and others
+    weaknesses:
+      - Enterprise Server is not supported by the remote server; local server only
+      - Remote OAuth needs each host to configure a GitHub App or OAuth App
+      - Local Docker OAuth needs a fixed callback port (8085) published to loopback
+      - Only talks to GitHub; no other forges or providers
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - GitHub API
+        - Docker (optional)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/github/github-mcp-server/blob/main/docs/remote-server.md
+    audience: Developers wiring AI agents and IDE assistants to GitHub
+    confidence: 0.85
+    facts:
+      stars: 33477
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 54
+  - id: claude-code-templates
+    repo: davila7/claude-code-templates
+    name: claude-code-templates
+    status: listed
+    tagline: Installable agents, commands, hooks and MCP configs for Claude Code
+    summary: "A catalog of Claude Code components (agents, slash commands, settings, hooks, MCP integrations and skills) installed per item with `npx claude-code-templates@latest` and browsable at aitmpl.com. It also ships npx-run tools: an analytics view for Claude Code sessions, a mobile-friendly conversation monitor with optional Cloudflare Tunnel access, a health check and a plugin dashboard."
+    categories:
+      - skills-plugins
+      - coding-agents
+    strengths:
+      - One npx command installs a chosen agent, command, hook, setting, skill or MCP
+      - Web catalog at aitmpl.com plus docs at docs.aitmpl.com
+      - Includes analytics, health-check and conversation-monitor tools beyond the templates
+      - MIT license; bundled third-party components keep their original licenses
+    weaknesses:
+      - Targets Claude Code only; no other coding assistant is mentioned
+      - Many components come from third-party repos under mixed licenses (MIT, CC0, Apache 2.0)
+      - README gives no per-component quality or review process; vetting is left to the user
+      - Requires Node.js for npx; version requirements are unknown
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Node.js/npx
+        - Claude Code
+        - Cloudflare Tunnel (optional, for remote chat monitor)
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://aitmpl.com
+      docs: https://docs.aitmpl.com
+    audience: Claude Code users who want ready-made agents, hooks and MCP setups
+    confidence: 0.85
+    facts:
+      stars: 32501
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 63
+  - id: dokku
+    repo: dokku/dokku
+    name: dokku
+    status: listed
+    tagline: Self-hosted mini-Heroku PaaS that deploys apps with git push
+    summary: Dokku is a small Platform-as-a-Service that runs on a single Ubuntu or Debian VM and builds and runs applications in Docker containers. Applications are deployed over SSH, and the server is managed through the `dokku` command line, including domains and SSH keys. The README describes it as a Docker-powered mini-Heroku and does not mention any AI features.
+    categories:
+      - deploy
+    strengths:
+      - Installs on a single VM with one bootstrap script
+      - Supports Ubuntu 22.04/24.04/26.04 and Debian 11+ on amd64 and arm64
+      - MIT license, with an active release history and Ubuntu and Arch packages
+      - Written in Go, with documentation and a Slack support channel
+    weaknesses:
+      - Not an AI project; the README has no AI or model features
+      - Targets one server; the README describes no multi-node setup
+      - Only Ubuntu and Debian are listed as supported operating systems
+      - Deployment and management are CLI and SSH based; the README mentions no web UI
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Docker
+        - SSH keypair
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://dokku.com
+      docs: https://dokku.com/docs/getting-started/installation/
+    audience: Self-hosters wanting a Heroku-style git-push deploy on one VM
+    confidence: 0.85
+    facts:
+      stars: 32173
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-09-27
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 65
+  - id: graphql-engine
+    repo: hasura/graphql-engine
+    name: graphql-engine
+    status: listed
+    tagline: GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server
+    summary: Hasura GraphQL Engine exposes data from PostgreSQL and its flavors, MongoDB, ClickHouse and MS SQL Server through a single GraphQL endpoint. Custom business logic can be added with TypeScript, Python and Go connector SDKs. The repo is a mono-repo holding the V3 engine (which powers Hasura DDN) and the stable V2 engine, with all data connectors open source.
+    categories:
+      - backends
+      - api-backends
+    strengths:
+      - Supports PostgreSQL, MongoDB, ClickHouse and MS SQL Server as data sources
+      - Connector SDKs in TypeScript, Python and Go for custom logic
+      - Core engines and data connectors are Apache-2.0 licensed
+      - V2 remains available as the current stable version
+    weaknesses:
+      - Large mono-repo with long history; README recommends shallow or sparse clones
+      - V2 and V3 are separate codebases with separate docs
+      - V3 is documented around the hosted Hasura DDN workflow
+      - README lists no RAM, port or AI model details
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - PostgreSQL
+        - MongoDB
+        - ClickHouse
+        - MS SQL Server
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://hasura.io/
+      docs: https://hasura.io/docs/3.0/
+    audience: Teams exposing existing databases as a GraphQL API for apps
+    confidence: 0.8
+    facts:
+      stars: 32126
+      license: Apache-2.0
+      last_commit: 2026-10-07
+      last_release: 2026-09-09
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 56
   - id: vercel-chatbot
     repo: vercel/chatbot
     name: chatbot
@@ -523,7 +3209,7 @@ entries:
     audience: Teams starting a chat product on Next.js and Vercel
     confidence: 0.85
     facts:
-      stars: 20989
+      stars: 20990
       license: Apache-2.0
       last_commit: 2026-07-08
       last_release: null
@@ -531,7 +3217,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 58
+    score: 54
   - id: claude-quickstarts
     repo: anthropics/claude-quickstarts
     name: claude-quickstarts
@@ -574,7 +3260,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 52
+    score: 48
   - id: langchain-nextjs-template
     repo: langchain-ai/langchain-nextjs-template
     name: langchain-nextjs-template
@@ -622,7 +3308,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 66
+    score: 63
   - id: twitterbio
     repo: nutlope/twitterbio
     name: twitterbio
@@ -662,7 +3348,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 45
   - id: zola
     repo: ibelick/zola
     name: zola
@@ -712,7 +3398,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 35
+    score: 33
   - id: gemini-chatbot
     repo: vercel-labs/gemini-chatbot
     name: gemini-chatbot
@@ -757,7 +3443,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 50
   - id: openai-chatkit-starter-app
     repo: openai/openai-chatkit-starter-app
     name: openai-chatkit-starter-app
@@ -797,7 +3483,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 23
   - id: openai-responses-starter-app
     repo: openai/openai-responses-starter-app
     name: openai-responses-starter-app
@@ -840,7 +3526,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 26
+    score: 24
   - id: openai-chatkit-advanced-samples
     repo: openai/openai-chatkit-advanced-samples
     name: openai-chatkit-advanced-samples
@@ -883,7 +3569,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 33
+    score: 31
   - id: ai-chat
     repo: pushpak1300/ai-chat
     name: ai-chat
@@ -936,7 +3622,7 @@ entries:
       has_compose: false
       is_template: true
       language: PHP
-    score: 38
+    score: 36
   - id: nuxt-ui-chat
     repo: nuxt-ui-templates/chat
     name: chat
@@ -984,7 +3670,7 @@ entries:
       has_compose: false
       is_template: true
       language: Vue
-    score: 53
+    score: 52
   - id: langgraph-fullstack-python
     repo: langchain-ai/langgraph-fullstack-python
     name: langgraph-fullstack-python
@@ -1030,7 +3716,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 16
+    score: 15
   - id: llm-app
     repo: pathwaycom/llm-app
     name: llm-app
@@ -1077,7 +3763,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 50
+    score: 48
   - id: azure-search-openai-demo
     repo: azure-samples/azure-search-openai-demo
     name: azure-search-openai-demo
@@ -1125,7 +3811,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 53
   - id: chat-langchain
     repo: langchain-ai/chat-langchain
     name: chat-langchain
@@ -1173,7 +3859,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 46
   - id: llm-answer-engine
     repo: developersdigest/llm-answer-engine
     name: llm-answer-engine
@@ -1222,7 +3908,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 45
+    score: 41
   - id: nextjs-openai-doc-search
     repo: supabase-community/nextjs-openai-doc-search
     name: nextjs-openai-doc-search
@@ -1266,7 +3952,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 43
+    score: 40
   - id: rag-postgres-openai-python
     repo: azure-samples/rag-postgres-openai-python
     name: rag-postgres-openai-python
@@ -1313,7 +3999,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 53
+    score: 51
   - id: supabaseauthwithssr
     repo: electriccodeguy/supabaseauthwithssr
     name: SupabaseAuthWithSSR
@@ -1363,7 +4049,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 41
+    score: 39
   - id: natural-language-postgres
     repo: vercel-labs/natural-language-postgres
     name: natural-language-postgres
@@ -1406,7 +4092,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 33
+    score: 32
   - id: azure-search-openai-javascript
     repo: azure-samples/azure-search-openai-javascript
     name: azure-search-openai-javascript
@@ -1453,7 +4139,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 42
+    score: 41
   - id: ai-starter-kit
     repo: sambanova/ai-starter-kit
     name: ai-starter-kit
@@ -1498,7 +4184,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 31
+    score: 30
   - id: openai-support-agent-demo
     repo: openai/openai-support-agent-demo
     name: openai-support-agent-demo
@@ -1579,7 +4265,7 @@ entries:
     audience: Teams building multi-agent simulations or games in TypeScript
     confidence: 0.85
     facts:
-      stars: 10607
+      stars: 10608
       license: MIT
       last_commit: 2026-08-26
       last_release: null
@@ -1587,7 +4273,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 55
+    score: 52
   - id: google-adk-recipes
     repo: google/adk-recipes
     name: adk-recipes
@@ -1631,7 +4317,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 53
   - id: openai-cs-agents-demo
     repo: openai/openai-cs-agents-demo
     name: openai-cs-agents-demo
@@ -1675,7 +4361,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 22
   - id: agent-starter-pack
     repo: googlecloudplatform/agent-starter-pack
     name: agent-starter-pack
@@ -1714,7 +4400,7 @@ entries:
     audience: Teams on Google Cloud that want generated agent infra
     confidence: 0.85
     facts:
-      stars: 6571
+      stars: 6572
       license: Apache-2.0
       last_commit: 2026-05-19
       last_release: 2026-04-25
@@ -1722,7 +4408,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 36
   - id: openai-cua-sample-app
     repo: openai/openai-cua-sample-app
     name: openai-cua-sample-app
@@ -1765,7 +4451,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 47
+    score: 44
   - id: cloudflare-agents-starter
     repo: cloudflare/agents-starter
     name: agents-starter
@@ -1811,7 +4497,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 46
+    score: 43
   - id: opentag
     repo: copilotkit/opentag
     name: OpenTag
@@ -1860,7 +4546,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 50
+    score: 47
   - id: eve-software-factory-template
     repo: vercel-labs/eve-software-factory-template
     name: eve-software-factory-template
@@ -1907,7 +4593,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 67
+    score: 65
   - id: knowledge-agent-template
     repo: vercel-labs/knowledge-agent-template
     name: knowledge-agent-template
@@ -1954,7 +4640,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 50
+    score: 48
   - id: react-agent
     repo: langchain-ai/react-agent
     name: react-agent
@@ -1998,7 +4684,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 49
+    score: 47
   - id: personal-agent-template
     repo: vercel-labs/personal-agent-template
     name: personal-agent-template
@@ -2043,7 +4729,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 59
+    score: 57
   - id: marketing-team-eve-template
     repo: vercel-labs/marketing-team-eve-template
     name: marketing-team-eve-template
@@ -2093,7 +4779,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 61
+    score: 59
   - id: new-langgraph-project
     repo: langchain-ai/new-langgraph-project
     name: new-langgraph-project
@@ -2133,7 +4819,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 34
+    score: 33
   - id: data-enrichment
     repo: langchain-ai/data-enrichment
     name: data-enrichment
@@ -2178,7 +4864,7 @@ entries:
       has_compose: false
       is_template: true
       language: Jupyter Notebook
-    score: 45
+    score: 44
   - id: react-agent-js
     repo: langchain-ai/react-agent-js
     name: react-agent-js
@@ -2221,7 +4907,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 43
+    score: 42
   - id: new-langgraphjs-project
     repo: langchain-ai/new-langgraphjs-project
     name: new-langgraphjs-project
@@ -2304,7 +4990,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 45
   - id: agno-agent-ui
     repo: agno-agi/agent-ui
     name: agent-ui
@@ -2345,7 +5031,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 45
+    score: 42
   - id: opengenerativeui
     repo: copilotkit/openintelligentui
     name: OpenGenerativeUI
@@ -2382,7 +5068,7 @@ entries:
     audience: Frontend and agent developers prototyping generative UI chat apps
     confidence: 0.8
     facts:
-      stars: 1775
+      stars: 1821
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -2390,7 +5076,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 45
+    score: 43
   - id: stockbot-on-groq
     repo: bklieger-groq/stockbot-on-groq
     name: stockbot-on-groq
@@ -2432,7 +5118,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 27
+    score: 24
   - id: openai-structured-outputs-samples
     repo: openai/openai-structured-outputs-samples
     name: openai-structured-outputs-samples
@@ -2473,7 +5159,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 13
+    score: 11
   - id: assistant-ui-stockbroker
     repo: assistant-ui/assistant-ui-stockbroker
     name: assistant-ui-stockbroker
@@ -2519,7 +5205,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 14
+    score: 13
   - id: open-saas
     repo: wasp-lang/open-saas
     name: open-saas
@@ -2558,7 +5244,7 @@ entries:
     audience: Teams that accept Wasp for a complete SaaS base
     confidence: 0.85
     facts:
-      stars: 16074
+      stars: 16075
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-07-27
@@ -2566,7 +5252,7 @@ entries:
       has_compose: false
       is_template: false
       language: MDX
-    score: 55
+    score: 47
   - id: ai-fullstack-saas-boilerplate
     repo: alan345/ai-fullstack-saas-boilerplate
     name: AI-Fullstack-SaaS-Boilerplate
@@ -2610,7 +5296,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 41
+    score: 36
   - id: velobase-harness
     repo: velobase/velobase-harness
     name: velobase-harness
@@ -2661,7 +5347,7 @@ entries:
       has_compose: true
       is_template: true
       language: TypeScript
-    score: 60
+    score: 56
   - id: next-ai-starter
     repo: kleneway/next-ai-starter
     name: next-ai-starter
@@ -2709,7 +5395,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 31
+    score: 28
   - id: lastsaas
     repo: jonradoff/lastsaas
     name: lastsaas
@@ -2754,7 +5440,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 20
+    score: 19
   - id: openai-realtime-agents
     repo: openai/openai-realtime-agents
     name: openai-realtime-agents
@@ -2798,7 +5484,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 29
+    score: 25
   - id: live-api-web-console
     repo: google-gemini/live-api-web-console
     name: live-api-web-console
@@ -2839,7 +5525,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 19
+    score: 16
   - id: agent-starter-react
     repo: livekit-examples/agent-starter-react
     name: agent-starter-react
@@ -2880,7 +5566,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 51
   - id: elevenlabs-examples
     repo: elevenlabs/examples
     name: examples
@@ -2923,7 +5609,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 33
+    score: 31
   - id: voice-ui-kit
     repo: pipecat-ai/voice-ui-kit
     name: voice-ui-kit
@@ -2965,7 +5651,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 47
+    score: 45
   - id: pipecat-examples
     repo: pipecat-ai/pipecat-examples
     name: pipecat-examples
@@ -3007,7 +5693,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 42
+    score: 41
   - id: agent-starter-python
     repo: livekit-examples/agent-starter-python
     name: agent-starter-python
@@ -3050,7 +5736,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 51
+    score: 50
   - id: agent-starter-node
     repo: livekit-examples/agent-starter-node
     name: agent-starter-node
@@ -3179,7 +5865,7 @@ entries:
       has_compose: false
       is_template: true
       language: Swift
-    score: 41
+    score: 40
   - id: agent-starter-flutter
     repo: livekit-examples/agent-starter-flutter
     name: agent-starter-flutter
@@ -3264,7 +5950,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 36
+    score: 35
   - id: agent-starter-react-native
     repo: livekit-examples/agent-starter-react-native
     name: agent-starter-react-native
@@ -3351,7 +6037,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 36
+    score: 33
   - id: mcp-for-next-js
     repo: vercel-labs/mcp-for-next.js
     name: mcp-for-next.js
@@ -3392,7 +6078,7 @@ entries:
       has_compose: false
       is_template: false
       language: JavaScript
-    score: 42
+    score: 41
   - id: mcp-forge
     repo: achetronic/mcp-forge
     name: mcp-forge
@@ -3562,7 +6248,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 56
+    score: 48
   - id: fragments
     repo: e2b-dev/fragments
     name: fragments
@@ -3618,7 +6304,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 47
+    score: 41
   - id: open-agents
     repo: vercel-labs/open-agents
     name: open-agents
@@ -3664,7 +6350,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 51
+    score: 45
   - id: vibesdk
     repo: cloudflare/vibesdk
     name: vibesdk
@@ -3710,7 +6396,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 44
   - id: coding-agent-template
     repo: vercel-labs/coding-agent-template
     name: coding-agent-template
@@ -3762,7 +6448,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 41
+    score: 38
   - id: workflow-builder-template
     repo: vercel-labs/workflow-builder-template
     name: workflow-builder-template
@@ -3806,7 +6492,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 39
+    score: 36
   - id: tersa
     repo: vercel-labs/tersa
     name: tersa
@@ -3848,7 +6534,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 27
+    score: 25
   - id: plate-playground-template
     repo: udecode/plate-playground-template
     name: plate-playground-template
@@ -3979,7 +6665,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 44
+    score: 42
   - id: azure-agent-landing-zone
     repo: azure/agent-landing-zone
     name: agent-landing-zone
@@ -4025,7 +6711,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 67
+    score: 64
   - id: openai-chat-app-quickstart
     repo: azure-samples/openai-chat-app-quickstart
     name: openai-chat-app-quickstart
@@ -4069,7 +6755,7 @@ entries:
       has_compose: true
       is_template: true
       language: Bicep
-    score: 41
+    score: 40
   - id: agent-service-toolkit
     repo: joshuac215/agent-service-toolkit
     name: agent-service-toolkit
@@ -4116,7 +6802,7 @@ entries:
       has_compose: true
       is_template: true
       language: Python
-    score: 73
+    score: 70
   - id: fastapi-langgraph-agent-production-ready-template
     repo: wassim249/fastapi-langgraph-agent-production-ready-template
     name: fastapi-langgraph-agent-production-ready-template
@@ -4162,7 +6848,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 58
+    score: 55
   - id: full-stack-ai-agent-template
     repo: vstorm-co/full-stack-ai-agent-template
     name: full-stack-ai-agent-template
@@ -4213,7 +6899,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 58
+    score: 55
   - id: nodejs-api-boilerplate
     repo: vyancharuk/nodejs-api-boilerplate
     name: nodejs-api-boilerplate
@@ -4261,7 +6947,7 @@ entries:
       has_compose: true
       is_template: true
       language: TypeScript
-    score: 32
+    score: 31
   - id: generative-ai-project-template
     repo: aminedjeghri/generative-ai-project-template
     name: generative-ai-project-template
@@ -4396,7 +7082,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 51
   - id: extro
     repo: turbostarter/extro
     name: extro
@@ -4440,7 +7126,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 39
+    score: 37
   - id: opencode
     repo: anomalyco/opencode
     name: opencode
@@ -4470,7 +7156,7 @@ entries:
     audience: Developers wanting an open terminal coding agent
     confidence: 0.65
     facts:
-      stars: 212366
+      stars: 212373
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -4514,7 +7200,7 @@ entries:
     audience: Developers self-hosting coding agents and automating GitHub or Slack workflows
     confidence: 0.85
     facts:
-      stars: 90386
+      stars: 90397
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -4522,7 +7208,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 70
+    score: 67
   - id: screenshot-to-code
     repo: abi/screenshot-to-code
     name: screenshot-to-code
@@ -4564,15 +7250,15 @@ entries:
     audience: Developers prototyping UIs from designs
     confidence: 0.85
     facts:
-      stars: 80120
+      stars: 80125
       license: MIT
-      last_commit: 2026-07-30
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: true
       is_template: false
       language: null
-    score: 67
+    score: 65
   - id: tabby
     repo: tabbyml/tabby
     name: Tabby
@@ -4619,7 +7305,7 @@ entries:
       has_compose: false
       is_template: false
       language: null
-    score: 52
+    score: 42
   - id: onlook
     repo: onlook-dev/onlook
     name: Onlook
@@ -4666,7 +7352,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 51
+    score: 47
   - id: archon
     repo: coleam00/archon
     name: Archon
@@ -4705,7 +7391,7 @@ entries:
     audience: Teams standardizing how AI agents ship code
     confidence: 0.8
     facts:
-      stars: 23652
+      stars: 23654
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-25
@@ -4713,7 +7399,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 81
+    score: 73
   - id: openchamber
     repo: openchamber/openchamber
     name: OpenChamber
@@ -4747,7 +7433,7 @@ entries:
     audience: Developers running AI coding agents who want multi-device review and control
     confidence: 0.8
     facts:
-      stars: 11333
+      stars: 11341
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -4755,7 +7441,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 74
+    score: 67
   - id: open-swe
     repo: langchain-ai/open-swe
     name: Open SWE
@@ -4800,7 +7486,7 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 73
+    score: 67
   - id: background-agents
     repo: colemurray/background-agents
     name: Background Agents
@@ -4850,4 +7536,4 @@ entries:
       has_compose: true
       is_template: false
       language: null
-    score: 67
+    score: 64
