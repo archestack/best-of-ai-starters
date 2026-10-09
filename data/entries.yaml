@@ -2433,7 +2433,7 @@ entries:
     audience: Frontend and agent developers prototyping generative UI chat apps
     confidence: 0.8
     facts:
-      stars: 1694
+      stars: 1706
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -2609,7 +2609,7 @@ entries:
     audience: Teams that accept Wasp for a complete SaaS base
     confidence: 0.85
     facts:
-      stars: 16076
+      stars: 16077
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-07-27
