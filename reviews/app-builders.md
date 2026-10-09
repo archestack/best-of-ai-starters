@@ -3,7 +3,7 @@
 Prompt-to-app builders and platforms that run coding agents in sandboxes. Back to the [leaderboard](../README.md#%EF%B8%8F-app-builders-and-coding-agents).
 
 <a name="llamacoder"></a>
-### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 95 · Freshness 100 · Maintenance 40 · Easy to run 0 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [llamacoder](https://github.com/nutlope/llamacoder) <sub>⭐ 7.1k · MIT · Sep 2026</sub>
+### 🥇 [llamacoder](https://github.com/nutlope/llamacoder) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (95) · Freshness: active (100) · Maintenance: patchy (40) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.1k · MIT · Sep 2026</sub>
 
 **Open-source Claude Artifacts clone generating React apps with Llama.**
 
@@ -21,7 +21,7 @@ Next.js App Router app with Tailwind that sends a prompt to Llama 3.1 405B on To
 <sub>TypeScript, Together AI (Llama 3.1 405B) · Needs Together AI API key, PostgreSQL (Neon), S3 bucket for screenshots, Braintrust (optional) · [Repo](https://github.com/nutlope/llamacoder) · [▶️ Demo ↗](https://www.llamacoder.io)</sub>
 
 <a name="open-agents"></a>
-### [51](../README.md#-how-we-rank "Score 51/100. Adoption 67 · Freshness 87 · Maintenance 0 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [open-agents](https://github.com/vercel-labs/open-agents) <sub>⭐ 5.8k · MIT · Jun 2026</sub>
+### 🥈 [open-agents](https://github.com/vercel-labs/open-agents) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (67) · Freshness: active (87) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.8k · MIT · Jun 2026</sub>
 
 **Reference app for background coding agents on Vercel sandboxes.**
 
@@ -38,7 +38,7 @@ pnpm monorepo (web app, agent, sandbox and shared packages) where a Next.js app 
 <sub>TypeScript · Needs PostgreSQL (Neon), Vercel Sandbox, Vercel OAuth app, GitHub App, Redis (optional), ElevenLabs (optional) · [Repo](https://github.com/vercel-labs/open-agents) · [▶️ Demo ↗](https://open-agents.dev/)</sub>
 
 <a name="vibesdk"></a>
-### [49](../README.md#-how-we-rank "Score 49/100. Adoption 54 · Freshness 95 · Maintenance 58 · Easy to run 0 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [vibesdk](https://github.com/cloudflare/vibesdk) <sub>⭐ 5.4k · MIT · Sep 2026</sub>
+### 🥉 [vibesdk](https://github.com/cloudflare/vibesdk) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (54) · Freshness: active (95) · Maintenance: fair (58) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.4k · MIT · Sep 2026</sub>
 
 **Self-hosted prompt-to-app platform on Cloudflare Workers and Durable Objects.**
 
@@ -56,7 +56,7 @@ Bun and Vite project that runs a coding agent (Cloudflare Think) in a Durable Ob
 <sub>TypeScript, Cloudflare AI Gateway (configured providers) · Needs Cloudflare account with Workers Paid plan, Cloudflare AI Gateway, D1, model provider API key, custom domain with wildcard DNS · [Repo](https://github.com/cloudflare/vibesdk) · [▶️ Demo ↗](https://build.cloudflare.dev)</sub>
 
 <a name="fragments"></a>
-### [48](../README.md#-how-we-rank "Score 48/100. Adoption 80 · Freshness 100 · Maintenance 41 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [fragments](https://github.com/e2b-dev/fragments) <sub>⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [fragments](https://github.com/e2b-dev/fragments) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: patchy (41) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
 
 **Next.js prompt-to-app builder running generated code in E2B sandboxes.**
 
@@ -74,7 +74,7 @@ Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams gener
 <sub>TypeScript, OpenAI, Anthropic, Google AI, Mistral · Needs E2B API key, LLM provider API key, Supabase (optional auth), Upstash KV (optional) · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
 
 <a name="coding-agent-template"></a>
-### [42](../README.md#-how-we-rank "Score 42/100. Adoption 35 · Freshness 46 · Maintenance 0 · Easy to run 67 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
+### #&#8288;5 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (35) · Freshness: slowing (46) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
 
 **Run Claude Code, Codex and other coding CLIs in Vercel Sandbox.**
 

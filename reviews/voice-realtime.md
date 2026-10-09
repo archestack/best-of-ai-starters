@@ -3,7 +3,7 @@
 Voice agents, realtime speech-to-speech apps and their web, phone and native clients. Back to the [leaderboard](../README.md#%EF%B8%8F-voice-and-realtime).
 
 <a name="agent-starter-react"></a>
-### [54](../README.md#-how-we-rank "Score 54/100. Adoption 67 · Freshness 100 · Maintenance 32 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) <sub>⭐ 946 · MIT · Sep 2026</sub>
+### 🥇 [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (32) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 946 · MIT · Sep 2026</sub>
 
 **Next.js voice assistant frontend for LiveKit Agents.**
 
@@ -20,7 +20,7 @@ Next.js app on LiveKit Agents UI components and the LiveKit JS SDK: welcome and 
 <sub>TypeScript · Needs LiveKit Cloud or self-hosted LiveKit server, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react) · [📖 Docs ↗](https://docs.livekit.io/agents)</sub>
 
 <a name="agent-starter-python"></a>
-### [52](../README.md#-how-we-rank "Score 52/100. Adoption 38 · Freshness 100 · Maintenance 24 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [agent-starter-python](https://github.com/livekit-examples/agent-starter-python) <sub>⭐ 264 · MIT · Oct 2026</sub>
+### 🥈 [agent-starter-python](https://github.com/livekit-examples/agent-starter-python) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (24) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 264 · MIT · Oct 2026</sub>
 
 **Python voice agent on LiveKit Agents with turn detection and simulations.**
 
@@ -38,7 +38,7 @@ uv-managed Python voice assistant on LiveKit Agents using LiveKit Inference for 
 <sub>Python, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-python) · [📖 Docs ↗](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="agent-starter-node"></a>
-### [52](../README.md#-how-we-rank "Score 52/100. Adoption 27 · Freshness 100 · Maintenance 36 · Easy to run 33 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [agent-starter-node](https://github.com/livekit-examples/agent-starter-node) <sub>⭐ 114 · MIT · Oct 2026</sub>
+### 🥉 [agent-starter-node](https://github.com/livekit-examples/agent-starter-node) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: niche (27) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 114 · MIT · Oct 2026</sub>
 
 **Node.js voice agent on LiveKit Agents with turn detection and simulations.**
 
@@ -56,7 +56,7 @@ pnpm TypeScript voice assistant on LiveKit Agents using LiveKit Inference for ST
 <sub>TypeScript, LiveKit Inference (OpenAI, Cartesia, Deepgram and others), LiveKit realtime model plugins · Needs LiveKit Cloud (or self-hosted LiveKit plus model plugins) · GitHub template · Docker · [Repo](https://github.com/livekit-examples/agent-starter-node) · [📖 Docs ↗](https://docs.livekit.io/agents/start/voice-ai/)</sub>
 
 <a name="voice-ui-kit"></a>
-### [48](../README.md#-how-we-rank "Score 48/100. Adoption 52 · Freshness 100 · Maintenance 67 · Easy to run 0 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit) <sub>⭐ 419 · BSD-2-Clause · Oct 2026</sub>
+### #&#8288;4 [voice-ui-kit](https://github.com/pipecat-ai/voice-ui-kit) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (67) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 419 · BSD-2-Clause · Oct 2026</sub>
 
 **React components and templates for Pipecat voice agent frontends.**
 
@@ -73,7 +73,7 @@ pnpm workspace publishing @pipecat-ai/voice-ui-kit: React components (connect bu
 <sub>TypeScript · Needs Pipecat bot server, Daily account (optional transport) · [Repo](https://github.com/pipecat-ai/voice-ui-kit) · [📖 Docs ↗](https://voiceuikit.pipecat.ai)</sub>
 
 <a name="pipecat-examples"></a>
-### [43](../README.md#-how-we-rank "Score 43/100. Adoption 46 · Freshness 100 · Maintenance 61 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>⭐ 395 · BSD-2-Clause · Sep 2026</sub>
+### #&#8288;5 [pipecat-examples](https://github.com/pipecat-ai/pipecat-examples) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 395 · BSD-2-Clause · Sep 2026</sub>
 
 **Runnable Pipecat voice agent examples for phone, web and deployment.**
 
@@ -90,7 +90,7 @@ Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx,
 <sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · Docker · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs ↗](https://docs.pipecat.ai)</sub>
 
 <a name="agent-starter-swift"></a>
-### [41](../README.md#-how-we-rank "Score 41/100. Adoption 16 · Freshness 100 · Maintenance 28 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>⭐ 96 · MIT · Sep 2026</sub>
+### #&#8288;6 [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: niche (16) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 96 · MIT · Sep 2026</sub>
 
 **SwiftUI voice agent client for iOS, macOS and visionOS on LiveKit.**
 
@@ -108,7 +108,7 @@ Xcode project on the LiveKit Swift SDK with voice, text, camera and screen-share
 <sub>Swift · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-swift) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-android"></a>
-### [40](../README.md#-how-we-rank "Score 40/100. Adoption 21 · Freshness 100 · Maintenance 11 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) <sub>⭐ 104 · MIT · Aug 2026</sub>
+### #&#8288;7 [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 104 · MIT · Aug 2026</sub>
 
 **Kotlin and Jetpack Compose voice assistant client for LiveKit Agents.**
 
@@ -124,7 +124,7 @@ Android Studio project on the LiveKit Android SDK giving you a simple voice inte
 <sub>Kotlin · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-android) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-flutter"></a>
-### [40](../README.md#-how-we-rank "Score 40/100. Adoption 11 · Freshness 100 · Maintenance 28 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) <sub>⭐ 93 · MIT · Sep 2026</sub>
+### #&#8288;8 [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 93 · MIT · Sep 2026</sub>
 
 **Flutter voice agent client for iOS, Android, macOS and web.**
 
@@ -142,7 +142,7 @@ Flutter project on the LiveKit Flutter SDK with voice, text and optional camera 
 <sub>Dart · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-flutter) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="agent-starter-embed"></a>
-### [36](../README.md#-how-we-rank "Score 36/100. Adoption 6 · Freshness 100 · Maintenance 7 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) <sub>⭐ 85 · MIT · Sep 2026</sub>
+### #&#8288;9 [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: weak (7) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 85 · MIT · Sep 2026</sub>
 
 **Deprecated Next.js embed widget for a LiveKit voice agent.**
 
@@ -159,7 +159,7 @@ Next.js project that builds an embed-popup.js script and an iframe page so a web
 <sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-embed) · [📖 Docs ↗](https://docs.livekit.io/agents)</sub>
 
 <a name="agent-starter-react-native"></a>
-### [36](../README.md#-how-we-rank "Score 36/100. Adoption 2 · Freshness 100 · Maintenance 17 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native) <sub>⭐ 84 · MIT · Sep 2026</sub>
+### #&#8288;10 [agent-starter-react-native](https://github.com/livekit-examples/agent-starter-react-native) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: niche (2) · Freshness: active (100) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 84 · MIT · Sep 2026</sub>
 
 **Expo React Native voice assistant client for LiveKit Agents.**
 
@@ -175,7 +175,7 @@ Expo project on the LiveKit React Native SDK and its Expo config plugin, run on 
 <sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent, token server · GitHub template · [Repo](https://github.com/livekit-examples/agent-starter-react-native) · [📖 Docs ↗](https://docs.livekit.io/agents/overview/)</sub>
 
 <a name="elevenlabs-examples"></a>
-### [33](../README.md#-how-we-rank "Score 33/100. Adoption 60 · Freshness 70 · Maintenance 20 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [examples](https://github.com/elevenlabs/examples) <sub>⭐ 628 · MIT · Oct 2026</sub>
+### #&#8288;11 [examples](https://github.com/elevenlabs/examples) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: popular (60) · Freshness: recent (70) · Maintenance: weak (20) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 628 · MIT · Oct 2026</sub>
 
 **Prompt-generated ElevenLabs examples for speech, music and voice agents.**
 
@@ -192,7 +192,7 @@ Monorepo of small runnable ElevenLabs examples, each generated from a PROMPT.md 
 <sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs ↗](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site ↗](https://elevenlabs.io/)</sub>
 
 <a name="openai-realtime-agents"></a>
-### [29](../README.md#-how-we-rank "Score 29/100. Adoption 95 · Freshness 33 · Maintenance 0 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>⭐ 7.0k · MIT · Jan 2026</sub>
+### #&#8288;12 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: widely used (95) · Freshness: slowing (33) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jan 2026</sub>
 
 **Next.js demo of multi-agent voice flows on the OpenAI Realtime API.**
 
@@ -210,7 +210,7 @@ Next.js app that talks to the OpenAI Realtime API over WebRTC via the OpenAI Age
 <sub>TypeScript, OpenAI Realtime API, OpenAI Agents SDK (JS) · Needs OpenAI API key · [Repo](https://github.com/openai/openai-realtime-agents)</sub>
 
 <a name="live-api-web-console"></a>
-### [20](../README.md#-how-we-rank "Score 20/100. Adoption 84 · Freshness 2 · Maintenance 0 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
+### #&#8288;13 [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: widely used (84) · Freshness: quiet (2) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
 
 **React console for streaming audio and video to the Gemini Live API.**
 

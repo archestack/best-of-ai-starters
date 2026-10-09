@@ -3,7 +3,7 @@
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#%EF%B8%8F-cloud-reference-architectures).
 
 <a name="azure-agent-landing-zone"></a>
-### [🥉 63](../README.md#-how-we-rank "Score 63/100 (bronze, 55-64). Adoption 53 · Freshness 100 · Maintenance 98 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [agent-landing-zone](https://github.com/azure/agent-landing-zone) <sub>⭐ 1.2k · MIT · Oct 2026</sub>
+### 🥇 [agent-landing-zone](https://github.com/azure/agent-landing-zone) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
 
 **Zero-trust Azure landing zone for agent apps on Microsoft Foundry.**
 
@@ -21,7 +21,7 @@ azd-compatible Bicep landing zone that provisions network-isolated infrastructur
 <sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/azure/agent-landing-zone) · [📖 Docs ↗](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
 
 <a name="azurechat"></a>
-### [44](../README.md#-how-we-rank "Score 44/100. Adoption 81 · Freshness 100 · Maintenance 16 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [azurechat](https://github.com/microsoft/azurechat) <sub>⭐ 1.4k · MIT · Aug 2026</sub>
+### 🥈 [azurechat](https://github.com/microsoft/azurechat) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (16) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Aug 2026</sub>
 
 **Private enterprise chat on Azure OpenAI with document chat and personas.**
 
@@ -39,7 +39,7 @@ Microsoft solution accelerator: a Next.js chat app deployed into your own Azure 
 <sub>TypeScript, Azure OpenAI · Needs Azure subscription, Azure OpenAI, Entra ID or another identity provider · [Repo](https://github.com/microsoft/azurechat)</sub>
 
 <a name="openai-chat-app-quickstart"></a>
-### [38](../README.md#-how-we-rank "Score 38/100. Adoption 11 · Freshness 100 · Maintenance 10 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [openai-chat-app-quickstart](https://github.com/azure-samples/openai-chat-app-quickstart) <sub>⭐ 254 · MIT · Sep 2026</sub>
+### 🥉 [openai-chat-app-quickstart](https://github.com/azure-samples/openai-chat-app-quickstart) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: niche (11) · Freshness: active (100) · Maintenance: weak (10) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 254 · MIT · Sep 2026</sub>
 
 **Minimal Quart chat app on Azure OpenAI with managed identity.**
 
