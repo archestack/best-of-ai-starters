@@ -1427,8 +1427,8 @@ entries:
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-08-18
-      has_docker: false
-      has_compose: false
+      has_docker: true
+      has_compose: true
       is_template: false
       language: Python
     score: 49
@@ -1470,7 +1470,7 @@ entries:
     audience: Teams piloting agent-written pull requests with human merge
     confidence: 0.8
     facts:
-      stars: 1159
+      stars: 1160
       license: MIT
       last_commit: 2026-09-29
       last_release: null
@@ -1956,11 +1956,11 @@ entries:
     audience: Teams prototyping model-generated UI with isolation
     confidence: 0.85
     facts:
-      stars: 1618
+      stars: 1622
       license: MIT
       last_commit: 2026-06-10
       last_release: null
-      has_docker: false
+      has_docker: true
       has_compose: false
       is_template: false
       language: TypeScript
@@ -2178,7 +2178,7 @@ entries:
     facts:
       stars: 1432
       license: MIT
-      last_commit: 2026-09-02
+      last_commit: 2026-10-09
       last_release: 2025-04-11
       has_docker: false
       has_compose: false
@@ -2577,7 +2577,7 @@ entries:
       license: BSD-2-Clause
       last_commit: 2026-09-23
       last_release: null
-      has_docker: false
+      has_docker: true
       has_compose: false
       is_template: false
       language: Python
@@ -3047,7 +3047,7 @@ entries:
       license: Apache-2.0
       last_commit: 2026-08-05
       last_release: null
-      has_docker: false
+      has_docker: true
       has_compose: true
       is_template: true
       language: Python
@@ -3681,7 +3681,7 @@ entries:
       license: MIT
       last_commit: 2026-10-04
       last_release: null
-      has_docker: false
+      has_docker: true
       has_compose: true
       is_template: true
       language: Python
@@ -3826,8 +3826,8 @@ entries:
       license: MIT
       last_commit: 2026-04-13
       last_release: null
-      has_docker: false
-      has_compose: false
+      has_docker: true
+      has_compose: true
       is_template: true
       language: TypeScript
     score: 32

@@ -1,4 +1,4 @@
-# ⚙️ AI API backends — reviews
+# ⚙️ AI API backends reviews · Best of AI Starters
 
 Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-api-backends).
 
@@ -18,7 +18,7 @@ Python service where LangGraph v1 agents (interrupt, Command, Store) are served 
 - **−** Content moderation needs a Groq API key
 - **−** Tests only run outside Docker
 
-<sub>Python, LangChain providers: OpenAI, Anthropic, Google, Ollama, VertexAI, vLLM/SGLang, AG-UI protocol · Needs LLM API key (OpenAI, Anthropic, Google, Groq, Ollama or others), PostgreSQL (compose), LangSmith (optional), ChromaDB (RAG agent) · GitHub template · [Repo](https://github.com/joshuac215/agent-service-toolkit) · [▶️ Demo ↗](https://agent-service-toolkit.streamlit.app/)</sub>
+<sub>Python, LangChain providers: OpenAI, Anthropic, Google, Ollama, VertexAI, vLLM/SGLang, AG-UI protocol · Needs LLM API key (OpenAI, Anthropic, Google, Groq, Ollama or others), PostgreSQL (compose), LangSmith (optional), ChromaDB (RAG agent) · GitHub template · Docker · [Repo](https://github.com/joshuac215/agent-service-toolkit) · [▶️ Demo ↗](https://agent-service-toolkit.streamlit.app/)</sub>
 
 <a name="fastapi-langgraph-agent-production-ready-template"></a>
 ### [🥉 59](../README.md#-how-we-rank "Score 59/100 (bronze, 55-64). Adoption 79 · Freshness 100 · Maintenance 46 · Easy to run 17 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) <sub>⭐ 2.7k · MIT · Sep 2026</sub>
@@ -90,7 +90,7 @@ Express and TypeScript REST API with vertical-slice modules, Zod validation, Inv
 - **−** Generated code still needs manual review and integration
 - **−** Last commit 2026-04
 
-<sub>TypeScript, OpenAI, Anthropic, DeepSeek, OpenRouter · Needs PostgreSQL or SQLite, Redis, AWS S3 (uploads), LLM API key for codegen · GitHub template · [Repo](https://github.com/vyancharuk/nodejs-api-boilerplate)</sub>
+<sub>TypeScript, OpenAI, Anthropic, DeepSeek, OpenRouter · Needs PostgreSQL or SQLite, Redis, AWS S3 (uploads), LLM API key for codegen · GitHub template · Docker · [Repo](https://github.com/vyancharuk/nodejs-api-boilerplate)</sub>
 
 <a name="genai-api"></a>
 ### [29](../README.md#-how-we-rank "Score 29/100. Adoption 5 · Freshness 65 · Maintenance 0 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>⭐ 111 · Apache-2.0 · Apr 2026</sub>

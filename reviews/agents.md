@@ -1,4 +1,4 @@
-# 🧩 Agent backends — reviews
+# 🧩 Agent backends reviews · Best of AI Starters
 
 Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. Back to the [leaderboard](../README.md#-agent-backends).
 
@@ -108,7 +108,7 @@ A deployable Slack and Teams agent in two services: a Node runtime (CopilotRunti
 - **−** OpenAI is the only documented model provider
 - **−** Setup has several Slack-specific failure modes the README spends pages on
 
-<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/copilotkit/opentag) · [📖 Docs ↗](https://docs.copilotkit.ai/channels)</sub>
+<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · Docker · [Repo](https://github.com/copilotkit/opentag) · [📖 Docs ↗](https://docs.copilotkit.ai/channels)</sub>
 
 <a name="knowledge-agent-template"></a>
 ### [49](../README.md#-how-we-rank "Score 49/100. Adoption 50 · Freshness 100 · Maintenance 13 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>

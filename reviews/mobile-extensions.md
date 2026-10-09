@@ -1,4 +1,4 @@
-# 📱 Mobile and browser extensions — reviews
+# 📱 Mobile and browser extensions reviews · Best of AI Starters
 
 Native, cross-platform mobile and browser-extension starters with AI features built in. Back to the [leaderboard](../README.md#-mobile-and-browser-extensions).
 
