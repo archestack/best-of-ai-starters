@@ -2,62 +2,8 @@
 
 Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. Back to the [leaderboard](../README.md#-agent-backends).
 
-<a name="ai-town"></a>
-### 🥈 69 [ai-town](https://github.com/a16z-infra/ai-town) <sub>⭐ 11k · MIT · Aug 2026</sub>
-
-**Generative-agents town simulation on Convex with Ollama by default.**
-
-A deployable version of the Generative Agents paper: pixel-art characters on a PixiJS map that walk, talk and remember, driven by a simulation engine inside Convex, which is also the database and vector store. Models default to llama3 and mxbai-embed-large on Ollama, with OpenAI, Together or any OpenAI-compatible endpoint as env switches; Clerk auth was removed but the revert is documented. For teams building multi-agent simulations in TypeScript.
-
-- **+** Runs fully local with Ollama; docker compose self-hosts Convex, frontend and dashboard
-- **+** Simulation state, transactions and vector memory all live in Convex
-- **+** Live demo hosted by Convex
-- **+** Characters and maps are data files (characters.ts, Tiled JSON)
-- **−** Convex is the backend; moving to another database means a rewrite
-- **−** Changing the embedding model requires wiping all data
-- **−** Auth was removed; re-adding Clerk is a git revert
-- **−** README pins Node 18; last commit 2026-08
-
-<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [▶️ Demo ↗](https://www.convex.dev/ai-town)</sub>
-
-<a name="google-adk-recipes"></a>
-### 🥉 57 [adk-recipes](https://github.com/google/adk-recipes) <sub>⭐ 10k · Apache-2.0 · Oct 2026</sub>
-
-**Runnable Agent Development Kit recipes, from single patterns to deployable agents.**
-
-A recipe collection for Google's Agent Development Kit: core/ holds single-pattern agents (OAuth flows, session memory, guardrails, RAG), contrib/ holds deployable vertical agents targeting Agent Engine, Cloud Run and Gemini Enterprise, and plugins/ holds skills packaged with SKILL.md and EVAL.yaml. Each recipe has its own README; ADK SDKs exist for Python, TypeScript, Go, Java and Kotlin. For teams standardizing on ADK and Google Cloud.
-
-- **+** Core recipes isolate one pattern each, so they lift cleanly into your project
-- **+** Vertical agents include deploy paths to Agent Engine and Cloud Run
-- **+** Recipe checklist and handbook define a contribution standard; tests and AGENTS.md included
-- **+** Committed within the last day
-- **−** Root README is an index; no single app, no shared setup
-- **−** Gemini and Google Cloud are the assumed model and deploy target
-- **−** README states recipes are demonstrations, not for production use
-- **−** Mixed languages and maturity across folders
-
-<sub>Python, google, google-adk · Needs google-adk, google-api-key-or-vertex-ai · [Repo](https://github.com/google/adk-recipes) · [📖 Docs ↗](https://adk.dev)</sub>
-
-<a name="opentag"></a>
-### 🥉 57 [OpenTag](https://github.com/CopilotKit/OpenTag) <sub>⭐ 1.3k · MIT · Oct 2026</sub>
-
-**Slack and Teams knowledge agent on LangGraph and CopilotKit Channels.**
-
-A deployable Slack and Teams agent in two services: a Node runtime (CopilotRuntime with embedded Channels) and a Python LangGraph deep agent speaking AG-UI. It ships web research, optional GitHub, PostHog, Linear and Notion MCP tools, native Slack charts and a LangGraph interrupt that pauses before Linear or Notion writes, with Slack ingress through a CopilotKit Intelligence managed channel. For teams that want an on-call style bot in chat.
-
-- **+** Approval gate before writes is a resumable LangGraph interrupt, not a prompt rule
-- **+** Railway config and an AWS ECS Fargate deployment are both in the repo
-- **+** AGENT_URL accepts any AG-UI agent; the runtime does not care about the framework
-- **+** Published container images; tests and AGENTS.md included
-- **−** Slack and Teams delivery depends on hosted CopilotKit Intelligence unless you build a runner
-- **−** Two languages and two processes: Node 22 plus Python 3.12 with uv
-- **−** OpenAI is the only documented model provider
-- **−** Setup has several Slack-specific failure modes the README spends pages on
-
-<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/CopilotKit/OpenTag) · [📖 Docs ↗](https://docs.copilotkit.ai/channels)</sub>
-
 <a name="eve-software-factory-template"></a>
-### 🥉 57 [eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template) <sub>⭐ 1.2k · MIT · Sep 2026</sub>
+### [🥈 67](../README.md#-how-we-rank "Score 67/100 (silver, 65-79). Adoption 54 · Freshness 100 · Maintenance 35 · Easy to run 67 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template) <sub>⭐ 1.2k · MIT · Sep 2026</sub>
 
 **eve pipeline that turns GitHub or Linear issues into reviewed draft PRs.**
 
@@ -75,7 +21,7 @@ An eve pipeline named Foreman: label an issue factory, @mention it, or delegate 
 <sub>TypeScript, eve, ai-sdk · Needs vercel, github-app-connector, linear-connector, vercel-blob · GitHub template · [Repo](https://github.com/vercel-labs/eve-software-factory-template) · [📖 Docs ↗](https://ask-foreman.dev/docs)</sub>
 
 <a name="marketing-team-eve-template"></a>
-### 51 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>⭐ 449 · MIT · Aug 2026</sub>
+### [🥉 61](../README.md#-how-we-rank "Score 61/100 (bronze, 55-64). Adoption 33 · Freshness 100 · Maintenance 28 · Easy to run 67 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>⭐ 449 · MIT · Aug 2026</sub>
 
 **eve lead agent delegating to five marketing specialists with approval gates.**
 
@@ -93,7 +39,7 @@ An eve project where a lead agent briefs one of five specialists (product market
 <sub>TypeScript, eve, ai-gateway, ai-sdk · Needs vercel-connect, notion, resend, slack, typefully-api-key, vercel-blob, ai-gateway · GitHub template · [Repo](https://github.com/vercel-labs/marketing-team-eve-template) · [📖 Docs ↗](https://vercel.com/kb/guide/marketing-team-eve)</sub>
 
 <a name="personal-agent-template"></a>
-### 49 [personal-agent-template](https://github.com/vercel-labs/personal-agent-template) <sub>⭐ 476 · MIT · Sep 2026</sub>
+### [🥉 59](../README.md#-how-we-rank "Score 59/100 (bronze, 55-64). Adoption 37 · Freshness 100 · Maintenance 11 · Easy to run 67 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [personal-agent-template](https://github.com/vercel-labs/personal-agent-template) <sub>⭐ 476 · MIT · Sep 2026</sub>
 
 **eve and Nuxt personal agent with Slack, GitHub, Linear and per-user memory.**
 
@@ -110,43 +56,62 @@ A Nuxt app plus an eve agent runtime: Better Auth email login, web chat with thr
 
 <sub>TypeScript, eve, ai-sdk · Needs postgres, vercel-blob, vercel-connect · GitHub template · [Repo](https://github.com/vercel-labs/personal-agent-template)</sub>
 
-<a name="openai-cua-sample-app"></a>
-### 47 [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) <sub>⭐ 1.9k · MIT · Sep 2026</sub>
+<a name="google-adk-recipes"></a>
+### [🥉 57](../README.md#-how-we-rank "Score 57/100 (bronze, 55-64). Adoption 94 · Freshness 100 · Maintenance 66 · Easy to run 0 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [adk-recipes](https://github.com/google/adk-recipes) <sub>⭐ 10k · Apache-2.0 · Oct 2026</sub>
 
-**Computer-use agent loops for Playwright browsers and PyAutoGUI desktops.**
+**Runnable Agent Development Kit recipes, from single patterns to deployable agents.**
 
-Two agent loops on the OpenAI Responses API where the model writes code against a persistent runtime: a TypeScript agent driving a browser through Playwright and a Python agent driving the real desktop through PyAutoGUI. A shared console on port 3000 runs scenarios against bundled lab apps and records screenshots and replay JSON. For developers building computer-use agents who want the loop, not a product.
+A recipe collection for Google's Agent Development Kit: core/ holds single-pattern agents (OAuth flows, session memory, guardrails, RAG), contrib/ holds deployable vertical agents targeting Agent Engine, Cloud Run and Gemini Enterprise, and plugins/ holds skills packaged with SKILL.md and EVAL.yaml. Each recipe has its own README; ADK SDKs exist for Python, TypeScript, Go, Java and Kotlin. For teams standardizing on ADK and Google Cloud.
 
-- **+** Lab apps and replay traces let you test the loop without touching real sites
-- **+** Both agents share one console and contract types; tests in each app
-- **+** Persistent execution worker pattern reduces model round trips
-- **−** No sandbox: generated code runs with your user permissions
-- **−** Python agent controls your real mouse and keyboard
-- **−** OpenAI-only; requires model access for computer use
-- **−** Pinned Node 22.20.0 and pnpm 10.26.0
+- **+** Core recipes isolate one pattern each, so they lift cleanly into your project
+- **+** Vertical agents include deploy paths to Agent Engine and Cloud Run
+- **+** Recipe checklist and handbook define a contribution standard; tests and AGENTS.md included
+- **+** Committed within the last day
+- **−** Root README is an index; no single app, no shared setup
+- **−** Gemini and Google Cloud are the assumed model and deploy target
+- **−** README states recipes are demonstrations, not for production use
+- **−** Mixed languages and maturity across folders
 
-<sub>TypeScript, openai · Needs openai-api-key, playwright-chromium, uv · [Repo](https://github.com/openai/openai-cua-sample-app)</sub>
+<sub>Python, google, google-adk · Needs google-adk, google-api-key-or-vertex-ai · [Repo](https://github.com/google/adk-recipes) · [📖 Docs ↗](https://adk.dev)</sub>
 
-<a name="cloudflare-agents-starter"></a>
-### 45 [agents-starter](https://github.com/cloudflare/agents-starter) <sub>⭐ 1.3k · MIT · Jul 2026</sub>
+<a name="ai-town"></a>
+### [🥉 56](../README.md#-how-we-rank "Score 56/100 (bronze, 55-64). Adoption 98 · Freshness 100 · Maintenance 36 · Easy to run 17 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [ai-town](https://github.com/a16z-infra/ai-town) <sub>⭐ 11k · MIT · Aug 2026</sub>
 
-**Cloudflare Agents SDK chat starter with Durable Object state and scheduling.**
+**Generative-agents town simulation on Convex with Ollama by default.**
 
-A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: streaming via Workers AI by default, three tool patterns (server auto-execute, client-side, human approval), one-off and cron scheduling, image input and a Kumo React UI. Messages persist in Durable Object SQLite, streams resume on reconnect, and swapping to OpenAI or Anthropic is an AI SDK provider import. For teams deploying agents on Cloudflare.
+A deployable version of the Generative Agents paper: pixel-art characters on a PixiJS map that walk, talk and remember, driven by a simulation engine inside Convex, which is also the database and vector store. Models default to llama3 and mxbai-embed-large on Ollama, with OpenAI, Together or any OpenAI-compatible endpoint as env switches; Clerk auth was removed but the revert is documented. For teams building multi-agent simulations in TypeScript.
 
-- **+** No model API key needed; Workers AI is the default
-- **+** Approval, client-side and server tools shown side by side in server.ts
-- **+** Built-in scheduling, MCP client and state sync from the Agents SDK
-- **+** npm run deploy ships to workers.dev
-- **−** Local dev still needs a Cloudflare login; Workers AI has no local simulator
-- **−** Demo tools return fake data (getWeather is random)
-- **−** No auth, no tests
-- **−** State model is Durable Objects; not portable off Cloudflare
+- **+** Runs fully local with Ollama; docker compose self-hosts Convex, frontend and dashboard
+- **+** Simulation state, transactions and vector memory all live in Convex
+- **+** Live demo hosted by Convex
+- **+** Characters and maps are data files (characters.ts, Tiled JSON)
+- **−** Convex is the backend; moving to another database means a rewrite
+- **−** Changing the embedding model requires wiping all data
+- **−** Auth was removed; re-adding Clerk is a git revert
+- **−** README pins Node 18; last commit 2026-08
 
-<sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs ↗](https://developers.cloudflare.com/agents/)</sub>
+<sub>TypeScript, ollama, openai, together, openai-compatible · Needs convex, ollama-or-openai-compatible-api, replicate-optional · Docker · [Repo](https://github.com/a16z-infra/ai-town) · [▶️ Demo ↗](https://www.convex.dev/ai-town)</sub>
+
+<a name="opentag"></a>
+### [49](../README.md#-how-we-rank "Score 49/100. Adoption 59 · Freshness 100 · Maintenance 67 · Easy to run 0 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [OpenTag](https://github.com/copilotkit/opentag) <sub>⭐ 1.3k · MIT · Oct 2026</sub>
+
+**Slack and Teams knowledge agent on LangGraph and CopilotKit Channels.**
+
+A deployable Slack and Teams agent in two services: a Node runtime (CopilotRuntime with embedded Channels) and a Python LangGraph deep agent speaking AG-UI. It ships web research, optional GitHub, PostHog, Linear and Notion MCP tools, native Slack charts and a LangGraph interrupt that pauses before Linear or Notion writes, with Slack ingress through a CopilotKit Intelligence managed channel. For teams that want an on-call style bot in chat.
+
+- **+** Approval gate before writes is a resumable LangGraph interrupt, not a prompt rule
+- **+** Railway config and an AWS ECS Fargate deployment are both in the repo
+- **+** AGENT_URL accepts any AG-UI agent; the runtime does not care about the framework
+- **+** Published container images; tests and AGENTS.md included
+- **−** Slack and Teams delivery depends on hosted CopilotKit Intelligence unless you build a runner
+- **−** Two languages and two processes: Node 22 plus Python 3.12 with uv
+- **−** OpenAI is the only documented model provider
+- **−** Setup has several Slack-specific failure modes the README spends pages on
+
+<sub>Python, openai, langgraph, ag-ui, copilotkit · Needs copilotkit-intelligence-account, openai-api-key, slack-workspace, uv · [Repo](https://github.com/copilotkit/opentag) · [📖 Docs ↗](https://docs.copilotkit.ai/channels)</sub>
 
 <a name="knowledge-agent-template"></a>
-### 44 [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>
+### [49](../README.md#-how-we-rank "Score 49/100. Adoption 50 · Freshness 100 · Maintenance 13 · Easy to run 33 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template) <sub>⭐ 1.1k · MIT · Sep 2026</sub>
 
 **Nuxt knowledge agent that greps a synced snapshot repo instead of embedding.**
 
@@ -164,7 +129,7 @@ A Nuxt monorepo where the agent answers by running grep, find and cat inside a p
 <sub>TypeScript, ai-gateway, ai-sdk · Needs vercel-sandbox, vercel-workflow, ai-gateway-api-key, github-app · [Repo](https://github.com/vercel-labs/knowledge-agent-template)</sub>
 
 <a name="react-agent"></a>
-### 43 [react-agent](https://github.com/langchain-ai/react-agent) <sub>⭐ 852 · MIT · Oct 2026</sub>
+### [49](../README.md#-how-we-rank "Score 49/100. Adoption 44 · Freshness 100 · Maintenance 33 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [react-agent](https://github.com/langchain-ai/react-agent) <sub>⭐ 852 · MIT · Oct 2026</sub>
 
 **Minimal Python LangGraph ReAct agent with Tavily, ready for Studio.**
 
@@ -179,8 +144,43 @@ A single-graph Python template: a ReAct loop in src/react_agent/graph.py that re
 
 <sub>Python, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key, tavily-api-key, langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/react-agent)</sub>
 
+<a name="openai-cua-sample-app"></a>
+### [47](../README.md#-how-we-rank "Score 47/100. Adoption 73 · Freshness 100 · Maintenance 46 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [openai-cua-sample-app](https://github.com/openai/openai-cua-sample-app) <sub>⭐ 1.9k · MIT · Sep 2026</sub>
+
+**Computer-use agent loops for Playwright browsers and PyAutoGUI desktops.**
+
+Two agent loops on the OpenAI Responses API where the model writes code against a persistent runtime: a TypeScript agent driving a browser through Playwright and a Python agent driving the real desktop through PyAutoGUI. A shared console on port 3000 runs scenarios against bundled lab apps and records screenshots and replay JSON. For developers building computer-use agents who want the loop, not a product.
+
+- **+** Lab apps and replay traces let you test the loop without touching real sites
+- **+** Both agents share one console and contract types; tests in each app
+- **+** Persistent execution worker pattern reduces model round trips
+- **−** No sandbox: generated code runs with your user permissions
+- **−** Python agent controls your real mouse and keyboard
+- **−** OpenAI-only; requires model access for computer use
+- **−** Pinned Node 22.20.0 and pnpm 10.26.0
+
+<sub>TypeScript, openai · Needs openai-api-key, playwright-chromium, uv · [Repo](https://github.com/openai/openai-cua-sample-app)</sub>
+
+<a name="cloudflare-agents-starter"></a>
+### [45](../README.md#-how-we-rank "Score 45/100. Adoption 63 · Freshness 100 · Maintenance 50 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agents-starter](https://github.com/cloudflare/agents-starter) <sub>⭐ 1.3k · MIT · Jul 2026</sub>
+
+**Cloudflare Agents SDK chat starter with Durable Object state and scheduling.**
+
+A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: streaming via Workers AI by default, three tool patterns (server auto-execute, client-side, human approval), one-off and cron scheduling, image input and a Kumo React UI. Messages persist in Durable Object SQLite, streams resume on reconnect, and swapping to OpenAI or Anthropic is an AI SDK provider import. For teams deploying agents on Cloudflare.
+
+- **+** No model API key needed; Workers AI is the default
+- **+** Approval, client-side and server tools shown side by side in server.ts
+- **+** Built-in scheduling, MCP client and state sync from the Agents SDK
+- **+** npm run deploy ships to workers.dev
+- **−** Local dev still needs a Cloudflare login; Workers AI has no local simulator
+- **−** Demo tools return fake data (getWeather is random)
+- **−** No auth, no tests
+- **−** State model is Durable Objects; not portable off Cloudflare
+
+<sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs ↗](https://developers.cloudflare.com/agents/)</sub>
+
 <a name="data-enrichment"></a>
-### 40 [data-enrichment](https://github.com/langchain-ai/data-enrichment) <sub>⭐ 258 · MIT · Sep 2026</sub>
+### [45](../README.md#-how-we-rank "Score 45/100. Adoption 19 · Freshness 100 · Maintenance 50 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [data-enrichment](https://github.com/langchain-ai/data-enrichment) <sub>⭐ 258 · MIT · Oct 2026</sub>
 
 **LangGraph agent that researches the web to fill your JSON schema.**
 
@@ -196,25 +196,8 @@ A Python LangGraph graph that takes a research topic and a JSON extraction_schem
 
 <sub>Jupyter Notebook, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key, tavily-api-key, langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/data-enrichment)</sub>
 
-<a name="agent-starter-pack"></a>
-### 39 [agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) <sub>⭐ 6.6k · Apache-2.0 · May 2026</sub>
-
-**Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only.**
-
-A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent project from six templates (ADK ReAct, ADK with A2A, agentic RAG on Vertex AI Search, LangGraph, ADK Java, ADK Live) with Terraform, Cloud Build or GitHub Actions pipelines, evaluation and observability, deploying to Cloud Run or Agent Engine. The README declares maintenance mode and points new work to agents-cli. For teams that need the generated infra and accept the migration.
-
-- **+** Generated project includes Terraform, CI/CD for all environments and an eval harness
-- **+** enhance command retrofits deployment infra onto an existing agent
-- **+** Documentation site plus a GEMINI.md context file
-- **−** Maintenance mode: critical fixes only, no new templates; README points to agents-cli
-- **−** Google Cloud only; needs gcloud SDK, Terraform and Make
-- **−** A generator, not a repo you fork directly
-- **−** Last commit 2026-05
-
-<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/GoogleCloudPlatform/agent-starter-pack) · [📖 Docs ↗](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
-
 <a name="react-agent-js"></a>
-### 38 [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>⭐ 117 · MIT · Oct 2026</sub>
+### [43](../README.md#-how-we-rank "Score 43/100. Adoption 10 · Freshness 100 · Maintenance 50 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>⭐ 117 · MIT · Oct 2026</sub>
 
 **TypeScript createAgent starter with example tools and middleware hooks.**
 
@@ -230,7 +213,7 @@ Four TypeScript files: agent.ts builds a LangChain createAgent, tools.ts defines
 <sub>TypeScript, langchain, langgraph, anthropic, openai · Needs anthropic-or-openai-api-key · GitHub template · [Repo](https://github.com/langchain-ai/react-agent-js)</sub>
 
 <a name="new-langgraphjs-project"></a>
-### 36 [new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project) <sub>⭐ 75 · MIT · Oct 2026</sub>
+### [41](../README.md#-how-we-rank "Score 41/100. Adoption 1 · Freshness 100 · Maintenance 50 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [new-langgraphjs-project](https://github.com/langchain-ai/new-langgraphjs-project) <sub>⭐ 75 · MIT · Oct 2026</sub>
 
 **Empty TypeScript LangGraph.js scaffold with message history and tests.**
 
@@ -245,8 +228,25 @@ The TypeScript counterpart of the blank LangGraph template: src/agent/graph.ts k
 
 <sub>TypeScript, langgraph · Needs langgraph-cli · GitHub template · [Repo](https://github.com/langchain-ai/new-langgraphjs-project)</sub>
 
+<a name="agent-starter-pack"></a>
+### [39](../README.md#-how-we-rank "Score 39/100. Adoption 84 · Freshness 87 · Maintenance 0 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-pack](https://github.com/googlecloudplatform/agent-starter-pack) <sub>⭐ 6.6k · Apache-2.0 · May 2026</sub>
+
+**Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only.**
+
+A CLI (uvx agent-starter-pack create) that generates a Google Cloud agent project from six templates (ADK ReAct, ADK with A2A, agentic RAG on Vertex AI Search, LangGraph, ADK Java, ADK Live) with Terraform, Cloud Build or GitHub Actions pipelines, evaluation and observability, deploying to Cloud Run or Agent Engine. The README declares maintenance mode and points new work to agents-cli. For teams that need the generated infra and accept the migration.
+
+- **+** Generated project includes Terraform, CI/CD for all environments and an eval harness
+- **+** enhance command retrofits deployment infra onto an existing agent
+- **+** Documentation site plus a GEMINI.md context file
+- **−** Maintenance mode: critical fixes only, no new templates; README points to agents-cli
+- **−** Google Cloud only; needs gcloud SDK, Terraform and Make
+- **−** A generator, not a repo you fork directly
+- **−** Last commit 2026-05
+
+<sub>Python, google, google-adk, langgraph · Needs google-cloud-project, gcloud-sdk, terraform, make · [Repo](https://github.com/googlecloudplatform/agent-starter-pack) · [📖 Docs ↗](https://googlecloudplatform.github.io/agent-starter-pack/)</sub>
+
 <a name="new-langgraph-project"></a>
-### 34 [new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project) <sub>⭐ 297 · MIT · Oct 2026</sub>
+### [34](../README.md#-how-we-rank "Score 34/100. Adoption 24 · Freshness 100 · Maintenance 38 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [new-langgraph-project](https://github.com/langchain-ai/new-langgraph-project) <sub>⭐ 297 · MIT · Oct 2026</sub>
 
 **Blank Python LangGraph scaffold with config, tests and Studio support.**
 
@@ -262,7 +262,7 @@ The blank-slate LangGraph template: src/agent/graph.py holds a one-node graph th
 <sub>Python, langgraph · Needs langgraph-cli · [Repo](https://github.com/langchain-ai/new-langgraph-project)</sub>
 
 <a name="openai-cs-agents-demo"></a>
-### 26 [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) <sub>⭐ 6.6k · MIT · Dec 2025</sub>
+### [26](../README.md#-how-we-rank "Score 26/100. Adoption 88 · Freshness 23 · Maintenance 0 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) <sub>⭐ 6.6k · MIT · Dec 2025</sub>
 
 **Airline support multi-agent demo with visible handoffs and guardrails.**
 
