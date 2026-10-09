@@ -38,22 +38,22 @@ A Next.js and shadcn/ui chat interface that connects to a running Agno AgentOS i
 <sub>TypeScript, agno · Needs agno-agentos · GitHub template · [Repo](https://github.com/agno-agi/agent-ui)</sub>
 
 <a name="opengenerativeui"></a>
-### 🥉 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: weak (11) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
+### 🥉 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · MIT · Oct 2026</sub>
 
-**CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets.**
+**Agent that renders interactive HTML/SVG visuals in chat via CopilotKit.**
 
-A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Agent with skills loaded from SKILL.md files, and an MCP server. The agent answers with HTML, SVG, Chart.js or Three.js widgets streamed through a generateSandboxedUi tool into sandboxed iframes with a Zod-validated bridge back to the host; Anthropic claude-fable-5 is the default and gpt-* names route to OpenAI. For teams prototyping model-generated UI with isolation.
+A Turborepo monorepo with a Next.js 16 frontend, a LangChain Deep Agents backend, and a standalone MCP server. The agent streams HTML, CSS and JS into sandboxed iframes to render algorithm visualizations, charts, 3D scenes and diagrams, using skills loaded on demand from SKILL.md files. The MCP server exposes the design system and an HTML document assembler to clients such as Claude Desktop, Claude Code and Cursor.
 
-- **+** Generated UI runs in a sandboxed iframe with a validated bridge, not raw innerHTML
-- **+** Streaming preview morphs in place (Idiomorph) instead of flickering
-- **+** MCP server exposes the design system to Claude Desktop, Claude Code and Cursor
-- **+** Docker files and tests included; CLAUDE.md present
-- **−** README says weaker models produce broken layouts; expect frontier-model cost
-- **−** Three processes to run (app, agent, MCP) plus Python and Node toolchains
-- **−** Showcase, not a product base: no auth or persistence
-- **−** Last commit 2026-06
+- **+** Output renders in sandboxed iframes with a Zod-validated bridge back to the host
+- **+** Skills load on demand from SKILL.md files instead of one large system prompt
+- **+** Standalone MCP server works over stdio or HTTP on port 3100
+- **+** Docs cover swapping the chat model for other providers
+- **−** README says weaker models produce broken layouts and incomplete visualizations
+- **−** Defaults to Anthropic Claude; OpenAI is the only other built-in route
+- **−** Generated pages load libraries from a CDN importmap, so they need internet access
+- **−** Showcase repo with no tagged release; the README gives no hardware requirements
 
-<sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · Docker · [Repo](https://github.com/copilotkit/openintelligentui)</sub>
+<sub>TypeScript, Anthropic Claude (default), OpenAI gpt-* models · Needs Anthropic API key, OpenAI API key (optional), pnpm, make · Docker · [Repo](https://github.com/copilotkit/openintelligentui) · [📖 Docs ↗](https://docs.copilotkit.ai/generative-ui/open-generative-ui) · [🌐 Site ↗](https://copilotkit.ai)</sub>
 
 <a name="stockbot-on-groq"></a>
 ### #&#8288;4 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>score [27](../README.md#-how-we-rank "Score 27/100. Adoption: popular (52) · Freshness: quiet (21) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Dec 2025</sub>

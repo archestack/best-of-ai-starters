@@ -84,7 +84,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17839
+      stars: 17842
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -587,7 +587,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58818
+      stars: 58817
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -600,45 +600,43 @@ entries:
     repo: miurla/morphic
     name: morphic
     status: listed
-    tagline: Answer engine on Next.js with generative UI and pluggable search
-    summary: "A Next.js answer engine: queries go to Tavily, SearXNG, Brave or Exa, the model writes a cited answer, and the UI renders inline components from a streamed JSON spec. Chat history lives in Postgres, auth is Supabase with a guest mode, uploads and share URLs are built in, and docker compose brings up Postgres, Redis, SearXNG and the app on port 3000. For teams building a Perplexity-style product."
+    tagline: AI search engine that answers with cited sources and inline components
+    summary: Morphic is a Next.js app that answers queries using web search results and renders cited answers with inline components such as images and grids, streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible providers, with Tavily, SearXNG, Brave or Exa for search. Chat history is stored in PostgreSQL, and the Docker Compose setup bundles PostgreSQL, Redis and SearXNG.
     categories:
       - rag-search
       - agent-ui
     strengths:
-      - docker compose runs the full stack including SearXNG; one model key is the only secret
-      - Provider detection covers OpenAI, Anthropic, Google, Ollama, AI Gateway, OpenAI-compatible
-      - Auth, Postgres history, uploads and share links already wired
-      - Ships CLAUDE.md and AGENTS.md; tests included
+      - Compose file bundles PostgreSQL, Redis and SearXNG, so no search API key is required
+      - Works with hosted providers or local Ollama through a model selector
+      - "Four search backends: Tavily, SearXNG, Brave, Exa"
+      - Shareable result URLs and guest mode for anonymous use
     weaknesses:
-      - Four services to run (app, Postgres, Redis, SearXNG) when self-hosting
-      - Generative UI spec is Morphic-specific; expect to learn its component schema
-      - Hosted search APIs (Tavily, Brave, Exa) cost money at volume
-      - bun is the documented package manager
+      - Full feature set needs PostgreSQL, Redis and SearXNG running alongside the app
+      - Auth options are Supabase, better-auth or none; history and auth need extra configuration
+      - Local development uses Bun, not npm or pnpm
+      - README gives no RAM or hardware requirements
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - postgres
-        - redis
-        - searxng-or-search-api-key
-        - supabase
-        - model-api-key
+        - PostgreSQL
+        - Redis
+        - SearXNG
+        - Supabase Auth (optional)
       model_support:
-        - ai-sdk
-        - openai
-        - anthropic
-        - google
-        - ollama
-        - ai-gateway
-        - openai-compatible
+        - OpenAI
+        - Anthropic
+        - Google
+        - Ollama
+        - Vercel AI Gateway
+        - OpenAI-compatible
       web_port: 3000
     links:
       demo: null
       website: null
-      docs: null
-    audience: Teams building a Perplexity-style search product
-    confidence: 0.9
+      docs: https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md
+    audience: Self-hosters wanting a Perplexity-style search app with their own models
+    confidence: 0.85
     facts:
       stars: 9158
       license: Apache-2.0
@@ -1150,7 +1148,7 @@ entries:
     audience: Teams building multi-agent simulations or games in TypeScript
     confidence: 0.85
     facts:
-      stars: 10605
+      stars: 10606
       license: MIT
       last_commit: 2026-08-26
       last_release: null
@@ -1285,7 +1283,7 @@ entries:
     audience: Teams on Google Cloud that want generated agent infra
     confidence: 0.85
     facts:
-      stars: 6572
+      stars: 6573
       license: Apache-2.0
       last_commit: 2026-05-19
       last_release: 2026-04-25
@@ -1328,7 +1326,7 @@ entries:
     audience: Developers building computer-use agents from the loop up
     confidence: 0.85
     facts:
-      stars: 1889
+      stars: 1890
       license: MIT
       last_commit: 2026-09-04
       last_release: null
@@ -1374,7 +1372,7 @@ entries:
     audience: Teams deploying agents on Cloudflare Workers
     confidence: 0.9
     facts:
-      stars: 1345
+      stars: 1344
       license: MIT
       last_commit: 2026-07-24
       last_release: null
@@ -1423,7 +1421,7 @@ entries:
     audience: Teams that want an on-call style knowledge bot in Slack
     confidence: 0.8
     facts:
-      stars: 1252
+      stars: 1253
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-08-18
@@ -1921,42 +1919,40 @@ entries:
     repo: copilotkit/openintelligentui
     name: OpenGenerativeUI
     status: listed
-    tagline: CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets
-    summary: A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Agent with skills loaded from SKILL.md files, and an MCP server. The agent answers with HTML, SVG, Chart.js or Three.js widgets streamed through a generateSandboxedUi tool into sandboxed iframes with a Zod-validated bridge back to the host; Anthropic claude-fable-5 is the default and gpt-* names route to OpenAI. For teams prototyping model-generated UI with isolation.
+    tagline: Agent that renders interactive HTML/SVG visuals in chat via CopilotKit
+    summary: A Turborepo monorepo with a Next.js 16 frontend, a LangChain Deep Agents backend, and a standalone MCP server. The agent streams HTML, CSS and JS into sandboxed iframes to render algorithm visualizations, charts, 3D scenes and diagrams, using skills loaded on demand from SKILL.md files. The MCP server exposes the design system and an HTML document assembler to clients such as Claude Desktop, Claude Code and Cursor.
     categories:
       - agent-ui
     strengths:
-      - Generated UI runs in a sandboxed iframe with a validated bridge, not raw innerHTML
-      - Streaming preview morphs in place (Idiomorph) instead of flickering
-      - MCP server exposes the design system to Claude Desktop, Claude Code and Cursor
-      - Docker files and tests included; CLAUDE.md present
+      - Output renders in sandboxed iframes with a Zod-validated bridge back to the host
+      - Skills load on demand from SKILL.md files instead of one large system prompt
+      - Standalone MCP server works over stdio or HTTP on port 3100
+      - Docs cover swapping the chat model for other providers
     weaknesses:
-      - README says weaker models produce broken layouts; expect frontier-model cost
-      - Three processes to run (app, agent, MCP) plus Python and Node toolchains
-      - "Showcase, not a product base: no auth or persistence"
-      - Last commit 2026-06
+      - README says weaker models produce broken layouts and incomplete visualizations
+      - Defaults to Anthropic Claude; OpenAI is the only other built-in route
+      - Generated pages load libraries from a CDN importmap, so they need internet access
+      - Showcase repo with no tagged release; the README gives no hardware requirements
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - anthropic-api-key
-        - python
+        - Anthropic API key
+        - OpenAI API key (optional)
         - pnpm
+        - make
       model_support:
-        - anthropic
-        - openai
-        - langgraph
-        - copilotkit
-        - ag-ui
+        - Anthropic Claude (default)
+        - OpenAI gpt-* models
       web_port: 3000
     links:
       demo: null
-      website: null
-      docs: null
-    audience: Teams prototyping model-generated UI with isolation
-    confidence: 0.85
+      website: https://copilotkit.ai
+      docs: https://docs.copilotkit.ai/generative-ui/open-generative-ui
+    audience: Developers building generative UI on CopilotKit and LangGraph agents
+    confidence: 0.8
     facts:
-      stars: 1636
+      stars: 1664
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -1964,7 +1960,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 42
+    score: 45
   - id: stockbot-on-groq
     repo: bklieger-groq/stockbot-on-groq
     name: stockbot-on-groq
@@ -2364,7 +2360,7 @@ entries:
     audience: Teams prototyping multi-agent voice flows on OpenAI
     confidence: 0.8
     facts:
-      stars: 6995
+      stars: 6996
       license: MIT
       last_commit: 2026-01-07
       last_release: null
@@ -2917,7 +2913,7 @@ entries:
     audience: Developers building ChatGPT apps with MCP and widgets
     confidence: 0.8
     facts:
-      stars: 2359
+      stars: 2360
       license: MIT
       last_commit: 2026-04-15
       last_release: null
@@ -3128,7 +3124,7 @@ entries:
     audience: Developers building a prompt-to-app demo on open models
     confidence: 0.8
     facts:
-      stars: 7136
+      stars: 7135
       license: MIT
       last_commit: 2026-09-15
       last_release: null
@@ -3141,43 +3137,47 @@ entries:
     repo: e2b-dev/fragments
     name: fragments
     status: listed
-    tagline: Next.js prompt-to-app builder running generated code in E2B sandboxes
-    summary: Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams generated code and runs it in E2B sandboxes, with templates for a Python interpreter, Next.js, Vue, Streamlit and Gradio. Providers are configured in lib/models.ts (OpenAI, Anthropic, Google, Mistral, Groq, Fireworks, Together, Ollama); Supabase auth and Upstash KV rate limiting are optional. For teams building an artifacts-style product.
+    tagline: Open-source Claude Artifacts alternative that runs AI-generated apps in sandboxes
+    summary: Next.js 14 app that takes a chat prompt, has an LLM generate code, and runs it in an E2B cloud sandbox with a live preview. Built-in stacks are Python interpreter, Next.js, Vue.js, Streamlit and Gradio, and more can be added as E2B sandbox templates. It supports OpenAI, Anthropic, Google AI, Mistral, Groq, Fireworks, Together AI and Ollama.
     categories:
       - app-builders
     strengths:
-      - Eight LLM providers plus a documented way to add your own
-      - Sandbox templates are E2B Dockerfiles registered in lib/templates.json
-      - Rate limiting via Upstash KV and auth via Supabase are optional add-ons
-      - Live instance at fragments.e2b.dev
+      - Adds stacks via an E2B Dockerfile plus an entry in lib/templates.json
+      - Eight LLM providers including Ollama; custom models and providers are config edits
+      - Generated code runs in E2B sandboxes, with npm and pip packages installable
+      - Optional Morph Apply model for faster code edits
     weaknesses:
-      - E2B API key and sandbox usage are mandatory costs
-      - Next.js 14; not on the current major
-      - No tests mentioned; no .env.example
-      - Users can paste their own API keys unless NEXT_PUBLIC_NO_API_KEY_INPUT is set
+      - Requires an E2B API key; sandbox execution is not self-hosted in this setup
+      - No Dockerfile or compose file; README documents only npm run dev and build
+      - No tagged releases
+      - README lists Next.js 14, which may lag current Next.js
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
         - E2B API key
         - LLM provider API key
-        - Supabase (optional auth)
-        - Upstash KV (optional)
+        - Supabase (optional, auth)
+        - Vercel/Upstash KV (optional)
+        - PostHog (optional)
+        - Morph API key (optional)
       model_support:
         - OpenAI
         - Anthropic
         - Google AI
+        - Google Vertex
         - Mistral
         - Groq
         - Fireworks
         - Together AI
+        - xAI
         - Ollama
       web_port: null
     links:
       demo: https://fragments.e2b.dev
       website: null
       docs: null
-    audience: Teams building an artifacts-style code generation product
+    audience: Developers building a self-hosted Artifacts or v0-style app generator
     confidence: 0.85
     facts:
       stars: 6385
@@ -3554,37 +3554,38 @@ entries:
     repo: azure/agent-landing-zone
     name: agent-landing-zone
     status: listed
-    tagline: Zero-trust Azure landing zone for agent apps on Microsoft Foundry
-    summary: azd-compatible Bicep landing zone that provisions network-isolated infrastructure for agent apps on Microsoft Foundry (Azure OpenAI, AI Search) and deploys pinned UI, orchestrator and ingestion components from sibling repos, or your own app described in app-definition.json. Run azd up for the full stack or azd provision for infrastructure only. Version 4.0.0+ supports new deployments only.
+    tagline: Azure infrastructure templates for deploying enterprise agent apps on Microsoft Foundry
+    summary: Agent Landing Zone is an azd and Bicep template that provisions a Zero-Trust Azure environment for agent applications on Microsoft Foundry. `azd up` deploys the infrastructure plus UI, orchestrator and ingestion apps, each from its own Azure repository. `azd provision` deploys the infrastructure alone. It was previously named GPT-RAG.
     categories:
       - cloud-reference
       - agents
     strengths:
-      - Infrastructure-only or full-stack deploy from the same azd template
-      - Component versions pinned in manifest.json
-      - Custom app hook via app-definition.json with a sample
-      - Central documentation site for prerequisites and network isolation
+      - Infrastructure-only mode via `azd provision`, with apps deployed later using `azd deploy`
+      - Component versions pinned in manifest.json for reproducible releases
+      - Custom apps can replace the defaults through app-definition.json
+      - MIT license; docs cover network-isolated deployment
     weaknesses:
-      - No in-place upgrade from pre-4.0.0 environments
-      - Application code lives in three other repos
-      - Azure and Foundry only; provisions many managed services
-      - README is a pointer; details are on the docs site
+      - Tied to Azure and Microsoft Foundry; no other cloud is mentioned
+      - Default UI, orchestrator and ingestion code live in three separate repositories
+      - README gives no cost, quota or resource sizing figures
+      - Prerequisites and configuration are only in external docs, not the README
     specs:
       ram_min_gb: null
-      gpu: none
+      gpu: unknown
       external_deps:
-        - Azure subscription
-        - Microsoft Foundry / Azure OpenAI
+        - Azure
+        - Microsoft Foundry
+        - Azure OpenAI
         - Azure AI Search
-      model_support:
-        - Azure OpenAI via Microsoft Foundry
+        - Azure Developer CLI
+      model_support: []
       web_port: null
     links:
       demo: null
       website: null
       docs: https://azure.github.io/AI-Landing-Zones/agent-landing-zone/
-    audience: Platform teams standardizing agent deployments on Azure
-    confidence: 0.75
+    audience: Azure teams deploying network-isolated enterprise agent apps with IaC
+    confidence: 0.82
     facts:
       stars: 1187
       license: MIT
