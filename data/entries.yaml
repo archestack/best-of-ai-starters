@@ -84,7 +84,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17838
+      stars: 17839
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -1956,7 +1956,7 @@ entries:
     audience: Teams prototyping model-generated UI with isolation
     confidence: 0.85
     facts:
-      stars: 1635
+      stars: 1636
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -2364,7 +2364,7 @@ entries:
     audience: Teams prototyping multi-agent voice flows on OpenAI
     confidence: 0.8
     facts:
-      stars: 6994
+      stars: 6995
       license: MIT
       last_commit: 2026-01-07
       last_release: null
@@ -3272,7 +3272,7 @@ entries:
     audience: Teams self-hosting a prompt-to-app builder on Cloudflare
     confidence: 0.8
     facts:
-      stars: 5401
+      stars: 5402
       license: MIT
       last_commit: 2026-09-07
       last_release: 2026-02-06
@@ -3723,7 +3723,7 @@ entries:
     audience: Python teams productionizing a single LangGraph agent
     confidence: 0.85
     facts:
-      stars: 2694
+      stars: 2695
       license: MIT
       last_commit: 2026-09-25
       last_release: null
