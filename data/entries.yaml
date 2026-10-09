@@ -1,6 +1,488 @@
 # Generated. CC BY 4.0 (see LICENSE-DATA). Do not edit by hand; use the issue forms.
 updated_at: 2026-10-09
 entries:
+  - id: openai-fm
+    repo: openai/openai-fm
+    name: openai-fm
+    status: listed
+    tagline: Next.js demo app for trying OpenAI text-to-speech models
+    summary: OpenAI.fm is the source for the openai.fm demo, a web interface for generating speech through the OpenAI Speech API. It is a Next.js app that needs an OpenAI API key; an optional Postgres database enables a sharing feature. It is a demo reference rather than a general-purpose starter.
+    categories:
+      - voice-realtime
+    strengths:
+      - Official OpenAI reference for calling the Speech API from Next.js
+      - Runs with only an API key; no database needed for core use
+      - MIT license
+      - Live hosted demo at openai.fm
+    weaknesses:
+      - Tied to the OpenAI API; no other TTS providers
+      - No Dockerfile or compose file in the README
+      - Sharing feature requires a hosted Postgres database
+      - Maintainers say they may not review all issues or PRs
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - OpenAI API
+        - Postgres (optional, sharing only)
+      model_support:
+        - OpenAI text-to-speech models
+      web_port: 3000
+    links:
+      demo: https://openai.fm
+      website: https://openai.fm
+      docs: https://platform.openai.com/docs/guides/text-to-speech
+    audience: Developers learning to build on the OpenAI Speech API
+    confidence: 0.85
+    facts:
+      stars: 2905
+      license: MIT
+      last_commit: 2025-12-04
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 26
+  - id: chat-with-your-data-solution-accelerator
+    repo: azure-samples/chat-with-your-data-solution-accelerator
+    name: chat-with-your-data-solution-accelerator
+    status: listed
+    tagline: Azure RAG chat app that answers from your documents with citations
+    summary: Deploys a React frontend, a FastAPI backend and an Azure Functions ingestion worker to Azure Container Apps with `azd up`. Uploaded files and web pages are parsed, chunked and embedded, then answered with streamed responses and inline citations. Retrieval and chat history use either Azure AI Search with Cosmos DB or PostgreSQL with pgvector, chosen at deploy time.
+    categories:
+      - rag-search
+      - cloud-reference
+    strengths:
+      - Choice of Azure AI Search + Cosmos DB or PostgreSQL + pgvector at deploy time
+      - Managed identity and RBAC for all calls; no Key Vault or app secrets
+      - Admin UI for ingesting documents and editing prompts without code changes
+      - "Two selectable orchestrators: Agent Framework or LangGraph"
+    weaknesses:
+      - Azure-only; requires Foundry, Document Intelligence, Storage, and Container Apps
+      - Needs Contributor and RBAC rights on the subscription, plus model quota
+      - README calls it a starting point, not production-ready
+      - No Docker or compose files detected in the repo; local setup is in docs
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Azure AI Foundry
+        - Azure AI Search
+        - Azure Cosmos DB
+        - Azure Database for PostgreSQL
+        - Azure Document Intelligence
+        - Azure Storage
+        - Azure Container Apps
+        - Azure Functions
+        - Azure Content Safety
+        - Azure AI Speech
+      model_support:
+        - Azure AI Foundry chat and embedding models
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/main/docs/DeploymentGuide.md
+    audience: Azure teams building cited document Q&A on their own subscription
+    confidence: 0.85
+    facts:
+      stars: 1185
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-07-23
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 46
+  - id: fullstack-solution-template-for-agentcore
+    repo: awslabs/fullstack-solution-template-for-agentcore
+    name: fullstack-solution-template-for-agentcore
+    status: listed
+    tagline: React frontend and AgentCore backend starter, deployed to AWS with CDK or Terraform
+    summary: A forkable starter that deploys a React/TypeScript chat frontend on Amplify Hosting, authenticated through Cognito, in front of an Amazon Bedrock AgentCore backend. The baseline is a multi-turn agent with a Lambda text-analysis tool behind AgentCore Gateway and the AgentCore Code Interpreter. Agent patterns exist for Strands and LangGraph, and the repo includes steering docs meant to be fed to coding assistants.
+    categories:
+      - cloud-reference
+      - agents
+    strengths:
+      - Deploys with CDK or Terraform; Cognito JWT auth and Cedar policies on Gateway are included
+      - Agent patterns for both Strands and LangGraph under patterns/
+      - Frontend uses React, Vite, Tailwind and shadcn components
+      - Extensive docs for memory, streaming, sessions, observability and swapping out Cognito
+    weaknesses:
+      - Requires AWS and Amazon Bedrock AgentCore; no other backend is supported
+      - README calls it a proof-of-value, not production-ready
+      - Baseline is only a simple chat agent with two tools
+      - No tagged releases
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - AWS account
+        - Amazon Bedrock AgentCore
+        - Amazon Cognito
+        - AWS Amplify Hosting
+        - AWS Lambda
+        - API Gateway
+      model_support:
+        - Amazon Bedrock
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: AWS teams building full-stack apps on Bedrock AgentCore
+    confidence: 0.8
+    facts:
+      stars: 597
+      license: Apache-2.0
+      last_commit: 2026-10-08
+      last_release: null
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: Python
+    score: 46
+  - id: openai-realtime-solar-system
+    repo: openai/openai-realtime-solar-system
+    name: openai-realtime-solar-system
+    status: listed
+    tagline: "Next.js demo: talk to a 3D solar system via OpenAI Realtime"
+    summary: A Next.js app that connects the browser to the OpenAI Realtime API over WebRTC and lets you control a Spline 3D solar system by voice. The model calls functions to focus planets, show moons, draw bar or pie charts, fetch the ISS position and switch to an orbit view. Tools, instructions and voice are defined in lib/config.ts, and the scene URL in components/scene.tsx.
+    categories:
+      - voice-realtime
+      - agent-ui
+    strengths:
+      - Working example of Realtime API function calls driving UI and Spline animations
+      - "Small codebase: tools and prompt in lib/config.ts, scene hooks in components/scene.tsx"
+      - MIT license, runs with npm install and an OPENAI_API_KEY
+      - Planets also respond to clicks and keyboard shortcuts, not only voice
+    weaknesses:
+      - Requires an OpenAI API key; no other model providers supported
+      - "Demo, not a template: no auth, persistence or deployment config"
+      - Echo or background noise can interrupt the model, per the README
+      - Custom scenes need Spline event setup; first scene load is heavy
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - OpenAI Realtime API
+        - Spline
+      model_support:
+        - OpenAI Realtime
+      web_port: 3000
+    links:
+      demo: null
+      website: null
+      docs: https://platform.openai.com/docs/guides/realtime
+    audience: Developers learning Realtime API function calling with WebRTC
+    confidence: 0.9
+    facts:
+      stars: 515
+      license: MIT
+      last_commit: 2026-03-04
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 25
+  - id: azure-ai-travel-agents
+    repo: azure-samples/azure-ai-travel-agents
+    name: azure-ai-travel-agents
+    status: listed
+    tagline: Travel-agency multi-agent sample using MCP servers in four languages
+    summary: "Reference app where agents extract customer preferences, recommend destinations and plan itineraries, calling tools exposed as MCP servers written in Python, Node.js, Java and .NET. Three interchangeable orchestrators are provided: LangChain.js, LlamaIndex.TS and Microsoft Agent Framework (Python). It runs locally with Docker Model Runner and Phi4 14B, or deploys to Azure Container Apps with `azd up`."
+    categories:
+      - agents
+      - cloud-reference
+    strengths:
+      - Three orchestrators (LangChain.js, LlamaIndex.TS, Microsoft Agent Framework) over the same MCP tools
+      - MCP server examples in Python, Node.js, Java and .NET
+      - OpenTelemetry tracing viewable in Aspire Dashboard
+      - One-command Azure deploy with `azd up`; MIT license
+    weaknesses:
+      - Sample app, not a reusable framework; the domain is fixed to travel
+      - Local preview needs Phi4 14B (about 7.8 GB download, 16 GB RAM minimum)
+      - Local GPU acceleration only on Apple Silicon and NVIDIA GPUs on Windows
+      - Deployment path is tied to Azure; no release published
+    specs:
+      ram_min_gb: 16
+      gpu: optional
+      external_deps:
+        - Docker
+        - Docker Model Runner
+        - Node.js 22+
+        - Azure Container Apps
+        - Azure OpenAI or Microsoft Foundry
+      model_support:
+        - Phi4 14B (Docker Model Runner)
+        - Azure OpenAI
+        - Microsoft Foundry
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/Azure-Samples/azure-ai-travel-agents/blob/main/docs/advanced-setup.md
+    audience: Engineers learning MCP-based multi-agent design on Azure
+    confidence: 0.8
+    facts:
+      stars: 483
+      license: MIT
+      last_commit: 2026-09-11
+      last_release: null
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 47
+  - id: get-started-with-ai-agents
+    repo: azure-samples/get-started-with-ai-agents
+    name: get-started-with-ai-agents
+    status: listed
+    tagline: Azure azd template for a Foundry agent chat app with file search
+    summary: Deploys a web chat app on Azure Container Apps backed by a Microsoft Foundry Agent Service agent. The agent answers from uploaded files using file search or optional Azure AI Search and returns citations. Tracing goes to Application Insights, and the repo includes Pytest-based agent evaluation and red-teaming scans.
+    categories:
+      - cloud-reference
+      - agents
+    strengths:
+      - Single `azd up` provisions Foundry project, model, Container App, storage and monitoring
+      - Tracing via Application Insights and Azure Monitor included
+      - Pytest agent evaluation and AI Red Teaming scans included
+      - Managed Identity used for deployment and local development
+    weaknesses:
+      - Requires an Azure subscription and Foundry model quota; no non-Azure path
+      - README warns the code is a showcase, not production-ready without extra security
+      - Costs are usage-based and the README gives no estimate
+      - Deployment takes 7–15 minutes with `azd up`; teardown up to 20
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Microsoft Foundry
+        - Foundry Agent Service
+        - Azure Container Apps
+        - Azure Container Registry
+        - Azure Storage
+        - Azure AI Search (optional)
+        - Application Insights (optional)
+        - Log Analytics (optional)
+      model_support:
+        - gpt-5-mini (default)
+        - other Azure AI models configurable
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Azure developers who want a deployable Foundry agent reference app
+    confidence: 0.85
+    facts:
+      stars: 374
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: null
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: Bicep
+    score: 35
+  - id: claude-managed-agents
+    repo: cloudflare/claude-managed-agents
+    name: claude-managed-agents
+    status: listed
+    tagline: Self-hosted control plane running Claude Managed Agents on Cloudflare Workers
+    summary: A Cloudflare Workers control plane that receives Claude Managed Agents webhooks and starts a sandbox per session, either a Cloudflare Container or an Isolate sandbox. It adds egress policies with credential injection, Workers VPC access to private services, and built-in tools for email, browser automation and image generation. A dashboard and API are deployed to your own account. The README labels it alpha software meant as a starting point to fork.
+    categories:
+      - agents
+      - cloud-reference
+    strengths:
+      - "Two sandbox backends: full containers or lightweight isolates, chosen per agent"
+      - Egress policies inject credentials so the agent never sees secrets
+      - Custom tools declared in one file with direct access to Worker bindings
+      - Private services reachable through Workers VPC without public exposure
+    weaknesses:
+      - "README calls it alpha software: not stable, may contain bugs"
+      - Requires a paid Cloudflare Workers plan or Enterprise account
+      - Dashboard is unsecured by default until Cloudflare Access is configured
+      - Tied to Claude Managed Agents and Anthropic keys; no other model providers
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Cloudflare Workers Paid plan
+        - Cloudflare D1
+        - Cloudflare KV
+        - Cloudflare R2
+        - Durable Objects
+        - Anthropic API
+        - Docker (terminal deploy)
+      model_support:
+        - Claude (Anthropic)
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Teams running Claude Managed Agents who want a self-managed Cloudflare setup
+    confidence: 0.85
+    facts:
+      stars: 325
+      license: MIT
+      last_commit: 2026-05-22
+      last_release: null
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 27
+  - id: openai-realtime-meeting-assistant
+    repo: openai/openai-realtime-meeting-assistant
+    name: openai-realtime-meeting-assistant
+    status: listed
+    tagline: Voice-operated shared Kanban board using the OpenAI Realtime API
+    summary: A Go server that hosts a WebRTC room (Pion), mixes participant audio, and streams it to an OpenAI Realtime peer. The model uses function calling to create, move, tag, edit and delete Kanban cards, and changes are broadcast to everyone in the room. Instructions, tools and seed cards live in kanban.go.
+    categories:
+      - voice-realtime
+      - agents
+    strengths:
+      - Small Go codebase; instructions, tools and seed cards are all in kanban.go
+      - Multiple participants share one room and one live board
+      - Realtime model overridable via OPENAI_REALTIME_MODEL (default gpt-realtime-2)
+      - MIT license
+    weaknesses:
+      - No authentication or access control; anyone with the URL can join
+      - Requires an OpenAI API key; no local or other model providers
+      - Background audio can be misread as board updates; headphones advised
+      - No Docker setup; needs Go 1.24+ and the Opus library via pkg-config
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - OpenAI Realtime API
+        - Go 1.24+
+        - Opus library
+        - pkg-config
+      model_support:
+        - gpt-realtime-2 (default, configurable)
+      web_port: 3000
+    links:
+      demo: null
+      website: null
+      docs: https://platform.openai.com/docs/guides/realtime
+    audience: Developers prototyping voice-driven tools on the OpenAI Realtime API
+    confidence: 0.9
+    facts:
+      stars: 272
+      license: MIT
+      last_commit: 2026-05-11
+      last_release: null
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: Go
+    score: 26
+  - id: openai-chat-vision-quickstart
+    repo: azure-samples/openai-chat-vision-quickstart
+    name: openai-chat-vision-quickstart
+    status: listed
+    tagline: Quart chat app that answers questions about uploaded images via Azure OpenAI
+    summary: A Python Quart backend uses the openai package to send user messages and uploaded images to a GPT-4o deployment on Azure OpenAI. The frontend is plain HTML/JS that streams JSON Lines responses, with browser speech input and output buttons. Bicep files and azd provision Azure OpenAI, Container Apps, Container Registry and Log Analytics, using managed identity by default.
+    categories:
+      - cloud-reference
+      - chat-apps
+    strengths:
+      - One azd up provisions Azure OpenAI, Container Apps, registry, logging and RBAC
+      - Managed identity by default, so no API key in app config
+      - Can point at a local OpenAI-compatible endpoint (Ollama doc) for development
+      - Speech input/output uses free built-in browser APIs
+    weaknesses:
+      - Deploying needs Azure subscription and role-assignment write permissions
+      - Basic HTML/JS frontend with no auth or multi-user features
+      - Container Registry has a fixed daily cost even when idle
+      - Local dev server still needs Azure credentials or a compatible endpoint
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Azure OpenAI
+        - Azure Container Apps
+        - Azure Container Registry
+        - Azure Developer CLI
+      model_support:
+        - GPT-4o (Azure OpenAI)
+        - OpenAI-compatible endpoints
+      web_port: 50505
+    links:
+      demo: null
+      website: null
+      docs: https://learn.microsoft.com/azure/developer/ai/get-started-app-chat-vision?tabs=github-codespaces
+    audience: Azure developers wanting a vision chat sample to deploy and adapt
+    confidence: 0.8
+    facts:
+      stars: 224
+      license: MIT
+      last_commit: 2026-10-07
+      last_release: null
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: Jupyter Notebook
+    score: 30
+  - id: serverless-rag-demo
+    repo: aws-samples/serverless-rag-demo
+    name: serverless-rag-demo
+    status: listed
+    tagline: AWS CDK sample for document RAG chat and multi-agent workflows on Bedrock
+    summary: Deploys a RAG chat app on AWS with one `sh deploy.sh` wizard that runs `cdk deploy --all`. Documents are indexed through a Bedrock Knowledge Base into OpenSearch Serverless NextGen and queried with hybrid BM25 + KNN search. A Strands Graph multi-agent runtime on Bedrock AgentCore routes requests to specialist nodes for code, presentations, web search, weather and retrieval.
+    categories:
+      - cloud-reference
+      - rag-search
+    strengths:
+      - Hybrid BM25 + KNN search with per-user document isolation
+      - Demo OCU mode scales to zero, so idle cost is listed as $0
+      - Full infrastructure as Python CDK stacks, with Cognito auth and CloudFront hosting
+      - MIT-0 license with no attribution requirement
+    weaknesses:
+      - "AWS only: Bedrock, AgentCore, OpenSearch Serverless and Cognito are all required"
+      - Models fixed to Claude Sonnet/Opus 4.6 and Titan Embed V2; no other providers listed
+      - Supported in six regions only; us-west-1 and ap-southeast-1 excluded
+      - No release tags, and tests cover CDK unit checks only
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - AWS account
+        - Amazon Bedrock
+        - OpenSearch Serverless NextGen
+        - Bedrock AgentCore
+        - Amazon Cognito
+        - CloudFront
+        - S3
+        - Docker
+        - AWS CDK CLI
+      model_support:
+        - Claude Sonnet 4.6
+        - Claude Opus 4.6
+        - Amazon Titan Embed Text V2
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: AWS teams wanting a deployable Bedrock RAG and agent reference
+    confidence: 0.9
+    facts:
+      stars: 223
+      license: MIT-0
+      last_commit: 2026-10-07
+      last_release: null
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: Python
+    score: 34
   - id: vercel-chatbot
     repo: vercel/chatbot
     name: chatbot
@@ -41,7 +523,7 @@ entries:
     audience: Teams starting a chat product on Next.js and Vercel
     confidence: 0.85
     facts:
-      stars: 20993
+      stars: 20994
       license: Apache-2.0
       last_commit: 2026-07-08
       last_release: null
@@ -84,7 +566,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17842
+      stars: 17843
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -180,7 +662,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 49
   - id: zola
     repo: ibelick/zola
     name: zola
@@ -275,7 +757,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 54
   - id: openai-chatkit-starter-app
     repo: openai/openai-chatkit-starter-app
     name: openai-chatkit-starter-app
@@ -315,7 +797,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 25
+    score: 26
   - id: openai-responses-starter-app
     repo: openai/openai-responses-starter-app
     name: openai-responses-starter-app
@@ -502,7 +984,7 @@ entries:
       has_compose: false
       is_template: true
       language: Vue
-    score: 53
+    score: 54
   - id: langgraph-fullstack-python
     repo: langchain-ai/langgraph-fullstack-python
     name: langgraph-fullstack-python
@@ -587,7 +1069,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58817
+      stars: 58815
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -694,7 +1176,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 57
   - id: chat-langchain
     repo: langchain-ai/chat-langchain
     name: chat-langchain
@@ -742,7 +1224,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 49
   - id: llm-answer-engine
     repo: developersdigest/llm-answer-engine
     name: llm-answer-engine
@@ -791,7 +1273,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 44
+    score: 45
   - id: nextjs-openai-doc-search
     repo: supabase-community/nextjs-openai-doc-search
     name: nextjs-openai-doc-search
@@ -835,7 +1317,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 42
+    score: 43
   - id: rag-postgres-openai-python
     repo: azure-samples/rag-postgres-openai-python
     name: rag-postgres-openai-python
@@ -1022,7 +1504,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 43
+    score: 42
   - id: ai-starter-kit
     repo: sambanova/ai-starter-kit
     name: ai-starter-kit
@@ -1148,7 +1630,7 @@ entries:
     audience: Teams building multi-agent simulations or games in TypeScript
     confidence: 0.85
     facts:
-      stars: 10606
+      stars: 10607
       license: MIT
       last_commit: 2026-08-26
       last_release: null
@@ -1291,7 +1773,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 39
+    score: 40
   - id: openai-cua-sample-app
     repo: openai/openai-cua-sample-app
     name: openai-cua-sample-app
@@ -1334,7 +1816,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 47
+    score: 48
   - id: cloudflare-agents-starter
     repo: cloudflare/agents-starter
     name: agents-starter
@@ -1380,7 +1862,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 45
+    score: 46
   - id: opentag
     repo: copilotkit/opentag
     name: OpenTag
@@ -1429,7 +1911,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 49
+    score: 50
   - id: eve-software-factory-template
     repo: vercel-labs/eve-software-factory-template
     name: eve-software-factory-template
@@ -1476,7 +1958,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 67
+    score: 68
   - id: knowledge-agent-template
     repo: vercel-labs/knowledge-agent-template
     name: knowledge-agent-template
@@ -1523,7 +2005,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 50
   - id: react-agent
     repo: langchain-ai/react-agent
     name: react-agent
@@ -1561,13 +2043,13 @@ entries:
     facts:
       stars: 852
       license: MIT
-      last_commit: 2026-10-01
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: false
       is_template: true
       language: Python
-    score: 49
+    score: 50
   - id: personal-agent-template
     repo: vercel-labs/personal-agent-template
     name: personal-agent-template
@@ -1784,7 +2266,7 @@ entries:
     facts:
       stars: 117
       license: MIT
-      last_commit: 2026-10-01
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: false
@@ -1914,45 +2396,44 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 45
+    score: 46
   - id: opengenerativeui
     repo: copilotkit/openintelligentui
     name: OpenGenerativeUI
     status: listed
-    tagline: Agent that renders interactive HTML/SVG visuals in chat via CopilotKit
-    summary: A Turborepo monorepo with a Next.js 16 frontend, a LangChain Deep Agents backend, and a standalone MCP server. The agent streams HTML, CSS and JS into sandboxed iframes to render algorithm visualizations, charts, 3D scenes and diagrams, using skills loaded on demand from SKILL.md files. The MCP server exposes the design system and an HTML document assembler to clients such as Claude Desktop, Claude Code and Cursor.
+    tagline: Chat interface that answers with 3D models, charts, calculators and maps
+    summary: Open Intelligent UI is a Next.js chat frontend backed by a Python Deep Agent (FastAPI) that decides per turn whether to reply with text, a native component, or custom HTML/CSS/JS streamed into a sandboxed iframe. A routing model called Jev picks A2UI for basic tables and Open Generative UI for charts, diagrams, calculators and maps. It is built on CopilotKit and AG-UI, with an optional standalone MCP server.
     categories:
       - agent-ui
     strengths:
-      - Output renders in sandboxed iframes with a Zod-validated bridge back to the host
-      - Skills load on demand from SKILL.md files instead of one large system prompt
-      - Standalone MCP server works over stdio or HTTP on port 3100
-      - Docs cover swapping the chat model for other providers
+      - Generated UI runs in an isolated iframe with a validated host bridge
+      - Visitors can supply their own OpenAI and Jev keys, held only in browser memory
+      - Optional MCP server with HTTP, stdio and Docker configuration
+      - Provider failures are surfaced rather than silently swapped for another model
     weaknesses:
-      - README says weaker models produce broken layouts and incomplete visualizations
-      - Defaults to Anthropic Claude; OpenAI is the only other built-in route
-      - Generated pages load libraries from a CDN importmap, so they need internet access
-      - Showcase repo with no tagged release; the README gives no hardware requirements
+      - Needs both an OpenAI key and a TYPESAFE_API_KEY for Jev routing
+      - Requires Node 22+, pnpm 9+, Python 3.12+ and uv locally
+      - Output format varies per request because the router chooses the renderer
+      - No tagged release; no compose file
     specs:
       ram_min_gb: null
       gpu: none
       external_deps:
-        - Anthropic API key
-        - OpenAI API key (optional)
-        - pnpm
-        - make
+        - OpenAI API
+        - Jev (Typesafe) API
+        - USGS map tiles
       model_support:
-        - Anthropic Claude (default)
-        - OpenAI gpt-* models
+        - OpenAI chat-latest
+        - Jev jev-latest
       web_port: 3000
     links:
       demo: null
       website: https://copilotkit.ai
-      docs: https://docs.copilotkit.ai/generative-ui/open-generative-ui
-    audience: Developers building generative UI on CopilotKit and LangGraph agents
+      docs: https://github.com/CopilotKit/OpenIntelligentUI/blob/main/docs/README.md
+    audience: Frontend and agent developers prototyping generative UI chat apps
     confidence: 0.8
     facts:
-      stars: 1664
+      stars: 1694
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -1960,7 +2441,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 45
+    score: 46
   - id: stockbot-on-groq
     repo: bklieger-groq/stockbot-on-groq
     name: stockbot-on-groq
@@ -2043,7 +2524,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 13
+    score: 14
   - id: assistant-ui-stockbroker
     repo: assistant-ui/assistant-ui-stockbroker
     name: assistant-ui-stockbroker
@@ -2128,7 +2609,7 @@ entries:
     audience: Teams that accept Wasp for a complete SaaS base
     confidence: 0.85
     facts:
-      stars: 16075
+      stars: 16076
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-07-27
@@ -2180,7 +2661,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 41
+    score: 42
   - id: velobase-harness
     repo: velobase/velobase-harness
     name: velobase-harness
@@ -2368,7 +2849,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 29
+    score: 30
   - id: live-api-web-console
     repo: google-gemini/live-api-web-console
     name: live-api-web-console
@@ -2409,7 +2890,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 20
+    score: 19
   - id: agent-starter-react
     repo: livekit-examples/agent-starter-react
     name: agent-starter-react
@@ -2535,7 +3016,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 47
   - id: pipecat-examples
     repo: pipecat-ai/pipecat-examples
     name: pipecat-examples
@@ -2620,7 +3101,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 52
+    score: 51
   - id: agent-starter-node
     repo: livekit-examples/agent-starter-node
     name: agent-starter-node
@@ -2663,7 +3144,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 52
+    score: 50
   - id: agent-starter-android
     repo: livekit-examples/agent-starter-android
     name: agent-starter-android
@@ -2705,7 +3186,7 @@ entries:
       has_compose: false
       is_template: true
       language: Kotlin
-    score: 40
+    score: 39
   - id: agent-starter-swift
     repo: livekit-examples/agent-starter-swift
     name: agent-starter-swift
@@ -3504,7 +3985,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 51
+    score: 50
   - id: azurechat
     repo: microsoft/azurechat
     name: azurechat
@@ -3549,7 +4030,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 44
+    score: 45
   - id: azure-agent-landing-zone
     repo: azure/agent-landing-zone
     name: agent-landing-zone
@@ -3595,7 +4076,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 63
+    score: 67
   - id: openai-chat-app-quickstart
     repo: azure-samples/openai-chat-app-quickstart
     name: openai-chat-app-quickstart
@@ -3639,7 +4120,7 @@ entries:
       has_compose: true
       is_template: true
       language: Bicep
-    score: 38
+    score: 41
   - id: agent-service-toolkit
     repo: joshuac215/agent-service-toolkit
     name: agent-service-toolkit
@@ -3775,7 +4256,7 @@ entries:
     audience: Python teams scaffolding a full-stack agent product
     confidence: 0.8
     facts:
-      stars: 1936
+      stars: 1937
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -3874,7 +4355,7 @@ entries:
       has_compose: true
       is_template: true
       language: Python
-    score: 52
+    score: 51
   - id: genai-api
     repo: louisbrulenaudet/genai-api
     name: genai-api
@@ -3966,7 +4447,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 54
   - id: extro
     repo: turbostarter/extro
     name: extro

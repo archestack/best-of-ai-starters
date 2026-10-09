@@ -1,22 +1,22 @@
 # Best of AI Starters
 
-> Best of AI Starters is a ranked list of 89 open-source starter templates for building AI apps: chat apps, RAG, agent backends, agent UIs, voice, MCP servers, SaaS boilerplates and more, most of them Next.js, Python, LangGraph or the AI SDK. Each entry says what is wired in, what you still have to build, and carries a score from public GitHub signals. Updated 2026-10-09 (UTC); the page refreshes twice a day from GitHub data.
+> Best of AI Starters is a ranked list of 99 open-source starter templates for building AI apps: chat apps, RAG, agent backends, agent UIs, voice, MCP servers, SaaS boilerplates and more, most of them Next.js, Python, LangGraph or the AI SDK. Each entry says what is wired in, what you still have to build, and carries a score from public GitHub signals. Updated 2026-10-09 (UTC); the page refreshes twice a day from GitHub data.
 
 Every entry is written from the project README and checked facts: tagline, summary, 2 to 4 strengths, 2 to 4 weaknesses, specs (GPU, RAM when stated, external dependencies, web port, Docker and compose files, license), demo, docs and website links, and a score out of 100 from public GitHub signals (the weights are in the README under "How we rank"). Specs say "unknown" when the README does not state them. Paid placements never affect the order.
 
 ## Pages
 
-- [Leaderboard](https://github.com/archestack/best-of-ai-starters/blob/main/README.md): all 89 projects in 12 categories, ranked, one table per category
+- [Leaderboard](https://github.com/archestack/best-of-ai-starters/blob/main/README.md): all 99 projects in 12 categories, ranked, one table per category
 - [Chat apps reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/chat-apps.md): Chat interfaces and single-feature text apps you fork as the base of a conversational product. 12 projects.
-- [RAG and search reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/rag-search.md): Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. 12 projects.
-- [Agent backends reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/agents.md): Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. 16 projects.
+- [RAG and search reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/rag-search.md): Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. 13 projects.
+- [Agent backends reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/agents.md): Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. 18 projects.
 - [Agent UI and generative UI reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/agent-ui.md): Frontends that render agent steps, tool calls, approvals or model-generated components. 6 projects.
-- [Voice and realtime reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/voice-realtime.md): Voice agents, realtime speech-to-speech apps and their web, phone and native clients. 13 projects.
+- [Voice and realtime reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/voice-realtime.md): Voice agents, realtime speech-to-speech apps and their web, phone and native clients. 16 projects.
 - [MCP servers and chat-host apps reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/mcp-apps.md): Templates for building MCP servers and apps that run inside chat hosts such as ChatGPT. 5 projects.
 - [SaaS boilerplates with AI reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/saas-with-ai.md): Product boilerplates with auth, billing and data that already include AI features or agent access. 5 projects.
 - [App builders and coding agents reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/app-builders.md): Prompt-to-app builders and platforms that run coding agents in sandboxes. 5 projects.
 - [AI editors and workflow canvases reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/editors-workflows.md): Rich-text editors with AI commands and node-based canvases for chaining model calls. 4 projects.
-- [Cloud reference architectures reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/cloud-reference.md): Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. 3 projects.
+- [Cloud reference architectures reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/cloud-reference.md): Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. 7 projects.
 - [AI API backends reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/api-backends.md): Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. 6 projects.
 - [Mobile and browser extensions reviews](https://github.com/archestack/best-of-ai-starters/blob/main/reviews/mobile-extensions.md): Native, cross-platform mobile and browser-extension starters with AI features built in. 2 projects.
 

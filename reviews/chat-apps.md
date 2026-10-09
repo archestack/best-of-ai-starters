@@ -3,7 +3,7 @@
 Chat interfaces and single-feature text apps you fork as the base of a conversational product. Back to the [leaderboard](../README.md#-chat-apps).
 
 <a name="langchain-nextjs-template"></a>
-### 🥇 [langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Oct 2026</sub>
+### 🥇 [langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.5k · MIT · Oct 2026</sub>
 
 **Next.js routes for LangChain.js chat, agents, structured output and RAG.**
 
@@ -37,26 +37,8 @@ Clone it and you get a Next.js App Router chat app on the AI SDK with Auth.js lo
 
 <sub>TypeScript, ai-gateway, ai-sdk, openai, mistral · Needs postgres, vercel-blob, ai-gateway-api-key · GitHub template · [Repo](https://github.com/vercel/chatbot) · [▶️ Demo ↗](https://chatbot.ai-sdk.dev/demo) · [📖 Docs ↗](https://chatbot.ai-sdk.dev/docs)</sub>
 
-<a name="claude-quickstarts"></a>
-### 🥉 [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
-
-**Independent Claude API starter projects, one folder per pattern.**
-
-Independent Claude API starter projects in one repo, not one app: a customer support agent with a knowledge base, a financial data analyst with charts, computer-use and Playwright browser-use demos, a two-agent coding loop on the Agent SDK, and Managed Agents examples for Slack, Linear, Sentry, MCP and CopilotKit AG-UI. Mixed Next.js and Python, each folder with its own setup. For developers copying out one pattern.
-
-- **+** Covers computer use, browser use, Agent SDK and Managed Agents in one checkout
-- **+** Each quickstart is self-contained with its own README and setup
-- **+** Tracks current toolset shapes (computer_toolset_20260801, browser_toolset_20260801)
-- **+** Ships a CLAUDE.md for agent-driven edits
-- **−** Not a single forkable app; you extract one subfolder
-- **−** No auth, billing or database at the root; only what each sample needs
-- **−** Anthropic-only; no provider abstraction
-- **−** No root .env.example or Docker files
-
-<sub>TypeScript, anthropic · Needs anthropic-api-key · [Repo](https://github.com/anthropics/claude-quickstarts) · [📖 Docs ↗](https://docs.claude.com)</sub>
-
 <a name="gemini-chatbot"></a>
-### #&#8288;4 [gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (58) · Freshness: active (84) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · May 2026</sub>
+### 🥉 [gemini-chatbot](https://github.com/vercel-labs/gemini-chatbot) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: popular (59) · Freshness: active (84) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · Apache-2.0 · May 2026</sub>
 
 **Next.js chatbot template defaulting to Gemini with NextAuth and Postgres.**
 
@@ -73,7 +55,7 @@ An earlier cut of the Vercel chatbot template pinned to Google Gemini: Next.js A
 <sub>TypeScript, google, ai-sdk · Needs postgres, vercel-blob, google-api-key · GitHub template · [Repo](https://github.com/vercel-labs/gemini-chatbot) · [▶️ Demo ↗](https://gemini.vercel.ai)</sub>
 
 <a name="nuxt-ui-chat"></a>
-### #&#8288;5 [chat](https://github.com/nuxt-ui-templates/chat) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: niche (20) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 376 · MIT · Oct 2026</sub>
+### #&#8288;4 [chat](https://github.com/nuxt-ui-templates/chat) <sub>score [54](../README.md#-how-we-rank "Score 54/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: easy (67) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 376 · MIT · Oct 2026</sub>
 
 **Nuxt UI chat template with GitHub login, SQLite history and AI Gateway.**
 
@@ -90,8 +72,26 @@ A Nuxt app on Nuxt UI and the AI SDK: streaming replies with reasoning, three mo
 
 <sub>Vue, ai-gateway, ai-sdk, anthropic, google · Needs ai-gateway-api-key, github-oauth-app, sqlite-or-turso · GitHub template · [Repo](https://github.com/nuxt-ui-templates/chat) · [▶️ Demo ↗](https://chat-template.nuxt.dev/) · [📖 Docs ↗](https://ui.nuxt.com/docs/getting-started/installation/nuxt)</sub>
 
+<a name="claude-quickstarts"></a>
+### #&#8288;5 [claude-quickstarts](https://github.com/anthropics/claude-quickstarts) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 18k · MIT · Oct 2026</sub>
+
+**Independent Claude API starter projects, one folder per pattern.**
+
+Independent Claude API starter projects in one repo, not one app: a customer support agent with a knowledge base, a financial data analyst with charts, computer-use and Playwright browser-use demos, a two-agent coding loop on the Agent SDK, and Managed Agents examples for Slack, Linear, Sentry, MCP and CopilotKit AG-UI. Mixed Next.js and Python, each folder with its own setup. For developers copying out one pattern.
+
+- **+** Covers computer use, browser use, Agent SDK and Managed Agents in one checkout
+- **+** Each quickstart is self-contained with its own README and setup
+- **+** Tracks current toolset shapes (computer_toolset_20260801, browser_toolset_20260801)
+- **+** Ships a CLAUDE.md for agent-driven edits
+- **−** Not a single forkable app; you extract one subfolder
+- **−** No auth, billing or database at the root; only what each sample needs
+- **−** Anthropic-only; no provider abstraction
+- **−** No root .env.example or Docker files
+
+<sub>TypeScript, anthropic · Needs anthropic-api-key · [Repo](https://github.com/anthropics/claude-quickstarts) · [📖 Docs ↗](https://docs.claude.com)</sub>
+
 <a name="twitterbio"></a>
-### #&#8288;6 [twitterbio](https://github.com/nutlope/twitterbio) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (71) · Freshness: active (95) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jun 2026</sub>
+### #&#8288;6 [twitterbio](https://github.com/nutlope/twitterbio) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: popular (72) · Freshness: active (95) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Jun 2026</sub>
 
 **Single-form Next.js text generator streaming from Together AI.**
 
@@ -125,7 +125,7 @@ A Laravel 12 application with Inertia and Vue 3 that streams model replies over 
 <sub>PHP, prism, openai, anthropic, google · Needs php-8.3, composer, sqlite-or-mysql-or-postgres, provider-api-keys · GitHub template · [Repo](https://github.com/pushpak1300/ai-chat)</sub>
 
 <a name="zola"></a>
-### #&#8288;8 [zola](https://github.com/ibelick/zola) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (65) · Freshness: quiet (23) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
+### #&#8288;8 [zola](https://github.com/ibelick/zola) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (66) · Freshness: quiet (23) · Maintenance: weak (0) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
 
 **Multi-provider chat UI on Next.js with Ollama detection and BYOK.**
 
@@ -142,7 +142,7 @@ A Next.js chat interface on the AI SDK that talks to OpenAI, Mistral, Anthropic,
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs supabase, ollama, provider-api-keys · Docker · [Repo](https://github.com/ibelick/zola) · [▶️ Demo ↗](https://zola.chat)</sub>
 
 <a name="openai-chatkit-advanced-samples"></a>
-### #&#8288;9 [openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (36) · Freshness: active (100) · Maintenance: weak (10) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 659 · MIT · Aug 2026</sub>
+### #&#8288;9 [openai-chatkit-advanced-samples](https://github.com/openai/openai-chatkit-advanced-samples) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: known (38) · Freshness: active (100) · Maintenance: weak (10) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 659 · MIT · Aug 2026</sub>
 
 **ChatKit feature demos with FastAPI backends and React frontends.**
 
@@ -157,8 +157,23 @@ Four ChatKit scenarios, each a FastAPI backend on the ChatKit Python SDK plus a 
 
 <sub>openai, chatkit · Needs openai-api-key, uv · [Repo](https://github.com/openai/openai-chatkit-advanced-samples)</sub>
 
+<a name="openai-chatkit-starter-app"></a>
+### #&#8288;10 [openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (49) · Freshness: recent (61) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 884 · MIT · Mar 2026</sub>
+
+**Minimal self-hosted and managed OpenAI ChatKit reference apps.**
+
+Two reference apps for embedding OpenAI ChatKit: one self-hosted integration where you run the ChatKit backend yourself, and one managed integration that connects the widget to a hosted Agent Builder workflow. The root README is a two-line index, setup lives in each subfolder, and seed data lists Next.js plus Python. For teams committed to ChatKit who want the smallest working wiring.
+
+- **+** Smallest ChatKit wiring published by OpenAI itself
+- **+** Shows self-hosted and managed hosting modes side by side
+- **−** Root README has no setup, env or port details
+- **−** No auth, database, tests or Docker
+- **−** Locked to OpenAI ChatKit and Agent Builder
+
+<sub>Python, openai, chatkit · Needs openai-api-key · [Repo](https://github.com/openai/openai-chatkit-starter-app)</sub>
+
 <a name="openai-responses-starter-app"></a>
-### #&#8288;10 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (43) · Freshness: quiet (24) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 877 · MIT · Dec 2025</sub>
+### #&#8288;11 [openai-responses-starter-app](https://github.com/openai/openai-responses-starter-app) <sub>score [26](../README.md#-how-we-rank "Score 26/100. Adoption: known (44) · Freshness: quiet (24) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 877 · MIT · Dec 2025</sub>
 
 **Next.js chat on the OpenAI Responses API with hosted tools.**
 
@@ -173,21 +188,6 @@ A Next.js chat UI wired to the OpenAI Responses API with streaming, multi-turn s
 - **−** Last commit 2025-12
 
 <sub>TypeScript, openai · Needs openai-api-key, google-oauth-client · GitHub template · [Repo](https://github.com/openai/openai-responses-starter-app)</sub>
-
-<a name="openai-chatkit-starter-app"></a>
-### #&#8288;11 [openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (48) · Freshness: recent (61) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 884 · MIT · Mar 2026</sub>
-
-**Minimal self-hosted and managed OpenAI ChatKit reference apps.**
-
-Two reference apps for embedding OpenAI ChatKit: one self-hosted integration where you run the ChatKit backend yourself, and one managed integration that connects the widget to a hosted Agent Builder workflow. The root README is a two-line index, setup lives in each subfolder, and seed data lists Next.js plus Python. For teams committed to ChatKit who want the smallest working wiring.
-
-- **+** Smallest ChatKit wiring published by OpenAI itself
-- **+** Shows self-hosted and managed hosting modes side by side
-- **−** Root README has no setup, env or port details
-- **−** No auth, database, tests or Docker
-- **−** Locked to OpenAI ChatKit and Agent Builder
-
-<sub>Python, openai, chatkit · Needs openai-api-key · [Repo](https://github.com/openai/openai-chatkit-starter-app)</sub>
 
 <a name="langgraph-fullstack-python"></a>
 ### #&#8288;12 [langgraph-fullstack-python](https://github.com/langchain-ai/langgraph-fullstack-python) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: niche (7) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 157 · MIT · Mar 2026</sub>
