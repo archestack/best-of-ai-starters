@@ -1,4 +1,4 @@
-# 🖥️ Agent UI and generative UI — reviews
+# 🖥️ Agent UI and generative UI reviews · Best of AI Starters
 
 Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#%EF%B8%8F-agent-ui-and-generative-ui).
 
@@ -53,7 +53,7 @@ A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Ag
 - **−** Showcase, not a product base: no auth or persistence
 - **−** Last commit 2026-06
 
-<sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · [Repo](https://github.com/copilotkit/openintelligentui)</sub>
+<sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · Docker · [Repo](https://github.com/copilotkit/openintelligentui)</sub>
 
 <a name="stockbot-on-groq"></a>
 ### [27](../README.md#-how-we-rank "Score 27/100. Adoption 52 · Freshness 21 · Maintenance 0 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>

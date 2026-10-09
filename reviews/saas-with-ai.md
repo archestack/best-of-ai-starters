@@ -1,4 +1,4 @@
-# 💳 SaaS boilerplates with AI — reviews
+# 💳 SaaS boilerplates with AI reviews · Best of AI Starters
 
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
@@ -39,7 +39,7 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 <sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [▶️ Demo ↗](https://opensaas.sh) · [📖 Docs ↗](https://docs.opensaas.sh)</sub>
 
 <a name="ai-fullstack-saas-boilerplate"></a>
-### [41](../README.md#-how-we-rank "Score 41/100. Adoption 69 · Freshness 70 · Maintenance 57 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/ai-fullstack-saas-boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
+### [41](../README.md#-how-we-rank "Score 41/100. Adoption 69 · Freshness 70 · Maintenance 60 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/ai-fullstack-saas-boilerplate) <sub>⭐ 1.4k · MIT · Oct 2026</sub>
 
 **Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
 

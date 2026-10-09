@@ -1,4 +1,4 @@
-# 📚 RAG and search — reviews
+# 📚 RAG and search reviews · Best of AI Starters
 
 Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. Back to the [leaderboard](../README.md#-rag-and-search).
 

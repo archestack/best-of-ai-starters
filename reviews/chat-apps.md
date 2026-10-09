@@ -1,4 +1,4 @@
-# 💬 Chat apps — reviews
+# 💬 Chat apps reviews · Best of AI Starters
 
 Chat interfaces and single-feature text apps you fork as the base of a conversational product. Back to the [leaderboard](../README.md#-chat-apps).
 

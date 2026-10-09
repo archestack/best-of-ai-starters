@@ -1,4 +1,4 @@
-# 🎙️ Voice and realtime — reviews
+# 🎙️ Voice and realtime reviews · Best of AI Starters
 
 Voice agents, realtime speech-to-speech apps and their web, phone and native clients. Back to the [leaderboard](../README.md#%EF%B8%8F-voice-and-realtime).
 
@@ -87,7 +87,7 @@ Pipecat apps in Python 3.11+, one directory each: phone bots for Twilio, Telnyx,
 - **−** Beginner examples live in the main Pipecat repo, not here
 - **−** Issues are tracked in the main Pipecat repo
 
-<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs ↗](https://docs.pipecat.ai)</sub>
+<sub>Python, Pipecat service plugins (OpenAI, Deepgram, Cartesia, Gemini Live) · Needs OpenAI, Deepgram, Cartesia or similar API keys, Daily or a telephony provider for phone examples · Docker · [Repo](https://github.com/pipecat-ai/pipecat-examples) · [📖 Docs ↗](https://docs.pipecat.ai)</sub>
 
 <a name="agent-starter-swift"></a>
 ### [41](../README.md#-how-we-rank "Score 41/100. Adoption 16 · Freshness 100 · Maintenance 28 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) <sub>⭐ 96 · MIT · Sep 2026</sub>

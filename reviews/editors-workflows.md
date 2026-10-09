@@ -1,4 +1,4 @@
-# ✏️ AI editors and workflow canvases — reviews
+# ✏️ AI editors and workflow canvases reviews · Best of AI Starters
 
 Rich-text editors with AI commands and node-based canvases for chaining model calls. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-editors-and-workflow-canvases).
 

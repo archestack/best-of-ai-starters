@@ -1,4 +1,4 @@
-# ☁️ Cloud reference architectures — reviews
+# ☁️ Cloud reference architectures reviews · Best of AI Starters
 
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#%EF%B8%8F-cloud-reference-architectures).
 
