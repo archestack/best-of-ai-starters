@@ -5,20 +5,20 @@ Retrieval over your own documents or data, answer engines, and natural-language-
 <a name="morphic"></a>
 ### 🥇 [morphic](https://github.com/miurla/morphic) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
-**Answer engine on Next.js with generative UI and pluggable search.**
+**AI search engine that answers with cited sources and inline components.**
 
-A Next.js answer engine: queries go to Tavily, SearXNG, Brave or Exa, the model writes a cited answer, and the UI renders inline components from a streamed JSON spec. Chat history lives in Postgres, auth is Supabase with a guest mode, uploads and share URLs are built in, and docker compose brings up Postgres, Redis, SearXNG and the app on port 3000. For teams building a Perplexity-style product.
+Morphic is a Next.js app that answers queries using web search results and renders cited answers with inline components such as images and grids, streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible providers, with Tavily, SearXNG, Brave or Exa for search. Chat history is stored in PostgreSQL, and the Docker Compose setup bundles PostgreSQL, Redis and SearXNG.
 
-- **+** docker compose runs the full stack including SearXNG; one model key is the only secret
-- **+** Provider detection covers OpenAI, Anthropic, Google, Ollama, AI Gateway, OpenAI-compatible
-- **+** Auth, Postgres history, uploads and share links already wired
-- **+** Ships CLAUDE.md and AGENTS.md; tests included
-- **−** Four services to run (app, Postgres, Redis, SearXNG) when self-hosting
-- **−** Generative UI spec is Morphic-specific; expect to learn its component schema
-- **−** Hosted search APIs (Tavily, Brave, Exa) cost money at volume
-- **−** bun is the documented package manager
+- **+** Compose file bundles PostgreSQL, Redis and SearXNG, so no search API key is required
+- **+** Works with hosted providers or local Ollama through a model selector
+- **+** Four search backends: Tavily, SearXNG, Brave, Exa
+- **+** Shareable result URLs and guest mode for anonymous use
+- **−** Full feature set needs PostgreSQL, Redis and SearXNG running alongside the app
+- **−** Auth options are Supabase, better-auth or none; history and auth need extra configuration
+- **−** Local development uses Bun, not npm or pnpm
+- **−** README gives no RAM or hardware requirements
 
-<sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, searxng-or-search-api-key, supabase, model-api-key · Docker · [Repo](https://github.com/miurla/morphic)</sub>
+<sub>TypeScript, OpenAI, Anthropic, Google, Ollama · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Docker · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md)</sub>
 
 <a name="azure-search-openai-demo"></a>
 ### 🥈 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: fair (71) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>

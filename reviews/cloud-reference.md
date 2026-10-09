@@ -5,20 +5,20 @@ Vendor reference apps and infrastructure-as-code for running AI apps on Azure or
 <a name="azure-agent-landing-zone"></a>
 ### 🥇 [agent-landing-zone](https://github.com/azure/agent-landing-zone) <sub>score [63](../README.md#-how-we-rank "Score 63/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
 
-**Zero-trust Azure landing zone for agent apps on Microsoft Foundry.**
+**Azure infrastructure templates for deploying enterprise agent apps on Microsoft Foundry.**
 
-azd-compatible Bicep landing zone that provisions network-isolated infrastructure for agent apps on Microsoft Foundry (Azure OpenAI, AI Search) and deploys pinned UI, orchestrator and ingestion components from sibling repos, or your own app described in app-definition.json. Run azd up for the full stack or azd provision for infrastructure only. Version 4.0.0+ supports new deployments only.
+Agent Landing Zone is an azd and Bicep template that provisions a Zero-Trust Azure environment for agent applications on Microsoft Foundry. `azd up` deploys the infrastructure plus UI, orchestrator and ingestion apps, each from its own Azure repository. `azd provision` deploys the infrastructure alone. It was previously named GPT-RAG.
 
-- **+** Infrastructure-only or full-stack deploy from the same azd template
-- **+** Component versions pinned in manifest.json
-- **+** Custom app hook via app-definition.json with a sample
-- **+** Central documentation site for prerequisites and network isolation
-- **−** No in-place upgrade from pre-4.0.0 environments
-- **−** Application code lives in three other repos
-- **−** Azure and Foundry only; provisions many managed services
-- **−** README is a pointer; details are on the docs site
+- **+** Infrastructure-only mode via `azd provision`, with apps deployed later using `azd deploy`
+- **+** Component versions pinned in manifest.json for reproducible releases
+- **+** Custom apps can replace the defaults through app-definition.json
+- **+** MIT license; docs cover network-isolated deployment
+- **−** Tied to Azure and Microsoft Foundry; no other cloud is mentioned
+- **−** Default UI, orchestrator and ingestion code live in three separate repositories
+- **−** README gives no cost, quota or resource sizing figures
+- **−** Prerequisites and configuration are only in external docs, not the README
 
-<sub>Python, Azure OpenAI via Microsoft Foundry · Needs Azure subscription, Microsoft Foundry / Azure OpenAI, Azure AI Search · GitHub template · [Repo](https://github.com/azure/agent-landing-zone) · [📖 Docs ↗](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
+<sub>Python · Needs Azure, Microsoft Foundry, Azure OpenAI, Azure AI Search, Azure Developer CLI · GitHub template · [Repo](https://github.com/azure/agent-landing-zone) · [📖 Docs ↗](https://azure.github.io/AI-Landing-Zones/agent-landing-zone/)</sub>
 
 <a name="azurechat"></a>
 ### 🥈 [azurechat](https://github.com/microsoft/azurechat) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: weak (16) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Aug 2026</sub>

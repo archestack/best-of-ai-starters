@@ -58,20 +58,20 @@ Bun and Vite project that runs a coding agent (Cloudflare Think) in a Durable Ob
 <a name="fragments"></a>
 ### #&#8288;4 [fragments](https://github.com/e2b-dev/fragments) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (80) · Freshness: active (100) · Maintenance: patchy (41) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.4k · Apache-2.0 · Oct 2026</sub>
 
-**Next.js prompt-to-app builder running generated code in E2B sandboxes.**
+**Open-source Claude Artifacts alternative that runs AI-generated apps in sandboxes.**
 
-Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams generated code and runs it in E2B sandboxes, with templates for a Python interpreter, Next.js, Vue, Streamlit and Gradio. Providers are configured in lib/models.ts (OpenAI, Anthropic, Google, Mistral, Groq, Fireworks, Together, Ollama); Supabase auth and Upstash KV rate limiting are optional. For teams building an artifacts-style product.
+Next.js 14 app that takes a chat prompt, has an LLM generate code, and runs it in an E2B cloud sandbox with a live preview. Built-in stacks are Python interpreter, Next.js, Vue.js, Streamlit and Gradio, and more can be added as E2B sandbox templates. It supports OpenAI, Anthropic, Google AI, Mistral, Groq, Fireworks, Together AI and Ollama.
 
-- **+** Eight LLM providers plus a documented way to add your own
-- **+** Sandbox templates are E2B Dockerfiles registered in lib/templates.json
-- **+** Rate limiting via Upstash KV and auth via Supabase are optional add-ons
-- **+** Live instance at fragments.e2b.dev
-- **−** E2B API key and sandbox usage are mandatory costs
-- **−** Next.js 14; not on the current major
-- **−** No tests mentioned; no .env.example
-- **−** Users can paste their own API keys unless NEXT_PUBLIC_NO_API_KEY_INPUT is set
+- **+** Adds stacks via an E2B Dockerfile plus an entry in lib/templates.json
+- **+** Eight LLM providers including Ollama; custom models and providers are config edits
+- **+** Generated code runs in E2B sandboxes, with npm and pip packages installable
+- **+** Optional Morph Apply model for faster code edits
+- **−** Requires an E2B API key; sandbox execution is not self-hosted in this setup
+- **−** No Dockerfile or compose file; README documents only npm run dev and build
+- **−** No tagged releases
+- **−** README lists Next.js 14, which may lag current Next.js
 
-<sub>TypeScript, OpenAI, Anthropic, Google AI, Mistral · Needs E2B API key, LLM provider API key, Supabase (optional auth), Upstash KV (optional) · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
+<sub>TypeScript, OpenAI, Anthropic, Google AI, Google Vertex · Needs E2B API key, LLM provider API key, Supabase (optional, auth), Vercel/Upstash KV (optional), PostHog (optional), Morph API key (optional) · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
 
 <a name="coding-agent-template"></a>
 ### #&#8288;5 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (35) · Freshness: slowing (46) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
