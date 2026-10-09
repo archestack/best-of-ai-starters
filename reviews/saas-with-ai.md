@@ -3,7 +3,7 @@
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
 <a name="velobase-harness"></a>
-### 🥇 80 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
+### 🥈 70 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
 
 **Next.js AI SaaS base with credits, usage billing, workers and anti-abuse.**
 
@@ -57,7 +57,7 @@ A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over P
 <sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [▶️ Demo ↗](https://fsb-client.onrender.com)</sub>
 
 <a name="lastsaas"></a>
-### 31 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
+### 28 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
 
 **Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
 
@@ -75,7 +75,7 @@ A Go backend with a React frontend served from the same binary: multi-tenant acc
 <sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site ↗](https://metavert.io/lastsaas)</sub>
 
 <a name="next-ai-starter"></a>
-### 18 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
+### 21 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
 
 **Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
 
