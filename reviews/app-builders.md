@@ -71,7 +71,7 @@ Next.js 14 app that takes a chat prompt, has an LLM generate code, and runs it i
 - **−** No tagged releases
 - **−** README lists Next.js 14, which may lag current Next.js
 
-<sub>TypeScript, OpenAI, Anthropic, Google AI, Google Vertex · Needs E2B API key, LLM provider API key, Supabase (optional, auth), Vercel/Upstash KV (optional), PostHog (optional), Morph API key (optional) · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
+<sub>TypeScript, OpenAI, Anthropic, Google AI, Google Vertex · Needs E2B API key, LLM provider API key, Supabase (optional, auth), Vercel/Upstash KV (optional), PostHog (optional), Morph API key (optional) · env example file · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
 
 <a name="coding-agent-template"></a>
 ### #&#8288;5 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (33) · Freshness: slowing (46) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
