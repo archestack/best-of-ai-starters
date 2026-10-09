@@ -35,7 +35,7 @@ Python 3.12+ package on FastMCP and FastAPI with HTTP, SSE and streamable-HTTP t
 - **−** OAuth mode needs PostgreSQL
 - **−** Red Hat UBI base image and OpenShift focus may not fit other platforms
 
-<sub>Python, FastMCP, MCP Python SDK · Needs PostgreSQL (OAuth token storage) · GitHub template · Docker · [Repo](https://github.com/redhat-data-and-ai/template-mcp-server)</sub>
+<sub>Python, FastMCP, MCP Python SDK · Needs PostgreSQL (OAuth token storage) · GitHub template · Docker · env example file · [Repo](https://github.com/redhat-data-and-ai/template-mcp-server)</sub>
 
 <a name="mcp-for-next-js"></a>
 ### 🥉 [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 373 · MIT · Jul 2026</sub>

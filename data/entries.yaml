@@ -95,7 +95,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 45
+    score: 46
   - id: fullstack-solution-template-for-agentcore
     repo: awslabs/fullstack-solution-template-for-agentcore
     name: fullstack-solution-template-for-agentcore
@@ -523,7 +523,7 @@ entries:
     audience: Teams starting a chat product on Next.js and Vercel
     confidence: 0.85
     facts:
-      stars: 20992
+      stars: 20989
       license: Apache-2.0
       last_commit: 2026-07-08
       last_release: null
@@ -566,7 +566,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17844
+      stars: 17843
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -1069,7 +1069,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58813
+      stars: 58812
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -1078,57 +1078,6 @@ entries:
       is_template: false
       language: Jupyter Notebook
     score: 50
-  - id: morphic
-    repo: miurla/morphic
-    name: morphic
-    status: listed
-    tagline: AI search engine that answers with cited sources and inline components
-    summary: Morphic is a Next.js app that answers queries using web search results and renders cited answers with inline components such as images and grids, streamed from a JSON spec. It supports OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway and OpenAI-compatible providers, with Tavily, SearXNG, Brave or Exa for search. Chat history is stored in PostgreSQL, and the Docker Compose setup bundles PostgreSQL, Redis and SearXNG.
-    categories:
-      - rag-search
-      - agent-ui
-    strengths:
-      - Compose file bundles PostgreSQL, Redis and SearXNG, so no search API key is required
-      - Works with hosted providers or local Ollama through a model selector
-      - "Four search backends: Tavily, SearXNG, Brave, Exa"
-      - Shareable result URLs and guest mode for anonymous use
-    weaknesses:
-      - Full feature set needs PostgreSQL, Redis and SearXNG running alongside the app
-      - Auth options are Supabase, better-auth or none; history and auth need extra configuration
-      - Local development uses Bun, not npm or pnpm
-      - README gives no RAM or hardware requirements
-    specs:
-      ram_min_gb: null
-      gpu: none
-      external_deps:
-        - PostgreSQL
-        - Redis
-        - SearXNG
-        - Supabase Auth (optional)
-      model_support:
-        - OpenAI
-        - Anthropic
-        - Google
-        - Ollama
-        - Vercel AI Gateway
-        - OpenAI-compatible
-      web_port: 3000
-    links:
-      demo: null
-      website: null
-      docs: https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md
-    audience: Self-hosters wanting a Perplexity-style search app with their own models
-    confidence: 0.85
-    facts:
-      stars: 9158
-      license: Apache-2.0
-      last_commit: 2026-10-09
-      last_release: 2026-09-16
-      has_docker: true
-      has_compose: true
-      is_template: false
-      language: TypeScript
-    score: 74
   - id: azure-search-openai-demo
     repo: azure-samples/azure-search-openai-demo
     name: azure-search-openai-demo
@@ -1170,13 +1119,13 @@ entries:
     facts:
       stars: 7778
       license: MIT
-      last_commit: 2026-10-06
+      last_commit: 2026-10-09
       last_release: 2026-07-18
       has_docker: false
       has_compose: false
       is_template: false
       language: Python
-    score: 56
+    score: 57
   - id: chat-langchain
     repo: langchain-ai/chat-langchain
     name: chat-langchain
@@ -1224,7 +1173,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 49
   - id: llm-answer-engine
     repo: developersdigest/llm-answer-engine
     name: llm-answer-engine
@@ -1273,7 +1222,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 44
+    score: 45
   - id: nextjs-openai-doc-search
     repo: supabase-community/nextjs-openai-doc-search
     name: nextjs-openai-doc-search
@@ -1317,7 +1266,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 42
+    score: 43
   - id: rag-postgres-openai-python
     repo: azure-samples/rag-postgres-openai-python
     name: rag-postgres-openai-python
@@ -1414,7 +1363,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 40
+    score: 41
   - id: natural-language-postgres
     repo: vercel-labs/natural-language-postgres
     name: natural-language-postgres
@@ -1674,7 +1623,7 @@ entries:
     audience: Teams standardizing on ADK and Google Cloud
     confidence: 0.8
     facts:
-      stars: 10434
+      stars: 10433
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -1682,7 +1631,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: openai-cs-agents-demo
     repo: openai/openai-cs-agents-demo
     name: openai-cs-agents-demo
@@ -1765,7 +1714,7 @@ entries:
     audience: Teams on Google Cloud that want generated agent infra
     confidence: 0.85
     facts:
-      stars: 6573
+      stars: 6571
       license: Apache-2.0
       last_commit: 2026-05-19
       last_release: 2026-04-25
@@ -1903,7 +1852,7 @@ entries:
     audience: Teams that want an on-call style knowledge bot in Slack
     confidence: 0.8
     facts:
-      stars: 1253
+      stars: 1254
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-08-18
@@ -2086,7 +2035,7 @@ entries:
     audience: Developers building a personal or small-team assistant on eve
     confidence: 0.8
     facts:
-      stars: 476
+      stars: 475
       license: MIT
       last_commit: 2026-09-02
       last_release: null
@@ -2433,7 +2382,7 @@ entries:
     audience: Frontend and agent developers prototyping generative UI chat apps
     confidence: 0.8
     facts:
-      stars: 1728
+      stars: 1775
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -2609,7 +2558,7 @@ entries:
     audience: Teams that accept Wasp for a complete SaaS base
     confidence: 0.85
     facts:
-      stars: 16077
+      stars: 16074
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-07-27
@@ -2805,7 +2754,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 19
+    score: 20
   - id: openai-realtime-agents
     repo: openai/openai-realtime-agents
     name: openai-realtime-agents
@@ -3394,7 +3343,7 @@ entries:
     audience: Developers building ChatGPT apps with MCP and widgets
     confidence: 0.8
     facts:
-      stars: 2360
+      stars: 2359
       license: MIT
       last_commit: 2026-04-15
       last_release: null
@@ -3605,7 +3554,7 @@ entries:
     audience: Developers building a prompt-to-app demo on open models
     confidence: 0.8
     facts:
-      stars: 7135
+      stars: 7134
       license: MIT
       last_commit: 2026-09-15
       last_release: null
@@ -3661,7 +3610,7 @@ entries:
     audience: Developers building a self-hosted Artifacts or v0-style app generator
     confidence: 0.85
     facts:
-      stars: 6384
+      stars: 6383
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -3707,7 +3656,7 @@ entries:
     audience: Teams building a hosted background coding agent on Vercel
     confidence: 0.8
     facts:
-      stars: 5844
+      stars: 5842
       license: MIT
       last_commit: 2026-06-04
       last_release: null
@@ -3753,7 +3702,7 @@ entries:
     audience: Teams self-hosting a prompt-to-app builder on Cloudflare
     confidence: 0.8
     facts:
-      stars: 5402
+      stars: 5401
       license: MIT
       last_commit: 2026-09-07
       last_release: 2026-02-06
@@ -4159,7 +4108,7 @@ entries:
     audience: Python teams serving LangGraph agents over an API
     confidence: 0.85
     facts:
-      stars: 4516
+      stars: 4515
       license: MIT
       last_commit: 2026-10-04
       last_release: null
@@ -4439,7 +4388,7 @@ entries:
     audience: Mobile teams starting a multi-provider AI chat app
     confidence: 0.8
     facts:
-      stars: 1305
+      stars: 1304
       license: MIT
       last_commit: 2026-07-14
       last_release: null
@@ -4521,7 +4470,7 @@ entries:
     audience: Developers wanting an open terminal coding agent
     confidence: 0.65
     facts:
-      stars: 212360
+      stars: 212366
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-10-06
@@ -4565,7 +4514,7 @@ entries:
     audience: Developers self-hosting coding agents and automating GitHub or Slack workflows
     confidence: 0.85
     facts:
-      stars: 90387
+      stars: 90386
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -4615,7 +4564,7 @@ entries:
     audience: Developers prototyping UIs from designs
     confidence: 0.85
     facts:
-      stars: 80124
+      stars: 80120
       license: MIT
       last_commit: 2026-07-30
       last_release: null
@@ -4662,7 +4611,7 @@ entries:
     audience: Teams wanting an on-premises Copilot alternative
     confidence: 0.8
     facts:
-      stars: 33906
+      stars: 33904
       license: NOASSERTION
       last_commit: 2026-06-30
       last_release: 2026-01-25
@@ -4709,7 +4658,7 @@ entries:
     audience: Designers and front-end developers on Next.js codebases
     confidence: 0.8
     facts:
-      stars: 26891
+      stars: 26886
       license: Apache-2.0
       last_commit: 2026-07-22
       last_release: 2025-07-17
@@ -4756,7 +4705,7 @@ entries:
     audience: Teams standardizing how AI agents ship code
     confidence: 0.8
     facts:
-      stars: 23654
+      stars: 23652
       license: MIT
       last_commit: 2026-10-08
       last_release: 2026-09-25
@@ -4798,7 +4747,7 @@ entries:
     audience: Developers running AI coding agents who want multi-device review and control
     confidence: 0.8
     facts:
-      stars: 11326
+      stars: 11333
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-08
@@ -4843,7 +4792,7 @@ entries:
     audience: Engineering teams building an internal coding-agent service
     confidence: 0.75
     facts:
-      stars: 10830
+      stars: 10829
       license: MIT
       last_commit: 2026-10-09
       last_release: 2026-10-09
@@ -4893,7 +4842,7 @@ entries:
     audience: Single-tenant engineering orgs running agents in cloud sandboxes
     confidence: 0.8
     facts:
-      stars: 3347
+      stars: 3345
       license: MIT
       last_commit: 2026-10-08
       last_release: null

@@ -36,6 +36,6 @@ Bun-based WXT project for Chrome (MV3) and Firefox (MV2) with every entrypoint (
 - **−** Firefox builds target MV2 and load only in temporary mode
 - **−** Requires Bun
 
-<sub>TypeScript, Vercel AI SDK, browser built-in AI (experimental) · Needs Supabase project, OpenPanel (analytics, optional) · GitHub template · [Repo](https://github.com/turbostarter/extro)</sub>
+<sub>TypeScript, Vercel AI SDK, browser built-in AI (experimental) · Needs Supabase project, OpenPanel (analytics, optional) · GitHub template · env example file · [Repo](https://github.com/turbostarter/extro)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-vibe-coding/issues/new/choose).</sub>
