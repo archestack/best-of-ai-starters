@@ -1,5 +1,5 @@
-name: Add a starter
-description: Suggest a starter for this list. We check it and reply here.
+name: Add a project
+description: Suggest a project for this list. We check it and reply here.
 title: "Add: "
 labels: [submission]
 body:
@@ -27,13 +27,22 @@ body:
         - cloud-reference
         - api-backends
         - mobile-extensions
+        - coding-agents
+        - editors
+        - skills-plugins
+        - dev-mcp
+        - code-review
+        - design-to-code
+        - prompts
+        - backends
+        - deploy
         - not sure
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
-      label: What do you get when you clone it?
+      label: What does it do, or what do you get when you clone it?
       description: Concrete capability, not a slogan. The entry is written from the README anyway; this helps the reviewer.
     validations:
       required: true
@@ -57,7 +66,7 @@ body:
     attributes:
       label: Checks
       options:
-        - label: It is meant to be cloned or forked as the base of a new app (not a finished app or a library).
+        - label: It helps build software with AI, it is a starter or boilerplate you fork, or it is part of the stack you ship on.
           required: true
         - label: It has an open-source license file.
           required: true

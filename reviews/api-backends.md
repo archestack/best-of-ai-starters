@@ -1,9 +1,9 @@
-# ⚙️ AI API backends reviews · Best of AI Starters
+# ⚙️ AI API backends reviews · Best of Vibe Coding
 
 Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-api-backends).
 
 <a name="agent-service-toolkit"></a>
-### 🥇 [agent-service-toolkit](https://github.com/joshuac215/agent-service-toolkit) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (91) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Oct 2026</sub>
+### 🥇 [agent-service-toolkit](https://github.com/joshuac215/agent-service-toolkit) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Oct 2026</sub>
 
 **LangGraph agents served by FastAPI with a Streamlit chat client.**
 
@@ -21,7 +21,7 @@ Python service where LangGraph v1 agents (interrupt, Command, Store) are served 
 <sub>Python, LangChain providers: OpenAI, Anthropic, Google, Ollama, VertexAI, vLLM/SGLang, AG-UI protocol · Needs LLM API key (OpenAI, Anthropic, Google, Groq, Ollama or others), PostgreSQL (compose), LangSmith (optional), ChromaDB (RAG agent) · GitHub template · Docker · [Repo](https://github.com/joshuac215/agent-service-toolkit) · [▶️ Demo ↗](https://agent-service-toolkit.streamlit.app/)</sub>
 
 <a name="fastapi-langgraph-agent-production-ready-template"></a>
-### 🥈 [fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (80) · Freshness: active (100) · Maintenance: patchy (46) · Easy to run: hard (17) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Sep 2026</sub>
+### 🥈 [fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: patchy (46) · Easy to run: hard (17) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.7k · MIT · Sep 2026</sub>
 
 **FastAPI service for a LangGraph agent with auth, memory and tracing.**
 
@@ -39,7 +39,7 @@ FastAPI backend with a stateful LangGraph agent (Postgres checkpointing, tool ca
 <sub>Python, OpenAI via langchain_openai.ChatOpenAI (any OpenAI-compatible base URL) · Needs PostgreSQL with pgvector, OpenAI API key, Valkey/Redis (optional), Langfuse (optional) · Docker · [Repo](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template)</sub>
 
 <a name="full-stack-ai-agent-template"></a>
-### 🥉 [full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
+### 🥉 [full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Project generator for FastAPI and Next.js apps with agents and RAG.**
 
@@ -93,7 +93,7 @@ Express and TypeScript REST API with vertical-slice modules, Zod validation, Inv
 <sub>TypeScript, OpenAI, Anthropic, DeepSeek, OpenRouter · Needs PostgreSQL or SQLite, Redis, AWS S3 (uploads), LLM API key for codegen · GitHub template · Docker · [Repo](https://github.com/vyancharuk/nodejs-api-boilerplate)</sub>
 
 <a name="genai-api"></a>
-### #&#8288;6 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>score [29](../README.md#-how-we-rank "Score 29/100. Adoption: niche (5) · Freshness: recent (65) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 111 · Apache-2.0 · Apr 2026</sub>
+### #&#8288;6 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (4) · Freshness: recent (65) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 111 · Apache-2.0 · Apr 2026</sub>
 
 **Hono API on Cloudflare Workers proxying Gemini with bearer auth.**
 
@@ -110,4 +110,4 @@ Hono TypeScript worker exposing POST /completion that forwards OpenAI-style mess
 
 <sub>TypeScript, Gemini 2.5 Flash, 2.5 Flash Lite, 2.0 Flash, 2.0 Flash Lite via Cloudflare AI Gateway, OpenAI SDK client · Needs Cloudflare account with AI Gateway, Google AI Studio API key · GitHub template · [Repo](https://github.com/louisbrulenaudet/genai-api)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-vibe-coding/issues/new/choose).</sub>

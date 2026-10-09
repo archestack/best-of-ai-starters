@@ -43,7 +43,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 26
+    score: 25
   - id: chat-with-your-data-solution-accelerator
     repo: azure-samples/chat-with-your-data-solution-accelerator
     name: chat-with-your-data-solution-accelerator
@@ -95,7 +95,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 46
+    score: 45
   - id: fullstack-solution-template-for-agentcore
     repo: awslabs/fullstack-solution-template-for-agentcore
     name: fullstack-solution-template-for-agentcore
@@ -287,7 +287,7 @@ entries:
       has_compose: true
       is_template: false
       language: Bicep
-    score: 35
+    score: 34
   - id: claude-managed-agents
     repo: cloudflare/claude-managed-agents
     name: claude-managed-agents
@@ -523,7 +523,7 @@ entries:
     audience: Teams starting a chat product on Next.js and Vercel
     confidence: 0.85
     facts:
-      stars: 20994
+      stars: 20992
       license: Apache-2.0
       last_commit: 2026-07-08
       last_release: null
@@ -566,7 +566,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17843
+      stars: 17844
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -574,7 +574,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 53
+    score: 52
   - id: langchain-nextjs-template
     repo: langchain-ai/langchain-nextjs-template
     name: langchain-nextjs-template
@@ -622,7 +622,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 67
+    score: 66
   - id: twitterbio
     repo: nutlope/twitterbio
     name: twitterbio
@@ -662,7 +662,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 48
   - id: zola
     repo: ibelick/zola
     name: zola
@@ -712,7 +712,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 36
+    score: 35
   - id: gemini-chatbot
     repo: vercel-labs/gemini-chatbot
     name: gemini-chatbot
@@ -757,7 +757,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 54
+    score: 53
   - id: openai-chatkit-starter-app
     repo: openai/openai-chatkit-starter-app
     name: openai-chatkit-starter-app
@@ -789,7 +789,7 @@ entries:
     audience: Teams adopting OpenAI ChatKit
     confidence: 0.5
     facts:
-      stars: 884
+      stars: 883
       license: MIT
       last_commit: 2026-03-27
       last_release: null
@@ -797,7 +797,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 26
+    score: 25
   - id: openai-responses-starter-app
     repo: openai/openai-responses-starter-app
     name: openai-responses-starter-app
@@ -984,7 +984,7 @@ entries:
       has_compose: false
       is_template: true
       language: Vue
-    score: 54
+    score: 53
   - id: langgraph-fullstack-python
     repo: langchain-ai/langgraph-fullstack-python
     name: langgraph-fullstack-python
@@ -1069,7 +1069,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58815
+      stars: 58813
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -1077,7 +1077,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 51
+    score: 50
   - id: morphic
     repo: miurla/morphic
     name: morphic
@@ -1128,7 +1128,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 75
+    score: 74
   - id: azure-search-openai-demo
     repo: azure-samples/azure-search-openai-demo
     name: azure-search-openai-demo
@@ -1176,7 +1176,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 56
   - id: chat-langchain
     repo: langchain-ai/chat-langchain
     name: chat-langchain
@@ -1224,7 +1224,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 48
   - id: llm-answer-engine
     repo: developersdigest/llm-answer-engine
     name: llm-answer-engine
@@ -1273,7 +1273,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 45
+    score: 44
   - id: nextjs-openai-doc-search
     repo: supabase-community/nextjs-openai-doc-search
     name: nextjs-openai-doc-search
@@ -1317,7 +1317,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 43
+    score: 42
   - id: rag-postgres-openai-python
     repo: azure-samples/rag-postgres-openai-python
     name: rag-postgres-openai-python
@@ -1414,7 +1414,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 41
+    score: 40
   - id: natural-language-postgres
     repo: vercel-labs/natural-language-postgres
     name: natural-language-postgres
@@ -1591,7 +1591,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 8
+    score: 7
   - id: ai-town
     repo: a16z-infra/ai-town
     name: ai-town
@@ -1638,7 +1638,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 56
+    score: 55
   - id: google-adk-recipes
     repo: google/adk-recipes
     name: adk-recipes
@@ -1718,7 +1718,7 @@ entries:
     audience: Teams evaluating the Agents SDK handoff pattern
     confidence: 0.85
     facts:
-      stars: 6584
+      stars: 6583
       license: MIT
       last_commit: 2025-12-11
       last_release: null
@@ -1726,7 +1726,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 26
+    score: 25
   - id: agent-starter-pack
     repo: googlecloudplatform/agent-starter-pack
     name: agent-starter-pack
@@ -1773,7 +1773,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 40
+    score: 39
   - id: openai-cua-sample-app
     repo: openai/openai-cua-sample-app
     name: openai-cua-sample-app
@@ -1816,7 +1816,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 47
   - id: cloudflare-agents-starter
     repo: cloudflare/agents-starter
     name: agents-starter
@@ -1958,7 +1958,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 68
+    score: 67
   - id: knowledge-agent-template
     repo: vercel-labs/knowledge-agent-template
     name: knowledge-agent-template
@@ -2049,7 +2049,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 50
+    score: 49
   - id: personal-agent-template
     repo: vercel-labs/personal-agent-template
     name: personal-agent-template
@@ -2355,7 +2355,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 48
   - id: agno-agent-ui
     repo: agno-agi/agent-ui
     name: agent-ui
@@ -2396,7 +2396,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 46
+    score: 45
   - id: opengenerativeui
     repo: copilotkit/openintelligentui
     name: OpenGenerativeUI
@@ -2433,7 +2433,7 @@ entries:
     audience: Frontend and agent developers prototyping generative UI chat apps
     confidence: 0.8
     facts:
-      stars: 1706
+      stars: 1728
       license: MIT
       last_commit: 2026-10-09
       last_release: null
@@ -2441,7 +2441,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 46
+    score: 45
   - id: stockbot-on-groq
     repo: bklieger-groq/stockbot-on-groq
     name: stockbot-on-groq
@@ -2524,7 +2524,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 14
+    score: 13
   - id: assistant-ui-stockbroker
     repo: assistant-ui/assistant-ui-stockbroker
     name: assistant-ui-stockbroker
@@ -2661,7 +2661,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 42
+    score: 41
   - id: velobase-harness
     repo: velobase/velobase-harness
     name: velobase-harness
@@ -2805,7 +2805,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 20
+    score: 19
   - id: openai-realtime-agents
     repo: openai/openai-realtime-agents
     name: openai-realtime-agents
@@ -2849,7 +2849,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 30
+    score: 29
   - id: live-api-web-console
     repo: google-gemini/live-api-web-console
     name: live-api-web-console
@@ -2931,7 +2931,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 54
+    score: 53
   - id: elevenlabs-examples
     repo: elevenlabs/examples
     name: examples
@@ -3058,7 +3058,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 43
+    score: 42
   - id: agent-starter-python
     repo: livekit-examples/agent-starter-python
     name: agent-starter-python
@@ -3661,7 +3661,7 @@ entries:
     audience: Developers building a self-hosted Artifacts or v0-style app generator
     confidence: 0.85
     facts:
-      stars: 6385
+      stars: 6384
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -3669,7 +3669,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 48
+    score: 47
   - id: open-agents
     repo: vercel-labs/open-agents
     name: open-agents
@@ -3761,7 +3761,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 49
+    score: 48
   - id: coding-agent-template
     repo: vercel-labs/coding-agent-template
     name: coding-agent-template
@@ -3813,7 +3813,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 42
+    score: 41
   - id: workflow-builder-template
     repo: vercel-labs/workflow-builder-template
     name: workflow-builder-template
@@ -3899,7 +3899,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 28
+    score: 27
   - id: plate-playground-template
     repo: udecode/plate-playground-template
     name: plate-playground-template
@@ -4030,7 +4030,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 45
+    score: 44
   - id: azure-agent-landing-zone
     repo: azure/agent-landing-zone
     name: agent-landing-zone
@@ -4213,7 +4213,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 59
+    score: 58
   - id: full-stack-ai-agent-template
     repo: vstorm-co/full-stack-ai-agent-template
     name: full-stack-ai-agent-template
@@ -4264,7 +4264,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 59
+    score: 58
   - id: nodejs-api-boilerplate
     repo: vyancharuk/nodejs-api-boilerplate
     name: nodejs-api-boilerplate
@@ -4399,7 +4399,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 29
+    score: 28
   - id: react-native-ai
     repo: dabit3/react-native-ai
     name: react-native-ai
@@ -4447,7 +4447,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 54
+    score: 53
   - id: extro
     repo: turbostarter/extro
     name: extro
@@ -4492,3 +4492,413 @@ entries:
       is_template: true
       language: TypeScript
     score: 39
+  - id: opencode
+    repo: anomalyco/opencode
+    name: opencode
+    status: listed
+    tagline: Terminal coding agent with build and plan modes
+    summary: "Runs an AI coding agent in the terminal with two built-in agents: build (full access) and plan (read-only, asks before running bash), plus a general subagent for multi-step searches. Installs via a curl script, npm, Homebrew, Scoop, Chocolatey, pacman, mise or Nix, and ships a beta desktop app for macOS, Windows and Linux. For developers who want an open, configurable coding agent."
+    categories:
+      - coding-agents
+    strengths:
+      - MIT license; installable from npm, Homebrew, Scoop, Chocolatey, pacman, mise and Nix
+      - Plan agent denies file edits and asks before bash, for safe codebase exploration
+      - Desktop app (beta) for macOS, Windows and Linux alongside the terminal UI
+    weaknesses:
+      - README covers install only; providers, config and server mode are in external docs
+      - No Dockerfile or compose file in the repo
+      - Desktop app is still beta
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps: []
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: https://opencode.ai
+      docs: https://opencode.ai/docs
+    audience: Developers wanting an open terminal coding agent
+    confidence: 0.65
+    facts:
+      stars: 212360
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-10-06
+      has_docker: false
+      has_compose: false
+      is_template: false
+      language: null
+    score: 77
+  - id: openhands
+    repo: openhands/openhands
+    name: OpenHands
+    status: listed
+    tagline: Web control center for running coding agents and scheduled automations
+    summary: Agent Canvas is a web frontend that starts and manages conversations with coding agents. It runs the OpenHands agent by default and can drive Claude Code, Codex, Gemini CLI, Pi, OpenCode, or any ACP-compatible agent. It connects to one or more Agent Server backends (local, Docker, VM, or OpenHands Cloud) and pairs with an Automation Server for scheduled and webhook-triggered runs.
+    categories:
+      - coding-agents
+    strengths:
+      - Switches between local, remote and cloud Agent Server backends from one UI
+      - Works with third-party agents through ACP, not only OpenHands
+      - Option to run each conversation in its own Docker container
+      - Automations can run on a schedule or on webhook events
+    weaknesses:
+      - Marked beta in the README
+      - Non-sandboxed install gives the agent full filesystem access
+      - Needs Node.js 24+ and uv for non-Docker installs
+      - Automation and agent server live in separate repositories
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - Node.js 24+
+        - uv
+        - Docker (optional)
+      model_support:
+        - Any LLM (via LLM profiles)
+      web_port: 8000
+    links:
+      demo: null
+      website: null
+      docs: https://docs.openhands.dev/openhands/usage/agent-canvas/backends
+    audience: Developers self-hosting coding agents and automating GitHub or Slack workflows
+    confidence: 0.85
+    facts:
+      stars: 90387
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: TypeScript
+    score: 70
+  - id: screenshot-to-code
+    repo: abi/screenshot-to-code
+    name: screenshot-to-code
+    status: listed
+    tagline: Turns screenshots and mockups into Tailwind, React or Vue code
+    summary: Takes a screenshot, mockup, Figma export or screen recording and generates HTML with Tailwind or CSS, React, Vue, Bootstrap or Ionic code using Gemini 3, GPT-5.5 or Claude Opus models, with Replicate for image generation and background removal. Runs as a React/Vite frontend on port 5173 and a FastAPI backend on 7001, or via docker-compose. For developers prototyping UIs from designs.
+    categories:
+      - design-to-code
+    strengths:
+      - Six output stacks including React, Vue, Bootstrap and Ionic with Tailwind
+      - Video mode turns a screen recording into a working prototype (needs Gemini)
+      - Optional headless Chromium lets the agent render and check its own output
+      - docker-compose brings up frontend and backend with one env file
+    weaknesses:
+      - Requires at least one OpenAI, Anthropic or Gemini API key; no bundled local model
+      - Ollama models are possible but the README calls the results poor quality
+      - Replicate key must be set in backend/.env, not in the UI
+      - Docker setup has no hot reload; file changes need a rebuild
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - OpenAI, Anthropic or Gemini API key
+        - Replicate API key (optional)
+        - Playwright Chromium (optional preview)
+      model_support:
+        - Gemini 3 Flash Preview
+        - Gemini 3.1 Pro Preview
+        - GPT-5.5
+        - GPT-5.4 Mini
+        - Claude Opus 4.6/4.8
+        - z-image-turbo via Replicate
+        - Ollama (not recommended)
+      web_port: 5173
+    links:
+      demo: https://screenshottocode.com/
+      website: null
+      docs: null
+    audience: Developers prototyping UIs from designs
+    confidence: 0.85
+    facts:
+      stars: 80124
+      license: MIT
+      last_commit: 2026-07-30
+      last_release: null
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: null
+    score: 67
+  - id: tabby
+    repo: tabbyml/tabby
+    name: Tabby
+    status: listed
+    tagline: Self-hosted code completion and chat server for IDEs
+    summary: Serves code completion and chat to VS Code, Vim and JetBrains extensions from one self-contained binary with no external database. Runs local models such as StarCoder-1B and Qwen2-1.5B-Instruct on CUDA or Apple Metal, exposes an OpenAPI interface on port 8080, and adds an Answer Engine, repository and GitLab merge-request indexing and LDAP auth. For teams that want an on-premises Copilot alternative.
+    categories:
+      - coding-agents
+    strengths:
+      - Single binary with embedded storage; no DBMS or cloud service required
+      - One docker run command starts a server with completion and chat models
+      - Repository context indexing, GitHub and GitLab integration, LDAP auth, usage reports
+      - Live demo instance and documented extensions for VS Code, Vim and IntelliJ
+    weaknesses:
+      - Last commit June 2026; recent news points to the separate Pochi agent
+      - License is non-standard (GitHub reports NOASSERTION); check terms before deploying
+      - Model list and hardware guidance live only in the external docs
+      - Building from source needs Rust, protobuf and OpenBLAS
+    specs:
+      ram_min_gb: null
+      gpu: optional
+      external_deps: []
+      model_support:
+        - StarCoder-1B
+        - Qwen2-1.5B-Instruct
+        - CodeLlama 7B
+        - CodeGemma
+        - CodeQwen
+        - Codestral
+        - llamafile deployments
+      web_port: 8080
+    links:
+      demo: https://tabby.tabbyml.com
+      website: null
+      docs: https://tabby.tabbyml.com/docs/welcome/
+    audience: Teams wanting an on-premises Copilot alternative
+    confidence: 0.8
+    facts:
+      stars: 33906
+      license: NOASSERTION
+      last_commit: 2026-06-30
+      last_release: 2026-01-25
+      has_docker: true
+      has_compose: false
+      is_template: false
+      language: null
+    score: 52
+  - id: onlook
+    repo: onlook-dev/onlook
+    name: Onlook
+    status: listed
+    tagline: Visual editor that edits Next.js and Tailwind apps with AI
+    summary: Browser-based editor that loads a Next.js and Tailwind project into a web container, renders it in an iframe and maps DOM elements back to source so you can drag, restyle and edit visually or through an AI chat. Built on Next.js, tRPC, Supabase, Drizzle and the Vercel AI SDK with OpenRouter for models and CodeSandbox for sandboxes. For designers and front-end developers working on Next.js codebases.
+    categories:
+      - design-to-code
+    strengths:
+      - Edits map directly to code; right-click any element to open its source location
+      - Branching, checkpoints and a real-time code editor beside the visual canvas
+      - Apache-2.0 with Dockerfile and compose file for local runs
+      - Figma-like layers, pages, brand tokens and asset management
+    weaknesses:
+      - Next.js plus Tailwind only; other frameworks are roadmap items, not supported
+      - "Depends on hosted services: Supabase, OpenRouter, CodeSandbox SDK, Freestyle"
+      - Team comments, MCP support and image references are unchecked roadmap items
+      - Maintainers are moving to a hosted early-access product; last commit July 2026
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Supabase (auth, database, storage)
+        - OpenRouter API key
+        - CodeSandbox SDK
+        - Bun
+      model_support:
+        - OpenRouter-hosted models
+        - Morph Fast Apply
+        - Relace
+      web_port: null
+    links:
+      demo: https://onlook.com
+      website: null
+      docs: https://docs.onlook.com
+    audience: Designers and front-end developers on Next.js codebases
+    confidence: 0.8
+    facts:
+      stars: 26891
+      license: Apache-2.0
+      last_commit: 2026-07-22
+      last_release: 2025-07-17
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: null
+    score: 51
+  - id: archon
+    repo: coleam00/archon
+    name: Archon
+    status: listed
+    tagline: YAML workflow engine that runs coding agents in isolated worktrees
+    summary: Defines development processes (plan, implement, validate, review, PR) as YAML workflows and runs them through Claude Code, Codex or Pi, each run in its own git worktree. Deterministic nodes mix with AI nodes and human approval gates; runs start from the CLI, a web console, Slack, Telegram, Discord or GitHub webhooks, with state in SQLite or PostgreSQL. For teams standardizing how agents ship code.
+    categories:
+      - coding-agents
+    strengths:
+      - Every run isolated in a git worktree; parallel fixes without conflicts
+      - "Bundled sdlc pack: ship, triage, investigate, plan, deliver, review, validate, upkeep"
+      - Adapters for web, CLI, Slack, Telegram, Discord and GitHub webhooks
+      - Telemetry documented field by field; DO_NOT_TRACK=1 or CI=true disables it
+    weaknesses:
+      - Requires Claude Code (or Codex, Pi) installed separately; binaries need CLAUDE_BIN_PATH
+      - Anonymous telemetry is on by default
+      - x64 quick-install binaries require AVX2; older CPUs must build from source
+      - Workflows from v0.11.1 and earlier no longer ship and must be copied manually
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Bun
+        - Claude Code (or Codex or Pi)
+        - GitHub CLI
+        - SQLite or PostgreSQL
+      model_support:
+        - Claude Code
+        - Codex
+        - Pi
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://archon.diy/docs/
+    audience: Teams standardizing how AI agents ship code
+    confidence: 0.8
+    facts:
+      stars: 23654
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: 2026-09-25
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: null
+    score: 81
+  - id: openchamber
+    repo: openchamber/openchamber
+    name: OpenChamber
+    status: listed
+    tagline: Workspace for running and reviewing OpenCode coding agents across devices
+    summary: OpenChamber is a front end for OpenCode coding agents, shipped as a desktop app, web/PWA, VS Code extension, and iOS/Android clients. It adds session goals, multi-run comparison across up to five models, guided diff walkthroughs, GitHub issue and PR integration, and scheduled prompts. A CLI server runs on a workstation and can be reached through an encrypted relay, LAN, tunnels, or SSH.
+    categories:
+      - coding-agents
+    strengths:
+      - Multi-run sends one task to up to five models, each in its own worktree
+      - Session Goals keep the agent working after a turn until the goal is met or blocked
+      - Same sessions reachable from desktop, browser, VS Code, iOS and Android
+      - Remote access via end-to-end encrypted relay needs no open ports
+    weaknesses:
+      - Depends on OpenCode for agents; web and VS Code need a separate OpenCode install
+      - CLI/Web requires Node.js 24.14 or newer
+      - Docker deployment is not documented in the README
+      - RAM, GPU needs and supported model providers are unknown
+    specs:
+      ram_min_gb: null
+      gpu: unknown
+      external_deps:
+        - OpenCode CLI
+        - Node.js 24.14+
+      model_support: []
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: https://github.com/openchamber/openchamber/blob/main/packages/docs/content/docs/quickstart.mdx
+    audience: Developers running AI coding agents who want multi-device review and control
+    confidence: 0.8
+    facts:
+      stars: 11326
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-08
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: TypeScript
+    score: 74
+  - id: open-swe
+    repo: langchain-ai/open-swe
+    name: Open SWE
+    status: listed
+    tagline: LangChain coding agent that plans, implements and reviews pull requests
+    summary: LangGraph-based agent that investigates a repository, implements changes in a per-thread Linux sandbox, validates them and opens a pull request, then reviews PRs and watches CI with /baby-sit. Work starts from a dashboard, GitHub issues or PR comments, Slack or Linear. Deploys into your infrastructure with a backend, dashboard, GitHub and Slack apps, for teams building an internal coding-agent service.
+    categories:
+      - coding-agents
+    strengths:
+      - Covers build, review, investigate and operate flows, with subagents for parallel work
+      - Durable execution and thread state via LangGraph; sandboxes persist per thread
+      - Configurable models, reasoning effort, skills, MCP integrations and sandbox providers
+      - Push approvals gate detected git pushes; PR chat excludes mutation tools
+    weaknesses:
+      - Production standalone Agent Server deployments require a license key
+      - Maintainers are not accepting issues or contributions; breaking changes expected
+      - LangSmith is the default sandbox and tracing provider; alternatives need configuration
+      - CLI mode executes commands locally as you, with no sandbox isolation
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - LangSmith (default sandbox and tracing)
+        - GitHub App
+        - Slack app (optional)
+        - model provider credentials
+      model_support:
+        - configurable LLM providers
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Engineering teams building an internal coding-agent service
+    confidence: 0.75
+    facts:
+      stars: 10830
+      license: MIT
+      last_commit: 2026-10-09
+      last_release: 2026-10-09
+      has_docker: true
+      has_compose: true
+      is_template: false
+      language: null
+    score: 73
+  - id: background-agents
+    repo: colemurray/background-agents
+    name: Background Agents
+    status: listed
+    tagline: Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers
+    summary: Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers control plane, driven from a web UI, Slack, GitHub PR comments, Linear issues or webhooks. Sessions use OpenCode or the Claude Agent harness with Anthropic, OpenAI, xAI, DeepSeek or Z.AI models, with multiplayer editing, commit attribution, child sessions and cron or event automations. For single-tenant engineering orgs.
+    categories:
+      - coding-agents
+    strengths:
+      - Snapshot restore, prebuilt images and proactive warming for fast session starts
+      - Automations from cron, Sentry alerts, GitHub workflow runs and inbound webhooks
+      - Secrets encrypted with AES-256-GCM and scoped globally, per repo or per environment
+      - Browser automation, code-server and a web terminal inside each sandbox
+    weaknesses:
+      - Single-tenant only; all users must be trusted members of one organization
+      - Control plane requires Cloudflare Workers, Durable Objects and D1
+      - Sandboxes run on third-party providers (Modal, Daytona, E2B, OpenComputer, Vercel)
+      - Cached credentials can persist in snapshots; grant removal does not revoke tokens
+    specs:
+      ram_min_gb: null
+      gpu: none
+      external_deps:
+        - Cloudflare Workers, Durable Objects and D1
+        - Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox)
+        - GitHub App
+        - Slack and Linear apps (optional)
+      model_support:
+        - Anthropic Claude (API key or subscription)
+        - OpenAI Codex via ChatGPT subscription
+        - xAI Grok via SuperGrok
+        - OpenCode Zen and Go
+        - Z.AI Coding Plan
+        - DeepSeek
+      web_port: null
+    links:
+      demo: null
+      website: null
+      docs: null
+    audience: Single-tenant engineering orgs running agents in cloud sandboxes
+    confidence: 0.8
+    facts:
+      stars: 3347
+      license: MIT
+      last_commit: 2026-10-08
+      last_release: null
+      has_docker: false
+      has_compose: true
+      is_template: false
+      language: null
+    score: 67

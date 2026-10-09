@@ -1,9 +1,9 @@
-# 📚 RAG and search reviews · Best of AI Starters
+# 📚 RAG and search reviews · Best of Vibe Coding
 
 Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. Back to the [leaderboard](../README.md#-rag-and-search).
 
 <a name="morphic"></a>
-### 🥇 [morphic](https://github.com/miurla/morphic) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
+### 🥇 [morphic](https://github.com/miurla/morphic) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: widely used (89) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 9.2k · Apache-2.0 · Oct 2026</sub>
 
 **AI search engine that answers with cited sources and inline components.**
 
@@ -21,7 +21,7 @@ Morphic is a Next.js app that answers queries using web search results and rende
 <sub>TypeScript, OpenAI, Anthropic, Google, Ollama · Needs PostgreSQL, Redis, SearXNG, Supabase Auth (optional) · Docker · [Repo](https://github.com/miurla/morphic) · [📖 Docs ↗](https://github.com/miurla/morphic/blob/main/docs/CONFIGURATION.md)</sub>
 
 <a name="azure-search-openai-demo"></a>
-### 🥈 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [57](../README.md#-how-we-rank "Score 57/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: fair (71) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>
+### 🥈 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (71) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>
 
 **Azure RAG chat reference on AI Search and Azure OpenAI.**
 
@@ -39,7 +39,7 @@ The canonical Azure RAG sample: a Python (Quart) backend and React frontend answ
 <sub>Python, azure-openai · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-document-intelligence, azure-blob-storage · [Repo](https://github.com/azure-samples/azure-search-openai-demo) · [📖 Docs ↗](https://learn.microsoft.com/azure/developer/python/get-started-app-chat-template)</sub>
 
 <a name="rag-postgres-openai-python"></a>
-### 🥉 [rag-postgres-openai-python](https://github.com/azure-samples/rag-postgres-openai-python) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (42) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 505 · MIT · Oct 2026</sub>
+### 🥉 [rag-postgres-openai-python](https://github.com/azure-samples/rag-postgres-openai-python) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: known (40) · Freshness: active (100) · Maintenance: patchy (49) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 505 · MIT · Oct 2026</sub>
 
 **RAG over Postgres table rows with hybrid search and SQL filters.**
 
@@ -57,7 +57,7 @@ A FastAPI backend and React frontend that answer chat questions about rows in a 
 <sub>Python, azure-openai, openai, ollama · Needs postgres-pgvector, azure-openai-or-openai-or-ollama, azd · GitHub template · [Repo](https://github.com/azure-samples/rag-postgres-openai-python)</sub>
 
 <a name="llm-app"></a>
-### #&#8288;4 [llm-app](https://github.com/pathwaycom/llm-app) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: widely used (100) · Freshness: active (98) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Jul 2026</sub>
+### #&#8288;4 [llm-app](https://github.com/pathwaycom/llm-app) <sub>score [50](../README.md#-how-we-rank "Score 50/100. Adoption: widely used (99) · Freshness: active (98) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Jul 2026</sub>
 
 **Pathway RAG pipeline templates that re-index live data sources.**
 
@@ -75,7 +75,7 @@ Eight Dockerized Python pipelines on the Pathway framework: question-answering R
 <sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · [Repo](https://github.com/pathwaycom/llm-app) · [▶️ Demo ↗](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs ↗](https://pathway.com/developers/templates/) · [🌐 Site ↗](https://pathway.com/solutions/llm-app)</sub>
 
 <a name="chat-langchain"></a>
-### #&#8288;5 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [49](../README.md#-how-we-rank "Score 49/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: patchy (47) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
+### #&#8288;5 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: popular (78) · Freshness: active (100) · Maintenance: patchy (47) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
 
 **LangChain docs assistant as a Managed Deep Agent with Next.js UI.**
 
@@ -93,7 +93,7 @@ A documentation assistant for LangChain, LangGraph and LangSmith: a Python agent
 <sub>TypeScript, anthropic, langchain, langgraph · Needs anthropic-api-key, pylon-api-key, managed-deep-agents, supabase · [Repo](https://github.com/langchain-ai/chat-langchain)</sub>
 
 <a name="chat-with-your-data-solution-accelerator"></a>
-### #&#8288;6 [chat-with-your-data-solution-accelerator](https://github.com/azure-samples/chat-with-your-data-solution-accelerator) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (54) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
+### #&#8288;6 [chat-with-your-data-solution-accelerator](https://github.com/azure-samples/chat-with-your-data-solution-accelerator) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
 
 **Azure RAG chat app that answers from your documents with citations.**
 
@@ -111,7 +111,7 @@ Deploys a React frontend, a FastAPI backend and an Azure Functions ingestion wor
 <sub>Python, Azure AI Foundry chat and embedding models · Needs Azure AI Foundry, Azure AI Search, Azure Cosmos DB, Azure Database for PostgreSQL, Azure Document Intelligence, Azure Storage, Azure Container Apps, Azure Functions, Azure Content Safety, Azure AI Speech · Docker · [Repo](https://github.com/azure-samples/chat-with-your-data-solution-accelerator) · [📖 Docs ↗](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/main/docs/DeploymentGuide.md)</sub>
 
 <a name="llm-answer-engine"></a>
-### #&#8288;7 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (75) · Freshness: recent (73) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Apr 2026</sub>
+### #&#8288;7 [llm-answer-engine](https://github.com/developersdigest/llm-answer-engine) <sub>score [44](../README.md#-how-we-rank "Score 44/100. Adoption: popular (72) · Freshness: recent (73) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 5.0k · MIT · Apr 2026</sub>
 
 **Perplexity-style Next.js answer engine over Brave search results.**
 
@@ -128,7 +128,7 @@ A Next.js app that takes a question, pulls results from Brave Search and Serper,
 <sub>TypeScript, groq, openai, ollama, portkey · Needs openai-api-key, groq-api-key, brave-search-api-key, serper-api-key · Docker · [Repo](https://github.com/developersdigest/llm-answer-engine)</sub>
 
 <a name="nextjs-openai-doc-search"></a>
-### #&#8288;8 [nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (64) · Freshness: recent (78) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · May 2026</sub>
+### #&#8288;8 [nextjs-openai-doc-search](https://github.com/supabase-community/nextjs-openai-doc-search) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (61) · Freshness: recent (78) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.7k · Apache-2.0 · May 2026</sub>
 
 **Build-time embeddings of your MDX docs into Supabase pgvector.**
 
@@ -145,7 +145,7 @@ A Next.js starter that chunks the .mdx files in pages/ at build time, embeds eac
 <sub>TypeScript, openai · Needs supabase, postgres-pgvector, openai-api-key, docker-for-local-supabase · [Repo](https://github.com/supabase-community/nextjs-openai-doc-search)</sub>
 
 <a name="azure-search-openai-javascript"></a>
-### #&#8288;9 [azure-search-openai-javascript](https://github.com/azure-samples/azure-search-openai-javascript) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (23) · Freshness: active (100) · Maintenance: weak (10) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 322 · MIT · Sep 2026</sub>
+### #&#8288;9 [azure-search-openai-javascript](https://github.com/azure-samples/azure-search-openai-javascript) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (21) · Freshness: active (100) · Maintenance: weak (10) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 322 · MIT · Sep 2026</sub>
 
 **TypeScript RAG on Azure AI Search with separate indexer and search services.**
 
@@ -162,7 +162,7 @@ The Node.js counterpart of the Azure RAG sample: a search API, an indexer servic
 <sub>TypeScript, azure-openai, langchain · Needs azure-subscription, azd, azure-ai-search, azure-openai, azure-blob-storage · GitHub template · [Repo](https://github.com/azure-samples/azure-search-openai-javascript)</sub>
 
 <a name="supabaseauthwithssr"></a>
-### #&#8288;10 [SupabaseAuthWithSSR](https://github.com/electriccodeguy/supabaseauthwithssr) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: known (35) · Freshness: active (100) · Maintenance: weak (26) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 397 · MIT · Oct 2026</sub>
+### #&#8288;10 [SupabaseAuthWithSSR](https://github.com/electriccodeguy/supabaseauthwithssr) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: known (33) · Freshness: active (100) · Maintenance: weak (26) · Easy to run: hard (0) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 397 · MIT · Oct 2026</sub>
 
 **Claude chat on Next.js 16 with Supabase auth, pgvector RAG, cost dashboards.**
 
@@ -180,7 +180,7 @@ A Next.js 16 app on AI SDK v7 and Claude with complete Supabase SSR auth (signup
 <sub>TypeScript, anthropic, ai-sdk, mistral, voyage · Needs supabase, anthropic-api-key, mistral-api-key, voyage-api-key, exa-api-key · [Repo](https://github.com/electriccodeguy/supabaseauthwithssr) · [▶️ Demo ↗](https://www.supa-chat.dev)</sub>
 
 <a name="natural-language-postgres"></a>
-### #&#8288;11 [natural-language-postgres](https://github.com/vercel-labs/natural-language-postgres) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (28) · Freshness: recent (72) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 326 · Apache-2.0 · Apr 2026</sub>
+### #&#8288;11 [natural-language-postgres](https://github.com/vercel-labs/natural-language-postgres) <sub>score [33](../README.md#-how-we-rank "Score 33/100. Adoption: niche (27) · Freshness: recent (72) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 326 · Apache-2.0 · Apr 2026</sub>
 
 **Next.js text-to-SQL over Postgres with auto-picked charts.**
 
@@ -197,7 +197,7 @@ A Next.js app where the AI SDK and GPT-4o turn a plain-English question into SQL
 <sub>TypeScript, openai, ai-sdk · Needs postgres, openai-api-key · [Repo](https://github.com/vercel-labs/natural-language-postgres) · [▶️ Demo ↗](https://natural-language-postgres.vercel.app)</sub>
 
 <a name="ai-starter-kit"></a>
-### #&#8288;12 [ai-starter-kit](https://github.com/sambanova/ai-starter-kit) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (15) · Freshness: active (85) · Maintenance: fair (50) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 250 · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [ai-starter-kit](https://github.com/sambanova/ai-starter-kit) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (14) · Freshness: active (85) · Maintenance: fair (50) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 250 · Apache-2.0 · Oct 2026</sub>
 
 **SambaNova Python kits for document RAG, search assistant, function calling.**
 
@@ -214,7 +214,7 @@ Nine Python kits, each with its own README: document text extraction, enterprise
 <sub>Jupyter Notebook, sambanova, langchain · Needs sambanova-api-key, tesseract, poppler · Docker · [Repo](https://github.com/sambanova/ai-starter-kit)</sub>
 
 <a name="openai-support-agent-demo"></a>
-### #&#8288;13 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>score [8](../README.md#-how-we-rank "Score 8/100. Adoption: niche (9) · Freshness: quiet (24) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 203 · MIT · Dec 2025</sub>
+### #&#8288;13 [openai-support-agent-demo](https://github.com/openai/openai-support-agent-demo) <sub>score [7](../README.md#-how-we-rank "Score 7/100. Adoption: niche (8) · Freshness: quiet (24) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 203 · MIT · Dec 2025</sub>
 
 **Support console where the model drafts and a human approves.**
 
@@ -230,4 +230,4 @@ A Next.js demo on the OpenAI Responses API with two chat views, one for the cust
 
 <sub>TypeScript, openai · Needs openai-api-key · [Repo](https://github.com/openai/openai-support-agent-demo)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-vibe-coding/issues/new/choose).</sub>
