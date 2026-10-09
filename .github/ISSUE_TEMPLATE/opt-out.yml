@@ -14,7 +14,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I maintain this project (we check that the issue author can push to the repository).
+        - label: I maintain this project (the bot checks that the issue author can push to the repository).
           required: true
   - type: textarea
     id: reason

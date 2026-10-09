@@ -21,7 +21,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 <sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [▶️ Demo ↗](https://agentchat.vercel.app)</sub>
 
 <a name="agno-agent-ui"></a>
-### 43 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
+### 40 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>⭐ 1.9k · MIT · May 2026</sub>
 
 **Next.js chat frontend for Agno AgentOS with tool calls and reasoning.**
 
@@ -56,7 +56,7 @@ A Turborepo with a Next.js 16 CopilotKit v2 frontend, a Python LangChain Deep Ag
 <sub>TypeScript, anthropic, openai, langgraph, copilotkit · Needs anthropic-api-key, python, pnpm · [Repo](https://github.com/CopilotKit/OpenGenerativeUI)</sub>
 
 <a name="stockbot-on-groq"></a>
-### 17 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
+### 22 [stockbot-on-groq](https://github.com/bklieger-groq/stockbot-on-groq) <sub>⭐ 1.5k · Apache-2.0 · Dec 2025</sub>
 
 **Groq chatbot answering with TradingView widgets via AI SDK generative UI.**
 

@@ -57,7 +57,7 @@ Next.js 14 app with shadcn/ui, Tailwind and the Vercel AI SDK that streams gener
 <sub>TypeScript, OpenAI, Anthropic, Google AI, Mistral · Needs E2B API key, LLM provider API key, Supabase (optional auth), Upstash KV (optional) · [Repo](https://github.com/e2b-dev/fragments) · [▶️ Demo ↗](https://fragments.e2b.dev)</sub>
 
 <a name="open-agents"></a>
-### 41 [open-agents](https://github.com/vercel-labs/open-agents) <sub>⭐ 5.8k · MIT · Jun 2026</sub>
+### 46 [open-agents](https://github.com/vercel-labs/open-agents) <sub>⭐ 5.8k · MIT · Jun 2026</sub>
 
 **Reference app for background coding agents on Vercel sandboxes.**
 
@@ -74,7 +74,7 @@ pnpm monorepo (web app, agent, sandbox and shared packages) where a Next.js app 
 <sub>TypeScript · Needs PostgreSQL (Neon), Vercel Sandbox, Vercel OAuth app, GitHub App, Redis (optional), ElevenLabs (optional) · [Repo](https://github.com/vercel-labs/open-agents) · [▶️ Demo ↗](https://open-agents.dev/)</sub>
 
 <a name="coding-agent-template"></a>
-### 29 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
+### 31 [coding-agent-template](https://github.com/vercel-labs/coding-agent-template) <sub>⭐ 1.8k · Apache-2.0 · Feb 2026</sub>
 
 **Run Claude Code, Codex and other coding CLIs in Vercel Sandbox.**
 
