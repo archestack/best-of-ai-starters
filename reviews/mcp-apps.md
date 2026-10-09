@@ -1,4 +1,4 @@
-# 🔌 MCP servers and chat-host apps reviews · Best of AI Starters
+# 🔌 MCP servers and chat-host apps reviews · Best of Vibe Coding
 
 Templates for building MCP servers and apps that run inside chat hosts such as ChatGPT. Back to the [leaderboard](../README.md#-mcp-servers-and-chat-host-apps).
 
@@ -38,7 +38,7 @@ Python 3.12+ package on FastMCP and FastAPI with HTTP, SSE and streamable-HTTP t
 <sub>Python, FastMCP, MCP Python SDK · Needs PostgreSQL (OAuth token storage) · GitHub template · Docker · [Repo](https://github.com/redhat-data-and-ai/template-mcp-server)</sub>
 
 <a name="mcp-for-next-js"></a>
-### 🥉 [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 373 · MIT · Jul 2026</sub>
+### 🥉 [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (52) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 373 · MIT · Jul 2026</sub>
 
 **Stateless MCP server route for a Next.js App Router app.**
 
@@ -55,7 +55,7 @@ Next.js App Router project where app/mcp/route.ts hosts a stateless MCP server t
 <sub>JavaScript, MCP TypeScript SDK v2, mcp-handler 2 · [Repo](https://github.com/vercel-labs/mcp-for-next.js) · [▶️ Demo ↗](https://mcp-for-next-js.vercel.app) · [🌐 Site ↗](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js)</sub>
 
 <a name="openai-apps-sdk-examples"></a>
-### #&#8288;4 [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (88) · Freshness: recent (68) · Maintenance: weak (1) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
+### #&#8288;4 [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: widely used (85) · Freshness: recent (68) · Maintenance: weak (1) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.4k · MIT · Apr 2026</sub>
 
 **Example MCP servers and widgets for ChatGPT apps on the Apps SDK.**
 
@@ -73,7 +73,7 @@ pnpm workspace with React widget sources, a Vite build that emits hashed HTML/JS
 <sub>TypeScript, OpenAI Apps SDK, MCP TypeScript SDK, MCP Python SDK · Needs ChatGPT developer mode, ngrok or a public host for testing · [Repo](https://github.com/openai/openai-apps-sdk-examples) · [📖 Docs ↗](https://developers.openai.com/apps-sdk)</sub>
 
 <a name="mcp-forge"></a>
-### #&#8288;5 [mcp-forge](https://github.com/achetronic/mcp-forge) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (29) · Freshness: slowing (35) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 98 · Apache-2.0 · Jan 2026</sub>
+### #&#8288;5 [mcp-forge](https://github.com/achetronic/mcp-forge) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: niche (28) · Freshness: slowing (35) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 98 · Apache-2.0 · Jan 2026</sub>
 
 **Go MCP server template with OAuth discovery and JWT validation.**
 
@@ -89,4 +89,4 @@ Go 1.24+ template on mcp-go that runs as an HTTP or stdio MCP server from a YAML
 
 <sub>Go, mcp-go · Needs OIDC provider (e.g. Keycloak), Kubernetes for the Helm chart (optional) · GitHub template · Docker · [Repo](https://github.com/achetronic/mcp-forge)</sub>
 
-<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>
+<sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-vibe-coding/issues/new/choose).</sub>
