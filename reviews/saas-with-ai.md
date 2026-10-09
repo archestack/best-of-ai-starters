@@ -3,7 +3,7 @@
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
 <a name="velobase-harness"></a>
-### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 47 · Freshness 100 · Maintenance 68 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
+### 🥇 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: known (47) · Freshness: active (100) · Maintenance: fair (68) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 607 · MIT · Sep 2026</sub>
 
 **Next.js AI SaaS base with credits, usage billing, workers and anti-abuse.**
 
@@ -21,7 +21,7 @@ A Next.js 15 and tRPC application with Prisma on Postgres and BullMQ on Redis th
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, docker, stripe, model-api-keys · GitHub template · Docker · [Repo](https://github.com/velobase/velobase-harness)</sub>
 
 <a name="open-saas"></a>
-### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 98 · Freshness 100 · Maintenance 61 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
+### 🥈 [open-saas](https://github.com/wasp-lang/open-saas) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: fair (61) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 16k · MIT · Oct 2026</sub>
 
 **Wasp SaaS template with auth, three payment providers, OpenAI demo app.**
 
@@ -39,7 +39,7 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 <sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [▶️ Demo ↗](https://opensaas.sh) · [📖 Docs ↗](https://docs.opensaas.sh)</sub>
 
 <a name="ai-fullstack-saas-boilerplate"></a>
-### [41](../README.md#-how-we-rank "Score 41/100. Adoption 69 · Freshness 70 · Maintenance 60 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/ai-fullstack-saas-boilerplate) <sub>⭐ 1.4k · MIT · Oct 2026</sub>
+### 🥉 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/ai-fullstack-saas-boilerplate) <sub>score [41](../README.md#-how-we-rank "Score 41/100. Adoption: popular (69) · Freshness: recent (70) · Maintenance: fair (60) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.4k · MIT · Oct 2026</sub>
 
 **Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
 
@@ -57,7 +57,7 @@ A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over P
 <sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/ai-fullstack-saas-boilerplate) · [▶️ Demo ↗](https://fsb-client.onrender.com)</sub>
 
 <a name="next-ai-starter"></a>
-### [31](../README.md#-how-we-rank "Score 31/100. Adoption 34 · Freshness 2 · Maintenance 0 · Easy to run 67 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
+### #&#8288;4 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: known (34) · Freshness: quiet (2) · Maintenance: weak (0) · Easy to run: easy (67) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 511 · MIT · Oct 2025</sub>
 
 **Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
 
@@ -74,7 +74,7 @@ A Next.js 14 App Router template with tRPC, Prisma on Supabase Postgres, NextAut
 <sub>TypeScript, openai, anthropic, perplexity, groq · Needs postgres, resend, aws-s3, inngest, model-api-keys · GitHub template · [Repo](https://github.com/kleneway/next-ai-starter)</sub>
 
 <a name="lastsaas"></a>
-### [20](../README.md#-how-we-rank "Score 20/100. Adoption 9 · Freshness 64 · Maintenance 0 · Easy to run 0 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
+### #&#8288;5 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>score [20](../README.md#-how-we-rank "Score 20/100. Adoption: niche (9) · Freshness: recent (64) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 173 · MIT · Mar 2026</sub>
 
 **Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
 
