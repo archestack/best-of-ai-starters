@@ -38,7 +38,7 @@ A Next.js and shadcn/ui chat interface that connects to a running Agno AgentOS i
 <sub>TypeScript, agno · Needs agno-agentos · GitHub template · [Repo](https://github.com/agno-agi/agent-ui)</sub>
 
 <a name="opengenerativeui"></a>
-### 🥉 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [38](../README.md#-how-we-rank "Score 38/100. Adoption: popular (64) · Freshness: active (89) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Jun 2026</sub>
+### 🥉 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (64) · Freshness: active (100) · Maintenance: weak (11) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.6k · MIT · Oct 2026</sub>
 
 **CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets.**
 
