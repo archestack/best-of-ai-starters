@@ -21,7 +21,7 @@ Five Next.js API routes that each show one LangChain.js pattern: plain chat, Zod
 <sub>TypeScript, openai, langchain, langgraph, ai-sdk · Needs openai-api-key, supabase, tavily-api-key · GitHub template · [Repo](https://github.com/langchain-ai/langchain-nextjs-template) · [▶️ Demo ↗](https://langchain-nextjs-template.vercel.app/)</sub>
 
 <a name="vercel-chatbot"></a>
-### 🥈 [chatbot](https://github.com/vercel/chatbot) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: widely used (99) · Freshness: active (99) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Jul 2026</sub>
+### 🥈 [chatbot](https://github.com/vercel/chatbot) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: widely used (99) · Freshness: active (99) · Maintenance: weak (15) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 21k · Apache-2.0 · Jul 2026</sub>
 
 **Next.js chat template with Auth.js, Postgres history and AI Gateway models.**
 

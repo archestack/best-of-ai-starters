@@ -14,7 +14,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I maintain this project. The bot accepts an opt-out from the repository owner, a public member of its organization, or one of its top five contributors; anyone else gets a manual check.
+        - label: I maintain this project. We accept an opt-out from the repository owner, a public member of its organization, or one of its top five contributors; anyone else gets a manual check.
           required: true
   - type: textarea
     id: reason

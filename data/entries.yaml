@@ -41,7 +41,7 @@ entries:
     audience: Teams starting a chat product on Next.js and Vercel
     confidence: 0.85
     facts:
-      stars: 20994
+      stars: 20993
       license: Apache-2.0
       last_commit: 2026-07-08
       last_release: null
@@ -49,7 +49,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 59
+    score: 58
   - id: claude-quickstarts
     repo: anthropics/claude-quickstarts
     name: claude-quickstarts
@@ -84,7 +84,7 @@ entries:
     audience: Developers copying one Claude pattern into their own app
     confidence: 0.8
     facts:
-      stars: 17832
+      stars: 17838
       license: MIT
       last_commit: 2026-10-07
       last_release: null
@@ -172,7 +172,7 @@ entries:
     audience: Developers wanting a minimal prompt-to-text page
     confidence: 0.85
     facts:
-      stars: 1771
+      stars: 1770
       license: MIT
       last_commit: 2026-06-26
       last_release: null
@@ -267,7 +267,7 @@ entries:
     audience: Teams on Gemini who want the Vercel chat stack
     confidence: 0.75
     facts:
-      stars: 1354
+      stars: 1353
       license: Apache-2.0
       last_commit: 2026-05-27
       last_release: null
@@ -640,7 +640,7 @@ entries:
     audience: Teams building a Perplexity-style search product
     confidence: 0.9
     facts:
-      stars: 9157
+      stars: 9158
       license: Apache-2.0
       last_commit: 2026-10-09
       last_release: 2026-09-16
@@ -688,7 +688,7 @@ entries:
     audience: Teams on Azure wanting the vendor-maintained RAG starting point
     confidence: 0.9
     facts:
-      stars: 7776
+      stars: 7778
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-07-18
@@ -1150,7 +1150,7 @@ entries:
     audience: Teams building multi-agent simulations or games in TypeScript
     confidence: 0.85
     facts:
-      stars: 10604
+      stars: 10605
       license: MIT
       last_commit: 2026-08-26
       last_release: null
@@ -1194,7 +1194,7 @@ entries:
     audience: Teams standardizing on ADK and Google Cloud
     confidence: 0.8
     facts:
-      stars: 10432
+      stars: 10434
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -1238,7 +1238,7 @@ entries:
     audience: Teams evaluating the Agents SDK handoff pattern
     confidence: 0.85
     facts:
-      stars: 6583
+      stars: 6584
       license: MIT
       last_commit: 2025-12-11
       last_release: null
@@ -1285,7 +1285,7 @@ entries:
     audience: Teams on Google Cloud that want generated agent infra
     confidence: 0.85
     facts:
-      stars: 6573
+      stars: 6572
       license: Apache-2.0
       last_commit: 2026-05-19
       last_release: 2026-04-25
@@ -1374,7 +1374,7 @@ entries:
     audience: Teams deploying agents on Cloudflare Workers
     confidence: 0.9
     facts:
-      stars: 1344
+      stars: 1345
       license: MIT
       last_commit: 2026-07-24
       last_release: null
@@ -1423,7 +1423,7 @@ entries:
     audience: Teams that want an on-call style knowledge bot in Slack
     confidence: 0.8
     facts:
-      stars: 1251
+      stars: 1252
       license: MIT
       last_commit: 2026-10-05
       last_release: 2026-08-18
@@ -1956,15 +1956,15 @@ entries:
     audience: Teams prototyping model-generated UI with isolation
     confidence: 0.85
     facts:
-      stars: 1622
+      stars: 1635
       license: MIT
-      last_commit: 2026-06-10
+      last_commit: 2026-10-09
       last_release: null
       has_docker: true
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 38
+    score: 42
   - id: stockbot-on-groq
     repo: bklieger-groq/stockbot-on-groq
     name: stockbot-on-groq
@@ -1998,7 +1998,7 @@ entries:
     audience: Developers wanting a worked example of tool-driven generative UI
     confidence: 0.85
     facts:
-      stars: 1485
+      stars: 1486
       license: Apache-2.0
       last_commit: 2025-12-30
       last_release: 2024-08-05
@@ -2134,7 +2134,7 @@ entries:
     facts:
       stars: 16075
       license: MIT
-      last_commit: 2026-10-06
+      last_commit: 2026-10-09
       last_release: 2026-07-27
       has_docker: false
       has_compose: false
@@ -2446,7 +2446,7 @@ entries:
     audience: Teams shipping a web UI for a LiveKit voice agent
     confidence: 0.85
     facts:
-      stars: 946
+      stars: 947
       license: MIT
       last_commit: 2026-09-15
       last_release: null
@@ -3128,7 +3128,7 @@ entries:
     audience: Developers building a prompt-to-app demo on open models
     confidence: 0.8
     facts:
-      stars: 7137
+      stars: 7136
       license: MIT
       last_commit: 2026-09-15
       last_release: null
@@ -3136,7 +3136,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 57
+    score: 56
   - id: fragments
     repo: e2b-dev/fragments
     name: fragments
@@ -3454,7 +3454,7 @@ entries:
     facts:
       stars: 241
       license: MIT
-      last_commit: 2026-10-07
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: false
