@@ -3,7 +3,7 @@
 Product boilerplates with auth, billing and data that already include AI features or agent access. Back to the [leaderboard](../README.md#-saas-boilerplates-with-ai).
 
 <a name="velobase-harness"></a>
-### 🥈 70 [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
+### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 47 · Freshness 100 · Maintenance 68 · Easy to run 33 · Agent-ready 70 (each out of 100, weighted). Click for how we rank.") [velobase-harness](https://github.com/velobase/velobase-harness) <sub>⭐ 607 · MIT · Sep 2026</sub>
 
 **Next.js AI SaaS base with credits, usage billing, workers and anti-abuse.**
 
@@ -21,7 +21,7 @@ A Next.js 15 and tRPC application with Prisma on Postgres and BullMQ on Redis th
 <sub>TypeScript, ai-sdk, openai, anthropic, google · Needs postgres, redis, docker, stripe, model-api-keys · GitHub template · Docker · [Repo](https://github.com/velobase/velobase-harness)</sub>
 
 <a name="open-saas"></a>
-### 🥉 55 [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
+### [🥉 55](../README.md#-how-we-rank "Score 55/100 (bronze, 55-64). Adoption 98 · Freshness 100 · Maintenance 61 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [open-saas](https://github.com/wasp-lang/open-saas) <sub>⭐ 16k · MIT · Oct 2026</sub>
 
 **Wasp SaaS template with auth, three payment providers, OpenAI demo app.**
 
@@ -39,7 +39,7 @@ A Wasp (React, Node, Prisma) SaaS template: email-verified and social auth, Stri
 <sub>MDX, openai · Needs wasp-cli, postgres, stripe-or-polar-or-lemonsqueezy, openai-api-key, aws-s3, email-provider · [Repo](https://github.com/wasp-lang/open-saas) · [▶️ Demo ↗](https://opensaas.sh) · [📖 Docs ↗](https://docs.opensaas.sh)</sub>
 
 <a name="ai-fullstack-saas-boilerplate"></a>
-### 41 [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
+### [41](../README.md#-how-we-rank "Score 41/100. Adoption 69 · Freshness 70 · Maintenance 57 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [AI-Fullstack-SaaS-Boilerplate](https://github.com/alan345/ai-fullstack-saas-boilerplate) <sub>⭐ 1.4k · MIT · Sep 2026</sub>
 
 **Fastify, tRPC and React SaaS base with Better Auth and SSE chat.**
 
@@ -54,10 +54,27 @@ A pnpm monorepo: a Fastify server with tRPC routers on port 2022, Drizzle over P
 - **−** Static SPA; README notes it is not SEO-friendly
 - **−** Demo on a free Render tier spins down; expect 50 second cold starts
 
-<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/AI-Fullstack-SaaS-Boilerplate) · [▶️ Demo ↗](https://fsb-client.onrender.com)</sub>
+<sub>TypeScript, openai · Needs postgres, openai-api-key · [Repo](https://github.com/alan345/ai-fullstack-saas-boilerplate) · [▶️ Demo ↗](https://fsb-client.onrender.com)</sub>
+
+<a name="next-ai-starter"></a>
+### [31](../README.md#-how-we-rank "Score 31/100. Adoption 34 · Freshness 2 · Maintenance 0 · Easy to run 67 · Agent-ready 30 (each out of 100, weighted). Click for how we rank.") [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
+
+**Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
+
+A Next.js 14 App Router template with tRPC, Prisma on Supabase Postgres, NextAuth, Resend email, S3 uploads and Inngest background jobs, plus SDK wiring for OpenAI, Anthropic, Perplexity and Groq. Its distinctive part is agent-helpers/ (a task checklist, scratchpad and logs) and Cursor slash commands that drive AI coding tools through the backlog; there is no billing. For solo builders working through an AI coding assistant.
+
+- **+** Auth, database, email, uploads and background jobs wired
+- **+** agent-helpers workflow and Cursor commands are ready for AI-assisted development
+- **+** Database is swappable through DATABASE_URL; no Supabase client lock-in
+- **−** Next.js 14 and dated model names (Sonnet 3.5, GPT-4); upgrade before use
+- **−** No billing or usage metering
+- **−** Author accepts no feature PRs; last commit 2025-10
+- **−** No tests or Docker
+
+<sub>TypeScript, openai, anthropic, perplexity, groq · Needs postgres, resend, aws-s3, inngest, model-api-keys · GitHub template · [Repo](https://github.com/kleneway/next-ai-starter)</sub>
 
 <a name="lastsaas"></a>
-### 28 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
+### [20](../README.md#-how-we-rank "Score 20/100. Adoption 9 · Freshness 64 · Maintenance 0 · Easy to run 0 · Agent-ready 40 (each out of 100, weighted). Click for how we rank.") [lastsaas](https://github.com/jonradoff/lastsaas) <sub>⭐ 173 · MIT · Mar 2026</sub>
 
 **Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
 
@@ -73,22 +90,5 @@ A Go backend with a React frontend served from the same binary: multi-tenant acc
 - **−** Last commit 2026-03
 
 <sub>Go, mcp · Needs mongodb, stripe, resend · Docker · [Repo](https://github.com/jonradoff/lastsaas) · [🌐 Site ↗](https://metavert.io/lastsaas)</sub>
-
-<a name="next-ai-starter"></a>
-### 21 [next-ai-starter](https://github.com/kleneway/next-ai-starter) <sub>⭐ 511 · MIT · Oct 2025</sub>
-
-**Next.js 14, tRPC and Prisma starter with LLM SDKs and agent checklists.**
-
-A Next.js 14 App Router template with tRPC, Prisma on Supabase Postgres, NextAuth, Resend email, S3 uploads and Inngest background jobs, plus SDK wiring for OpenAI, Anthropic, Perplexity and Groq. Its distinctive part is agent-helpers/ (a task checklist, scratchpad and logs) and Cursor slash commands that drive AI coding tools through the backlog; there is no billing. For solo builders working through an AI coding assistant.
-
-- **+** Auth, database, email, uploads and background jobs wired
-- **+** agent-helpers workflow and Cursor commands are ready for AI-assisted development
-- **+** Database is swappable through DATABASE_URL; no Supabase client lock-in
-- **−** Next.js 14 and dated model names (Sonnet 3.5, GPT-4); upgrade before use
-- **−** No billing or usage metering
-- **−** Author accepts no feature PRs; last commit 2025-10
-- **−** No tests or Docker
-
-<sub>TypeScript, openai, anthropic, perplexity, groq · Needs postgres, resend, aws-s3, inngest, model-api-keys · GitHub template · [Repo](https://github.com/kleneway/next-ai-starter)</sub>
 
 <sub>Written from each project README and checked facts; see [how this works](../README.md#-how-this-works). Wrong? [Tell us](https://github.com/archestack/best-of-ai-starters/issues/new/choose).</sub>

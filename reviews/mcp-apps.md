@@ -3,7 +3,7 @@
 Templates for building MCP servers and apps that run inside chat hosts such as ChatGPT. Back to the [leaderboard](../README.md#-mcp-servers-and-chat-host-apps).
 
 <a name="mcp-typescript-template"></a>
-### 🥈 68 [mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template) <sub>⭐ 58 · MIT · Sep 2026</sub>
+### [🥉 60](../README.md#-how-we-rank "Score 60/100 (bronze, 55-64). Adoption 0 · Freshness 100 · Maintenance 99 · Easy to run 50 · Agent-ready 85 (each out of 100, weighted). Click for how we rank.") [mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template) <sub>⭐ 58 · MIT · Sep 2026</sub>
 
 **Express and Effect template for a stateless remote MCP server.**
 
@@ -20,7 +20,7 @@ TypeScript 7 project serving a stateless MCP endpoint at /mcp on port 3000 via E
 <sub>TypeScript, MCP TypeScript SDK (@modelcontextprotocol/server) · GitHub template · Docker · [Repo](https://github.com/nickytonline/mcp-typescript-template)</sub>
 
 <a name="template-mcp-server"></a>
-### 47 [template-mcp-server](https://github.com/redhat-data-and-ai/template-mcp-server) <sub>⭐ 66 · Apache-2.0 · Aug 2026</sub>
+### [47](../README.md#-how-we-rank "Score 47/100. Adoption 13 · Freshness 100 · Maintenance 35 · Easy to run 50 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [template-mcp-server](https://github.com/redhat-data-and-ai/template-mcp-server) <sub>⭐ 66 · Apache-2.0 · Aug 2026</sub>
 
 **Python FastMCP server template with OAuth, OpenShift manifests and CI.**
 
@@ -38,7 +38,7 @@ Python 3.12+ package on FastMCP and FastAPI with HTTP, SSE and streamable-HTTP t
 <sub>Python, FastMCP, MCP Python SDK · Needs PostgreSQL (OAuth token storage) · GitHub template · [Repo](https://github.com/redhat-data-and-ai/template-mcp-server)</sub>
 
 <a name="mcp-for-next-js"></a>
-### 42 [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) <sub>⭐ 373 · MIT · Jul 2026</sub>
+### [42](../README.md#-how-we-rank "Score 42/100. Adoption 53 · Freshness 100 · Maintenance 44 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [mcp-for-next.js](https://github.com/vercel-labs/mcp-for-next.js) <sub>⭐ 373 · MIT · Jul 2026</sub>
 
 **Stateless MCP server route for a Next.js App Router app.**
 
@@ -55,7 +55,7 @@ Next.js App Router project where app/mcp/route.ts hosts a stateless MCP server t
 <sub>JavaScript, MCP TypeScript SDK v2, mcp-handler 2 · [Repo](https://github.com/vercel-labs/mcp-for-next.js) · [▶️ Demo ↗](https://mcp-for-next-js.vercel.app) · [🌐 Site ↗](https://vercel.com/templates/next.js/model-context-protocol-mcp-with-next-js)</sub>
 
 <a name="openai-apps-sdk-examples"></a>
-### 36 [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) <sub>⭐ 2.4k · MIT · Apr 2026</sub>
+### [36](../README.md#-how-we-rank "Score 36/100. Adoption 88 · Freshness 68 · Maintenance 1 · Easy to run 0 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [openai-apps-sdk-examples](https://github.com/openai/openai-apps-sdk-examples) <sub>⭐ 2.4k · MIT · Apr 2026</sub>
 
 **Example MCP servers and widgets for ChatGPT apps on the Apps SDK.**
 
@@ -73,7 +73,7 @@ pnpm workspace with React widget sources, a Vite build that emits hashed HTML/JS
 <sub>TypeScript, OpenAI Apps SDK, MCP TypeScript SDK, MCP Python SDK · Needs ChatGPT developer mode, ngrok or a public host for testing · [Repo](https://github.com/openai/openai-apps-sdk-examples) · [📖 Docs ↗](https://developers.openai.com/apps-sdk)</sub>
 
 <a name="mcp-forge"></a>
-### 28 [mcp-forge](https://github.com/achetronic/mcp-forge) <sub>⭐ 98 · Apache-2.0 · Jan 2026</sub>
+### [25](../README.md#-how-we-rank "Score 25/100. Adoption 29 · Freshness 35 · Maintenance 0 · Easy to run 33 · Agent-ready 0 (each out of 100, weighted). Click for how we rank.") [mcp-forge](https://github.com/achetronic/mcp-forge) <sub>⭐ 98 · Apache-2.0 · Jan 2026</sub>
 
 **Go MCP server template with OAuth discovery and JWT validation.**
 

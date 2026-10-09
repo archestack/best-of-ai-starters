@@ -49,7 +49,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 53
+    score: 59
   - id: claude-quickstarts
     repo: anthropics/claude-quickstarts
     name: claude-quickstarts
@@ -140,9 +140,9 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 57
+    score: 67
   - id: twitterbio
-    repo: Nutlope/twitterbio
+    repo: nutlope/twitterbio
     name: twitterbio
     status: listed
     tagline: Single-form Next.js text generator streaming from Together AI
@@ -180,7 +180,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 43
+    score: 48
   - id: zola
     repo: ibelick/zola
     name: zola
@@ -230,7 +230,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 43
+    score: 36
   - id: gemini-chatbot
     repo: vercel-labs/gemini-chatbot
     name: gemini-chatbot
@@ -275,7 +275,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 43
+    score: 53
   - id: openai-chatkit-starter-app
     repo: openai/openai-chatkit-starter-app
     name: openai-chatkit-starter-app
@@ -350,7 +350,7 @@ entries:
     audience: Developers building an assistant on OpenAI hosted tools
     confidence: 0.85
     facts:
-      stars: 876
+      stars: 877
       license: MIT
       last_commit: 2025-12-15
       last_release: null
@@ -358,7 +358,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 21
+    score: 26
   - id: openai-chatkit-advanced-samples
     repo: openai/openai-chatkit-advanced-samples
     name: openai-chatkit-advanced-samples
@@ -454,7 +454,7 @@ entries:
       has_compose: false
       is_template: true
       language: PHP
-    score: 33
+    score: 38
   - id: nuxt-ui-chat
     repo: nuxt-ui-templates/chat
     name: chat
@@ -502,7 +502,7 @@ entries:
       has_compose: false
       is_template: true
       language: Vue
-    score: 43
+    score: 53
   - id: langgraph-fullstack-python
     repo: langchain-ai/langgraph-fullstack-python
     name: langgraph-fullstack-python
@@ -587,7 +587,7 @@ entries:
     audience: Teams running RAG over documents that change constantly
     confidence: 0.8
     facts:
-      stars: 58819
+      stars: 58818
       license: MIT
       last_commit: 2026-07-05
       last_release: null
@@ -640,17 +640,17 @@ entries:
     audience: Teams building a Perplexity-style search product
     confidence: 0.9
     facts:
-      stars: 9158
+      stars: 9157
       license: Apache-2.0
-      last_commit: 2026-10-04
+      last_commit: 2026-10-09
       last_release: 2026-09-16
       has_docker: true
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 85
+    score: 75
   - id: azure-search-openai-demo
-    repo: Azure-Samples/azure-search-openai-demo
+    repo: azure-samples/azure-search-openai-demo
     name: azure-search-openai-demo
     status: listed
     tagline: Azure RAG chat reference on AI Search and Azure OpenAI
@@ -738,7 +738,7 @@ entries:
     facts:
       stars: 6463
       license: MIT
-      last_commit: 2026-09-15
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: false
@@ -785,7 +785,7 @@ entries:
     audience: Developers learning the search-scrape-answer loop
     confidence: 0.85
     facts:
-      stars: 5036
+      stars: 5035
       license: MIT
       last_commit: 2026-04-29
       last_release: null
@@ -793,7 +793,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 54
+    score: 44
   - id: nextjs-openai-doc-search
     repo: supabase-community/nextjs-openai-doc-search
     name: nextjs-openai-doc-search
@@ -837,9 +837,9 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 37
+    score: 42
   - id: rag-postgres-openai-python
-    repo: Azure-Samples/rag-postgres-openai-python
+    repo: azure-samples/rag-postgres-openai-python
     name: rag-postgres-openai-python
     status: listed
     tagline: RAG over Postgres table rows with hybrid search and SQL filters
@@ -884,9 +884,9 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 48
+    score: 53
   - id: supabaseauthwithssr
-    repo: ElectricCodeGuy/SupabaseAuthWithSSR
+    repo: electriccodeguy/supabaseauthwithssr
     name: SupabaseAuthWithSSR
     status: listed
     tagline: Claude chat on Next.js 16 with Supabase auth, pgvector RAG, cost dashboards
@@ -977,9 +977,9 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 28
+    score: 33
   - id: azure-search-openai-javascript
-    repo: Azure-Samples/azure-search-openai-javascript
+    repo: azure-samples/azure-search-openai-javascript
     name: azure-search-openai-javascript
     status: listed
     tagline: TypeScript RAG on Azure AI Search with separate indexer and search services
@@ -1024,7 +1024,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 37
+    score: 43
   - id: ai-starter-kit
     repo: sambanova/ai-starter-kit
     name: ai-starter-kit
@@ -1069,7 +1069,7 @@ entries:
       has_compose: false
       is_template: false
       language: Jupyter Notebook
-    score: 39
+    score: 31
   - id: openai-support-agent-demo
     repo: openai/openai-support-agent-demo
     name: openai-support-agent-demo
@@ -1150,7 +1150,7 @@ entries:
     audience: Teams building multi-agent simulations or games in TypeScript
     confidence: 0.85
     facts:
-      stars: 10602
+      stars: 10604
       license: MIT
       last_commit: 2026-08-26
       last_release: null
@@ -1158,7 +1158,7 @@ entries:
       has_compose: true
       is_template: false
       language: TypeScript
-    score: 69
+    score: 56
   - id: google-adk-recipes
     repo: google/adk-recipes
     name: adk-recipes
@@ -1194,7 +1194,7 @@ entries:
     audience: Teams standardizing on ADK and Google Cloud
     confidence: 0.8
     facts:
-      stars: 10428
+      stars: 10432
       license: Apache-2.0
       last_commit: 2026-10-08
       last_release: null
@@ -1248,7 +1248,7 @@ entries:
       language: Python
     score: 26
   - id: agent-starter-pack
-    repo: GoogleCloudPlatform/agent-starter-pack
+    repo: googlecloudplatform/agent-starter-pack
     name: agent-starter-pack
     status: listed
     tagline: Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only
@@ -1384,7 +1384,7 @@ entries:
       language: TypeScript
     score: 45
   - id: opentag
-    repo: CopilotKit/OpenTag
+    repo: copilotkit/opentag
     name: OpenTag
     status: listed
     tagline: Slack and Teams knowledge agent on LangGraph and CopilotKit Channels
@@ -1431,7 +1431,7 @@ entries:
       has_compose: false
       is_template: false
       language: Python
-    score: 57
+    score: 49
   - id: eve-software-factory-template
     repo: vercel-labs/eve-software-factory-template
     name: eve-software-factory-template
@@ -1470,7 +1470,7 @@ entries:
     audience: Teams piloting agent-written pull requests with human merge
     confidence: 0.8
     facts:
-      stars: 1158
+      stars: 1159
       license: MIT
       last_commit: 2026-09-29
       last_release: null
@@ -1478,7 +1478,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 57
+    score: 67
   - id: knowledge-agent-template
     repo: vercel-labs/knowledge-agent-template
     name: knowledge-agent-template
@@ -1525,7 +1525,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 44
+    score: 49
   - id: react-agent
     repo: langchain-ai/react-agent
     name: react-agent
@@ -1569,7 +1569,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 43
+    score: 49
   - id: personal-agent-template
     repo: vercel-labs/personal-agent-template
     name: personal-agent-template
@@ -1614,7 +1614,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 49
+    score: 59
   - id: marketing-team-eve-template
     repo: vercel-labs/marketing-team-eve-template
     name: marketing-team-eve-template
@@ -1664,7 +1664,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 51
+    score: 61
   - id: new-langgraph-project
     repo: langchain-ai/new-langgraph-project
     name: new-langgraph-project
@@ -1743,13 +1743,13 @@ entries:
     facts:
       stars: 258
       license: MIT
-      last_commit: 2026-09-30
+      last_commit: 2026-10-09
       last_release: null
       has_docker: false
       has_compose: false
       is_template: true
       language: Jupyter Notebook
-    score: 40
+    score: 45
   - id: react-agent-js
     repo: langchain-ai/react-agent-js
     name: react-agent-js
@@ -1792,7 +1792,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 38
+    score: 43
   - id: new-langgraphjs-project
     repo: langchain-ai/new-langgraphjs-project
     name: new-langgraphjs-project
@@ -1832,7 +1832,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 36
+    score: 41
   - id: agent-chat-ui
     repo: langchain-ai/agent-chat-ui
     name: agent-chat-ui
@@ -1867,7 +1867,7 @@ entries:
     audience: Teams with a LangGraph backend that need a chat UI
     confidence: 0.9
     facts:
-      stars: 3206
+      stars: 3207
       license: MIT
       last_commit: 2026-10-06
       last_release: null
@@ -1916,9 +1916,9 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 40
+    score: 45
   - id: opengenerativeui
-    repo: CopilotKit/OpenGenerativeUI
+    repo: copilotkit/openintelligentui
     name: OpenGenerativeUI
     status: listed
     tagline: CopilotKit and Deep Agents demo streaming sandboxed HTML/SVG widgets
@@ -1956,7 +1956,7 @@ entries:
     audience: Teams prototyping model-generated UI with isolation
     confidence: 0.85
     facts:
-      stars: 1611
+      stars: 1618
       license: MIT
       last_commit: 2026-06-10
       last_release: null
@@ -1998,7 +1998,7 @@ entries:
     audience: Developers wanting a worked example of tool-driven generative UI
     confidence: 0.85
     facts:
-      stars: 1486
+      stars: 1485
       license: Apache-2.0
       last_commit: 2025-12-30
       last_release: 2024-08-05
@@ -2006,7 +2006,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 22
+    score: 27
   - id: openai-structured-outputs-samples
     repo: openai/openai-structured-outputs-samples
     name: openai-structured-outputs-samples
@@ -2142,7 +2142,7 @@ entries:
       language: MDX
     score: 55
   - id: ai-fullstack-saas-boilerplate
-    repo: alan345/AI-Fullstack-SaaS-Boilerplate
+    repo: alan345/ai-fullstack-saas-boilerplate
     name: AI-Fullstack-SaaS-Boilerplate
     status: listed
     tagline: Fastify, tRPC and React SaaS base with Better Auth and SSE chat
@@ -2235,7 +2235,7 @@ entries:
       has_compose: true
       is_template: true
       language: TypeScript
-    score: 70
+    score: 60
   - id: next-ai-starter
     repo: kleneway/next-ai-starter
     name: next-ai-starter
@@ -2283,7 +2283,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 21
+    score: 31
   - id: lastsaas
     repo: jonradoff/lastsaas
     name: lastsaas
@@ -2328,7 +2328,7 @@ entries:
       has_compose: false
       is_template: false
       language: Go
-    score: 28
+    score: 20
   - id: openai-realtime-agents
     repo: openai/openai-realtime-agents
     name: openai-realtime-agents
@@ -2364,7 +2364,7 @@ entries:
     audience: Teams prototyping multi-agent voice flows on OpenAI
     confidence: 0.8
     facts:
-      stars: 6993
+      stars: 6994
       license: MIT
       last_commit: 2026-01-07
       last_release: null
@@ -2454,7 +2454,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 49
+    score: 54
   - id: elevenlabs-examples
     repo: elevenlabs/examples
     name: examples
@@ -2624,7 +2624,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 55
+    score: 52
   - id: agent-starter-node
     repo: livekit-examples/agent-starter-node
     name: agent-starter-node
@@ -2667,7 +2667,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 54
+    score: 52
   - id: agent-starter-android
     repo: livekit-examples/agent-starter-android
     name: agent-starter-android
@@ -2709,7 +2709,7 @@ entries:
       has_compose: false
       is_template: true
       language: Kotlin
-    score: 35
+    score: 40
   - id: agent-starter-swift
     repo: livekit-examples/agent-starter-swift
     name: agent-starter-swift
@@ -2753,7 +2753,7 @@ entries:
       has_compose: false
       is_template: true
       language: Swift
-    score: 36
+    score: 41
   - id: agent-starter-flutter
     repo: livekit-examples/agent-starter-flutter
     name: agent-starter-flutter
@@ -2797,7 +2797,7 @@ entries:
       has_compose: false
       is_template: true
       language: Dart
-    score: 35
+    score: 40
   - id: agent-starter-embed
     repo: livekit-examples/agent-starter-embed
     name: agent-starter-embed
@@ -2838,7 +2838,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 31
+    score: 36
   - id: agent-starter-react-native
     repo: livekit-examples/agent-starter-react-native
     name: agent-starter-react-native
@@ -2880,7 +2880,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 31
+    score: 36
   - id: openai-apps-sdk-examples
     repo: openai/openai-apps-sdk-examples
     name: openai-apps-sdk-examples
@@ -3008,7 +3008,7 @@ entries:
       has_compose: false
       is_template: true
       language: Go
-    score: 28
+    score: 25
   - id: template-mcp-server
     repo: redhat-data-and-ai/template-mcp-server
     name: template-mcp-server
@@ -3091,9 +3091,9 @@ entries:
       has_compose: true
       is_template: true
       language: TypeScript
-    score: 68
+    score: 60
   - id: llamacoder
-    repo: Nutlope/llamacoder
+    repo: nutlope/llamacoder
     name: llamacoder
     status: listed
     tagline: Open-source Claude Artifacts clone generating React apps with Llama
@@ -3234,7 +3234,7 @@ entries:
       has_compose: false
       is_template: false
       language: TypeScript
-    score: 46
+    score: 51
   - id: vibesdk
     repo: cloudflare/vibesdk
     name: vibesdk
@@ -3332,7 +3332,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 31
+    score: 42
   - id: workflow-builder-template
     repo: vercel-labs/workflow-builder-template
     name: workflow-builder-template
@@ -3376,7 +3376,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 34
+    score: 39
   - id: tersa
     repo: vercel-labs/tersa
     name: tersa
@@ -3460,7 +3460,7 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 49
+    score: 54
   - id: nuxt-ui-editor
     repo: nuxt-ui-templates/editor
     name: editor
@@ -3504,7 +3504,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 40
+    score: 51
   - id: azurechat
     repo: microsoft/azurechat
     name: azurechat
@@ -3551,7 +3551,7 @@ entries:
       language: TypeScript
     score: 44
   - id: azure-agent-landing-zone
-    repo: Azure/agent-landing-zone
+    repo: azure/agent-landing-zone
     name: agent-landing-zone
     status: listed
     tagline: Zero-trust Azure landing zone for agent apps on Microsoft Foundry
@@ -3594,9 +3594,9 @@ entries:
       has_compose: false
       is_template: true
       language: Python
-    score: 58
+    score: 63
   - id: openai-chat-app-quickstart
-    repo: Azure-Samples/openai-chat-app-quickstart
+    repo: azure-samples/openai-chat-app-quickstart
     name: openai-chat-app-quickstart
     status: listed
     tagline: Minimal Quart chat app on Azure OpenAI with managed identity
@@ -3638,9 +3638,9 @@ entries:
       has_compose: true
       is_template: true
       language: Bicep
-    score: 40
+    score: 38
   - id: agent-service-toolkit
-    repo: JoshuaC215/agent-service-toolkit
+    repo: joshuac215/agent-service-toolkit
     name: agent-service-toolkit
     status: listed
     tagline: LangGraph agents served by FastAPI with a Streamlit chat client
@@ -3731,7 +3731,7 @@ entries:
       has_compose: true
       is_template: false
       language: Python
-    score: 72
+    score: 59
   - id: full-stack-ai-agent-template
     repo: vstorm-co/full-stack-ai-agent-template
     name: full-stack-ai-agent-template
@@ -3774,7 +3774,7 @@ entries:
     audience: Python teams scaffolding a full-stack agent product
     confidence: 0.8
     facts:
-      stars: 1934
+      stars: 1936
       license: MIT
       last_commit: 2026-10-06
       last_release: 2026-10-06
@@ -3830,9 +3830,9 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 27
+    score: 32
   - id: generative-ai-project-template
-    repo: AmineDjeghri/generative-ai-project-template
+    repo: aminedjeghri/generative-ai-project-template
     name: generative-ai-project-template
     status: listed
     tagline: uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals
@@ -3873,7 +3873,7 @@ entries:
       has_compose: true
       is_template: true
       language: Python
-    score: 59
+    score: 52
   - id: genai-api
     repo: louisbrulenaudet/genai-api
     name: genai-api
@@ -3917,7 +3917,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 24
+    score: 29
   - id: react-native-ai
     repo: dabit3/react-native-ai
     name: react-native-ai
@@ -3965,7 +3965,7 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 48
+    score: 53
   - id: extro
     repo: turbostarter/extro
     name: extro
@@ -4009,4 +4009,4 @@ entries:
       has_compose: false
       is_template: true
       language: TypeScript
-    score: 34
+    score: 39
