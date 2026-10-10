@@ -111,7 +111,7 @@ A skill that gives AI coding assistants a local design dataset and a Python sear
 <sub>no GPU · Needs Python 3, npm (ui-ux-pro-max-cli) · [Repo](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [🌐 Site ↗](https://uupm.cc)</sub>
 
 <a name="spec-kit"></a>
-### #&#8288;7 [spec-kit](https://github.com/github/spec-kit) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (94) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Oct 2026</sub>
+### #&#8288;7 [spec-kit](https://github.com/github/spec-kit) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Oct 2026</sub>
 
 **CLI and agent skills for spec-driven development, bug fixing and idea assessment.**
 
@@ -129,7 +129,7 @@ Spec Kit is a Python CLI (`specify`) that installs templates and slash-command s
 <sub>no GPU · Needs Python 3.11+, uv, a supported AI coding agent · [Repo](https://github.com/github/spec-kit) · [📖 Docs ↗](https://github.github.io/spec-kit/)</sub>
 
 <a name="agent-skills"></a>
-### #&#8288;8 [agent-skills](https://github.com/addyosmani/agent-skills) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (85) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 104k · MIT · Oct 2026</sub>
+### #&#8288;8 [agent-skills](https://github.com/addyosmani/agent-skills) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 104k · MIT · Oct 2026</sub>
 
 **Markdown engineering skills and slash commands for AI coding agents.**
 
@@ -201,7 +201,7 @@ gstack is a set of Markdown skills and helper tools, installed with a setup scri
 <sub>no GPU · Needs Claude Code, Git, Bun, Node.js (Windows only), Codex CLI (outside reviews), OpenAI API key (design binary) · Models: Claude (Opus 5.5), OpenAI Codex (GPT-6 Astra, GPT-6.1 Sol), gpt-5.5, gpt-image-2 · [Repo](https://github.com/garrytan/gstack)</sub>
 
 <a name="cc-switch"></a>
-### #&#8288;12 [cc-switch](https://github.com/farion1231/cc-switch) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 142k · MIT · Oct 2026</sub>
+### #&#8288;12 [cc-switch](https://github.com/farion1231/cc-switch) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 142k · MIT · Oct 2026</sub>
 
 **Desktop app for switching API providers across AI coding CLIs.**
 
@@ -254,26 +254,8 @@ Archify is an agent skill, installed with `npx skills add tt-a1i/archify -g`, th
 
 <sub>no GPU · Needs Node.js (npx), AI coding agent (Cursor, Claude Code, Codex CLI or OpenCode) · [Repo](https://github.com/tt-a1i/archify) · [▶️ Demo ↗](https://archify.si/gallery.html) · [📖 Docs ↗](https://archify.si/guide.html) · [🌐 Site ↗](https://archify.si)</sub>
 
-<a name="ruflo"></a>
-### #&#8288;15 [ruflo](https://github.com/ruvnet/ruflo) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
-
-**Agent harness that adds swarms, memory and MCP tools to Claude Code and Codex.**
-
-Ruflo wraps Claude Code and Codex with 100+ specialized agents, swarm coordination, vector-backed memory, hooks and an MCP server. It installs either as Claude Code plugins (35 listed, plus a console and mods) or via `npx ruflo init`, which writes `.claude/`, `CLAUDE.md` and helper files into the project. Cross-machine agent federation and a Claude-controlled console with read/write/manage/full permission levels are also described.
-
-- **+** Two install paths: zero-file Claude Code plugins or full CLI init with hooks and daemon
-- **+** Ships an MCP server usable from Codex or any stdio MCP client
-- **+** Console lets you inspect runs, tokens and cost; Claude control defaults to read + ask
-- **+** MIT license with active releases (last release 2026-10-09)
-- **−** Plugin path gives only slash commands and a few skills; hooks need the CLI install
-- **−** Mods and console hooks are Claude Code specific; other clients get MCP tools only
-- **−** Mods are not sandboxed and run with your account's permissions
-- **−** Large surface (314 MCP tools, 35 plugins) and no Docker setup; RAM and GPU needs unknown
-
-<sub>Needs Claude Code 2.1.287 or later (for plugins), Node.js/npm (npx) · Models: Claude Code, Codex, Ollama (via ruflo-ruvllm plugin) · [Repo](https://github.com/ruvnet/ruflo) · [📖 Docs ↗](https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md) · [🌐 Site ↗](https://ruvnet.github.io/ruflo)</sub>
-
 <a name="rtk"></a>
-### #&#8288;16 [rtk](https://github.com/rtk-ai/rtk) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;15 [rtk](https://github.com/rtk-ai/rtk) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · Apache-2.0 · Oct 2026</sub>
 
 **CLI proxy that compresses shell command output before your coding agent reads it.**
 
@@ -290,8 +272,26 @@ RTK is a single Rust binary that rewrites shell commands such as git status, car
 
 <sub>no GPU · Needs ripgrep (some filters, Windows) · [Repo](https://github.com/rtk-ai/rtk) · [📖 Docs ↗](https://www.rtk-ai.app/guide/troubleshooting) · [🌐 Site ↗](https://www.rtk-ai.app)</sub>
 
+<a name="ruflo"></a>
+### #&#8288;16 [ruflo](https://github.com/ruvnet/ruflo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
+
+**Agent harness that adds swarms, memory and MCP tools to Claude Code and Codex.**
+
+Ruflo wraps Claude Code and Codex with 100+ specialized agents, swarm coordination, vector-backed memory, hooks and an MCP server. It installs either as Claude Code plugins (35 listed, plus a console and mods) or via `npx ruflo init`, which writes `.claude/`, `CLAUDE.md` and helper files into the project. Cross-machine agent federation and a Claude-controlled console with read/write/manage/full permission levels are also described.
+
+- **+** Two install paths: zero-file Claude Code plugins or full CLI init with hooks and daemon
+- **+** Ships an MCP server usable from Codex or any stdio MCP client
+- **+** Console lets you inspect runs, tokens and cost; Claude control defaults to read + ask
+- **+** MIT license with active releases (last release 2026-10-09)
+- **−** Plugin path gives only slash commands and a few skills; hooks need the CLI install
+- **−** Mods and console hooks are Claude Code specific; other clients get MCP tools only
+- **−** Mods are not sandboxed and run with your account's permissions
+- **−** Large surface (314 MCP tools, 35 plugins) and no Docker setup; RAM and GPU needs unknown
+
+<sub>Needs Claude Code 2.1.287 or later (for plugins), Node.js/npm (npx) · Models: Claude Code, Codex, Ollama (via ruflo-ruvllm plugin) · [Repo](https://github.com/ruvnet/ruflo) · [📖 Docs ↗](https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md) · [🌐 Site ↗](https://ruvnet.github.io/ruflo)</sub>
+
 <a name="openspec"></a>
-### #&#8288;17 [openspec](https://github.com/fission-ai/openspec) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 71k · MIT · Oct 2026</sub>
+### #&#8288;17 [openspec](https://github.com/fission-ai/openspec) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · MIT · Oct 2026</sub>
 
 **Spec-driven workflow CLI that guides AI coding assistants through plan, apply and archive.**
 
