@@ -21,7 +21,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 <sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · env example file · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [▶️ Demo ↗](https://agentchat.vercel.app)</sub>
 
 <a name="opengenerativeui"></a>
-### 🥈 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: patchy (30) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.8k · MIT · Oct 2026</sub>
+### 🥈 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (30) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
 
 **Chat interface that answers with 3D models, charts, calculators and maps.**
 
@@ -39,7 +39,7 @@ Open Intelligent UI is a Next.js chat frontend backed by a Python Deep Agent (Fa
 <sub>TypeScript, OpenAI chat-latest, Jev jev-latest · Needs OpenAI API, Jev (Typesafe) API, USGS map tiles · Docker · env example file · [Repo](https://github.com/copilotkit/openintelligentui) · [📖 Docs ↗](https://github.com/CopilotKit/OpenIntelligentUI/blob/main/docs/README.md) · [🌐 Site ↗](https://copilotkit.ai)</sub>
 
 <a name="agno-agent-ui"></a>
-### 🥉 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (62) · Freshness: recent (77) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
+### 🥉 [agent-ui](https://github.com/agno-agi/agent-ui) <sub>score [40](../README.md#-how-we-rank "Score 40/100. Adoption: popular (51) · Freshness: recent (76) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · May 2026</sub>
 
 **Next.js chat frontend for Agno AgentOS with tool calls and reasoning.**
 
