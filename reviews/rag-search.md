@@ -3,7 +3,7 @@
 Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. Back to the [leaderboard](../README.md#-rag-and-search).
 
 <a name="azure-search-openai-demo"></a>
-### 🥇 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [53](../README.md#-how-we-rank "Score 53/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>
+### 🥇 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>
 
 **Azure RAG chat reference on AI Search and Azure OpenAI.**
 
@@ -39,7 +39,7 @@ A FastAPI backend and React frontend that answer chat questions about rows in a 
 <sub>Python, azure-openai, openai, ollama · Needs postgres-pgvector, azure-openai-or-openai-or-ollama, azd · GitHub template · env example file · [Repo](https://github.com/azure-samples/rag-postgres-openai-python)</sub>
 
 <a name="llm-app"></a>
-### 🥉 [llm-app](https://github.com/pathwaycom/llm-app) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (89) · Freshness: active (98) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Jul 2026</sub>
+### 🥉 [llm-app](https://github.com/pathwaycom/llm-app) <sub>score [48](../README.md#-how-we-rank "Score 48/100. Adoption: widely used (89) · Freshness: active (97) · Maintenance: patchy (33) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 59k · MIT · Jul 2026</sub>
 
 **Pathway RAG pipeline templates that re-index live data sources.**
 
@@ -57,7 +57,7 @@ Eight Dockerized Python pipelines on the Pathway framework: question-answering R
 <sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · [Repo](https://github.com/pathwaycom/llm-app) · [▶️ Demo ↗](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs ↗](https://pathway.com/developers/templates/) · [🌐 Site ↗](https://pathway.com/solutions/llm-app)</sub>
 
 <a name="chat-langchain"></a>
-### #&#8288;4 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (47) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
+### #&#8288;4 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (46) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
 
 **LangChain docs assistant as a Managed Deep Agent with Next.js UI.**
 

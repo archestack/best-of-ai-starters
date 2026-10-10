@@ -21,7 +21,7 @@ Takes a screenshot, mockup, Figma export or screen recording and generates HTML 
 <sub>no GPU · Compose · Needs OpenAI, Anthropic or Gemini API key, Replicate API key (optional), Playwright Chromium (optional preview) · Models: Gemini 3 Flash Preview, Gemini 3.1 Pro Preview, GPT-5.5, GPT-5.4 Mini, Claude Opus 4.6/4.8 · port 5173 · [Repo](https://github.com/abi/screenshot-to-code) · [▶️ Demo ↗](https://screenshottocode.com/)</sub>
 
 <a name="onlook"></a>
-### 🥈 [Onlook](https://github.com/onlook-dev/onlook) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (30) · Freshness: recent (78) · Maintenance: weak (11) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Jul 2026</sub>
+### 🥈 [Onlook](https://github.com/onlook-dev/onlook) <sub>score [47](../README.md#-how-we-rank "Score 47/100. Adoption: known (30) · Freshness: recent (77) · Maintenance: weak (11) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 27k · Apache-2.0 · Jul 2026</sub>
 
 **Visual editor that edits Next.js and Tailwind apps with AI.**
 

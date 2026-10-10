@@ -18,26 +18,8 @@ Runs an AI coding agent in the terminal with two built-in agents: build (full ac
 
 <sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
 
-<a name="claude-mem"></a>
-### 🥈 [claude-mem](https://github.com/thedotmack/claude-mem) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: easy (50) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 99k · Apache-2.0 · Oct 2026</sub>
-
-**Persistent session memory plugin for Claude Code and other coding agents.**
-
-Claude-Mem captures tool-usage observations through Claude Code lifecycle hooks, summarizes them, and stores them in a local SQLite database with Chroma for hybrid semantic and keyword search. Past context is injected into new sessions, and agents can query it through three MCP tools (search, timeline, get_observations) that filter an index before fetching full details. It also installs for OpenCode, T3 Code, Antigravity CLI, OMP, Pi, DeepSeek Harness and OpenClaw.
-
-- **+** Local SQLite plus Chroma storage; worker exposes an HTTP API and web viewer
-- **+** Three-step MCP search (index, timeline, details) claims ~10x token savings
-- **+** One-command installer covers Claude Code, OpenCode, T3 Code, Pi, OpenClaw and others
-- **+** Privacy tags exclude marked content from storage; Apache-2.0 license
-- **−** Default installer prompts for claude-mem account sign-in; opt-out needs a flag or env var
-- **−** Free trial of hosted observer; afterwards memory uses your Anthropic plan unless you subscribe
-- **−** Needs Node 20+, Bun and uv, auto-installed if missing
-- **−** npm install -g claude-mem gives the SDK only, not the plugin hooks
-
-<sub>no GPU · Docker + Compose · Needs Node.js >=20, Bun, uv, SQLite, Chroma · Models: Anthropic plan, OpenRouter, Gemini, claude-mem observer · [Repo](https://github.com/thedotmack/claude-mem) · [📖 Docs ↗](https://docs.claude-mem.ai/)</sub>
-
 <a name="orca"></a>
-### 🥉 [orca](https://github.com/stablyai/orca) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### 🥈 [orca](https://github.com/stablyai/orca) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Desktop app that runs CLI coding agents in parallel git worktrees.**
 
@@ -54,80 +36,8 @@ Orca is a cross-platform desktop app (macOS, Windows, Linux) that runs several C
 
 <sub>no GPU · Needs git, CLI coding agent of your choice · [Repo](https://github.com/stablyai/orca) · [📖 Docs ↗](https://www.onorca.dev/docs/cli/overview) · [🌐 Site ↗](https://onorca.dev)</sub>
 
-<a name="ruflo"></a>
-### #&#8288;4 [ruflo](https://github.com/ruvnet/ruflo) <sub>score [74](../README.md#-how-we-rank "Score 74/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
-
-**Agent harness that adds swarms, memory and MCP tools to Claude Code and Codex.**
-
-Ruflo wraps Claude Code and Codex with 100+ specialized agents, swarm coordination, vector-backed memory, hooks and an MCP server. It installs either as Claude Code plugins (35 listed, plus a console and mods) or via `npx ruflo init`, which writes `.claude/`, `CLAUDE.md` and helper files into the project. Cross-machine agent federation and a Claude-controlled console with read/write/manage/full permission levels are also described.
-
-- **+** Two install paths: zero-file Claude Code plugins or full CLI init with hooks and daemon
-- **+** Ships an MCP server usable from Codex or any stdio MCP client
-- **+** Console lets you inspect runs, tokens and cost; Claude control defaults to read + ask
-- **+** MIT license with active releases (last release 2026-10-09)
-- **−** Plugin path gives only slash commands and a few skills; hooks need the CLI install
-- **−** Mods and console hooks are Claude Code specific; other clients get MCP tools only
-- **−** Mods are not sandboxed and run with your account's permissions
-- **−** Large surface (314 MCP tools, 35 plugins) and no Docker setup; RAM and GPU needs unknown
-
-<sub>Needs Claude Code 2.1.287 or later (for plugins), Node.js/npm (npx) · Models: Claude Code, Codex, Ollama (via ruflo-ruvllm plugin) · [Repo](https://github.com/ruvnet/ruflo) · [📖 Docs ↗](https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md) · [🌐 Site ↗](https://ruvnet.github.io/ruflo)</sub>
-
-<a name="cc-switch"></a>
-### #&#8288;5 [cc-switch](https://github.com/farion1231/cc-switch) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (94) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 142k · MIT · Oct 2026</sub>
-
-**Desktop app for switching API providers across AI coding CLIs.**
-
-CC Switch is a Tauri 2 desktop app for Windows, macOS and Linux that switches API providers for tools such as Claude Code, Codex, Gemini CLI, OpenCode and OpenClaw. It also manages MCP servers, Skills and Prompts from one UI, so JSON, TOML and YAML config files no longer need hand-editing. The README excerpt is truncated, so the feature list and settings are only partly visible.
-
-- **+** One-click provider switching across ten listed tools, including Claude Code, Codex and Gemini CLI
-- **+** Manages MCP servers, Skills and Prompts in a single place
-- **+** Native desktop app for Windows, macOS and Linux, built with Tauri 2 (Rust)
-- **+** MIT license; user manual and translated READMEs (zh, ja, de) are available
-- **−** Desktop app only; no Docker image or server deployment
-- **−** README opens with a long list of sponsored API relay services
-- **−** Does not run models itself; you still need provider accounts or API keys
-- **−** Per-tool config formats and limits are unknown from the truncated README
-
-<sub>no GPU · Models: Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build · [Repo](https://github.com/farion1231/cc-switch) · [🌐 Site ↗](https://ccswitch.io)</sub>
-
-<a name="caveman"></a>
-### #&#8288;6 [caveman](https://github.com/juliusbrussee/caveman) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 111k · Apache-2.0 · Oct 2026</sub>
-
-**Proxy and skill that cut token use in coding agents.**
-
-Caveman has two parts. A local proxy compresses what coding agents read (logs, CSV, YAML, JSON, test output, web pages), and a skill makes the agent reply in terse, answer-first text while code, paths and numbers stay verbatim. It works with Claude Code, Codex, Gemini CLI, Aider and 30+ other agents, and ships SDK middleware for the Vercel AI SDK, LangChain, OpenAI and Anthropic.
-
-- **+** Proxy cut whole-session input tokens 33.2% in its own 54-run Claude Code benchmark
-- **+** Skill-only install via `npx skills add`, no proxy needed
-- **+** README lists losing cases: HTML got 9.9% worse, and the per-request billing caveat
-- **+** TypeScript and Python middleware wraps existing LLM SDK calls
-- **−** No HTML compressor yet; the benchmark HTML session used more tokens
-- **−** CLI sends usage telemetry by default; opt out with `caveman telemetry off`
-- **−** Proxy needs Node.js 22.13+
-- **−** Skill rules add about 1,160 tokens; cost impact with caching not measured
-
-<sub>no GPU · Docker + Compose · Needs Node.js 22.13+, Python 3.11+ (middleware only) · Models: Claude Code, Codex, Gemini CLI, Aider, Cursor · [Repo](https://github.com/juliusbrussee/caveman) · [📖 Docs ↗](https://docs.caveman.so) · [🌐 Site ↗](https://caveman.so)</sub>
-
-<a name="rtk"></a>
-### #&#8288;7 [rtk](https://github.com/rtk-ai/rtk) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: healthy (83) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · Apache-2.0 · Oct 2026</sub>
-
-**CLI proxy that compresses shell command output before your coding agent reads it.**
-
-RTK is a single Rust binary that rewrites shell commands such as git status, cargo test and docker ps so the agent receives filtered, grouped or truncated output. It installs hooks or plugins for Claude Code, Gemini CLI, Codex, Cursor, Windsurf and other agents, and tracks savings with `rtk gain`. The README claims up to 90% less bash output and under 10ms overhead.
-
-- **+** Single Rust binary with 100+ supported commands and under 10ms overhead
-- **+** `rtk init` sets up hooks for about 15 agents, including Claude Code and Cursor
-- **+** `rtk gain` and `rtk discover` report savings and missed opportunities
-- **+** Installs via Homebrew, winget, cargo or prebuilt binaries for macOS, Linux and Windows
-- **−** Hook only covers Bash calls; built-in Read, Grep and Glob tools bypass it
-- **−** Token counts are estimated as bytes/4, so absolute numbers are approximate
-- **−** Crates.io has an unrelated 'rtk' package, so `cargo install rtk` installs the wrong one
-- **−** Direct execution on Windows no longer supports cmd builtins without `rtk run -c`
-
-<sub>no GPU · Needs ripgrep (some filters, Windows) · [Repo](https://github.com/rtk-ai/rtk) · [📖 Docs ↗](https://www.rtk-ai.app/guide/troubleshooting) · [🌐 Site ↗](https://www.rtk-ai.app)</sub>
-
 <a name="archon"></a>
-### #&#8288;8 [Archon](https://github.com/coleam00/archon) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (35) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
+### 🥉 [Archon](https://github.com/coleam00/archon) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: known (38) · Freshness: active (100) · Maintenance: healthy (93) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 24k · MIT · Oct 2026</sub>
 
 **YAML workflow engine that runs coding agents in isolated worktrees.**
 
@@ -144,26 +54,8 @@ Defines development processes (plan, implement, validate, review, PR) as YAML wo
 
 <sub>no GPU · Docker + Compose · Needs Bun, Claude Code (or Codex or Pi), GitHub CLI, SQLite or PostgreSQL · Models: Claude Code, Codex, Pi · [Repo](https://github.com/coleam00/archon) · [📖 Docs ↗](https://archon.diy/docs/)</sub>
 
-<a name="spec-kit"></a>
-### #&#8288;9 [spec-kit](https://github.com/github/spec-kit) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Oct 2026</sub>
-
-**CLI and agent skills for spec-driven development, bug fixing and idea assessment.**
-
-Spec Kit is a Python CLI (`specify`) that installs templates and slash-command skills into a project so a coding agent follows a fixed process. It ships spec-driven development in core (constitution, specify, plan, tasks, implement, converge). Bug fixing and idea assessment are opt-in extensions that write reports under `.specify/`.
-
-- **+** Works with multiple coding agents via an integration key, e.g. `--integration copilot`
-- **+** Process outputs are Markdown artifacts stored in the repo under `.specify/`
-- **+** Bug-fix flow separates assess, fix and test, ending in a verified, partial or failed verdict
-- **+** Extensions, presets, workflows and bundles let you customize or replace processes
-- **−** Needs Python 3.11+ and uv installed
-- **−** Skills run in the agent's chat, not the terminal; syntax varies by agent
-- **−** Bug fixing and assessment require a separate `specify extension add` step
-- **−** Provides no model or agent itself; a supported coding agent is required
-
-<sub>no GPU · Needs Python 3.11+, uv, a supported AI coding agent · [Repo](https://github.com/github/spec-kit) · [📖 Docs ↗](https://github.github.io/spec-kit/)</sub>
-
 <a name="codex"></a>
-### #&#8288;10 [codex](https://github.com/openai/codex) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 128k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;4 [codex](https://github.com/openai/codex) <sub>score [71](../README.md#-how-we-rank "Score 71/100. Adoption: widely used (92) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 128k · Apache-2.0 · Oct 2026</sub>
 
 **OpenAI's terminal coding agent that runs locally.**
 
@@ -180,26 +72,8 @@ Codex CLI is a coding agent from OpenAI that runs in the terminal on your machin
 
 <sub>no GPU · Needs ChatGPT account or OpenAI API key · Models: OpenAI models · [Repo](https://github.com/openai/codex) · [📖 Docs ↗](https://developers.openai.com/codex) · [🌐 Site ↗](https://chatgpt.com/codex)</sub>
 
-<a name="graphify"></a>
-### #&#8288;11 [graphify](https://github.com/graphify-labs/graphify) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 125k · Apache-2.0 · Oct 2026</sub>
-
-**Turns a codebase and docs into a queryable knowledge graph.**
-
-Graphify installs as a skill in AI coding assistants such as Claude Code, Cursor, Codex and Gemini CLI. Running /graphify on a project builds a graph from code, docs, PDFs, images and video, and writes graph.html, GRAPH_REPORT.md and graph.json. Code is parsed locally with tree-sitter, and the CLI can query the graph, trace paths between nodes, or explain a concept.
-
-- **+** Code parsing uses tree-sitter locally with no LLM calls
-- **+** Each edge is tagged EXTRACTED or INFERRED
-- **+** Installs into 20+ assistants via a single graphify install command
-- **+** Graph is plain graph.json plus an HTML viewer, no vector store
-- **−** Docs, PDFs, images and video need an LLM backend for the semantic pass
-- **−** Many features (PDF, video, MCP, Neo4j) require separate pip extras
-- **−** Graph is built on demand; always-on updating is in the hosted product
-- **−** Benchmark sample sizes are small (n=6 to n=300), results are self-reported
-
-<sub>no GPU · Docker · Needs Python 3.10+, uv or pipx · Models: Anthropic Claude, OpenAI and compatible APIs, Google Gemini, AWS Bedrock, Azure OpenAI · [Repo](https://github.com/graphify-labs/graphify) · [📖 Docs ↗](https://docs.graphify.com) · [🌐 Site ↗](https://graphify.com)</sub>
-
 <a name="oh-my-openagent"></a>
-### #&#8288;12 [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · custom license · Oct 2026</sub>
+### #&#8288;5 [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (86) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · custom license · Oct 2026</sub>
 
 **Terminal coding agent that runs parallel sub-agents and keeps git-based memory.**
 
@@ -217,7 +91,7 @@ OmO ships a single `omo` command, a native binary built on senpi, the project's 
 <sub>Models: Claude, ChatGPT, Kimi, GLM · [Repo](https://github.com/code-yeongyu/oh-my-openagent) · [📖 Docs ↗](https://omo.dev/docs) · [🌐 Site ↗](https://omo.dev)</sub>
 
 <a name="deepseek-reasonix"></a>
-### #&#8288;13 [deepseek-reasonix](https://github.com/esengine/deepseek-reasonix) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: known (46) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
+### #&#8288;6 [deepseek-reasonix](https://github.com/esengine/deepseek-reasonix) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
 
 **Coding agent for terminal, desktop, browser and VS Code, written in Go.**
 
@@ -234,26 +108,8 @@ Reasonix is a local coding agent that reads a project folder, edits files and ru
 
 <sub>no GPU · Needs Model provider API key, Go 1.25+ (build from source), Node 24+ and pnpm 10 (Studio build) · Models: DeepSeek (preset), OpenAI-compatible endpoints, MCP servers · [Repo](https://github.com/esengine/deepseek-reasonix) · [📖 Docs ↗](https://github.com/esengine/DeepSeek-Reasonix/blob/studio/docs/GUIDE.md) · [🌐 Site ↗](https://esengine.github.io/DeepSeek-Reasonix/)</sub>
 
-<a name="claw-code"></a>
-### #&#8288;14 [claw-code](https://github.com/ultraworkers/claw-code) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (97) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 195k · MIT · Aug 2026</sub>
-
-**Rust CLI coding agent harness, built from source.**
-
-Claw Code is a Rust implementation of the `claw` CLI agent harness, with the workspace in `rust/` and commands such as `claw prompt`, an interactive session, and `claw doctor` as a health check. It authenticates with API keys (Anthropic, OpenAI, others), and the docs cover local OpenAI-compatible providers such as Ollama, llama.cpp and vLLM. The README describes the repo as an agent-managed exhibit and points users who want to run work to LazyCodex or Gajae-Code.
-
-- **+** Rust workspace builds to a single `claw` binary with a `doctor` check
-- **+** Supports local OpenAI-compatible backends: Ollama, llama.cpp, vLLM
-- **+** MIT license; PowerShell-first Windows install docs alongside Linux and macOS
-- **+** Mock parity harness and workspace test suite via `cargo test --workspace`
-- **−** Build from source only; `cargo install claw-code` installs a deprecated stub
-- **−** README says it is not the serious production project
-- **−** Claude subscription login unsupported; API key required
-- **−** No ACP/Zed daemon yet; `claw acp serve` only returns status
-
-<sub>Docker + Compose · Needs Rust toolchain (cargo), API key (Anthropic, OpenAI or compatible provider) · Models: Anthropic API, OpenAI API, OpenAI-compatible local servers (Ollama, llama.cpp, vLLM) · [Repo](https://github.com/ultraworkers/claw-code) · [📖 Docs ↗](https://github.com/ultraworkers/claw-code/blob/main/USAGE.md)</sub>
-
 <a name="gemini-cli"></a>
-### #&#8288;15 [gemini-cli](https://github.com/google-gemini/gemini-cli) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: widely used (83) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;7 [gemini-cli](https://github.com/google-gemini/gemini-cli) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 107k · Apache-2.0 · Oct 2026</sub>
 
 **Terminal coding agent that runs Gemini models with file, shell and MCP tools.**
 
@@ -271,7 +127,7 @@ Gemini CLI is a TypeScript terminal agent, installed from npm, Homebrew, MacPort
 <sub>no GPU · Docker · Needs Node.js, Gemini API, Google account login or Vertex AI · Models: Gemini 3, Gemini 2.5 Flash · [Repo](https://github.com/google-gemini/gemini-cli) · [📖 Docs ↗](https://geminicli.com/docs/) · [🌐 Site ↗](https://geminicli.com)</sub>
 
 <a name="openhands"></a>
-### #&#8288;16 [OpenHands](https://github.com/openhands/openhands) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (79) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 90k · MIT · Oct 2026</sub>
+### #&#8288;8 [OpenHands](https://github.com/openhands/openhands) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (85) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 90k · MIT · Oct 2026</sub>
 
 **Web control center for running coding agents and scheduled automations.**
 
@@ -289,7 +145,7 @@ Agent Canvas is a web frontend that starts and manages conversations with coding
 <sub>Docker · Needs Node.js 24+, uv, Docker (optional) · Models: Any LLM (via LLM profiles) · port 8000 · [Repo](https://github.com/openhands/openhands) · [📖 Docs ↗](https://docs.openhands.dev/openhands/usage/agent-canvas/backends)</sub>
 
 <a name="openchamber"></a>
-### #&#8288;17 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (32) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;9 [OpenChamber](https://github.com/openchamber/openchamber) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (34) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **Workspace for running and reviewing OpenCode coding agents across devices.**
 
@@ -307,7 +163,7 @@ OpenChamber is a front end for OpenCode coding agents, shipped as a desktop app,
 <sub>Docker + Compose · Needs OpenCode CLI, Node.js 24.14+ · [Repo](https://github.com/openchamber/openchamber) · [📖 Docs ↗](https://github.com/openchamber/openchamber/blob/main/packages/docs/content/docs/quickstart.mdx)</sub>
 
 <a name="open-swe"></a>
-### #&#8288;18 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (30) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
+### #&#8288;10 [Open SWE](https://github.com/langchain-ai/open-swe) <sub>score [68](../README.md#-how-we-rank "Score 68/100. Adoption: known (31) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 11k · MIT · Oct 2026</sub>
 
 **LangChain coding agent that plans, implements and reviews pull requests.**
 
@@ -324,8 +180,26 @@ LangGraph-based agent that investigates a repository, implements changes in a pe
 
 <sub>no GPU · Docker + Compose · Needs LangSmith (default sandbox and tracing), GitHub App, Slack app (optional), model provider credentials · Models: configurable LLM providers · [Repo](https://github.com/langchain-ai/open-swe)</sub>
 
+<a name="cline"></a>
+### #&#8288;11 [cline](https://github.com/cline/cline) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · Apache-2.0 · Oct 2026</sub>
+
+**Coding agent for VS Code, JetBrains, terminal and desktop.**
+
+Cline is a coding agent that reads a project, edits files across it, and runs shell commands while watching the output. It ships as a VS Code extension, JetBrains plugin, CLI with headless mode, macOS/Windows desktop app, and a Node.js SDK. Edits and commands need approval by default, with Plan and Act modes, checkpoints, and optional auto-approve.
+
+- **+** Same agent engine across VS Code, JetBrains, CLI, desktop app and SDK
+- **+** Works with Anthropic, OpenAI, Gemini, Bedrock, Vertex, OpenRouter, Ollama and LM Studio
+- **+** Headless CLI accepts piped input and emits JSON for CI/CD scripts
+- **+** Supports MCP servers, SDK plugins, cron-scheduled agents and multi-agent teams
+- **−** JetBrains plugin source is not open-sourced
+- **−** VS Code extension code is still migrating to the new layout
+- **−** Hosted model providers need your own API keys; local models via Ollama or LM Studio
+- **−** Diff review and checkpoints are described only for VS Code and JetBrains
+
+<sub>Needs Node.js, VS Code or JetBrains IDE (for extensions), LLM provider API key or local model server · Models: Anthropic, OpenAI, Google Gemini, OpenRouter, Vercel AI Gateway · [Repo](https://github.com/cline/cline) · [📖 Docs ↗](https://docs.cline.bot) · [🌐 Site ↗](https://cline.bot)</sub>
+
 <a name="openinterpreter"></a>
-### #&#8288;19 [openinterpreter](https://github.com/openinterpreter/openinterpreter) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (65) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [openinterpreter](https://github.com/openinterpreter/openinterpreter) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (71) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 69k · Apache-2.0 · Oct 2026</sub>
 
 **Terminal coding agent, a Codex fork tuned for low-cost models.**
 
@@ -343,7 +217,7 @@ Open Interpreter is a Rust fork of OpenAI's Codex that runs as a terminal coding
 <sub>Needs agent-browser, trycua · Models: OpenAI-compatible Chat Completions providers, Kimi K3, DeepSeek, Z.AI GLM · [Repo](https://github.com/openinterpreter/openinterpreter) · [📖 Docs ↗](https://www.openinterpreter.com/docs/terminal) · [🌐 Site ↗](https://www.openinterpreter.com)</sub>
 
 <a name="herdr"></a>
-### #&#8288;20 [herdr](https://github.com/herdrdev/herdr) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (55) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;13 [herdr](https://github.com/herdrdev/herdr) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (94) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 43k · Apache-2.0 · Oct 2026</sub>
 
 **Terminal multiplexer that keeps coding agents running and shows which are blocked.**
 
@@ -360,8 +234,26 @@ herdr is a Rust terminal multiplexer for running several coding agents such as C
 
 <sub>no GPU · [Repo](https://github.com/herdrdev/herdr) · [📖 Docs ↗](https://herdr.dev/docs/) · [🌐 Site ↗](https://herdr.dev)</sub>
 
+<a name="claw-code"></a>
+### #&#8288;14 [claw-code](https://github.com/ultraworkers/claw-code) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 195k · MIT · Aug 2026</sub>
+
+**Rust CLI coding agent harness, built from source.**
+
+Claw Code is a Rust implementation of the `claw` CLI agent harness, with the workspace in `rust/` and commands such as `claw prompt`, an interactive session, and `claw doctor` as a health check. It authenticates with API keys (Anthropic, OpenAI, others), and the docs cover local OpenAI-compatible providers such as Ollama, llama.cpp and vLLM. The README describes the repo as an agent-managed exhibit and points users who want to run work to LazyCodex or Gajae-Code.
+
+- **+** Rust workspace builds to a single `claw` binary with a `doctor` check
+- **+** Supports local OpenAI-compatible backends: Ollama, llama.cpp, vLLM
+- **+** MIT license; PowerShell-first Windows install docs alongside Linux and macOS
+- **+** Mock parity harness and workspace test suite via `cargo test --workspace`
+- **−** Build from source only; `cargo install claw-code` installs a deprecated stub
+- **−** README says it is not the serious production project
+- **−** Claude subscription login unsupported; API key required
+- **−** No ACP/Zed daemon yet; `claw acp serve` only returns status
+
+<sub>Docker + Compose · Needs Rust toolchain (cargo), API key (Anthropic, OpenAI or compatible provider) · Models: Anthropic API, OpenAI API, OpenAI-compatible local servers (Ollama, llama.cpp, vLLM) · [Repo](https://github.com/ultraworkers/claw-code) · [📖 Docs ↗](https://github.com/ultraworkers/claw-code/blob/main/USAGE.md)</sub>
+
 <a name="codewhale"></a>
-### #&#8288;21 [codewhale](https://github.com/codewhale-hq/codewhale) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (53) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
+### #&#8288;15 [codewhale](https://github.com/codewhale-hq/codewhale) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (56) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 41k · MIT · Oct 2026</sub>
 
 **Terminal coding agent that works with hosted or local models.**
 
@@ -378,44 +270,8 @@ Codewhale is a Rust coding agent that reads a project, edits files, runs command
 
 <sub>GPU optional · Docker · Needs Ollama, vLLM or SGLang for local models, hosted provider API key · Models: Anthropic, DeepSeek, Google, Mistral, Moonshot · [Repo](https://github.com/codewhale-hq/codewhale) · [📖 Docs ↗](https://github.com/codewhale-hq/codewhale/blob/main/docs/README.md) · [🌐 Site ↗](https://codewhale.net)</sub>
 
-<a name="oh-my-claudecode"></a>
-### #&#8288;22 [oh-my-claudecode](https://github.com/yeachan-heo/oh-my-claudecode) <sub>score [66](../README.md#-how-we-rank "Score 66/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 40k · MIT · Oct 2026</sub>
-
-**Multi-agent orchestration plugin for Claude Code with staged team pipelines.**
-
-oh-my-claudecode adds skills, slash commands and an `omc` CLI to Claude Code. It runs in-session workflows such as /autopilot, /ralph, /deep-interview and a staged /team pipeline (plan, PRD, exec, verify, fix). The CLI can also start tmux panes running Codex, Gemini, Antigravity, Grok, Cursor or Claude workers.
-
-- **+** Installs as a Claude Code marketplace plugin or via npm (`oh-my-claude-sisyphus`)
-- **+** `omc team` spawns tmux workers for Codex, Gemini, Antigravity, Grok, Cursor and Claude
-- **+** Autopilot stage profiles are configurable in `.claude/omc.jsonc`
-- **+** MIT license; exports TypeScript helpers such as `createOmcSession()`
-- **−** Slash-command workflows need an active Claude Code session; not usable in CI
-- **−** Named autopilot profiles require Linux with `flock`
-- **−** Native team mode needs an experimental Claude Code env flag
-- **−** npm install prints a deprecated `prebuild-install` warning
-
-<sub>no GPU · Needs Claude Code, tmux, Node.js/npm, codex/gemini/agy/grok/cursor-agent CLIs (optional) · Models: Claude, Codex, Gemini, Antigravity, Grok · [Repo](https://github.com/yeachan-heo/oh-my-claudecode) · [📖 Docs ↗](https://yeachan-heo.github.io/oh-my-claudecode-website/docs/) · [🌐 Site ↗](https://yeachan-heo.github.io/oh-my-claudecode-website)</sub>
-
-<a name="cline"></a>
-### #&#8288;23 [cline](https://github.com/cline/cline) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: popular (69) · Freshness: active (100) · Maintenance: fair (79) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 70k · Apache-2.0 · Oct 2026</sub>
-
-**Coding agent for VS Code, JetBrains, terminal and desktop.**
-
-Cline is a coding agent that reads a project, edits files across it, and runs shell commands while watching the output. It ships as a VS Code extension, JetBrains plugin, CLI with headless mode, macOS/Windows desktop app, and a Node.js SDK. Edits and commands need approval by default, with Plan and Act modes, checkpoints, and optional auto-approve.
-
-- **+** Same agent engine across VS Code, JetBrains, CLI, desktop app and SDK
-- **+** Works with Anthropic, OpenAI, Gemini, Bedrock, Vertex, OpenRouter, Ollama and LM Studio
-- **+** Headless CLI accepts piped input and emits JSON for CI/CD scripts
-- **+** Supports MCP servers, SDK plugins, cron-scheduled agents and multi-agent teams
-- **−** JetBrains plugin source is not open-sourced
-- **−** VS Code extension code is still migrating to the new layout
-- **−** Hosted model providers need your own API keys; local models via Ollama or LM Studio
-- **−** Diff review and checkpoints are described only for VS Code and JetBrains
-
-<sub>Needs Node.js, VS Code or JetBrains IDE (for extensions), LLM provider API key or local model server · Models: Anthropic, OpenAI, Google Gemini, OpenRouter, Vercel AI Gateway · [Repo](https://github.com/cline/cline) · [📖 Docs ↗](https://docs.cline.bot) · [🌐 Site ↗](https://cline.bot)</sub>
-
 <a name="oh-my-pi"></a>
-### #&#8288;24 [oh-my-pi](https://github.com/can1357/oh-my-pi) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (43) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Oct 2026</sub>
+### #&#8288;16 [oh-my-pi](https://github.com/can1357/oh-my-pi) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: known (45) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 35k · MIT · Oct 2026</sub>
 
 **Terminal coding agent with built-in LSP, debugger, subagents and hash-anchored edits.**
 
@@ -433,7 +289,7 @@ A fork of Pi that runs as a terminal coding agent with a Rust core, shipping 31 
 <sub>no GPU · Docker · Needs bun >= 1.3.14 · Models: 60+ providers · [Repo](https://github.com/can1357/oh-my-pi) · [📖 Docs ↗](https://omp.sh/docs/tools) · [🌐 Site ↗](https://omp.sh)</sub>
 
 <a name="background-agents"></a>
-### #&#8288;25 [Background Agents](https://github.com/colemurray/background-agents) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (51) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;17 [Background Agents](https://github.com/colemurray/background-agents) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (51) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
 
@@ -451,7 +307,7 @@ Runs coding sessions in cloud sandboxes coordinated by a Cloudflare Workers cont
 <sub>no GPU · Compose · Needs Cloudflare Workers, Durable Objects and D1, Sandbox provider (Modal, Daytona, E2B, OpenComputer or Vercel Sandbox), GitHub App, Slack and Linear apps (optional) · Models: Anthropic Claude (API key or subscription), OpenAI Codex via ChatGPT subscription, xAI Grok via SuperGrok, OpenCode Zen and Go, Z.AI Coding Plan · [Repo](https://github.com/colemurray/background-agents)</sub>
 
 <a name="warp"></a>
-### #&#8288;26 [warp](https://github.com/warpdotdev/warp) <sub>score [58](../README.md#-how-we-rank "Score 58/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 65k · AGPL-3.0 · Oct 2026</sub>
+### #&#8288;18 [warp](https://github.com/warpdotdev/warp) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: patchy (44) · Easy to run: some setup (33) · Agent-ready: minimal (45) (each out of 100, weighted). Click for how we rank.") · ⭐ 65k · AGPL-3.0 · Oct 2026</sub>
 
 **Terminal-based development environment with a built-in coding agent.**
 
@@ -469,7 +325,7 @@ Warp is a Rust client that started as a terminal and now includes a built-in cod
 <sub>Docker · Models: GPT models, Claude Code, Codex, Gemini CLI · [Repo](https://github.com/warpdotdev/warp) · [▶️ Demo ↗](https://build.warp.dev) · [📖 Docs ↗](https://docs.warp.dev) · [🌐 Site ↗](https://www.warp.dev)</sub>
 
 <a name="continue"></a>
-### #&#8288;27 [continue](https://github.com/continuedev/continue) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: known (48) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;19 [continue](https://github.com/continuedev/continue) <sub>score [52](../README.md#-how-we-rank "Score 52/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: patchy (36) · Easy to run: some setup (33) · Agent-ready: none (15) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · Apache-2.0 · Jul 2026</sub>
 
 **Coding agent as a CLI, VS Code extension and JetBrains plugin.**
 
@@ -486,26 +342,8 @@ Continue is a coding agent distributed as an npm CLI, a VS Code extension (Marke
 
 <sub>[Repo](https://github.com/continuedev/continue) · [📖 Docs ↗](https://docs.continue.dev)</sub>
 
-<a name="codex-plugin-cc"></a>
-### #&#8288;28 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (41) · Freshness: active (99) · Maintenance: weak (5) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Jul 2026</sub>
-
-**Claude Code plugin that runs Codex reviews and delegates tasks.**
-
-A Claude Code plugin that adds slash commands for running Codex code reviews and handing tasks to Codex without leaving Claude Code. It wraps the local Codex CLI and app server, so it reuses your existing Codex login, config.toml and base URL settings. Background jobs can be tracked and cancelled, and sessions can be resumed in Codex.
-
-- **+** Reuses local Codex CLI auth and config.toml; no separate runtime
-- **+** Read-only /codex:review and steerable /codex:adversarial-review with --base <ref>
-- **+** Background jobs via /codex:status, /codex:result and /codex:cancel
-- **+** Sessions can be continued in Codex with codex resume <session-id>
-- **−** Requires Claude Code plus a ChatGPT subscription or OpenAI API key
-- **−** Usage counts against Codex limits; optional review gate can drain them quickly
-- **−** Multi-file reviews and rescue tasks can run long
-- **−** /codex:transfer needs a Codex version that supports session import
-
-<sub>no GPU · Needs Claude Code, Codex CLI (@openai/codex), Node.js 18.18+, ChatGPT account or OpenAI API key · Models: OpenAI Codex models (e.g. gpt-5.4-mini, gpt-5.3-codex-spark) · [Repo](https://github.com/openai/codex-plugin-cc) · [📖 Docs ↗](https://developers.openai.com/codex/app-server)</sub>
-
 <a name="aider"></a>
-### #&#8288;29 [aider](https://github.com/aider-ai/aider) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: popular (59) · Freshness: recent (67) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · May 2026</sub>
+### #&#8288;20 [aider](https://github.com/aider-ai/aider) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: popular (63) · Freshness: recent (66) · Maintenance: weak (17) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · Apache-2.0 · May 2026</sub>
 
 **Terminal pair-programming tool that edits your git repo with LLMs.**
 
@@ -523,7 +361,7 @@ Aider runs in the terminal and edits files in an existing codebase through chat 
 <sub>no GPU · Docker · Needs LLM provider API key or local model server · Models: Claude 3.7 Sonnet, DeepSeek R1 and V3, OpenAI o1, o3-mini, GPT-4o, local models · [Repo](https://github.com/aider-ai/aider) · [📖 Docs ↗](https://aider.chat/docs/install.html) · [🌐 Site ↗](https://aider.chat/)</sub>
 
 <a name="tabby"></a>
-### #&#8288;30 [Tabby](https://github.com/tabbyml/tabby) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: known (39) · Freshness: active (91) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Jun 2026</sub>
+### #&#8288;21 [Tabby](https://github.com/tabbyml/tabby) <sub>score [43](../README.md#-how-we-rank "Score 43/100. Adoption: known (42) · Freshness: active (90) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · custom license · Jun 2026</sub>
 
 **Self-hosted code completion and chat server for IDEs.**
 

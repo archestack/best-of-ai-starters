@@ -192,7 +192,7 @@ Monorepo of small runnable ElevenLabs examples, each generated from a PROMPT.md 
 <sub>TypeScript, ElevenLabs JS SDK, ElevenLabs Python SDK, ElevenLabs React Agents SDK · Needs ElevenLabs API key · [Repo](https://github.com/elevenlabs/examples) · [📖 Docs ↗](https://elevenlabs.io/docs/api-reference/getting-started) · [🌐 Site ↗](https://elevenlabs.io/)</sub>
 
 <a name="openai-realtime-agents"></a>
-### #&#8288;12 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (77) · Freshness: slowing (33) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jan 2026</sub>
+### #&#8288;12 [openai-realtime-agents](https://github.com/openai/openai-realtime-agents) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: popular (77) · Freshness: slowing (32) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.0k · MIT · Jan 2026</sub>
 
 **Next.js demo of multi-agent voice flows on the OpenAI Realtime API.**
 
@@ -210,7 +210,7 @@ Next.js app that talks to the OpenAI Realtime API over WebRTC via the OpenAI Age
 <sub>TypeScript, OpenAI Realtime API, OpenAI Agents SDK (JS) · Needs OpenAI API key · env example file · [Repo](https://github.com/openai/openai-realtime-agents)</sub>
 
 <a name="openai-realtime-meeting-assistant"></a>
-### #&#8288;13 [openai-realtime-meeting-assistant](https://github.com/openai/openai-realtime-meeting-assistant) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (31) · Freshness: recent (78) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 272 · MIT · May 2026</sub>
+### #&#8288;13 [openai-realtime-meeting-assistant](https://github.com/openai/openai-realtime-meeting-assistant) <sub>score [25](../README.md#-how-we-rank "Score 25/100. Adoption: known (31) · Freshness: recent (77) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 272 · MIT · May 2026</sub>
 
 **Voice-operated shared Kanban board using the OpenAI Realtime API.**
 
@@ -264,7 +264,7 @@ OpenAI.fm is the source for the openai.fm demo, a web interface for generating s
 <sub>TypeScript, OpenAI text-to-speech models · Needs OpenAI API, Postgres (optional, sharing only) · env example file · [Repo](https://github.com/openai/openai-fm) · [▶️ Demo ↗](https://openai.fm) · [📖 Docs ↗](https://platform.openai.com/docs/guides/text-to-speech) · [🌐 Site ↗](https://openai.fm)</sub>
 
 <a name="live-api-web-console"></a>
-### #&#8288;16 [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (67) · Freshness: quiet (2) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
+### #&#8288;16 [live-api-web-console](https://github.com/google-gemini/live-api-web-console) <sub>score [16](../README.md#-how-we-rank "Score 16/100. Adoption: popular (67) · Freshness: quiet (1) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.6k · Apache-2.0 · Oct 2025</sub>
 
 **React console for streaming audio and video to the Gemini Live API.**
 

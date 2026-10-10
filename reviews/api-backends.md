@@ -75,7 +75,7 @@ Python 3.12 uv workspace with a FastAPI backend (port 8000) and NiceGUI frontend
 <sub>Python, LiteLLM (any provider), Ollama · Needs Ollama (local models) or an LLM provider key via LiteLLM · GitHub template · Docker · env example file · [Repo](https://github.com/aminedjeghri/generative-ai-project-template)</sub>
 
 <a name="nodejs-api-boilerplate"></a>
-### #&#8288;5 [nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (24) · Freshness: recent (68) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 163 · MIT · Apr 2026</sub>
+### #&#8288;5 [nodejs-api-boilerplate](https://github.com/vyancharuk/nodejs-api-boilerplate) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: niche (24) · Freshness: recent (67) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 163 · MIT · Apr 2026</sub>
 
 **Express TypeScript CRUD API template with an LLM module generator.**
 
@@ -93,7 +93,7 @@ Express and TypeScript REST API with vertical-slice modules, Zod validation, Inv
 <sub>TypeScript, OpenAI, Anthropic, DeepSeek, OpenRouter · Needs PostgreSQL or SQLite, Redis, AWS S3 (uploads), LLM API key for codegen · GitHub template · Docker · env example file · [Repo](https://github.com/vyancharuk/nodejs-api-boilerplate)</sub>
 
 <a name="genai-api"></a>
-### #&#8288;6 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (3) · Freshness: recent (65) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 111 · Apache-2.0 · Apr 2026</sub>
+### #&#8288;6 [genai-api](https://github.com/louisbrulenaudet/genai-api) <sub>score [28](../README.md#-how-we-rank "Score 28/100. Adoption: niche (3) · Freshness: recent (64) · Maintenance: weak (0) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 111 · Apache-2.0 · Apr 2026</sub>
 
 **Hono API on Cloudflare Workers proxying Gemini with bearer auth.**
 
