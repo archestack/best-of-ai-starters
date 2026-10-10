@@ -22,7 +22,7 @@ Supabase bundles a Postgres database with generated REST and GraphQL APIs, JWT-b
 <sub>no GPU · Compose · Needs PostgreSQL, S3-compatible storage, Envoy · [Repo](https://github.com/supabase/supabase) · [📖 Docs ↗](https://supabase.com/docs) · [🌐 Site ↗](https://supabase.com)</sub>
 
 <a name="graphql-engine"></a>
-### 🥈 [graphql-engine](https://github.com/hasura/graphql-engine) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
+### 🥈 [graphql-engine](https://github.com/hasura/graphql-engine) <sub>score [55](../README.md#-how-we-rank "Score 55/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 32k · Apache-2.0 · Oct 2026</sub>
 
 **GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server.**
 
