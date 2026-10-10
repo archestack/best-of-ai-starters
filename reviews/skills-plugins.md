@@ -489,7 +489,7 @@ Taste Skill is a set of portable SKILL.md instruction files that tell coding age
 <sub>no GPU · Needs npx skills CLI, Codex, Cursor or Claude Code · [Repo](https://github.com/leonxlnx/taste-skill) · [🌐 Site ↗](https://tasteskill.dev)</sub>
 
 <a name="diagram-design"></a>
-### #&#8288;28 [diagram-design](https://github.com/cathrynlavery/diagram-design) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 48k · MIT · Oct 2026</sub>
+### #&#8288;28 [diagram-design](https://github.com/cathrynlavery/diagram-design) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (51) · Freshness: active (100) · Maintenance: fair (60) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 49k · MIT · Oct 2026</sub>
 
 **Agent skill that generates editorial HTML/SVG diagrams in your site's style.**
 
