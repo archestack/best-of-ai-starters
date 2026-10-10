@@ -289,7 +289,7 @@ A fork of Pi that runs as a terminal coding agent with a Rust core, shipping 31 
 <sub>no GPU · Docker · Needs bun >= 1.3.14 · Models: 60+ providers · [Repo](https://github.com/can1357/oh-my-pi) · [📖 Docs ↗](https://omp.sh/docs/tools) · [🌐 Site ↗](https://omp.sh)</sub>
 
 <a name="background-agents"></a>
-### #&#8288;17 [Background Agents](https://github.com/colemurray/background-agents) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (51) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
+### #&#8288;17 [Background Agents](https://github.com/colemurray/background-agents) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: niche (24) · Freshness: active (100) · Maintenance: fair (50) · Easy to run: easy (67) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.3k · MIT · Oct 2026</sub>
 
 **Background coding agents on cloud sandboxes with Slack, GitHub and Linear triggers.**
 
