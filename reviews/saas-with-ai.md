@@ -110,7 +110,7 @@ A Next.js 14 App Router template with tRPC, Prisma on Supabase Postgres, NextAut
 <sub>TypeScript, openai, anthropic, perplexity, groq · Needs postgres, resend, aws-s3, inngest, model-api-keys · GitHub template · env example file · sign-in: Auth.js · [Repo](https://github.com/kleneway/next-ai-starter)</sub>
 
 <a name="lastsaas"></a>
-### #&#8288;7 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (5) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 173 · MIT · Mar 2026</sub>
+### #&#8288;7 [lastsaas](https://github.com/jonradoff/lastsaas) <sub>score [19](../README.md#-how-we-rank "Score 19/100. Adoption: niche (5) · Freshness: recent (63) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 172 · MIT · Mar 2026</sub>
 
 **Go multi-tenant SaaS kit with Stripe billing and an MCP admin server.**
 

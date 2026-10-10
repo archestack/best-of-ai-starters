@@ -21,7 +21,7 @@ A Next.js frontend that connects to any LangGraph server exposing a messages key
 <sub>TypeScript, langgraph · Needs langgraph-server, langsmith-api-key-for-deployed-servers · env example file · [Repo](https://github.com/langchain-ai/agent-chat-ui) · [▶️ Demo ↗](https://agentchat.vercel.app)</sub>
 
 <a name="opengenerativeui"></a>
-### 🥈 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (30) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.9k · MIT · Oct 2026</sub>
+### 🥈 [OpenGenerativeUI](https://github.com/copilotkit/openintelligentui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: patchy (30) · Easy to run: hard (0) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") · ⭐ 2.1k · MIT · Oct 2026</sub>
 
 **Chat interface that answers with 3D models, charts, calculators and maps.**
 

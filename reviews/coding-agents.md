@@ -19,7 +19,7 @@ Runs an AI coding agent in the terminal with two built-in agents: build (full ac
 <sub>no GPU · [Repo](https://github.com/anomalyco/opencode) · [📖 Docs ↗](https://opencode.ai/docs) · [🌐 Site ↗](https://opencode.ai)</sub>
 
 <a name="orca"></a>
-### 🥈 [orca](https://github.com/stablyai/orca) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (82) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
+### 🥈 [orca](https://github.com/stablyai/orca) <sub>score [75](../README.md#-how-we-rank "Score 75/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (81) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 89k · MIT · Oct 2026</sub>
 
 **Desktop app that runs CLI coding agents in parallel git worktrees.**
 
