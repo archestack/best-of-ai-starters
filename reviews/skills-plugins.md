@@ -254,26 +254,8 @@ Archify is an agent skill, installed with `npx skills add tt-a1i/archify -g`, th
 
 <sub>no GPU · Needs Node.js (npx), AI coding agent (Cursor, Claude Code, Codex CLI or OpenCode) · [Repo](https://github.com/tt-a1i/archify) · [▶️ Demo ↗](https://archify.si/gallery.html) · [📖 Docs ↗](https://archify.si/guide.html) · [🌐 Site ↗](https://archify.si)</sub>
 
-<a name="rtk"></a>
-### #&#8288;15 [rtk](https://github.com/rtk-ai/rtk) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · Apache-2.0 · Oct 2026</sub>
-
-**CLI proxy that compresses shell command output before your coding agent reads it.**
-
-RTK is a single Rust binary that rewrites shell commands such as git status, cargo test and docker ps so the agent receives filtered, grouped or truncated output. It installs hooks or plugins for Claude Code, Gemini CLI, Codex, Cursor, Windsurf and other agents, and tracks savings with `rtk gain`. The README claims up to 90% less bash output and under 10ms overhead.
-
-- **+** Single Rust binary with 100+ supported commands and under 10ms overhead
-- **+** `rtk init` sets up hooks for about 15 agents, including Claude Code and Cursor
-- **+** `rtk gain` and `rtk discover` report savings and missed opportunities
-- **+** Installs via Homebrew, winget, cargo or prebuilt binaries for macOS, Linux and Windows
-- **−** Hook only covers Bash calls; built-in Read, Grep and Glob tools bypass it
-- **−** Token counts are estimated as bytes/4, so absolute numbers are approximate
-- **−** Crates.io has an unrelated 'rtk' package, so `cargo install rtk` installs the wrong one
-- **−** Direct execution on Windows no longer supports cmd builtins without `rtk run -c`
-
-<sub>no GPU · Needs ripgrep (some filters, Windows) · [Repo](https://github.com/rtk-ai/rtk) · [📖 Docs ↗](https://www.rtk-ai.app/guide/troubleshooting) · [🌐 Site ↗](https://www.rtk-ai.app)</sub>
-
 <a name="ruflo"></a>
-### #&#8288;16 [ruflo](https://github.com/ruvnet/ruflo) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
+### #&#8288;15 [ruflo](https://github.com/ruvnet/ruflo) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (62) · Freshness: active (100) · Maintenance: healthy (81) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 74k · MIT · Oct 2026</sub>
 
 **Agent harness that adds swarms, memory and MCP tools to Claude Code and Codex.**
 
@@ -289,6 +271,24 @@ Ruflo wraps Claude Code and Codex with 100+ specialized agents, swarm coordinati
 - **−** Large surface (314 MCP tools, 35 plugins) and no Docker setup; RAM and GPU needs unknown
 
 <sub>Needs Claude Code 2.1.287 or later (for plugins), Node.js/npm (npx) · Models: Claude Code, Codex, Ollama (via ruflo-ruvllm plugin) · [Repo](https://github.com/ruvnet/ruflo) · [📖 Docs ↗](https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md) · [🌐 Site ↗](https://ruvnet.github.io/ruflo)</sub>
+
+<a name="rtk"></a>
+### #&#8288;16 [rtk](https://github.com/rtk-ai/rtk) <sub>score [81](../README.md#-how-we-rank "Score 81/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: healthy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 83k · Apache-2.0 · Oct 2026</sub>
+
+**CLI proxy that compresses shell command output before your coding agent reads it.**
+
+RTK is a single Rust binary that rewrites shell commands such as git status, cargo test and docker ps so the agent receives filtered, grouped or truncated output. It installs hooks or plugins for Claude Code, Gemini CLI, Codex, Cursor, Windsurf and other agents, and tracks savings with `rtk gain`. The README claims up to 90% less bash output and under 10ms overhead.
+
+- **+** Single Rust binary with 100+ supported commands and under 10ms overhead
+- **+** `rtk init` sets up hooks for about 15 agents, including Claude Code and Cursor
+- **+** `rtk gain` and `rtk discover` report savings and missed opportunities
+- **+** Installs via Homebrew, winget, cargo or prebuilt binaries for macOS, Linux and Windows
+- **−** Hook only covers Bash calls; built-in Read, Grep and Glob tools bypass it
+- **−** Token counts are estimated as bytes/4, so absolute numbers are approximate
+- **−** Crates.io has an unrelated 'rtk' package, so `cargo install rtk` installs the wrong one
+- **−** Direct execution on Windows no longer supports cmd builtins without `rtk run -c`
+
+<sub>no GPU · Needs ripgrep (some filters, Windows) · [Repo](https://github.com/rtk-ai/rtk) · [📖 Docs ↗](https://www.rtk-ai.app/guide/troubleshooting) · [🌐 Site ↗](https://www.rtk-ai.app)</sub>
 
 <a name="openspec"></a>
 ### #&#8288;17 [openspec](https://github.com/fission-ai/openspec) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (60) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 72k · MIT · Oct 2026</sub>

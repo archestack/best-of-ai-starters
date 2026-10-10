@@ -57,7 +57,7 @@ Eight Dockerized Python pipelines on the Pathway framework: question-answering R
 <sub>Jupyter Notebook, pathway, openai, mistral, ollama · Needs docker, openai-api-key, data-source-credentials · [Repo](https://github.com/pathwaycom/llm-app) · [▶️ Demo ↗](https://pathway.com/solutions/rag-pipelines#try-it-out) · [📖 Docs ↗](https://pathway.com/developers/templates/) · [🌐 Site ↗](https://pathway.com/solutions/llm-app)</sub>
 
 <a name="chat-langchain"></a>
-### #&#8288;4 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [46](../README.md#-how-we-rank "Score 46/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (46) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
+### #&#8288;4 [chat-langchain](https://github.com/langchain-ai/chat-langchain) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (67) · Freshness: active (100) · Maintenance: patchy (45) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.5k · MIT · Oct 2026</sub>
 
 **LangChain docs assistant as a Managed Deep Agent with Next.js UI.**
 

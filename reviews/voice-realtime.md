@@ -175,7 +175,7 @@ Next.js project that builds an embed-popup.js script and an iframe page so a web
 <sub>TypeScript · Needs LiveKit Cloud project, a LiveKit agent · GitHub template · env example file · [Repo](https://github.com/livekit-examples/agent-starter-embed) · [📖 Docs ↗](https://docs.livekit.io/agents)</sub>
 
 <a name="elevenlabs-examples"></a>
-### #&#8288;11 [examples](https://github.com/elevenlabs/examples) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (51) · Freshness: recent (70) · Maintenance: weak (20) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 628 · MIT · Oct 2026</sub>
+### #&#8288;11 [examples](https://github.com/elevenlabs/examples) <sub>score [31](../README.md#-how-we-rank "Score 31/100. Adoption: popular (51) · Freshness: recent (70) · Maintenance: weak (20) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 629 · MIT · Oct 2026</sub>
 
 **Prompt-generated ElevenLabs examples for speech, music and voice agents.**
 
