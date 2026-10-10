@@ -583,12 +583,12 @@ Tools that turn screenshots, mockups or visual edits into working front-end code
 
 Open-source backends you ship apps on: auth, database, storage and APIs in one, self-hosted or managed. <sub>2 ranked · [📝 all reviews](reviews/backends.md)</sub>
 
-**supabase leads with 73**, ahead of graphql-engine (56).
+**supabase leads with 73**, ahead of graphql-engine (55).
 
 | Rank | Project | Score | Stars |
 |:-:|---|:-:|--:|
 | 🥇 | **[supabase](reviews/backends.md#supabase "Review: strengths, weaknesses, specs")**<br><sub>Postgres backend with auth, storage, realtime and edge functions</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://supabase.com/docs) · [🌐 Site ↗](https://supabase.com)</sub> | [73](#-how-we-rank "Score 73/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: fair (72) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") | 111k |
-| 🥈 | **[graphql-engine](reviews/backends.md#graphql-engine "Review: strengths, weaknesses, specs")**<br><sub>GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://hasura.io/docs/3.0/) · [🌐 Site ↗](https://hasura.io/)</sub> | [56](#-how-we-rank "Score 56/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: some setup (33) · Agent-ready: minimal (40) (each out of 100, weighted). Click for how we rank.") | 32k |
+| 🥈 | **[graphql-engine](reviews/backends.md#graphql-engine "Review: strengths, weaknesses, specs")**<br><sub>GraphQL API layer over Postgres, MongoDB, ClickHouse and SQL Server</sub><br><sub>🐳 Docker · Apache-2.0 · [📖 Docs ↗](https://hasura.io/docs/3.0/) · [🌐 Site ↗](https://hasura.io/)</sub> | [55](#-how-we-rank "Score 55/100. Adoption: known (31) · Freshness: active (100) · Maintenance: fair (80) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") | 32k |
 
 <details><summary>💡 How to choose</summary>
 
