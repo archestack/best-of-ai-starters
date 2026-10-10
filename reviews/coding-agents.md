@@ -91,7 +91,7 @@ OmO ships a single `omo` command, a native binary built on senpi, the project's 
 <sub>Models: Claude, ChatGPT, Kimi, GLM · [Repo](https://github.com/code-yeongyu/oh-my-openagent) · [📖 Docs ↗](https://omo.dev/docs) · [🌐 Site ↗](https://omo.dev)</sub>
 
 <a name="deepseek-reasonix"></a>
-### #&#8288;6 [deepseek-reasonix](https://github.com/esengine/deepseek-reasonix) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (97) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
+### #&#8288;6 [deepseek-reasonix](https://github.com/esengine/deepseek-reasonix) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: known (48) · Freshness: active (100) · Maintenance: healthy (96) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
 
 **Coding agent for terminal, desktop, browser and VS Code, written in Go.**
 
