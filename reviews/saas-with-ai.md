@@ -2,6 +2,8 @@
 
 Product boilerplates with auth, billing and a database wired in, with AI features built in or ready to add. Back to the [leaderboard](../README.md#-saas-boilerplates).
 
+<sub>🌐 Also on the web: [SaaS boilerplates on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/saas-with-ai/), each project on its own page.</sub>
+
 <a name="ant-design-pro"></a>
 ### 🥇 [ant-design-pro](https://github.com/ant-design/ant-design-pro) <sub>score [69](../README.md#-how-we-rank "Score 69/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: fair (60) · Easy to run: some setup (33) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 39k · MIT · Oct 2026</sub>
 

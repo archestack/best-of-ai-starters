@@ -2,6 +2,8 @@
 
 Add-ons that make coding agents better: skills, plugins, rules, hooks and memory for Claude Code, Codex, Cursor and others. Back to the [leaderboard](../README.md#-skills-plugins-and-rules).
 
+<sub>🌐 Also on the web: [Skills, plugins and rules on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/skills-plugins/), each project on its own page.</sub>
+
 <a name="skills"></a>
 ### 🥇 [skills](https://github.com/mattpocock/skills) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 284k · MIT · Oct 2026</sub>
 

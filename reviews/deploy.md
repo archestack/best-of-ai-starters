@@ -2,6 +2,8 @@
 
 Self-hosted platforms that deploy and run your apps from Git or Docker on your own servers. Back to the [leaderboard](../README.md#-deploy-and-hosting).
 
+<sub>🌐 Also on the web: [Deploy and hosting on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/deploy/), each project on its own page.</sub>
+
 <a name="dokploy"></a>
 ### 🥇 [dokploy](https://github.com/dokploy/dokploy) <sub>score [85](../README.md#-how-we-rank "Score 85/100. Adoption: widely used (85) · Freshness: active (100) · Maintenance: healthy (84) · Easy to run: very easy (83) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 38k · custom license · Oct 2026</sub>
 

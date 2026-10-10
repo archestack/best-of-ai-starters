@@ -2,6 +2,8 @@
 
 Native, cross-platform mobile and browser-extension starters with AI features built in. Back to the [leaderboard](../README.md#-mobile-and-browser-extensions).
 
+<sub>🌐 Also on the web: [Mobile and browser extensions on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/mobile-extensions/), each project on its own page.</sub>
+
 <a name="react-native-ai"></a>
 ### 🥇 [react-native-ai](https://github.com/dabit3/react-native-ai) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: popular (68) · Freshness: active (100) · Maintenance: weak (11) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.3k · MIT · Jul 2026</sub>
 

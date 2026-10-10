@@ -2,6 +2,8 @@
 
 Backend service templates (FastAPI, Express, Hono) that expose models or agents over an API. Back to the [leaderboard](../README.md#%EF%B8%8F-ai-api-backends).
 
+<sub>🌐 Also on the web: [AI API backends on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/api-backends/), each project on its own page.</sub>
+
 <a name="agent-service-toolkit"></a>
 ### 🥇 [agent-service-toolkit](https://github.com/joshuac215/agent-service-toolkit) <sub>score [70](../README.md#-how-we-rank "Score 70/100. Adoption: popular (75) · Freshness: active (100) · Maintenance: fair (63) · Easy to run: easy (50) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 4.5k · MIT · Oct 2026</sub>
 
@@ -57,7 +59,7 @@ CLI (pip install fastapi-fullstack) scaffolding a FastAPI backend and Next.js fr
 <sub>Python, Pydantic AI, Pydantic Deep Agents, LangChain, LangGraph · Needs PostgreSQL, Redis (optional), Milvus, Qdrant, pgvector or ChromaDB (RAG), Stripe (billing), LLM provider API key · [Repo](https://github.com/vstorm-co/full-stack-ai-agent-template) · [📖 Docs ↗](https://vstorm-co.github.io/full-stack-ai-agent-template/)</sub>
 
 <a name="generative-ai-project-template"></a>
-### #&#8288;4 [generative-ai-project-template](https://github.com/aminedjeghri/generative-ai-project-template) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (14) · Freshness: active (100) · Maintenance: fair (60) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 118 · MIT · Sep 2026</sub>
+### #&#8288;4 [generative-ai-project-template](https://github.com/aminedjeghri/generative-ai-project-template) <sub>score [51](../README.md#-how-we-rank "Score 51/100. Adoption: niche (13) · Freshness: active (100) · Maintenance: fair (60) · Easy to run: easy (50) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 118 · MIT · Sep 2026</sub>
 
 **uv workspace with FastAPI, NiceGUI, LiteLLM and Promptfoo evals.**
 

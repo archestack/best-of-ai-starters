@@ -34,4 +34,5 @@ Every entry is written from the project README and checked facts: tagline, summa
 
 ## Optional
 
+- [Website](https://archestack.github.io/best-of-vibe-coding/): the same list as web pages, one per project and category, with the score parts; all data as JSON at https://archestack.github.io/data.json
 - [Sibling list: Best of Open-Source AI](https://github.com/archestack/best-of-ai)

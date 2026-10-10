@@ -2,6 +2,8 @@
 
 Templates for building MCP servers and apps that run inside chat hosts such as ChatGPT. Back to the [leaderboard](../README.md#-mcp-servers-and-chat-host-apps).
 
+<sub>🌐 Also on the web: [MCP servers and chat-host apps on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/mcp-apps/), each project on its own page.</sub>
+
 <a name="mcp-typescript-template"></a>
 ### 🥇 [mcp-typescript-template](https://github.com/nickytonline/mcp-typescript-template) <sub>score [60](../README.md#-how-we-rank "Score 60/100. Adoption: niche (0) · Freshness: active (100) · Maintenance: healthy (99) · Easy to run: easy (50) · Agent-ready: ready (85) (each out of 100, weighted). Click for how we rank.") · ⭐ 58 · MIT · Oct 2026</sub>
 

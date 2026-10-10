@@ -2,6 +2,8 @@
 
 Vendor reference apps and infrastructure-as-code for running AI apps on Azure or Google Cloud. Back to the [leaderboard](../README.md#%EF%B8%8F-cloud-reference-architectures).
 
+<sub>🌐 Also on the web: [Cloud reference architectures on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/cloud-reference/), each project on its own page.</sub>
+
 <a name="azure-agent-landing-zone"></a>
 ### 🥇 [agent-landing-zone](https://github.com/azure/agent-landing-zone) <sub>score [64](../README.md#-how-we-rank "Score 64/100. Adoption: popular (59) · Freshness: active (100) · Maintenance: healthy (98) · Easy to run: some setup (33) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Oct 2026</sub>
 

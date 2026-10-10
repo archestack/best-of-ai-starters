@@ -2,6 +2,8 @@
 
 Frontends that render agent steps, tool calls, approvals or model-generated components. Back to the [leaderboard](../README.md#%EF%B8%8F-agent-ui-and-generative-ui).
 
+<sub>🌐 Also on the web: [Agent UI and generative UI on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/agent-ui/), each project on its own page.</sub>
+
 <a name="agent-chat-ui"></a>
 ### 🥇 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: popular (74) · Freshness: active (100) · Maintenance: patchy (31) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 3.2k · MIT · Oct 2026</sub>
 

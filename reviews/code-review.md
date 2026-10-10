@@ -2,6 +2,8 @@
 
 AI tools that review pull requests, write tests or find bugs, run in your CI or on your machine. Back to the [leaderboard](../README.md#-code-review-and-testing).
 
+<sub>🌐 Also on the web: [Code review and testing on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/code-review/), each project on its own page.</sub>
+
 <a name="open-code-review"></a>
 ### 🥇 [open-code-review](https://github.com/alibaba/open-code-review) <sub>score [73](../README.md#-how-we-rank "Score 73/100. Adoption: widely used (87) · Freshness: active (100) · Maintenance: healthy (91) · Easy to run: some setup (33) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 46k · Apache-2.0 · Oct 2026</sub>
 
