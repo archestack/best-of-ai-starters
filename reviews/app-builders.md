@@ -2,6 +2,8 @@
 
 Prompt-to-app builders and platforms that run coding agents in sandboxes. Back to the [leaderboard](../README.md#%EF%B8%8F-app-builder-starters).
 
+<sub>🌐 Also on the web: [App builder starters on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/app-builders/), each project on its own page.</sub>
+
 <a name="ai-website-cloner-template"></a>
 ### 🥇 [ai-website-cloner-template](https://github.com/jcodesmore/ai-website-cloner-template) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: popular (76) · Freshness: active (100) · Maintenance: healthy (100) · Easy to run: easy (50) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 36k · MIT · Oct 2026</sub>
 

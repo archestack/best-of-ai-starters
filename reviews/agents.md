@@ -2,6 +2,8 @@
 
 Agent templates and scaffolds (LangGraph, ADK, OpenAI Agents SDK, Cloudflare Agents, eve) meant to be extended. Back to the [leaderboard](../README.md#-agent-backends).
 
+<sub>🌐 Also on the web: [Agent backends on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/agents/), each project on its own page.</sub>
+
 <a name="eve-software-factory-template"></a>
 ### 🥇 [eve-software-factory-template](https://github.com/vercel-labs/eve-software-factory-template) <sub>score [65](../README.md#-how-we-rank "Score 65/100. Adoption: known (46) · Freshness: active (100) · Maintenance: patchy (35) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 1.2k · MIT · Sep 2026</sub>
 
@@ -215,7 +217,7 @@ A chat agent on Cloudflare Workers using the Agents SDK AIChatAgent class: strea
 <sub>TypeScript, workers-ai, ai-sdk, openai, anthropic · Needs cloudflare-account, wrangler · [Repo](https://github.com/cloudflare/agents-starter) · [📖 Docs ↗](https://developers.cloudflare.com/agents/)</sub>
 
 <a name="react-agent-js"></a>
-### #&#8288;13 [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (50) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 117 · MIT · Oct 2026</sub>
+### #&#8288;13 [react-agent-js](https://github.com/langchain-ai/react-agent-js) <sub>score [42](../README.md#-how-we-rank "Score 42/100. Adoption: niche (6) · Freshness: active (100) · Maintenance: fair (50) · Easy to run: some setup (33) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 118 · MIT · Oct 2026</sub>
 
 **TypeScript createAgent starter with example tools and middleware hooks.**
 

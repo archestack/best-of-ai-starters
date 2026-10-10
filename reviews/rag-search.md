@@ -2,6 +2,8 @@
 
 Retrieval over your own documents or data, answer engines, and natural-language-to-SQL starters. Back to the [leaderboard](../README.md#-rag-and-search).
 
+<sub>🌐 Also on the web: [RAG and search on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/rag-search/), each project on its own page.</sub>
+
 <a name="azure-search-openai-demo"></a>
 ### 🥇 [azure-search-openai-demo](https://github.com/azure-samples/azure-search-openai-demo) <sub>score [56](../README.md#-how-we-rank "Score 56/100. Adoption: popular (73) · Freshness: active (100) · Maintenance: healthy (92) · Easy to run: hard (0) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 7.8k · MIT · Oct 2026</sub>
 

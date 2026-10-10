@@ -2,6 +2,8 @@
 
 Agents and assistants that read your repo, write code and run commands: CLIs, IDE extensions and self-hosted servers. Back to the [leaderboard](../README.md#-coding-agents-and-assistants).
 
+<sub>🌐 Also on the web: [Coding agents and assistants on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/coding-agents/), each project on its own page.</sub>
+
 <a name="opencode"></a>
 ### 🥇 [opencode](https://github.com/anomalyco/opencode) <sub>score [77](../README.md#-how-we-rank "Score 77/100. Adoption: widely used (99) · Freshness: active (100) · Maintenance: healthy (88) · Easy to run: easy (50) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 213k · MIT · Oct 2026</sub>
 
