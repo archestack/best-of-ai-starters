@@ -5,7 +5,7 @@ Add-ons that make coding agents better: skills, plugins, rules, hooks and memory
 <sub>🌐 Also on the web: [Skills, plugins and rules on archestack.github.io](https://archestack.github.io/best-of-vibe-coding/skills-plugins/), each project on its own page.</sub>
 
 <a name="skills"></a>
-### 🥇 [skills](https://github.com/mattpocock/skills) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 284k · MIT · Oct 2026</sub>
+### 🥇 [skills](https://github.com/mattpocock/skills) <sub>score [94](../README.md#-how-we-rank "Score 94/100. Adoption: widely used (98) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 285k · MIT · Oct 2026</sub>
 
 **Agent skills for planning, TDD, debugging and code review.**
 
@@ -23,7 +23,7 @@ A collection of Markdown skill files for coding agents, split into engineering a
 <sub>no GPU · Needs Issue tracker (GitHub, GitLab or local files) · Models: Any model (per README) · [Repo](https://github.com/mattpocock/skills) · [🌐 Site ↗](https://skills.sh/mattpocock/skills)</sub>
 
 <a name="ecc"></a>
-### 🥈 [ecc](https://github.com/affaan-m/ecc) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 276k · MIT · Oct 2026</sub>
+### 🥈 [ecc](https://github.com/affaan-m/ecc) <sub>score [93](../README.md#-how-we-rank "Score 93/100. Adoption: widely used (96) · Freshness: active (100) · Maintenance: healthy (89) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 277k · MIT · Oct 2026</sub>
 
 **Skills, agents, hooks and rules that add a workflow to coding agents.**
 
@@ -59,7 +59,7 @@ Superpowers is a set of composable skills plus a session-start bootstrap that ma
 <sub>no GPU · [Repo](https://github.com/obra/superpowers) · [🌐 Site ↗](https://primeradiant.com/superpowers/)</sub>
 
 <a name="ponytail"></a>
-### #&#8288;4 [ponytail](https://github.com/dietrichgebert/ponytail) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (97) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 160k · MIT · Oct 2026</sub>
+### #&#8288;4 [ponytail](https://github.com/dietrichgebert/ponytail) <sub>score [89](../README.md#-how-we-rank "Score 89/100. Adoption: widely used (93) · Freshness: active (100) · Maintenance: healthy (96) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 160k · MIT · Oct 2026</sub>
 
 **Prompt skill that makes coding agents write less, safer code.**
 
@@ -95,7 +95,7 @@ Caveman has two parts. A local proxy compresses what coding agents read (logs, C
 <sub>no GPU · Docker + Compose · Needs Node.js 22.13+, Python 3.11+ (middleware only) · Models: Claude Code, Codex, Gemini CLI, Aider, Cursor · [Repo](https://github.com/juliusbrussee/caveman) · [📖 Docs ↗](https://docs.caveman.so) · [🌐 Site ↗](https://caveman.so)</sub>
 
 <a name="ui-ux-pro-max-skill"></a>
-### #&#8288;6 [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 134k · MIT · Oct 2026</sub>
+### #&#8288;6 [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <sub>score [88](../README.md#-how-we-rank "Score 88/100. Adoption: widely used (84) · Freshness: active (100) · Maintenance: healthy (92) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 135k · MIT · Oct 2026</sub>
 
 **Design-system skill for AI coding assistants, with searchable UI styles.**
 
@@ -113,7 +113,7 @@ A skill that gives AI coding assistants a local design dataset and a Python sear
 <sub>no GPU · Needs Python 3, npm (ui-ux-pro-max-cli) · [Repo](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [🌐 Site ↗](https://uupm.cc)</sub>
 
 <a name="spec-kit"></a>
-### #&#8288;7 [spec-kit](https://github.com/github/spec-kit) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (93) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Oct 2026</sub>
+### #&#8288;7 [spec-kit](https://github.com/github/spec-kit) <sub>score [87](../README.md#-how-we-rank "Score 87/100. Adoption: widely used (88) · Freshness: active (100) · Maintenance: healthy (95) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 141k · MIT · Oct 2026</sub>
 
 **CLI and agent skills for spec-driven development, bug fixing and idea assessment.**
 
@@ -131,7 +131,7 @@ Spec Kit is a Python CLI (`specify`) that installs templates and slash-command s
 <sub>no GPU · Needs Python 3.11+, uv, a supported AI coding agent · [Repo](https://github.com/github/spec-kit) · [📖 Docs ↗](https://github.github.io/spec-kit/)</sub>
 
 <a name="agent-skills"></a>
-### #&#8288;8 [agent-skills](https://github.com/addyosmani/agent-skills) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 104k · MIT · Oct 2026</sub>
+### #&#8288;8 [agent-skills](https://github.com/addyosmani/agent-skills) <sub>score [86](../README.md#-how-we-rank "Score 86/100. Adoption: popular (77) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 105k · MIT · Oct 2026</sub>
 
 **Markdown engineering skills and slash commands for AI coding agents.**
 
@@ -202,26 +202,8 @@ gstack is a set of Markdown skills and helper tools, installed with a setup scri
 
 <sub>no GPU · Needs Claude Code, Git, Bun, Node.js (Windows only), Codex CLI (outside reviews), OpenAI API key (design binary) · Models: Claude (Opus 5.5), OpenAI Codex (GPT-6 Astra, GPT-6.1 Sol), gpt-5.5, gpt-image-2 · [Repo](https://github.com/garrytan/gstack)</sub>
 
-<a name="cc-switch"></a>
-### #&#8288;12 [cc-switch](https://github.com/farion1231/cc-switch) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 142k · MIT · Oct 2026</sub>
-
-**Desktop app for switching API providers across AI coding CLIs.**
-
-CC Switch is a Tauri 2 desktop app for Windows, macOS and Linux that switches API providers for tools such as Claude Code, Codex, Gemini CLI, OpenCode and OpenClaw. It also manages MCP servers, Skills and Prompts from one UI, so JSON, TOML and YAML config files no longer need hand-editing. The README excerpt is truncated, so the feature list and settings are only partly visible.
-
-- **+** One-click provider switching across ten listed tools, including Claude Code, Codex and Gemini CLI
-- **+** Manages MCP servers, Skills and Prompts in a single place
-- **+** Native desktop app for Windows, macOS and Linux, built with Tauri 2 (Rust)
-- **+** MIT license; user manual and translated READMEs (zh, ja, de) are available
-- **−** Desktop app only; no Docker image or server deployment
-- **−** README opens with a long list of sponsored API relay services
-- **−** Does not run models itself; you still need provider accounts or API keys
-- **−** Per-tool config formats and limits are unknown from the truncated README
-
-<sub>no GPU · Models: Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build · [Repo](https://github.com/farion1231/cc-switch) · [🌐 Site ↗](https://ccswitch.io)</sub>
-
 <a name="graphify"></a>
-### #&#8288;13 [graphify](https://github.com/graphify-labs/graphify) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 125k · Apache-2.0 · Oct 2026</sub>
+### #&#8288;12 [graphify](https://github.com/graphify-labs/graphify) <sub>score [83](../README.md#-how-we-rank "Score 83/100. Adoption: widely used (81) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: minimal (30) (each out of 100, weighted). Click for how we rank.") · ⭐ 125k · Apache-2.0 · Oct 2026</sub>
 
 **Turns a codebase and docs into a queryable knowledge graph.**
 
@@ -237,6 +219,24 @@ Graphify installs as a skill in AI coding assistants such as Claude Code, Cursor
 - **−** Benchmark sample sizes are small (n=6 to n=300), results are self-reported
 
 <sub>no GPU · Docker · Needs Python 3.10+, uv or pipx · Models: Anthropic Claude, OpenAI and compatible APIs, Google Gemini, AWS Bedrock, Azure OpenAI · [Repo](https://github.com/graphify-labs/graphify) · [📖 Docs ↗](https://docs.graphify.com) · [🌐 Site ↗](https://graphify.com)</sub>
+
+<a name="cc-switch"></a>
+### #&#8288;13 [cc-switch](https://github.com/farion1231/cc-switch) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: widely used (90) · Freshness: active (100) · Maintenance: healthy (86) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 142k · MIT · Oct 2026</sub>
+
+**Desktop app for switching API providers across AI coding CLIs.**
+
+CC Switch is a Tauri 2 desktop app for Windows, macOS and Linux that switches API providers for tools such as Claude Code, Codex, Gemini CLI, OpenCode and OpenClaw. It also manages MCP servers, Skills and Prompts from one UI, so JSON, TOML and YAML config files no longer need hand-editing. The README excerpt is truncated, so the feature list and settings are only partly visible.
+
+- **+** One-click provider switching across ten listed tools, including Claude Code, Codex and Gemini CLI
+- **+** Manages MCP servers, Skills and Prompts in a single place
+- **+** Native desktop app for Windows, macOS and Linux, built with Tauri 2 (Rust)
+- **+** MIT license; user manual and translated READMEs (zh, ja, de) are available
+- **−** Desktop app only; no Docker image or server deployment
+- **−** README opens with a long list of sponsored API relay services
+- **−** Does not run models itself; you still need provider accounts or API keys
+- **−** Per-tool config formats and limits are unknown from the truncated README
+
+<sub>no GPU · Models: Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build · [Repo](https://github.com/farion1231/cc-switch) · [🌐 Site ↗](https://ccswitch.io)</sub>
 
 <a name="archify"></a>
 ### #&#8288;14 [archify](https://github.com/tt-a1i/archify) <sub>score [82](../README.md#-how-we-rank "Score 82/100. Adoption: popular (66) · Freshness: active (100) · Maintenance: healthy (84) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 82k · MIT · Oct 2026</sub>
@@ -455,7 +455,7 @@ A skill/plugin for coding assistants that rewrites response style around ten rul
 <sub>no GPU · [Repo](https://github.com/ayghri/i-have-adhd)</sub>
 
 <a name="claude-howto"></a>
-### #&#8288;26 [claude-howto](https://github.com/luongnv89/claude-howto) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Sep 2026</sub>
+### #&#8288;26 [claude-howto](https://github.com/luongnv89/claude-howto) <sub>score [67](../README.md#-how-we-rank "Score 67/100. Adoption: known (46) · Freshness: active (100) · Maintenance: fair (55) · Agent-ready: partly (55) (each out of 100, weighted). Click for how we rank.") · ⭐ 42k · MIT · Oct 2026</sub>
 
 **Tutorials and copy-paste templates for Claude Code features.**
 
@@ -545,7 +545,7 @@ A Git repository that acts as the official plugin marketplace for Claude Code. P
 <sub>no GPU · Needs Claude Code · [Repo](https://github.com/anthropics/claude-plugins-official) · [📖 Docs ↗](https://code.claude.com/docs/en/plugins)</sub>
 
 <a name="codex-plugin-cc"></a>
-### #&#8288;31 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (34) · Freshness: active (99) · Maintenance: weak (5) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Jul 2026</sub>
+### #&#8288;31 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) <sub>score [45](../README.md#-how-we-rank "Score 45/100. Adoption: known (34) · Freshness: active (99) · Maintenance: weak (6) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 34k · Apache-2.0 · Jul 2026</sub>
 
 **Claude Code plugin that runs Codex reviews and delegates tasks.**
 

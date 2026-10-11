@@ -23,7 +23,7 @@ An eve pipeline named Foreman: label an issue factory, @mention it, or delegate 
 <sub>TypeScript, eve, ai-sdk · Needs vercel, github-app-connector, linear-connector, vercel-blob · GitHub template · env example file · [Repo](https://github.com/vercel-labs/eve-software-factory-template) · [📖 Docs ↗](https://ask-foreman.dev/docs)</sub>
 
 <a name="marketing-team-eve-template"></a>
-### 🥈 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 449 · MIT · Aug 2026</sub>
+### 🥈 [marketing-team-eve-template](https://github.com/vercel-labs/marketing-team-eve-template) <sub>score [59](../README.md#-how-we-rank "Score 59/100. Adoption: niche (26) · Freshness: active (100) · Maintenance: weak (28) · Easy to run: easy (67) · Agent-ready: partly (70) (each out of 100, weighted). Click for how we rank.") · ⭐ 450 · MIT · Aug 2026</sub>
 
 **eve lead agent delegating to five marketing specialists with approval gates.**
 
@@ -249,7 +249,7 @@ The TypeScript counterpart of the blank LangGraph template: src/agent/graph.ts k
 <sub>TypeScript, langgraph · Needs langgraph-cli · GitHub template · env example file · [Repo](https://github.com/langchain-ai/new-langgraphjs-project)</sub>
 
 <a name="agent-starter-pack"></a>
-### #&#8288;15 [agent-starter-pack](https://github.com/googlecloudplatform/agent-starter-pack) <sub>score [36](../README.md#-how-we-rank "Score 36/100. Adoption: popular (68) · Freshness: active (86) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · May 2026</sub>
+### #&#8288;15 [agent-starter-pack](https://github.com/googlecloudplatform/agent-starter-pack) <sub>score [35](../README.md#-how-we-rank "Score 35/100. Adoption: popular (68) · Freshness: active (86) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · Apache-2.0 · May 2026</sub>
 
 **Google Cloud agent scaffolder with Terraform, CI/CD and evals; now maintenance-only.**
 
@@ -300,7 +300,7 @@ A Cloudflare Workers control plane that receives Claude Managed Agents webhooks 
 <sub>TypeScript, Claude (Anthropic) · Needs Cloudflare Workers Paid plan, Cloudflare D1, Cloudflare KV, Cloudflare R2, Durable Objects, Anthropic API, Docker (terminal deploy) · Docker · [Repo](https://github.com/cloudflare/claude-managed-agents)</sub>
 
 <a name="openai-cs-agents-demo"></a>
-### #&#8288;18 [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) <sub>score [22](../README.md#-how-we-rank "Score 22/100. Adoption: popular (71) · Freshness: quiet (23) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Dec 2025</sub>
+### #&#8288;18 [openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) <sub>score [21](../README.md#-how-we-rank "Score 21/100. Adoption: popular (71) · Freshness: quiet (22) · Maintenance: weak (0) · Easy to run: hard (0) · Agent-ready: none (0) (each out of 100, weighted). Click for how we rank.") · ⭐ 6.6k · MIT · Dec 2025</sub>
 
 **Airline support multi-agent demo with visible handoffs and guardrails.**
 
